@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Champion } from '../lib/champion-data'
+import { Champion, assetUrl } from '../lib/champion-data'
 import { isChampionLearned, setChampionLearned } from '../lib/storage'
 import { useState } from 'react'
 
@@ -64,7 +64,7 @@ export default function ChampionCard({ champion }: ChampionCardProps) {
       </div>
       
       <img 
-        src={champion.images.icon} 
+        src={assetUrl(champion.images.icon)} 
         alt={champion.name}
         className="champion-icon"
         loading="lazy"

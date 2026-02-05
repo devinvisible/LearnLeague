@@ -33,12 +33,20 @@ export interface Champion {
 
 let championsCache: Champion[] | null = null
 
+/** Resolve an asset path (e.g. /assets/...) for the current base URL (e.g. /LearnLeague). */
+export function assetUrl(path: string): string {
+  const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '') || ''
+  const p = path.startsWith('/') ? path.slice(1) : path
+  return base ? `${base}/${p}` : `/${p}`
+}
+
 export async function loadChampions(): Promise<Champion[]> {
   if (championsCache) {
     return championsCache
   }
 
-  const response = await fetch('/app-data/champions.json')
+  const base = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '') || ''
+  const response = await fetch(`${base}/app-data/champions.json`)
   if (!response.ok) {
     throw new Error(`Failed to load champions data: ${response.statusText}`)
   }

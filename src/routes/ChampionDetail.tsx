@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import { Champion, loadChampions } from '../lib/champion-data'
+import { Champion, loadChampions, assetUrl } from '../lib/champion-data'
 import { isChampionLearned, setChampionLearned } from '../lib/storage'
 import AbilityCard from '../components/AbilityCard'
 import ExternalLinks from '../components/ExternalLinks'
@@ -59,7 +59,7 @@ export default function ChampionDetail() {
     <div className="champion-detail-page">
       <header 
         className="champion-header"
-        style={{ backgroundImage: `url(${champion.images.loading})` }}
+        style={{ backgroundImage: `url(${assetUrl(champion.images.loading)})` }}
       >
         <div className="header-overlay">
           <div className="header-top">
@@ -75,7 +75,7 @@ export default function ChampionDetail() {
           </div>
           <div className="champion-title">
             <img 
-              src={champion.images.icon} 
+              src={assetUrl(champion.images.icon)} 
               alt={champion.name}
               className="champion-icon-large"
             />
@@ -171,14 +171,14 @@ export default function ChampionDetail() {
             {champion.passive && (
               <AbilityCard 
                 ability={champion.passive}
-                iconSrc={champion.images.passive}
+                iconSrc={assetUrl(champion.images.passive)}
               />
             )}
             {champion.abilities.map((ability, index) => (
               <AbilityCard 
                 key={ability.slot}
                 ability={ability}
-                iconSrc={champion.images.abilities[index]}
+                iconSrc={assetUrl(champion.images.abilities[index])}
               />
             ))}
           </div>
