@@ -2,6 +2,8 @@
 
 A modern web application for learning League of Legends champions. Explore champion abilities, playstyles, strengths, weaknesses, and more.
 
+https://devinvisible.github.io/LearnLeague/
+
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
