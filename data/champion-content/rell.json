@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rell is an armored engage support who steals resistances and magnetizes enemies together. Her mount forms give her different engage and teamfight profiles.",
+    "howToPlay": "Mounted: W crashes down, dismounts, and stuns. Dismounted: slow but tanky, W remounts with a shield. Q pierces and steals resistances. E binds to an ally (break binding to stun). R pulls enemies toward you. Crash in, R to group enemies, E to stun.",
+    "powerSpikes": "Rell spikes at level 6 with her grouping ultimate. Tank items make her durable. She's strong in teamfights when she can group multiple enemies."
+  },
+  "strengths": [
+    "Strong engage with W crash",
+    "R groups enemies together",
+    "Resistance stealing",
+    "Good peel with E"
+  ],
+  "weaknesses": [
+    "Very slow when dismounted",
+    "Commit-heavy engage",
+    "E needs ally binding",
+    "Falls behind without follow-up"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Break the Mold",
+    "summary": "Attacks steal armor and MR from enemies.",
+    "details": "Rell's attacks deal bonus damage and steal armor and magic resist from the target, adding it to her own."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Shattering Strike",
+      "summary": "Stab through enemies, stealing resistances and destroying shields.",
+      "details": "Rell thrusts her lance, damaging enemies in a line, destroying shields, and stealing armor and MR."
+    },
+    {
+      "slot": "W",
+      "name": "Ferromancy: Crash Down / Mount Up",
+      "summary": "Mounted: crash down to stun. Dismounted: remount and shield.",
+      "details": "Mounted (Crash Down): Leap and crash, knocking up enemies and dismounting (slower but tankier). Dismounted (Mount Up): Remount and gain a shield."
+    },
+    {
+      "slot": "E",
+      "name": "Attract and Repel",
+      "summary": "Bind to an ally; recast to stun enemies between you.",
+      "details": "Rell binds to an ally. Recast or break the tether to stun all enemies between Rell and the ally."
+    },
+    {
+      "slot": "R",
+      "name": "Magnet Storm",
+      "summary": "Pull nearby enemies toward you for several seconds.",
+      "details": "Rell erupts with magnetic fury, dragging nearby enemies toward her repeatedly for several seconds."
+    }
+  ]
+}

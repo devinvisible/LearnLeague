@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Fiddlesticks is an ambush mage who fears enemies with surprise attacks. His ultimate from fog of war is one of the most devastating engages in the game.",
+    "howToPlay": "Passive places effigies that look like you standing still. Q fears (instant fear from unseen). W drains and heals. E silences and slows. R channels then blinks, dealing massive AoE. Set up R from fog/over walls for surprise fear + damage.",
+    "powerSpikes": "Fiddlesticks spikes at level 6 with his ultimate. Zhonya's lets him R in and survive. He's strongest when flanking from fog."
+  },
+  "strengths": [
+    "Devastating surprise ultimate",
+    "Good fear/CC",
+    "W sustain in jungle",
+    "Effigies provide mind games"
+  ],
+  "weaknesses": [
+    "R is telegraphed if seen",
+    "Weak when caught out",
+    "Relies on fog of war",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "A Harmless Scarecrow",
+    "summary": "Replaces trinket with effigies that look like Fiddlesticks. Unseen abilities fear.",
+    "details": "Fiddlesticks places effigies that pose like him. If enemies can't see Fiddlesticks before his abilities hit, they're feared."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Terrify",
+      "summary": "Fear an enemy; instant if they couldn't see you.",
+      "details": "Fiddlesticks fears a target. If Fiddlesticks was unseen (in fog, brush, or using R), the fear activates instantly and deals bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Bountiful Harvest",
+      "summary": "Drain nearby enemies, healing Fiddlesticks. Extra damage on last tick.",
+      "details": "Fiddlesticks drains health from nearby enemies over a few seconds, healing himself. The final tick deals extra damage and heals more if it completes."
+    },
+    {
+      "slot": "E",
+      "name": "Reap",
+      "summary": "Slash in an arc that silences and slows enemies in the center.",
+      "details": "Fiddlesticks slashes in a crescent, dealing damage and slowing. Enemies hit in the center are also silenced."
+    },
+    {
+      "slot": "R",
+      "name": "Crowstorm",
+      "summary": "Channel then blink, dealing massive AoE damage around you for several seconds.",
+      "details": "Fiddlesticks channels briefly, then blinks to a location dealing damage per second in a large area around him. Combined with unseen bonus, this fears all enemies."
+    }
+  ]
+}

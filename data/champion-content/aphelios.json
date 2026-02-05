@@ -1,0 +1,55 @@
+{
+  "classes": ["Marksman"],
+  "rangeType": "Ranged",
+  "damageType": "Physical",
+  "lanes": ["Bottom"],
+  "playstyle": {
+    "identity": "Aphelios is the most complex ADC in the game with five different weapons that cycle in a set order. Mastering his weapon combinations unlocks devastating teamfight potential that no other marksman can match.",
+    "howToPlay": "Track your weapon queue and plan ahead. Each weapon has 50 ammo - when depleted, it goes to the back of the queue. Q costs ammo and combos with your off-hand weapon. Learn the key combos: Calibrum+Gravitum for long-range roots, Infernum+Severum for teamfight healing, Crescendum+anything for turret DPS.",
+    "powerSpikes": "Aphelios spikes at level 2 with both abilities unlocked. He's extremely strong with certain weapon combinations (Infernum R). Scales well with crit items and becomes a late-game monster with proper weapon management."
+  },
+  "strengths": [
+    "Unmatched versatility with 5 weapon kits",
+    "Some weapon combos are incredibly powerful",
+    "Infernum R can wipe entire teams",
+    "Strong sustained DPS and burst depending on weapons"
+  ],
+  "weaknesses": [
+    "Extremely complex - steep learning curve",
+    "No mobility or escape tools",
+    "Power varies wildly based on current weapons",
+    "Can get stuck with bad weapon combos at crucial moments"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "The Hitman and the Seer",
+    "summary": "Cycle through 5 weapons with unique effects; off-hand weapon empowers abilities.",
+    "details": "Aphelios has 5 weapons that cycle in order. Main hand attacks and off-hand empowers Q. Weapons: Calibrum (extra range), Severum (lifesteal), Gravitum (slow), Infernum (AoE), Crescendum (close-range chakram). Each weapon has 50 ammo - manage them carefully."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Weapon Abilities",
+      "summary": "Each weapon has a unique Q ability that also applies off-hand effects.",
+      "details": "Calibrum Q: Long-range skillshot, marks target for bonus damage. Severum Q: Rapidly fire both weapons while moving. Gravitum Q: Root all enemies affected by Gravitum slow. Infernum Q: Spray flames in a cone. Crescendum Q: Deploy a turret that attacks with off-hand."
+    },
+    {
+      "slot": "W",
+      "name": "Phase",
+      "summary": "Swap between main-hand and off-hand weapons.",
+      "details": "Instantly swap your main-hand and off-hand weapons. This is crucial for managing your weapon queue and setting up the right combinations. Use it to access the right weapon for each situation or to prepare for teamfights."
+    },
+    {
+      "slot": "E",
+      "name": "Weapon Queue System",
+      "summary": "Aphelios has no E - weapons cycle automatically when ammo depletes.",
+      "details": "Unlike other champions, Aphelios has no E ability. Instead, his weapon queue system replaces it. When a weapon runs out of ammo (50 shots), it moves to the back of the queue and the next weapon becomes available. Plan your ammo usage to have the right weapons ready."
+    },
+    {
+      "slot": "R",
+      "name": "Moonlight Vigil",
+      "summary": "Fire a moon blast that applies your main-hand weapon's effect in an AoE.",
+      "details": "Aphelios fires a concentrated blast that explodes on the first enemy hit, damaging nearby enemies. The explosion applies your main-hand weapon's effect to all enemies hit. Infernum R is devastating (flames spread between enemies), Gravitum R roots everyone, Crescendum R generates max chakrams."
+    }
+  ]
+}

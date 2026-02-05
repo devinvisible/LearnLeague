@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Talon is a roaming assassin who can jump over any terrain in the game. He excels at bursting targets and disappearing before enemies can react.",
+    "howToPlay": "Passive bleeds on 3 ability hits. Q is melee crit or ranged stab. W throws blades out and back. E jumps over any terrain (each terrain has cooldown). R goes invisible and throws blades that return on attack. W-Q for poke, R for all-in, E to roam everywhere.",
+    "powerSpikes": "Talon spikes at level 2-3 with burst combo and at 6 with R. Lethality items scale him. He's strongest mid-game roaming."
+  },
+  "strengths": [
+    "Unmatched roaming with E",
+    "High burst damage",
+    "Strong early-mid game",
+    "Can hop any terrain"
+  ],
+  "weaknesses": [
+    "Falls off late",
+    "E has terrain cooldowns",
+    "Weak waveclear",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Blade's End",
+    "summary": "Abilities stack wounds; at 3 stacks, auto attack bleeds the target.",
+    "details": "Talon's abilities apply Wound stacks. At 3 stacks, his next auto attack consumes them to deal bonus bleed damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Noxian Diplomacy",
+      "summary": "Dash and stab; at melee range, deals critical damage.",
+      "details": "Talon stabs a target. At close range, he critically strikes. At range, he leaps to the target. Refunds cooldown on kill."
+    },
+    {
+      "slot": "W",
+      "name": "Rake",
+      "summary": "Throw blades that return, dealing damage and slowing.",
+      "details": "Talon throws blades in a cone that return after a moment, dealing damage both ways. Returning blades slow."
+    },
+    {
+      "slot": "E",
+      "name": "Assassin's Path",
+      "summary": "Jump over any terrain; each terrain has a cooldown.",
+      "details": "Talon vaults over any terrain in the game. Each terrain segment has its own cooldown before he can use it again."
+    },
+    {
+      "slot": "R",
+      "name": "Shadow Assault",
+      "summary": "Go invisible and throw blades outward; blades return on attack or recast.",
+      "details": "Talon becomes invisible and throws blades outward. The blades return to him when he attacks or recasts, dealing damage."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Sivir is a waveclear ADC whose abilities bounce between enemies. Her spell shield blocks abilities, and her ultimate speeds her entire team.",
+    "howToPlay": "Passive gives movement speed when hitting champions. Q is a boomerang that damages twice. W makes autos bounce to nearby enemies. E spell shields (blocks one ability, refunds mana). R speeds up nearby allies.",
+    "powerSpikes": "Sivir spikes with crit items for W bounces. Kraken or Galeforce work. She's a late-game teamfighter with AoE damage."
+  },
+  "strengths": [
+    "Incredible waveclear",
+    "Spell shield blocks abilities",
+    "R speeds whole team",
+    "W bounces do AoE damage"
+  ],
+  "weaknesses": [
+    "Short auto range",
+    "E must be timed well",
+    "Weak early game",
+    "Less single-target damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fleet of Foot",
+    "summary": "Gain movement speed when hitting enemy champions.",
+    "details": "Sivir gains bonus movement speed for a short time when she damages an enemy champion with an ability or attack."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Boomerang Blade",
+      "summary": "Throw a boomerang that damages enemies out and back.",
+      "details": "Sivir throws her crossblade, dealing damage to enemies it passes through on the way out and back."
+    },
+    {
+      "slot": "W",
+      "name": "Ricochet",
+      "summary": "Auto attacks bounce to nearby enemies.",
+      "details": "Sivir's next few auto attacks bounce to additional enemies, dealing damage to each target."
+    },
+    {
+      "slot": "E",
+      "name": "Spell Shield",
+      "summary": "Block the next enemy ability; gain mana if successful.",
+      "details": "Sivir creates a shield that blocks the next enemy ability. If successful, she heals and restores mana."
+    },
+    {
+      "slot": "R",
+      "name": "On The Hunt",
+      "summary": "Rally nearby allies, giving everyone bonus movement speed.",
+      "details": "Sivir rallies her allies, granting herself and nearby allies bonus movement speed for a duration."
+    }
+  ]
+}

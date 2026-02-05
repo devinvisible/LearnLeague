@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Taric is a protective enchanter/tank who makes his entire team invulnerable with his ultimate. His abilities can be cast through a linked ally.",
+    "howToPlay": "Passive empowers next 2 autos after abilities. W links to ally (all abilities also cast from them). Q heals nearby allies. E stuns in a line (also from linked ally). R makes nearby allies invulnerable after a delay. Position well for double E stuns.",
+    "powerSpikes": "Taric spikes at level 6 with team invulnerability. Tank items make him durable. He's strong at teamfights with properly timed R."
+  },
+  "strengths": [
+    "R grants team invulnerability",
+    "Abilities cast from ally",
+    "Good sustain with Q",
+    "Strong teamfight presence"
+  ],
+  "weaknesses": [
+    "R has long delay",
+    "E is slow",
+    "Mana hungry",
+    "Low damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Bravado",
+    "summary": "After abilities, next 2 autos deal bonus damage and reduce cooldowns.",
+    "details": "After casting an ability, Taric's next 2 auto attacks deal bonus magic damage and reduce his basic ability cooldowns."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Starlight's Touch",
+      "summary": "Heal nearby allies; stacks charges over time.",
+      "details": "Taric heals himself and nearby allies. He stores charges over time and uses them for more powerful heals."
+    },
+    {
+      "slot": "W",
+      "name": "Bastion",
+      "summary": "Link to an ally; your abilities also cast from their location.",
+      "details": "Taric shields an ally and links to them. While linked, his Q, E, and R also cast from the ally's position."
+    },
+    {
+      "slot": "E",
+      "name": "Dazzle",
+      "summary": "Charge and fire a beam that stuns; also casts from linked ally.",
+      "details": "Taric fires a beam from himself (and his linked ally) that stuns enemies after a delay."
+    },
+    {
+      "slot": "R",
+      "name": "Cosmic Radiance",
+      "summary": "After a delay, make yourself and nearby allies invulnerable.",
+      "details": "Taric calls down cosmic energy. After a delay, he and all nearby allied champions become invulnerable for a few seconds."
+    }
+  ]
+}

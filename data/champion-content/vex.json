@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Vex is an anti-mobility mage who fears enemies who dash near her. Her ultimate lets her dive into the backline and reset on kills.",
+    "howToPlay": "Passive: periodically fear enemies hit by abilities; dashing near her grants Doom faster. Q fires a wave. W fears around her and shields. E sends shadow that damages and marks. R fires a projectile - hit enemy to dash to them (resets on kill). Anti-dash mage who dives.",
+    "powerSpikes": "Vex spikes at level 6 with her dive ultimate. Luden's scales her burst. She's strong against mobile teams."
+  },
+  "strengths": [
+    "Counters dashing champions",
+    "R resets on kills",
+    "Good burst damage",
+    "Fear provides safety"
+  ],
+  "weaknesses": [
+    "Weak against immobile champions",
+    "R commits you",
+    "Fear has cooldown",
+    "Immobile without R"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Doom 'n' Gloom",
+    "summary": "Periodically fear with abilities; enemies dashing near her speed this up.",
+    "details": "Vex periodically becomes empowered with Doom - her next ability fears enemies. Enemies dashing near her generate Doom faster and are marked with Gloom for bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Mistral Bolt",
+      "summary": "Fire a wave that damages and accelerates.",
+      "details": "Vex fires a wave of mist that damages enemies and gains speed as it travels."
+    },
+    {
+      "slot": "W",
+      "name": "Personal Space",
+      "summary": "Gain a shield and damage/fear enemies around you.",
+      "details": "Vex gains a shield and emits a shockwave that damages nearby enemies. Applies Doom fear if available."
+    },
+    {
+      "slot": "E",
+      "name": "Looming Darkness",
+      "summary": "Send your shadow to mark and slow enemies.",
+      "details": "Vex sends Shadow to a location. It deals damage, slows enemies, and marks them with Gloom."
+    },
+    {
+      "slot": "R",
+      "name": "Shadow Surge",
+      "summary": "Fire Shadow; hitting an enemy lets you dash to them. Resets on kill.",
+      "details": "Vex fires Shadow forward. If it hits an enemy, she can recast to dash to them, dealing damage on arrival. Resets on champion kills within a few seconds."
+    }
+  ]
+}

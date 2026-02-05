@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Jax is a scaling duelist who becomes nearly unkillable late game. His Counter Strike dodges all autos, making him a nightmare for auto-attack champions.",
+    "howToPlay": "Passive stacks attack speed with autos. Q leaps to target. W empowers next auto. E dodges all autos and stuns when it ends. R gives armor/MR and empowers every third auto. Jump in, E to dodge, auto-W-auto for burst. Late game you 1v9.",
+    "powerSpikes": "Jax spikes at level 6 with R resistances and with Trinity Force. He's a late-game hyperscaling duelist."
+  },
+  "strengths": [
+    "E dodges all autos",
+    "Insane late game scaling",
+    "Strong split push",
+    "Good dueling"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "E on cooldown = vulnerable",
+    "Kited without Q",
+    "Falls behind if camped"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Relentless Assault",
+    "summary": "Auto attacks build stacks, increasing attack speed.",
+    "details": "Jax's basic attacks build stacks, granting bonus attack speed. Stacks fall off if Jax doesn't attack for a few seconds."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Leap Strike",
+      "summary": "Jump to a target (ally, enemy, or ward).",
+      "details": "Jax leaps to a target unit, dealing damage if it's an enemy. Can target allies, enemies, or wards."
+    },
+    {
+      "slot": "W",
+      "name": "Empower",
+      "summary": "Next auto attack deals bonus magic damage.",
+      "details": "Jax empowers his next basic attack to deal bonus magic damage. Can be used as an auto reset."
+    },
+    {
+      "slot": "E",
+      "name": "Counter Strike",
+      "summary": "Dodge all auto attacks; reactivate to stun nearby enemies.",
+      "details": "Jax enters a defensive stance, dodging all basic attacks and reducing AoE damage. After 2 seconds or on recast, he stuns nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Grandmaster's Might",
+      "summary": "Passive: every third auto deals bonus damage. Active: gain armor and MR.",
+      "details": "Passive: Every third auto attack deals bonus magic damage. Active: Jax gains bonus armor and magic resist based on his AD and AP."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Wukong is a trickster diver who can clone himself and knock up entire teams twice. His ultimate spins through teamfights dealing consistent damage.",
+    "howToPlay": "Passive gives armor from nearby enemies. Q empowers auto and shreds armor. W creates a clone and goes invisible (clone attacks and mimics R). E dashes to enemies. R spins, knocking up (can recast for 2nd knockup). W to bait abilities, E-R for engage.",
+    "powerSpikes": "Wukong spikes at level 6 with his double knockup. Divine Sunderer scales him. He's strong in teamfights with AoE CC."
+  },
+  "strengths": [
+    "Double knockup with R",
+    "W clone baits abilities",
+    "Good engage with E-R",
+    "Armor stacking passive"
+  ],
+  "weaknesses": [
+    "Predictable W timing",
+    "Falls off late",
+    "Squishy without passive",
+    "Short range without E"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Stone Skin",
+    "summary": "Gain armor for each nearby enemy champion.",
+    "details": "Wukong gains bonus armor for each nearby enemy champion."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Crushing Blow",
+      "summary": "Empower next auto to deal bonus damage and shred armor.",
+      "details": "Wukong's next auto attack deals bonus damage and reduces the target's armor for a few seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Warrior Trickster",
+      "summary": "Become invisible and leave a clone that attacks and mimics R.",
+      "details": "Wukong becomes invisible and dashes, leaving behind a clone that attacks and uses Cyclone if Wukong does."
+    },
+    {
+      "slot": "E",
+      "name": "Nimbus Strike",
+      "summary": "Dash to an enemy, dealing damage and gaining attack speed.",
+      "details": "Wukong dashes to an enemy, creating clones that strike nearby enemies. He gains attack speed after landing."
+    },
+    {
+      "slot": "R",
+      "name": "Cyclone",
+      "summary": "Spin, knocking up enemies. Can recast for a second spin.",
+      "details": "Wukong spins his staff, dealing damage and knocking up enemies. He can recast to spin again, knocking up enemies a second time."
+    }
+  ]
+}

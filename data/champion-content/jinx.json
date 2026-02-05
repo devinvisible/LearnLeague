@@ -1,0 +1,55 @@
+{
+  "classes": ["Marksman"],
+  "rangeType": "Ranged",
+  "damageType": "Physical",
+  "lanes": ["Bottom"],
+  "playstyle": {
+    "identity": "Jinx is a hypercarry marksman who snowballs out of control with her passive reset. Once she gets a kill or assist, she becomes a mobile destruction machine that can clean up entire teams.",
+    "howToPlay": "Farm safely in lane using Pow-Pow (minigun) for single targets and Fishbones (rocket) for poke and waveclear. Land W to slow enemies for your support's engage. Use E traps defensively or to zone. Your global ultimate can snipe low-health enemies anywhere on the map.",
+    "powerSpikes": "Jinx spikes hard at 3 items when her attack speed and crit synergize. She's weak early but becomes one of the strongest late-game carries. Get Excited! resets turn teamfights in her favor."
+  },
+  "strengths": [
+    "Insane late-game scaling and teamfight cleanup",
+    "Global ultimate for cross-map kills",
+    "Passive gives huge movement and attack speed on takedowns",
+    "Long range with rocket launcher form"
+  ],
+  "weaknesses": [
+    "Weak laning phase - easily bullied",
+    "No mobility until passive activates",
+    "Very squishy and vulnerable to assassins",
+    "Relies on team to peel for her"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Get Excited!",
+    "summary": "Gain massive movement and attack speed after a kill or assist.",
+    "details": "Whenever Jinx scores a kill, assist, or destroys a structure, she gains a huge burst of movement speed and attack speed that decays over a few seconds. This is what makes Jinx a cleanup monster - each takedown refreshes the buff and lets her chase down the next target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Switcheroo!",
+      "summary": "Switch between a rapid-fire minigun and an explosive rocket launcher.",
+      "details": "Toggle between Pow-Pow (minigun) and Fishbones (rocket launcher). Pow-Pow grants stacking attack speed with each hit. Fishbones costs mana, has longer range, and deals splash damage. Use minigun for sustained DPS and rockets for poke and waveclear."
+    },
+    {
+      "slot": "W",
+      "name": "Zap!",
+      "summary": "Fire a long-range shock that damages and slows the first enemy hit.",
+      "details": "Jinx fires a shock blast that damages and heavily slows the first enemy hit. It has long range and reveals the target. Use it to poke in lane, check bushes, slow fleeing enemies, or set up your E traps. The cast time makes you vulnerable, so position carefully."
+    },
+    {
+      "slot": "E",
+      "name": "Flame Chompers!",
+      "summary": "Throw out traps that root enemies who walk over them.",
+      "details": "Jinx tosses a line of three traps that arm after a brief delay. Enemies stepping on armed traps are rooted and take damage. Use them defensively to block engages, in choke points during fights, or on top of CC'd enemies for guaranteed roots."
+    },
+    {
+      "slot": "R",
+      "name": "Super Mega Death Rocket!",
+      "summary": "Fire a global rocket that deals massive damage based on missing health.",
+      "details": "Jinx fires a rocket that travels across the map, gaining damage the farther it travels. It deals damage in an area and deals bonus damage based on enemies' missing health. Use to snipe low-health enemies, start fights, or steal objectives from across the map."
+    }
+  ]
+}

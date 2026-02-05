@@ -1,0 +1,55 @@
+{
+  "classes": ["Juggernaut"],
+  "rangeType": "Melee",
+  "damageType": "Physical",
+  "lanes": ["Top"],
+  "playstyle": {
+    "identity": "Garen is a straightforward juggernaut who punishes mistakes with high damage while being nearly unkillable. His simple kit lets you focus on fundamentals like trading patterns and wave management.",
+    "howToPlay": "Use Q to silence enemies and prevent their escape or retaliation, then spin with E for sustained damage. W provides a shield when you expect burst damage. Execute low-health enemies with R. In lane, short trades with Q-E work well; disengage before they can trade back.",
+    "powerSpikes": "Garen spikes at level 6 with his execute ultimate and again at level 11 when it deals max health damage. He's strong with Stridebreaker for gap-closing or Trinity Force for burst."
+  },
+  "strengths": [
+    "Extremely tanky with W armor/MR and passive regeneration",
+    "Simple kit that's easy to execute",
+    "True damage execute on ultimate",
+    "No mana costs - can stay in lane indefinitely"
+  ],
+  "weaknesses": [
+    "Easily kited by ranged champions",
+    "No hard crowd control",
+    "Predictable engage patterns",
+    "Weak against armor-stacking tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Perseverance",
+    "summary": "Regenerate health rapidly when out of combat.",
+    "details": "After not taking damage for a few seconds, Garen regenerates a percentage of his max health per second. This sustain is incredibly powerful in lane, allowing you to recover from trades without backing. Stay safe and let your passive work."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Decisive Strike",
+      "summary": "Gain movement speed and empower your next attack to deal bonus damage and silence.",
+      "details": "Garen gains movement speed and removes slows for a few seconds. His next basic attack deals bonus damage and silences the target. Use the speed boost to reach enemies and the silence to prevent their escape abilities or counterattacks."
+    },
+    {
+      "slot": "W",
+      "name": "Courage",
+      "summary": "Gain a shield and damage reduction. Passively gain armor and magic resist.",
+      "details": "Passively, Garen gains permanent armor and magic resist by killing units (up to a cap). Actively, he gains a shield and significant damage reduction for a short duration. Time this to block burst damage from abilities or all-ins."
+    },
+    {
+      "slot": "E",
+      "name": "Judgment",
+      "summary": "Spin rapidly, dealing damage to nearby enemies and shredding their armor.",
+      "details": "Garen spins for several seconds, dealing damage to enemies around him. The spin deals increased damage to the nearest enemy and reduces their armor. You can move while spinning but cannot use basic attacks. Cancel early for the E-R combo."
+    },
+    {
+      "slot": "R",
+      "name": "Demacian Justice",
+      "summary": "Call down a giant sword that deals true damage based on the target's missing health.",
+      "details": "Garen calls down a sword on a target enemy champion, dealing true damage based on their missing health. This ignores all resistances, making it an effective execute regardless of how tanky the enemy is. Use when enemies are low to secure kills."
+    }
+  ]
+}

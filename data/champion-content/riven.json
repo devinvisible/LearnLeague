@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Riven is a high-skill AD caster who combos abilities and autos together. Her animation cancels and dash resets create one of the highest skill ceilings in the game.",
+    "howToPlay": "Passive empowers autos after abilities. Q is 3 dashes (3rd knocks up). W stuns around you. E dashes and shields. R empowers all abilities and unlocks Wind Slash execute. Weave autos between every ability. Animation cancel for maximum DPS.",
+    "powerSpikes": "Riven spikes at level 6 with execute damage and at cooldown reduction thresholds. Eclipse and ability haste let her combo more. She's strong throughout if piloted well."
+  },
+  "strengths": [
+    "Extremely high skill ceiling",
+    "No resource costs",
+    "Multiple dashes",
+    "Strong at all stages if mastered"
+  ],
+  "weaknesses": [
+    "Very hard to master",
+    "Weak when behind",
+    "Requires animation cancels",
+    "Falls off against tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Runic Blade",
+    "summary": "Abilities charge her blade; empowered autos deal bonus damage.",
+    "details": "Riven's abilities charge her blade with up to 3 charges. Her basic attacks consume charges to deal bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Broken Wings",
+      "summary": "Three dashes with slashes; third strike knocks up.",
+      "details": "Riven dashes and slashes up to 3 times. The third slash knocks up enemies. Can be cast while moving."
+    },
+    {
+      "slot": "W",
+      "name": "Ki Burst",
+      "summary": "Stun all nearby enemies.",
+      "details": "Riven emits a Ki burst, damaging and stunning all nearby enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Valor",
+      "summary": "Dash and gain a shield.",
+      "details": "Riven dashes in a direction and gains a shield that absorbs damage for a short time."
+    },
+    {
+      "slot": "R",
+      "name": "Blade of the Exile",
+      "summary": "Empower your blade for bonus range and damage; recast for Wind Slash execute.",
+      "details": "Riven empowers her broken blade for increased damage, range, and AD. Recast to fire Wind Slash, dealing damage that increases based on missing health."
+    }
+  ]
+}

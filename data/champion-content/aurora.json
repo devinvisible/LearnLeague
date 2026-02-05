@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Aurora is a bunny-hopping burst mage who dashes between spirit realm and reality. She excels at repositioning and bursting with her spirit-powered abilities.",
+    "howToPlay": "Passive heals and damages when exiting targets. Q curses then procs for damage. W dashes and enters spirit realm (heals). E is a skillshot that can hit spirits. R traps enemies in a zone they can't escape. Hop in and out to proc passive.",
+    "powerSpikes": "Aurora spikes at level 6 with her trapping ultimate. AP items scale her burst. She's strong at picks and teamfight zone control."
+  },
+  "strengths": [
+    "Slippery with W hops",
+    "Good sustain with passive",
+    "R traps enemies",
+    "High burst damage"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "Complex passive tracking",
+    "Q requires two hits",
+    "R can be escaped with dashes"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Spirit Abjuration",
+    "summary": "Exiting enemies heals you and deals damage; entering marks them.",
+    "details": "When Aurora enters an enemy, she marks them. Exiting marked enemies deals magic damage and heals her. Rewards weaving in and out of fights."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Twofold Hex",
+      "summary": "Fire a missile that curses, then fire again to detonate for damage.",
+      "details": "Aurora fires a missile that damages and curses enemies. Recast sends another missile that deals additional damage to cursed targets."
+    },
+    {
+      "slot": "W",
+      "name": "Across the Veil",
+      "summary": "Hop and enter spirit realm briefly, becoming untargetable and healing.",
+      "details": "Aurora hops in a direction and briefly enters the spirit realm, becoming untargetable, healing, and gaining movement speed. She can hop again while in spirit realm."
+    },
+    {
+      "slot": "E",
+      "name": "The Weirding",
+      "summary": "Skillshot that damages and slows, also hitting spirits.",
+      "details": "Aurora sends out a spirit missile that damages and slows enemies. Can hit enemies in the spirit realm as well."
+    },
+    {
+      "slot": "R",
+      "name": "Between Worlds",
+      "summary": "Create a zone that traps enemies inside, preventing escape.",
+      "details": "Aurora creates a large zone. Enemies inside can't leave the zone (dashes and movement are blocked at the edge). She can freely enter and exit."
+    }
+  ]
+}

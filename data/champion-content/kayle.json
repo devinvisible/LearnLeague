@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kayle is a scaling champion who transforms at levels 6, 11, and 16. She's weak melee early but becomes a ranged hypercarry angel who destroys teams.",
+    "howToPlay": "Evolve at 6 (ranged), 11 (waves), 16 (permanent fire waves). Q slows and shreds resist. W heals and speeds. E empowers auto and executes. R makes target invulnerable. Survive early, farm to 16, become a god.",
+    "powerSpikes": "Kayle spikes at level 6 (ranged), level 11 (waves), and level 16 (permanent waves). AP or AD builds work. She's a late-game hypercarry."
+  },
+  "strengths": [
+    "Insane level 16 power",
+    "R invulnerability",
+    "Flexible AP/AD builds",
+    "True damage at 16"
+  ],
+  "weaknesses": [
+    "Extremely weak early",
+    "Melee until level 6",
+    "Needs farm and levels",
+    "R can be baited"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Divine Ascent",
+    "summary": "Evolve at levels 6, 11, and 16, gaining range and fire waves.",
+    "details": "Kayle transforms: Level 6 becomes ranged. Level 11 gains fire waves on attack. Level 16 waves become permanent and deal true damage. Also gain attack speed with stacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Radiant Blast",
+      "summary": "Fire a blade that slows and shreds armor and magic resist.",
+      "details": "Kayle throws a blade that damages and slows enemies, reducing their armor and magic resist."
+    },
+    {
+      "slot": "W",
+      "name": "Celestial Blessing",
+      "summary": "Heal yourself and an ally while granting movement speed.",
+      "details": "Kayle heals herself and a nearby ally, granting both movement speed."
+    },
+    {
+      "slot": "E",
+      "name": "Starfire Spellblade",
+      "summary": "Passive: autos deal bonus damage. Active: empower auto to deal bonus damage and execute.",
+      "details": "Passive: Auto attacks deal bonus magic damage. Active: Next attack deals bonus damage based on missing health."
+    },
+    {
+      "slot": "R",
+      "name": "Divine Judgment",
+      "summary": "Make yourself or an ally invulnerable, then deal damage around them.",
+      "details": "Kayle makes herself or an ally invulnerable for a few seconds. After the duration, swords rain down dealing damage around the target."
+    }
+  ]
+}

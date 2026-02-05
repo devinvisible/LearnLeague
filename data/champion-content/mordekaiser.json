@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Mordekaiser is a juggernaut who drags enemies into his Death Realm for 1v1s. He excels at isolating and killing key targets with his steal-their-stats ultimate.",
+    "howToPlay": "Passive: abilities deal AoE damage around you when active. Q slams, isolated targets take more damage. W stores damage to shield/heal. E pulls enemies toward you. R drags one enemy to Death Realm, stealing their stats. Ult the carry, 1v1 them, win.",
+    "powerSpikes": "Mordekaiser spikes at level 6 with his 1v1 ultimate. Riftmaker sustains through fights. He's strong at isolating and killing anyone."
+  },
+  "strengths": [
+    "R isolates targets",
+    "Steals stats in Death Realm",
+    "Good sustain with W",
+    "Tanky and damaging"
+  ],
+  "weaknesses": [
+    "Kited easily",
+    "R cleansed by QSS",
+    "No gap closer without E",
+    "Falls off against mobile teams"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Darkness Rise",
+    "summary": "After 3 abilities/autos, deal AoE damage and gain speed.",
+    "details": "After damaging enemies with 3 attacks or abilities, Mordekaiser gains movement speed and deals magic damage per second around him."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Obliterate",
+      "summary": "Slam the ground; deals more damage to isolated targets.",
+      "details": "Mordekaiser slams his mace, dealing damage in an area. If it hits only one enemy champion, the damage is increased."
+    },
+    {
+      "slot": "W",
+      "name": "Indestructible",
+      "summary": "Store damage taken; activate to shield. Reactivate to heal.",
+      "details": "Mordekaiser stores damage dealt and taken. Activate to consume the store as a shield. Reactivate to consume the shield to heal."
+    },
+    {
+      "slot": "E",
+      "name": "Death's Grasp",
+      "summary": "Pull enemies in a direction toward you.",
+      "details": "Mordekaiser pulls all enemies in a target direction toward him, dealing magic damage."
+    },
+    {
+      "slot": "R",
+      "name": "Realm of Death",
+      "summary": "Drag an enemy into Death Realm for a 1v1; steal their stats.",
+      "details": "Mordekaiser banishes an enemy to Death Realm with him, stealing a portion of their stats. If they die in the realm, he keeps the stats until they respawn."
+    }
+  ]
+}

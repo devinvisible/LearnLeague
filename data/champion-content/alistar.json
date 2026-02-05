@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Alistar is a tanky engage support with a devastating headbutt-pulverize combo. He excels at initiating fights and peeling for carries.",
+    "howToPlay": "W-Q combo (headbutt into instant pulverize) is your bread and butter for engage. E heals nearby allies when you auto. R cleanses CC and massively reduces damage taken. Flash-Q for surprise engage.",
+    "powerSpikes": "Alistar spikes at level 2 with W-Q combo and level 6 with damage reduction. Tank items make him nearly unkillable during R. He's strong at all stages as an engager."
+  },
+  "strengths": [
+    "Strong engage with W-Q combo",
+    "R makes him extremely tanky",
+    "Good peel for carries",
+    "CC cleanses on R"
+  ],
+  "weaknesses": [
+    "Combo can be missed/flashed",
+    "Weak without abilities",
+    "Low damage",
+    "Long cooldowns early"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Triumphant Roar",
+    "summary": "Heal yourself and nearby allies when you stun or enemies die nearby.",
+    "details": "Alistar builds Triumph stacks when enemies die nearby or he stuns/knocks up. At full stacks, he heals himself and nearby allied champions."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Pulverize",
+      "summary": "Stomp the ground to knock up and damage nearby enemies.",
+      "details": "Alistar smashes the ground, dealing magic damage and knocking up enemies around him. Core part of the W-Q engage combo."
+    },
+    {
+      "slot": "W",
+      "name": "Headbutt",
+      "summary": "Charge to an enemy, knocking them back and stunning briefly.",
+      "details": "Alistar dashes to a target enemy, dealing damage and knocking them back. Can be used to knock enemies into your team or instantly followed by Q to combo."
+    },
+    {
+      "slot": "E",
+      "name": "Trample",
+      "summary": "Deal damage around you; at max stacks, next auto stuns.",
+      "details": "Alistar tramples the ground around him, dealing damage over time. Each tick against champions builds stacks; at max stacks, his next auto attack stuns."
+    },
+    {
+      "slot": "R",
+      "name": "Unbreakable Will",
+      "summary": "Cleanse CC and massively reduce incoming damage.",
+      "details": "Alistar roars, removing all crowd control and taking massively reduced damage for several seconds. Lets him dive towers and survive focus."
+    }
+  ]
+}

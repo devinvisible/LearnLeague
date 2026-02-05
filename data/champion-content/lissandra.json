@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Lissandra is a control mage who can lock herself in stasis or root all enemies near a target. She excels at engaging and locking down teamfights.",
+    "howToPlay": "Passive spawns a frozen thrall from dead enemies. Q fires ice shards. W roots all nearby enemies. E sends a claw you can teleport to. R can self-cast (stasis + AoE damage) or target enemy (roots them + AoE). E-R for engage, self-R to survive burst.",
+    "powerSpikes": "Lissandra spikes at level 6 with her engage/survival ultimate. Luden's and mage items scale her. She's strong at teamfight control."
+  },
+  "strengths": [
+    "Strong engage with E-R",
+    "Self-R provides survival",
+    "Good AoE CC",
+    "Reliable lockdown"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "E is her only escape",
+    "Short range",
+    "Falls off late game"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Iceborn Subjugation",
+    "summary": "Enemies that die near Lissandra become frozen thralls that chase enemies.",
+    "details": "When an enemy champion dies near Lissandra, they become a frozen thrall that slows nearby enemies and eventually shatters."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Ice Shard",
+      "summary": "Fire ice that shatters through the first enemy, slowing.",
+      "details": "Lissandra throws ice that shatters through the first target, damaging and slowing enemies in a line behind them."
+    },
+    {
+      "slot": "W",
+      "name": "Ring of Frost",
+      "summary": "Root all nearby enemies.",
+      "details": "Lissandra freezes all nearby enemies, dealing damage and rooting them."
+    },
+    {
+      "slot": "E",
+      "name": "Glacial Path",
+      "summary": "Send a claw of ice; reactivate to teleport to it.",
+      "details": "Lissandra sends an icy claw in a direction. She can reactivate to teleport to the claw's location."
+    },
+    {
+      "slot": "R",
+      "name": "Frozen Tomb",
+      "summary": "Self-cast for stasis and AoE damage; or target enemy to root them and deal AoE.",
+      "details": "On self: Lissandra encases herself in ice (stasis), healing and dealing damage around her. On enemy: The target is rooted and takes damage; a ring of frost spreads outward."
+    }
+  ]
+}

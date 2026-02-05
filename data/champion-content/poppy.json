@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Poppy is an anti-dash tank who shuts down mobile champions. Her W stops all dashes, and she can knock enemies into walls for massive damage and stun.",
+    "howToPlay": "Passive throws your buckler for ranged auto and shield. Q slams twice and slows. W gives armor/MR and creates a zone that stops dashes (grounds and damages). E charges and stuns against terrain. R charges a knockup that sends enemies far away.",
+    "powerSpikes": "Poppy spikes against dash-heavy comps. Sunfire and tank items make her durable. She counters assassins and divers throughout the game."
+  },
+  "strengths": [
+    "Counters mobile champions",
+    "W stops all dashes",
+    "E stun against walls",
+    "R can remove enemies from fights"
+  ],
+  "weaknesses": [
+    "Weak against ranged poke",
+    "E needs terrain",
+    "R can save enemies",
+    "Falls off late without mobility to counter"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Iron Ambassador",
+    "summary": "Periodically, throw your buckler for ranged auto and gain a shield.",
+    "details": "Every few seconds, Poppy throws her buckler as a ranged attack that grants her a shield. The buckler bounces to the ground and can be picked up."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Hammer Shock",
+      "summary": "Slam the ground twice, slowing enemies.",
+      "details": "Poppy smashes the ground, dealing damage and slowing. After a delay, the area erupts again for additional damage."
+    },
+    {
+      "slot": "W",
+      "name": "Steadfast Presence",
+      "summary": "Gain resistances; activate to create a zone that stops dashes.",
+      "details": "Passive: Gain bonus armor and magic resist, doubled when low. Active: Create a zone that grounds and damages enemies who try to dash."
+    },
+    {
+      "slot": "E",
+      "name": "Heroic Charge",
+      "summary": "Charge an enemy; stun if they hit terrain.",
+      "details": "Poppy charges at an enemy, carrying them forward. If they hit terrain, they take bonus damage and are stunned."
+    },
+    {
+      "slot": "R",
+      "name": "Keeper's Verdict",
+      "summary": "Charge a knockup that sends enemies flying away.",
+      "details": "Tap: Knock up enemies in front. Hold: Charge up to send enemies flying much further away. Enemies land where they started if uncharged."
+    }
+  ]
+}

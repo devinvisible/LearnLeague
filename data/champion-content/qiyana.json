@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Qiyana is an AD assassin who uses terrain elements for different effects. Her ultimate shockwaves off walls, making her devastating in jungle fights and river.",
+    "howToPlay": "W dashes and picks up an element: Brush (invisible), River (root), Wall (bonus damage). Q throws element with effect. E dashes through target. R blasts enemies into terrain, stunning and dealing massive damage. Fight near walls for best R.",
+    "powerSpikes": "Qiyana spikes at level 3 with element combos and 6 with her teamfight R. Prowler's Claw enables assassinations. She's strong mid-game in terrain-heavy areas."
+  },
+  "strengths": [
+    "High burst damage",
+    "R devastates near walls",
+    "Grass element gives stealth",
+    "Good roaming"
+  ],
+  "weaknesses": [
+    "High skill ceiling",
+    "Weak in open areas",
+    "Falls off late",
+    "Element management required"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Royal Privilege",
+    "summary": "First ability or attack on each enemy deals bonus damage.",
+    "details": "Qiyana's first attack or ability against each enemy deals bonus damage. Has a cooldown per target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Edge of Ixtal",
+      "summary": "Slash in a direction; enchanted Q has different effects by element.",
+      "details": "Qiyana slashes in a direction. If she has an element, the slash has bonus effects: River roots, Wall deals bonus damage to low health, Grass makes her invisible."
+    },
+    {
+      "slot": "W",
+      "name": "Terrashape",
+      "summary": "Dash toward terrain and enchant your weapon with an element.",
+      "details": "Qiyana dashes toward terrain, gaining an element enchantment and bonus attack speed and movement speed near that terrain type."
+    },
+    {
+      "slot": "E",
+      "name": "Audacity",
+      "summary": "Dash through a target, dealing damage.",
+      "details": "Qiyana dashes to a target enemy, dealing damage. Can cast Q during the dash."
+    },
+    {
+      "slot": "R",
+      "name": "Supreme Display of Talent",
+      "summary": "Create a shockwave that detonates on terrain, stunning enemies.",
+      "details": "Qiyana creates a windblast that knocks back enemies. The blast detonates off terrain (walls, brush, river), dealing massive damage and stunning enemies caught."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Veigar is an infinite-scaling burst mage who becomes stronger with every ability hit. His cage and ultimate execute make him devastating in late game.",
+    "howToPlay": "Passive stacks AP permanently from ability hits. Q fires two bolts. W drops a meteor after delay. E creates a cage that stuns enemies who touch the walls. R is a point-and-click nuke that scales with enemy missing health. Stack AP, cage, then one-shot.",
+    "powerSpikes": "Veigar spikes at AP thresholds and level 6. Rabadon's amplifies his passive. He's a late-game hyper-scaling mage."
+  },
+  "strengths": [
+    "Infinite AP scaling",
+    "Cage is powerful zone",
+    "R is point-and-click execute",
+    "Late game monster"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Immobile",
+    "W is slow",
+    "Needs stacks to scale"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Phenomenal Evil Power",
+    "summary": "Gain permanent AP from hitting abilities and takedowns.",
+    "details": "Veigar gains permanent ability power when hitting enemies with abilities. Champion takedowns grant bonus stacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Baleful Strike",
+      "summary": "Fire two bolts that grant AP stacks on hit.",
+      "details": "Veigar fires a bolt that damages the first two enemies. Killing units grants permanent AP."
+    },
+    {
+      "slot": "W",
+      "name": "Dark Matter",
+      "summary": "Drop a meteor after a delay; cooldown reduced by stacks.",
+      "details": "Veigar calls down a meteor at a location after a delay. Stacking his passive reduces the cooldown."
+    },
+    {
+      "slot": "E",
+      "name": "Event Horizon",
+      "summary": "Create a cage that stuns enemies who touch the walls.",
+      "details": "Veigar creates a cage of energy. Enemies who touch the walls are stunned."
+    },
+    {
+      "slot": "R",
+      "name": "Primordial Burst",
+      "summary": "Blast an enemy for massive damage, increased by their missing health.",
+      "details": "Veigar blasts an enemy with primordial energy, dealing massive magic damage that increases based on their missing health."
+    }
+  ]
+}

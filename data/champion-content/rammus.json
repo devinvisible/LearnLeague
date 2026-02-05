@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rammus is an anti-AD tank who taunts enemies and reflects their damage back. His ball form lets him roll across the map for ganks and engages.",
+    "howToPlay": "Passive deals damage based on armor. Q rolls into a ball, gaining speed and knocking up first target. W makes you take reduced damage but slows you (reflects autos). E taunts and shreds armor. R creates an earthquake that slows and damages.",
+    "powerSpikes": "Rammus spikes against AD-heavy teams. Thornmail makes him deadly to auto-attackers. He's a counter-pick tank rather than a blind pick."
+  },
+  "strengths": [
+    "Destroys AD champions",
+    "Point-and-click taunt",
+    "Fast rotations with Q",
+    "Very tanky with W"
+  ],
+  "weaknesses": [
+    "Weak against AP",
+    "W slows you significantly",
+    "Q can be interrupted",
+    "Low damage without reflection"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Spiked Shell",
+    "summary": "Basic attacks deal bonus damage based on armor.",
+    "details": "Rammus's basic attacks deal bonus magic damage based on his armor."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Powerball",
+      "summary": "Roll into a ball, gaining speed and knocking up the first enemy hit.",
+      "details": "Rammus rolls into a ball, accelerating over time. Hitting an enemy knocks them up and deals damage. He can cast other abilities while rolling."
+    },
+    {
+      "slot": "W",
+      "name": "Defensive Ball Curl",
+      "summary": "Curl up to reduce damage taken and reflect auto attack damage; slows you.",
+      "details": "Rammus curls into a ball, gaining bonus armor and magic resist and reflecting damage from auto attacks. He is slowed while curled."
+    },
+    {
+      "slot": "E",
+      "name": "Frenzying Taunt",
+      "summary": "Taunt an enemy and shred their armor.",
+      "details": "Rammus taunts a target enemy, forcing them to attack him while reducing their armor."
+    },
+    {
+      "slot": "R",
+      "name": "Soaring Slam",
+      "summary": "Leap and create an earthquake that slows and damages enemies.",
+      "details": "Rammus leaps into the air and slams down, dealing damage and creating an earthquake zone that damages and slows enemies."
+    }
+  ]
+}

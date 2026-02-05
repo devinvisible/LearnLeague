@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Braum is a protective tank support whose shield blocks all projectiles. He excels at peeling for carries and providing engage with his ultimate.",
+    "howToPlay": "Passive stacks stuns with ally autos. Q slows and applies passive. W jumps to an ally, giving armor/MR. E shield blocks ALL projectiles from one direction. R knocks up in a line and creates a slow zone. Stand in front of carries, E to block, R to engage.",
+    "powerSpikes": "Braum spikes at level 6 with his engage ultimate. Tank items make him durable. He's strong at protecting carries at all stages."
+  },
+  "strengths": [
+    "E blocks all projectiles",
+    "Good engage with R",
+    "Protects carries well",
+    "Passive enables ally stuns"
+  ],
+  "weaknesses": [
+    "E only blocks one direction",
+    "Passive needs follow-up",
+    "Low damage",
+    "Immobile without W target"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Concussive Blows",
+    "summary": "Autos and Q apply stacks; at 4 stacks, target is stunned.",
+    "details": "Braum's auto attacks apply Concussive Blows. After applying a stack, allies can add stacks with their autos. At 4 stacks, the target is stunned and takes bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Winter's Bite",
+      "summary": "Fire ice that slows and applies passive stack.",
+      "details": "Braum propels ice from his shield, dealing damage, slowing, and applying a stack of Concussive Blows to the first enemy hit."
+    },
+    {
+      "slot": "W",
+      "name": "Stand Behind Me",
+      "summary": "Jump to an ally, giving you both bonus armor and magic resist.",
+      "details": "Braum leaps to an ally, positioning himself between them and enemies. Both Braum and the ally gain bonus armor and magic resist."
+    },
+    {
+      "slot": "E",
+      "name": "Unbreakable",
+      "summary": "Raise shield that blocks ALL projectiles from that direction.",
+      "details": "Braum raises his shield, blocking all projectiles from that direction. He takes reduced damage from the first hit and negates all subsequent hits while gaining movement speed."
+    },
+    {
+      "slot": "R",
+      "name": "Glacial Fissure",
+      "summary": "Slam the ground to knock up enemies in a line and create a slow zone.",
+      "details": "Braum slams the ground, creating a fissure that knocks up enemies in a line (first enemy hit is knocked up longer). A slow field persists in the area."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Soraka is the premier healer who sacrifices her own health to heal allies. Her global ultimate can save teammates across the map.",
+    "howToPlay": "Q damages and heals Soraka if she hits champions. W heals allies at cost of Soraka's health. E silences and roots after delay. R globally heals all allies. Poke with Q to sustain yourself, then heal teammates with W.",
+    "powerSpikes": "Soraka spikes with heal/shield power items. Moonstone or Redemption amplify her. She's strong at all stages as a healer."
+  },
+  "strengths": [
+    "Strongest single-target heals",
+    "Global healing ultimate",
+    "E silence is strong",
+    "Q self-sustain"
+  ],
+  "weaknesses": [
+    "W costs health",
+    "Immobile and squishy",
+    "Focus target in fights",
+    "Countered by Grievous Wounds"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Salvation",
+    "summary": "Gain movement speed toward low health allies.",
+    "details": "Soraka gains bonus movement speed when moving toward allied champions below a health threshold."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Starcall",
+      "summary": "Call down a star that damages and heals you if it hits a champion.",
+      "details": "Soraka calls down a star that damages enemies and slows them. If it hits a champion, Soraka heals over time."
+    },
+    {
+      "slot": "W",
+      "name": "Astral Infusion",
+      "summary": "Heal an ally at the cost of your own health.",
+      "details": "Soraka heals an ally champion, spending a portion of her own health to do so."
+    },
+    {
+      "slot": "E",
+      "name": "Equinox",
+      "summary": "Create a zone that silences enemies; roots after a delay.",
+      "details": "Soraka creates a zone that silences enemies inside. After a delay, the zone detonates, rooting enemies still inside."
+    },
+    {
+      "slot": "R",
+      "name": "Wish",
+      "summary": "Heal all allied champions globally.",
+      "details": "Soraka calls upon the stars to heal all allied champions anywhere on the map. Heals more on low health targets."
+    }
+  ]
+}

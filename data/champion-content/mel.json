@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Mel is a strategic enchanter who empowers allies with gold generation and powerful buffs. She excels at enhancing her team's carry potential.",
+    "howToPlay": "Passive grants bonus gold on takedowns. Q fires a beam that empowers allies and damages enemies. W creates a zone that buffs allies inside. E tethers to an ally, sharing stats. R provides a massive shield and damage amp to an ally.",
+    "powerSpikes": "Mel spikes at level 6 with her amplifying ultimate. Enchanter items scale her buffs. She's strong when she has a carry to empower."
+  },
+  "strengths": [
+    "Strong ally buffs",
+    "Gold generation",
+    "Good poke and utility",
+    "R amplifies carry"
+  ],
+  "weaknesses": [
+    "Low damage alone",
+    "Needs a good ally",
+    "Squishy",
+    "Tether can break"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Strategic Advantage",
+    "summary": "Gain bonus gold from takedowns and assists.",
+    "details": "Mel generates bonus gold when she or her allies get takedowns nearby."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Piercing Light",
+      "summary": "Fire a beam that damages enemies and empowers allies hit.",
+      "details": "Mel fires a beam of light that damages enemies and grants allies hit bonus effects."
+    },
+    {
+      "slot": "W",
+      "name": "Sanctuary",
+      "summary": "Create a zone that buffs allies inside.",
+      "details": "Mel creates a protected area that grants allies inside bonus stats and effects."
+    },
+    {
+      "slot": "E",
+      "name": "Tether of Ambition",
+      "summary": "Tether to an ally, sharing stats between you.",
+      "details": "Mel connects to an allied champion, sharing a portion of stats between them. Breaking the tether triggers bonus effects."
+    },
+    {
+      "slot": "R",
+      "name": "Apex of Power",
+      "summary": "Massively shield and empower an ally, amplifying their damage.",
+      "details": "Mel empowers an allied champion with a powerful shield and damage amplification, turning them into a deadly threat."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Gragas is a drunken brawler who disrupts with his explosive cask. He can burst squishies or tank depending on build, with strong CC either way.",
+    "howToPlay": "Passive heals on ability use. Q throws a barrel that can be reactivated (more damage if it ferments). W makes next auto deal bonus damage and reduces damage taken. E body slams and stuns. R throws cask that knocks enemies away. E-flash for engage, R to isolate targets.",
+    "powerSpikes": "Gragas spikes at level 6 with his disruptive ultimate. AP for burst, tank for frontline. He's flexible at all stages."
+  },
+  "strengths": [
+    "R disrupts entire teams",
+    "Good sustain with passive",
+    "Flexible builds",
+    "Strong CC"
+  ],
+  "weaknesses": [
+    "R can knock enemies to safety",
+    "E is his only engage",
+    "Falls off without AP build",
+    "Q requires fermentation for damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Happy Hour",
+    "summary": "Using abilities heals Gragas.",
+    "details": "Every time Gragas uses an ability, he heals for a percentage of his max health."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Barrel Roll",
+      "summary": "Roll a barrel that ferments; reactivate to explode, slowing enemies.",
+      "details": "Gragas rolls a barrel that ferments over time, dealing increased damage. Reactivate to detonate, damaging and slowing enemies."
+    },
+    {
+      "slot": "W",
+      "name": "Drunken Rage",
+      "summary": "Channel briefly to reduce damage taken; next auto deals bonus damage.",
+      "details": "Gragas drinks, channeling briefly to reduce incoming damage. After drinking, his next auto deals bonus magic damage."
+    },
+    {
+      "slot": "E",
+      "name": "Body Slam",
+      "summary": "Dash and slam, dealing damage and stunning enemies hit.",
+      "details": "Gragas charges forward, colliding with the first enemy hit. Enemies hit take damage and are stunned."
+    },
+    {
+      "slot": "R",
+      "name": "Explosive Cask",
+      "summary": "Throw a cask that explodes, knocking enemies away from the center.",
+      "details": "Gragas throws his cask to a location. On impact, it explodes dealing damage and knocking enemies away from the center."
+    }
+  ]
+}

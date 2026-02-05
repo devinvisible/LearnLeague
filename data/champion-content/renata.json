@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Renata Glasc is a manipulative enchanter who can revive allies briefly and make enemies attack each other. Her ultimate turns teamfights chaotic.",
+    "howToPlay": "Passive empowers ally attacks. Q fires a missile that roots (or pulls two things together). W gives ally attack/move speed - if they die, they revive briefly as zombie. E damages and shields in a line. R sends a wave that makes enemies berserk (attack allies). W saves carries, R to flip teamfights.",
+    "powerSpikes": "Renata spikes at level 6 with her teamfight-flipping R. Shurelya's and support items scale her. She's strong at clutch saves and teamfight disruption."
+  },
+  "strengths": [
+    "W can save dying carries",
+    "R makes enemies attack each other",
+    "Good poke and shield",
+    "Strong teamfight presence"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "W revive is temporary",
+    "R is slow",
+    "High cooldowns"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Leverage",
+    "summary": "Ally attacks on enemies you damage deal bonus damage.",
+    "details": "Renata's basic attacks mark enemies. Allied champions' attacks against marked enemies deal bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Handshake",
+      "summary": "Fire a missile that roots; hitting a second target pulls them together.",
+      "details": "Renata fires a missile that roots the first enemy hit. She can recast to throw them in a direction, stunning if they hit terrain or another enemy."
+    },
+    {
+      "slot": "W",
+      "name": "Bailout",
+      "summary": "Buff ally's attack and move speed; if they die, briefly revive them.",
+      "details": "Renata grants an ally bonus attack speed and movement speed. If they take fatal damage, they briefly become a zombie. Getting a takedown saves them permanently."
+    },
+    {
+      "slot": "E",
+      "name": "Loyalty Program",
+      "summary": "Send missiles that damage enemies and shield allies.",
+      "details": "Renata sends chemtech missiles that shield allies and damage enemies in a line."
+    },
+    {
+      "slot": "R",
+      "name": "Hostile Takeover",
+      "summary": "Send a wave that makes enemies go berserk, attacking their allies.",
+      "details": "Renata sends a wave of chemicals that causes enemies to go berserk, gaining attack speed but being forced to attack their own allies. They prioritize champions over everything else."
+    }
+  ]
+}

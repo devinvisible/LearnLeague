@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zaahen is a skirmisher who excels at extended duels and jungle clear. He can be played in both top lane and jungle, using his kit to outplay opponents in 1v1 situations.",
+    "howToPlay": "Look for isolated duels and extended trades where your sustained damage shines. In jungle, use efficient clear patterns and look for skirmish opportunities. In top, trade aggressively when abilities are available.",
+    "powerSpikes": "Zaahen spikes with his first completed item. Trinity Force or bruiser items synergize well with his kit. He's strong in the mid-game with item advantages."
+  },
+  "strengths": [
+    "Strong duelist",
+    "Flexible role (Top/Jungle)",
+    "Good skirmish potential",
+    "Outplay potential in 1v1s"
+  ],
+  "weaknesses": [
+    "Weaker in teamfights",
+    "Needs isolated fights",
+    "Can be kited",
+    "Falls off against coordinated teams"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Passive",
+    "summary": "Enhances combat effectiveness.",
+    "details": "Zaahen's passive provides sustained benefits in extended fights."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Q Ability",
+      "summary": "Primary damage ability.",
+      "details": "Zaahen's Q is his main damage tool for trading and clearing."
+    },
+    {
+      "slot": "W",
+      "name": "W Ability",
+      "summary": "Secondary ability for utility or damage.",
+      "details": "Zaahen's W provides additional options in combat situations."
+    },
+    {
+      "slot": "E",
+      "name": "E Ability",
+      "summary": "Mobility or defensive ability.",
+      "details": "Zaahen's E helps with gap closing or survival."
+    },
+    {
+      "slot": "R",
+      "name": "R Ability",
+      "summary": "Ultimate ability with significant impact.",
+      "details": "Zaahen's ultimate provides a powerful combat advantage."
+    }
+  ]
+}

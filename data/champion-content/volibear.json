@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Volibear is a diving juggernaut who disables towers with his ultimate. He excels at tower diving and becomes an unstoppable force in teamfights.",
+    "howToPlay": "Passive gives attack speed stacks that chain lightning. Q gives speed and stuns on next auto. W bites and heals (more damage if used twice quickly). E creates a shield zone from the sky. R leaps and disables towers, gaining size and HP. Tower dive with impunity.",
+    "powerSpikes": "Volibear spikes at level 6 with tower disabling. Trinity Force or tank items work. He's strong at diving and teamfighting."
+  },
+  "strengths": [
+    "R disables towers",
+    "Strong diving",
+    "Good sustain with W",
+    "Tanky and deals damage"
+  ],
+  "weaknesses": [
+    "Kited easily",
+    "Q can be interrupted",
+    "Falls off late",
+    "W needs 2 hits for full effect"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "The Relentless Storm",
+    "summary": "Attacks grant stacking attack speed; at max stacks, lightning chains.",
+    "details": "Volibear's attacks grant attack speed stacks. At max stacks, his attacks chain lightning to nearby enemies."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Thundering Smash",
+      "summary": "Gain speed toward enemies; next attack stuns and deals bonus damage.",
+      "details": "Volibear gains movement speed toward enemies. His next auto attack deals bonus damage and stuns the target."
+    },
+    {
+      "slot": "W",
+      "name": "Frenzied Maul",
+      "summary": "Bite an enemy; heal if used twice quickly on same target.",
+      "details": "Volibear mauls a target, dealing damage. If he hits the same target again within a few seconds, he deals bonus damage and heals."
+    },
+    {
+      "slot": "E",
+      "name": "Sky Splitter",
+      "summary": "Call lightning that shields you and damages enemies in the zone.",
+      "details": "Volibear summons a lightning bolt at a location. If he's inside when it strikes, he gains a shield. Enemies in the zone take damage."
+    },
+    {
+      "slot": "R",
+      "name": "Stormbringer",
+      "summary": "Leap and crash down, disabling towers and gaining HP and size.",
+      "details": "Volibear leaps to a location, gaining bonus health and size. On landing, he damages enemies and disables nearby enemy towers for several seconds."
+    }
+  ]
+}

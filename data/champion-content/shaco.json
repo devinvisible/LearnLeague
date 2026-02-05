@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Shaco is a trickster assassin who deceives enemies with boxes and clones. He invades, ganks from unexpected angles, and creates chaos.",
+    "howToPlay": "Q blinks and goes invisible, backstab crits. W places a fear box (use for traps/clears). E throws a dagger that slows and executes low health. R creates a clone (explodes into boxes on death). AP Shaco uses boxes, AD uses Q assassination.",
+    "powerSpikes": "Shaco spikes at level 3 with ganking tools. Duskblade or AP items work. He's strong early with cheese and invades."
+  },
+  "strengths": [
+    "Strong early invades/ganks",
+    "Boxes provide vision/fear",
+    "Clone creates confusion",
+    "Stealth engage"
+  ],
+  "weaknesses": [
+    "Falls off late",
+    "Clone can be identified",
+    "Needs early leads",
+    "Team-fight contribution limited"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Backstab",
+    "summary": "Attacks from behind deal bonus damage.",
+    "details": "Shaco's basic attacks and Two-Shiv Poison deal bonus damage when hitting enemies from behind."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Deceive",
+      "summary": "Blink and become invisible; next attack crits from stealth.",
+      "details": "Shaco blinks to a location and becomes invisible. His next basic attack is guaranteed to critically strike."
+    },
+    {
+      "slot": "W",
+      "name": "Jack In The Box",
+      "summary": "Place an invisible box that fears and attacks enemies.",
+      "details": "Shaco places a box that arms after a delay. When triggered, it fears and attacks nearby enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Two-Shiv Poison",
+      "summary": "Passive: autos slow. Active: throw a dagger that deals execute damage.",
+      "details": "Passive: Auto attacks slow enemies. Active: Shaco throws a dagger that damages, slows, and deals bonus damage to low health targets."
+    },
+    {
+      "slot": "R",
+      "name": "Hallucinate",
+      "summary": "Create a controllable clone; on death, it explodes into boxes.",
+      "details": "Shaco becomes invisible briefly and creates a clone. The clone can be controlled and explodes into 3 boxes when killed, dealing damage and fearing enemies."
+    }
+  ]
+}

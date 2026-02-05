@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ivern is a support jungler who frees camps instead of killing them. He excels at supporting his team with shields and crowd control while Daisy fights for him.",
+    "howToPlay": "Passive grows camps instead of killing them. Q roots and lets allies dash to rooted target. W creates brush. E shields ally and explodes for slow. R summons Daisy who knocks up with third hit. Gank with Q, shield carries with E, use Daisy for teamfights.",
+    "powerSpikes": "Ivern spikes at level 6 with Daisy. Support items scale his shields. He's strong at supporting carries throughout."
+  },
+  "strengths": [
+    "Unique jungle style",
+    "Strong shields for team",
+    "Q allows ally gap close",
+    "Daisy is tanky"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "Needs team to carry",
+    "Weak early invades",
+    "Daisy can be killed"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Friend of the Forest",
+    "summary": "Can't attack camps; instead grow them and free them for gold/XP.",
+    "details": "Ivern can't attack jungle camps. Instead, he channels to grow them, then frees them later for gold and XP without fighting."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Rootcaller",
+      "summary": "Throw a root; allies can dash to the rooted target.",
+      "details": "Ivern throws a skillshot that roots the first enemy hit. Ivern and allies can right-click the rooted target to dash to them."
+    },
+    {
+      "slot": "W",
+      "name": "Brushmaker",
+      "summary": "Create a patch of brush; autos deal bonus damage in brush.",
+      "details": "Ivern creates a patch of brush that lasts for a while. While in brush (including his own), Ivern's auto attacks deal bonus magic damage."
+    },
+    {
+      "slot": "E",
+      "name": "Triggerseed",
+      "summary": "Shield an ally; after a delay, explodes to slow enemies.",
+      "details": "Ivern shields an ally. After a delay, the shield explodes dealing damage and slowing nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Daisy!",
+      "summary": "Summon Daisy, a golem that knocks up with every third attack.",
+      "details": "Ivern summons his golem friend Daisy. Daisy attacks enemies and every third hit on the same target knocks them up. Ivern can recast to direct her."
+    }
+  ]
+}

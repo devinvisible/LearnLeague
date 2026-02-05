@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zoe is a trickster burst mage who one-shots with long-range bubbles and stars. She picks up summoner spells and item actives from minions.",
+    "howToPlay": "Passive empowers auto after abilities. Q throws a star - redirect for more distance/damage. W drops spell shards from minions (use enemy spells). E fires a sleepy bubble (through walls = longer range). R blinks then returns. E-Q-R for max range burst.",
+    "powerSpikes": "Zoe spikes at level 3 and at 6 with poke. Luden's scales her burst. She's strong at picks with E."
+  },
+  "strengths": [
+    "One-shot potential",
+    "E through walls",
+    "Uses enemy spells",
+    "Safe with R return"
+  ],
+  "weaknesses": [
+    "E is blockable",
+    "R returns you predictably",
+    "Needs setup",
+    "Falls off vs tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "More Sparkles!",
+    "summary": "After casting an ability, next auto deals bonus damage.",
+    "details": "After casting an ability, Zoe's next auto attack deals bonus magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Paddle Star",
+      "summary": "Throw a star; redirect it for more damage based on distance.",
+      "details": "Zoe throws a star that she can redirect. It deals more damage the further it travels before hitting."
+    },
+    {
+      "slot": "W",
+      "name": "Spell Thief",
+      "summary": "Collect spell shards from minions; cast enemy summoner spells.",
+      "details": "Enemy summoner spells and item actives drop spell shards. Zoe can pick them up and cast them. Casting grants movement speed and orbs."
+    },
+    {
+      "slot": "E",
+      "name": "Sleepy Trouble Bubble",
+      "summary": "Fire a bubble that puts enemies to sleep; travels farther through walls.",
+      "details": "Zoe throws a bubble that makes the first enemy hit drowsy, then puts them to sleep. Travels farther if it passes through terrain."
+    },
+    {
+      "slot": "R",
+      "name": "Portal Jump",
+      "summary": "Blink to a location, then return to original position.",
+      "details": "Zoe teleports to a location, then automatically returns to her original position after a moment."
+    }
+  ]
+}

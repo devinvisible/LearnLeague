@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Tryndamere is a splitpushing melee carry who cannot die during his ultimate. He builds fury for crits and is one of the best 1v1 duelists in the game.",
+    "howToPlay": "Passive builds fury for crit chance. Q consumes fury to heal (more heal at low HP). W slows and reduces AD if enemies face away. E spins through enemies (reduced CD on crits). R makes you unable to die for 5 seconds. Split push, R to survive, clean up.",
+    "powerSpikes": "Tryndamere spikes at level 6 with his immortality and with Kraken/Navori. He's a late-game splitpush monster."
+  },
+  "strengths": [
+    "Can't die during R",
+    "Strong 1v1 dueling",
+    "Insane split push",
+    "Crit scaling"
+  ],
+  "weaknesses": [
+    "R has limited duration",
+    "Weak in teamfights",
+    "Kited easily",
+    "Predictable"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Battle Fury",
+    "summary": "Build fury for critical strike chance.",
+    "details": "Tryndamere gains fury when attacking and being attacked. More fury gives higher critical strike chance."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bloodlust",
+      "summary": "Passive: gain AD based on missing health. Active: heal and consume fury.",
+      "details": "Passive: Tryndamere gains bonus AD based on missing health. Active: He consumes fury to heal, healing more at low health."
+    },
+    {
+      "slot": "W",
+      "name": "Mocking Shout",
+      "summary": "Slow enemies facing away and reduce their AD.",
+      "details": "Tryndamere shouts, reducing nearby enemies' attack damage. Enemies facing away are also slowed."
+    },
+    {
+      "slot": "E",
+      "name": "Spinning Slash",
+      "summary": "Spin through enemies dealing damage; cooldown reduced by crits.",
+      "details": "Tryndamere spins through enemies, dealing damage. Critical strikes reduce the cooldown."
+    },
+    {
+      "slot": "R",
+      "name": "Undying Rage",
+      "summary": "Become unable to die for 5 seconds.",
+      "details": "Tryndamere becomes unkillable for 5 seconds, unable to drop below 1 HP no matter how much damage he takes."
+    }
+  ]
+}

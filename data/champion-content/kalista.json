@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kalista is a mobile ADC who hops with every auto attack. She bonds with an ally for coordinated engages and can pull them to safety.",
+    "howToPlay": "Passive makes you hop in move direction after each auto. W binds you to an ally for bonus damage together. Q throws a spear that passes through kills. E stacks rend - activate to pull out spears for burst/slow. R pulls bound ally to you, they can launch for knockup.",
+    "powerSpikes": "Kalista spikes with attack speed for more hops and with BOTRK. She's strong with an aggressive support who can use her R."
+  },
+  "strengths": [
+    "Constant hopping mobility",
+    "E execute stacks",
+    "R saves and engages",
+    "Objective control with E"
+  ],
+  "weaknesses": [
+    "Needs bound ally",
+    "Weak without attack speed",
+    "E all-or-nothing timing",
+    "High skill floor"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Martial Poise",
+    "summary": "Auto attacks make Kalista hop in the direction she's moving.",
+    "details": "Kalista's auto attacks cause her to dash in the direction she's moving. She can't cancel auto attacks normally."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Pierce",
+      "summary": "Throw a spear that passes through killed targets.",
+      "details": "Kalista hurls a spear, dealing damage. If it kills the target, it continues through and transfers any rend stacks."
+    },
+    {
+      "slot": "W",
+      "name": "Sentinel",
+      "summary": "Bind to an ally; gain bonus damage when attacking the same target.",
+      "details": "Passive: Kalista and her bound Oathsworn deal bonus damage when they attack the same target. Active: Send a sentinel to scout an area."
+    },
+    {
+      "slot": "E",
+      "name": "Rend",
+      "summary": "Auto attacks stack spears; activate to rip them out for damage and slow.",
+      "details": "Passive: Attacks lodge spears in enemies. Active: Rip out all spears, dealing damage per spear and slowing. Cooldown resets if it kills."
+    },
+    {
+      "slot": "R",
+      "name": "Fate's Call",
+      "summary": "Pull your bound ally to you; they can launch out for a knockup.",
+      "details": "Kalista draws her bound ally to her, making them untargetable. They can then launch themselves out, knocking up the first enemy hit."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kayn is a transforming jungler who becomes either Shadow Assassin (burst) or Rhaast (drain tank) based on who he fights. He walks through walls and adapts to the game.",
+    "howToPlay": "Passive transforms based on combat (ranged = assassin, melee = Rhaast). Q dashes and damages. W slows (Rhaast knocks up). E walks through terrain and heals. R dives into an enemy, becoming untargetable. Choose form based on enemy comp.",
+    "powerSpikes": "Kayn spikes when he transforms. Shadow Assassin bursts squishies. Rhaast sustains through tanks. He's strong after transformation."
+  },
+  "strengths": [
+    "Walks through terrain",
+    "Adapts to enemy team",
+    "Strong clear speed",
+    "R is untargetable"
+  ],
+  "weaknesses": [
+    "Weak before transform",
+    "Wrong form = weaker",
+    "Falls off late (assassin)",
+    "Needs time to transform"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "The Darkin Scythe",
+    "summary": "Fighting ranged grants Shadow Assassin; fighting melee grants Rhaast form.",
+    "details": "Kayn builds bars by fighting champions. Ranged champions build blue (Shadow Assassin), melee build red (Rhaast). First full bar allows transformation."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Reaping Slash",
+      "summary": "Dash and spin, dealing damage twice.",
+      "details": "Kayn dashes and spins his scythe, dealing damage twice. Can pass through thin walls."
+    },
+    {
+      "slot": "W",
+      "name": "Blade's Reach",
+      "summary": "Slash forward dealing damage and slowing. Rhaast: also knocks up.",
+      "details": "Kayn slashes in a line, damaging and slowing enemies. As Rhaast, this ability also knocks enemies up."
+    },
+    {
+      "slot": "E",
+      "name": "Shadow Step",
+      "summary": "Walk through terrain gaining movement speed and healing.",
+      "details": "Kayn gains movement speed and can walk through terrain. He heals the first time he enters terrain."
+    },
+    {
+      "slot": "R",
+      "name": "Umbral Trespass",
+      "summary": "Dive into an enemy champion, becoming untargetable, then burst out.",
+      "details": "Kayn infests an enemy champion, becoming untargetable inside them. After a few seconds or on recast, he bursts out dealing damage. Rhaast heals based on target max health."
+    }
+  ]
+}

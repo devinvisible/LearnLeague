@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Varus is a poke ADC with a long-range sniper Q and spreading corruption ultimate. He excels at poking from range and can build AP for on-hit or AD for poke.",
+    "howToPlay": "Passive gives attack speed on kills. Q charges for long-range damage. W stacks blight - popping stacks deals percent health. E is AoE slow. R fires corruption that spreads between enemies, rooting them. Poke with Q, R to start fights.",
+    "powerSpikes": "Varus spikes with lethality for Q poke or on-hit for DPS. Level 6 adds engage with R. He's strong at poking and starting fights."
+  },
+  "strengths": [
+    "Long-range Q poke",
+    "R spreads and roots",
+    "Percent health with blight",
+    "Flexible builds"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Q roots him briefly",
+    "Falls off without hits",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Living Vengeance",
+    "summary": "Gain attack speed on kills.",
+    "details": "Killing a unit grants Varus bonus attack speed. Champion kills grant more attack speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Piercing Arrow",
+      "summary": "Charge and fire a long-range arrow.",
+      "details": "Varus charges his bow, increasing range and damage. Release to fire an arrow that damages all enemies in a line."
+    },
+    {
+      "slot": "W",
+      "name": "Blighted Quiver",
+      "summary": "Autos apply blight; abilities detonate blight for percent health damage.",
+      "details": "Passive: Auto attacks apply Blight stacks. Abilities consume Blight stacks to deal bonus percent max health damage."
+    },
+    {
+      "slot": "E",
+      "name": "Hail of Arrows",
+      "summary": "Fire arrows at an area that slow and apply Grievous Wounds.",
+      "details": "Varus fires a hail of arrows at an area, dealing damage and creating a zone that slows enemies and applies Grievous Wounds."
+    },
+    {
+      "slot": "R",
+      "name": "Chain of Corruption",
+      "summary": "Fire corruption that roots and spreads to nearby enemies.",
+      "details": "Varus fires a tendril of corruption that roots the first enemy hit. The corruption then spreads to nearby enemies, rooting them after a delay."
+    }
+  ]
+}

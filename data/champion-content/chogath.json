@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Cho'Gath is a scaling tank who grows infinitely with his ultimate stacks. His CC and true damage execute make him a teamfight terror who can eat objectives.",
+    "howToPlay": "Q knocks up after delay. W silences in a cone. E makes autos deal AoE damage. R eats a target for true damage and permanently increases your size/health if it kills. Stack R on minions/monsters early, then eat champions and objectives.",
+    "powerSpikes": "Cho'Gath spikes with R stacks (6 from minions/monsters, infinite from champions). Tank items scale with his bonus health. He's a late-game raid boss."
+  },
+  "strengths": [
+    "Infinite health scaling",
+    "R executes objectives",
+    "Good CC with Q silence",
+    "Tanky with passive sustain"
+  ],
+  "weaknesses": [
+    "Q is slow and telegraphed",
+    "Immobile",
+    "Large hitbox when stacked",
+    "Kited easily"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Carnivore",
+    "summary": "Killing units heals and restores mana.",
+    "details": "Whenever Cho'Gath kills a unit, he regains health and mana. This sustain helps his laning phase significantly."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Rupture",
+      "summary": "After a delay, spikes erupt knocking up and slowing enemies.",
+      "details": "Cho'Gath ruptures the ground at a target location. After a delay, spikes erupt knocking up enemies, dealing damage, and slowing them."
+    },
+    {
+      "slot": "W",
+      "name": "Feral Scream",
+      "summary": "Scream in a cone to damage and silence enemies.",
+      "details": "Cho'Gath screams in a cone, dealing magic damage and silencing enemies, preventing them from using abilities."
+    },
+    {
+      "slot": "E",
+      "name": "Vorpal Spikes",
+      "summary": "Auto attacks deal AoE damage and slow.",
+      "details": "Cho'Gath's auto attacks launch spikes that deal AoE damage and slow enemies around the target."
+    },
+    {
+      "slot": "R",
+      "name": "Feast",
+      "summary": "Devour a target for true damage; kills permanently increase your size and health.",
+      "details": "Cho'Gath eats a target, dealing true damage. If it kills them, Cho'Gath grows, gaining permanent bonus health and size. Can stack infinitely from champions/epic monsters."
+    }
+  ]
+}

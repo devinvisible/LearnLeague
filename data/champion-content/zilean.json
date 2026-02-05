@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zilean is a time mage who revives allies with his ultimate. He provides insane utility with speed-ups, slows, and his double-bomb stun.",
+    "howToPlay": "Passive: gives bonus XP to allies. Q places a time bomb (2 bombs on same target stun). W reduces Q/E cooldowns. E speeds ally or slows enemy. R puts an ally in stasis - they revive if they die. Double-bomb for stun, R to save carries.",
+    "powerSpikes": "Zilean spikes at level 6 with revive and with CDR for double-bomb. Shurelya's adds utility. He's strong at protecting carries."
+  },
+  "strengths": [
+    "R revives allies",
+    "Double-bomb stun",
+    "Huge speed/slow with E",
+    "XP advantage"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "Double-bomb is slow",
+    "R timing is hard",
+    "Immobile"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Time in a Bottle",
+    "summary": "Store experience; grant it to level up allies.",
+    "details": "Zilean stores experience over time. He can use it to level up a nearby ally champion."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Time Bomb",
+      "summary": "Place a bomb that detonates after a delay; 2 bombs stun.",
+      "details": "Zilean places a time bomb that detonates after a few seconds. Placing two bombs on the same target stuns when the first detonates."
+    },
+    {
+      "slot": "W",
+      "name": "Rewind",
+      "summary": "Reduce Q and E cooldowns.",
+      "details": "Zilean reduces the cooldowns of Time Bomb and Time Warp."
+    },
+    {
+      "slot": "E",
+      "name": "Time Warp",
+      "summary": "Speed up an ally or slow an enemy.",
+      "details": "Zilean bends time around a target. Allies are sped up; enemies are slowed."
+    },
+    {
+      "slot": "R",
+      "name": "Chronoshift",
+      "summary": "Put an ally in stasis; if they die, they revive.",
+      "details": "Zilean places a protective time rune on an ally. If they die within a few seconds, they enter stasis and revive with health."
+    }
+  ]
+}

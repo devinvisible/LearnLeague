@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Hwei is an artistic mage with 9 abilities organized into 3 subjects. He switches between damage, utility, and crowd control based on the situation.",
+    "howToPlay": "Q opens damage spells (burst, line, AoE). W opens utility spells (shield, zone speed, ally attach). E opens CC spells (root, fear zone, slow). Press subject (QWE) then ability slot (QWE) to cast. R splashes paint that damages and roots. Master all 9 for maximum versatility.",
+    "powerSpikes": "Hwei spikes at level 6 with his teamfight ultimate. Luden's and mage items scale him. He's strong with ability variety."
+  },
+  "strengths": [
+    "9 abilities for any situation",
+    "Good poke and burst",
+    "Strong CC options",
+    "Utility for team"
+  ],
+  "weaknesses": [
+    "Complex 9-ability kit",
+    "Immobile",
+    "Each ability has its own CD",
+    "High skill ceiling"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Signature of the Visionary",
+    "summary": "Damaging enemies marks them; allied damage on marked targets deals bonus damage.",
+    "details": "Hwei's damage marks enemies. Allies who damage marked enemies deal bonus magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Subject: Disaster",
+      "summary": "Damage spells: QQ fires a bolt, QW a long line, QE an AoE that detonates on recast.",
+      "details": "Q opens damage abilities. QQ: Fire a bolt that damages and splashes. QW: Paint a long line of fire. QE: Create an AoE that detonates."
+    },
+    {
+      "slot": "W",
+      "name": "Subject: Serenity",
+      "summary": "Utility spells: WQ shield, WW speed zone, WE attach to ally.",
+      "details": "W opens utility abilities. WQ: Shield that heals. WW: Create a speed zone. WE: Attach paint to ally for damage."
+    },
+    {
+      "slot": "E",
+      "name": "Subject: Torment",
+      "summary": "CC spells: EQ root line, EW fear zone, EE pull and slow.",
+      "details": "E opens CC abilities. EQ: Paint a line that roots. EW: Create a fear zone. EE: Fire a bolt that pulls and slows."
+    },
+    {
+      "slot": "R",
+      "name": "Spiraling Despair",
+      "summary": "Splash paint that expands, damaging and rooting enemies inside.",
+      "details": "Hwei throws paint that expands over time, dealing damage and building up despair. At max despair, enemies inside are rooted."
+    }
+  ]
+}

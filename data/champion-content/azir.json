@@ -1,0 +1,55 @@
+{
+  "classes": ["Specialist"],
+  "rangeType": "Ranged",
+  "damageType": "Magic",
+  "lanes": ["Middle"],
+  "playstyle": {
+    "identity": "Azir is an emperor mage who commands sand soldiers to fight for him. He's one of the hardest champions to master but rewards that mastery with incredible zone control and late-game damage.",
+    "howToPlay": "Summon soldiers with W and command them with Q to reposition. Soldiers attack enemies you right-click - they're your main damage source. Use E to dash to your soldiers for mobility or escape. The Shurima Shuffle (E through soldiers, then R to push enemies into your team) is your signature play.",
+    "powerSpikes": "Azir spikes at level 2 when he can combo W+Q for poke. He gets a major spike with Nashor's Tooth for soldier DPS. He's a late-game monster - one of the best scaling mages in the game with proper positioning."
+  },
+  "strengths": [
+    "Incredible late-game sustained magic DPS",
+    "Zone control with soldier placement",
+    "Game-changing ultimate for engage or disengage",
+    "Shurima Shuffle creates pick opportunities"
+  ],
+  "weaknesses": [
+    "Extremely high skill ceiling and floor",
+    "Weak early laning phase",
+    "Very mana hungry",
+    "Relies on soldiers being in good positions"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Shurima's Legacy",
+    "summary": "Azir can summon a turret on destroyed tower ruins.",
+    "details": "Azir can click on the ruins of any destroyed turret (ally or enemy) to raise a Sun Disc - a tower that lasts for a period of time. It's useful for sieging or defending, providing zone control and chip damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Conquering Sands",
+      "summary": "Command all soldiers to dash to a location, damaging and slowing enemies.",
+      "details": "All active Sand Soldiers dash toward the target location, damaging and slowing enemies they pass through. This is how you reposition soldiers for damage or poke. It also extends soldier attack range for a brief moment, enabling long-range poke combos."
+    },
+    {
+      "slot": "W",
+      "name": "Arise!",
+      "summary": "Summon a Sand Soldier that attacks enemies you command.",
+      "details": "Azir summons a Sand Soldier at the target location. When you attack an enemy in range of a soldier, the soldiers stab in that direction, dealing magic damage. Soldiers are your primary damage source - keep them positioned where enemies want to be."
+    },
+    {
+      "slot": "E",
+      "name": "Shifting Sands",
+      "summary": "Dash to one of your soldiers, gaining a shield; stop on enemy collision.",
+      "details": "Azir dashes to one of his Sand Soldiers, gaining a shield. If he collides with an enemy champion, he stops and gains an additional soldier. This is mobility, escape, and engage all in one. The E+Q combo (E then Q mid-dash) extends your dash range dramatically."
+    },
+    {
+      "slot": "R",
+      "name": "Emperor's Divide",
+      "summary": "Summon a wall of soldiers that pushes enemies and blocks dashes.",
+      "details": "Azir summons a wall of shield soldiers that charge forward, knocking back and damaging enemies. The wall then remains as terrain that enemies cannot dash through. Use it to disengage, peel, or perform the Shurima Shuffle to push enemies into your team."
+    }
+  ]
+}

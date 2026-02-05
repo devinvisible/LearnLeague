@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Vel'Koz is an artillery mage who researches enemies to deal true damage. His abilities combo together to stack his passive for bonus damage.",
+    "howToPlay": "Passive: 3 ability hits = true damage proc. Q fires a bolt that can split at angles. W creates a line that erupts. E knocks up in an area. R channels a massive laser that constantly stacks and procs passive. Hit abilities to stack passive, then R for massive damage.",
+    "powerSpikes": "Vel'Koz spikes at level 6 with his laser ultimate. Luden's scales his poke. He's strong at poking and teamfighting."
+  },
+  "strengths": [
+    "R deals massive damage",
+    "True damage passive",
+    "Long range poke",
+    "Good teamfight control"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "R roots you in place",
+    "Squishy",
+    "Abilities are slow"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Organic Deconstruction",
+    "summary": "After 3 ability hits, deal true damage.",
+    "details": "Vel'Koz's abilities apply Deconstruction stacks. At 3 stacks, the enemy takes bonus true damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Plasma Fission",
+      "summary": "Fire a bolt that can split at 90 degree angles.",
+      "details": "Vel'Koz fires a bolt that slows. It can split into two bolts at 90-degree angles on recast or at max range."
+    },
+    {
+      "slot": "W",
+      "name": "Void Rift",
+      "summary": "Create a rift that erupts for damage.",
+      "details": "Vel'Koz opens a rift that deals damage immediately and again after a delay when it erupts."
+    },
+    {
+      "slot": "E",
+      "name": "Tectonic Disruption",
+      "summary": "Disrupt the ground, knocking up enemies.",
+      "details": "Vel'Koz disrupts a patch of ground, knocking up and damaging enemies in the area."
+    },
+    {
+      "slot": "R",
+      "name": "Lifeform Disintegration Ray",
+      "summary": "Channel a laser that deals damage and stacks passive.",
+      "details": "Vel'Koz channels a beam of energy, dealing damage per second and slowing enemies. Each tick applies and procs his passive, dealing true damage."
+    }
+  ]
+}

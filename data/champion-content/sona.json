@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Sona is an aura enchanter who provides constant buffs to her team. Her abilities create auras that enhance nearby allies while her ultimate is a teamfight-winning stun.",
+    "howToPlay": "Abilities create auras that buff allies. Q damages and gives damage aura. W heals and gives shield aura. E speeds and gives speed aura. Passive empowers auto after 3 abilities (Q empowered = more damage, W = damage reduction, E = slow). R stuns in a line.",
+    "powerSpikes": "Sona spikes at level 6 with her stun ultimate. Moonstone scales her auras. She's a late-game enchanter who buffs her whole team."
+  },
+  "strengths": [
+    "Constant team buffs",
+    "Good poke with Q",
+    "R is strong engage",
+    "Scales well"
+  ],
+  "weaknesses": [
+    "Extremely squishy",
+    "Immobile",
+    "Weak early game",
+    "Mana hungry"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Power Chord",
+    "summary": "After 3 abilities, next auto is empowered based on last ability used.",
+    "details": "After casting 3 abilities, Sona's next auto is empowered. Effect depends on last ability: Q deals bonus damage, W reduces target's damage, E slows."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Hymn of Valor",
+      "summary": "Deal damage to nearby enemies; aura gives allies bonus damage on next attack.",
+      "details": "Sona fires bolts at nearby enemies, dealing damage. Creates an aura that empowers allied attacks with bonus magic damage."
+    },
+    {
+      "slot": "W",
+      "name": "Aria of Perseverance",
+      "summary": "Heal yourself and a nearby ally; aura shields allies.",
+      "details": "Sona heals herself and the most wounded nearby ally. Creates an aura that shields allies who stay near."
+    },
+    {
+      "slot": "E",
+      "name": "Song of Celerity",
+      "summary": "Gain movement speed; aura speeds nearby allies.",
+      "details": "Sona gains movement speed. Creates an aura that grants movement speed to nearby allied champions."
+    },
+    {
+      "slot": "R",
+      "name": "Crescendo",
+      "summary": "Play a chord that stuns all enemies in a line.",
+      "details": "Sona plays her ultimate chord, dealing damage and stunning all enemies in a line."
+    }
+  ]
+}

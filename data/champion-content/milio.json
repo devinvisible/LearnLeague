@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Milio is a healing enchanter who cleanses CC from his entire team. He excels at keeping allies alive and mobile with his fire-based buffs.",
+    "howToPlay": "Passive: allies you buff deal bonus damage. Q fires a ball that knocks back on hit. W enchants an ally with range and attack speed on their next ability. E creates a shield zone around an ally. R cleanses and heals all nearby allies. R to save the whole team from CC.",
+    "powerSpikes": "Milio spikes at level 6 with his team cleanse ultimate. Enchanter items scale his healing. He's strong at protecting teams."
+  },
+  "strengths": [
+    "R cleanses entire team",
+    "Good healing and shields",
+    "W grants range",
+    "Strong team support"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "Squishy",
+    "R timing is crucial",
+    "Short range"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fired Up!",
+    "summary": "Allies you buff deal bonus magic damage.",
+    "details": "When Milio buffs an ally, their next attack or ability deals bonus magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Ultra Mega Fire Kick",
+      "summary": "Kick a ball that knocks back enemies and stuns against terrain.",
+      "details": "Milio kicks a fireball that bounces off the first enemy hit, knocking them back. If they hit terrain, they're stunned."
+    },
+    {
+      "slot": "W",
+      "name": "Cozy Campfire",
+      "summary": "Create a zone that heals allies inside.",
+      "details": "Milio creates a healing zone that follows a nearby ally. Allies inside are healed over time."
+    },
+    {
+      "slot": "E",
+      "name": "Warm Hugs",
+      "summary": "Shield an ally and grant them bonus attack range.",
+      "details": "Milio shields an ally and grants them bonus attack range and movement speed."
+    },
+    {
+      "slot": "R",
+      "name": "Breath of Life",
+      "summary": "Cleanse all crowd control from nearby allies and heal them.",
+      "details": "Milio releases a wave that removes all crowd control from nearby allied champions and heals them."
+    }
+  ]
+}

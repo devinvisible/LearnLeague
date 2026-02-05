@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nasus is an infinite-scaling juggernaut who farms Q stacks to become unstoppable. He's weak early but becomes a late-game raid boss who two-shots towers and champions.",
+    "howToPlay": "Q is an auto reset that stacks permanently on kill (+3 normally, +12 on large monsters/champions). W slows attack and movement speed massively. E shreds armor in an area. R gives health, size, and armor/MR. Farm Q, scale, then win.",
+    "powerSpikes": "Nasus spikes around 200-300 stacks when he threatens kills. Divine Sunderer gives him damage. He's a late-game hypercarry who needs to survive early."
+  },
+  "strengths": [
+    "Infinite Q scaling",
+    "W is strongest slow in game",
+    "Takes towers extremely fast",
+    "Tanky with R and items"
+  ],
+  "weaknesses": [
+    "Extremely weak early",
+    "Easily kited",
+    "Needs stacks to be useful",
+    "Falls off against coordinated teams"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Soul Eater",
+    "summary": "Gain lifesteal that scales with level.",
+    "details": "Nasus has bonus lifesteal that increases at certain levels."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Siphoning Strike",
+      "summary": "Auto reset that permanently stacks damage on kill.",
+      "details": "Nasus empowers his next auto attack with bonus damage. If it kills, he gains permanent stacks (+3 normal, +12 large enemies/champions)."
+    },
+    {
+      "slot": "W",
+      "name": "Wither",
+      "summary": "Massively slow an enemy's movement and attack speed.",
+      "details": "Nasus ages an enemy champion, slowing their movement and attack speed dramatically over several seconds."
+    },
+    {
+      "slot": "E",
+      "name": "Spirit Fire",
+      "summary": "Create a zone that shreds armor and damages enemies.",
+      "details": "Nasus creates a zone that deals initial damage and reduces the armor of enemies inside while dealing damage over time."
+    },
+    {
+      "slot": "R",
+      "name": "Fury of the Sands",
+      "summary": "Gain health, size, armor/MR, and bonus Q damage over time.",
+      "details": "Nasus transforms, gaining bonus health, armor, magic resist, and size. He also deals percent health damage around him and Q gains bonus damage."
+    }
+  ]
+}

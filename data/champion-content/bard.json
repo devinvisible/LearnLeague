@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Bard is a roaming support who collects chimes across the map. His magical journey portals and ultimate stasis create unique playmaking opportunities.",
+    "howToPlay": "Passive spawns chimes - collect them for mana, XP, and meep upgrades. Q stuns if it hits two targets or a target and wall. W heals over time. E creates a portal through terrain. R puts everything in an area into stasis. Roam for chimes, E to gank, R to engage or disengage.",
+    "powerSpikes": "Bard spikes with chime collection (stronger meeps) and level 6 for R plays. Roaming early creates leads. He scales well with chimes throughout."
+  },
+  "strengths": [
+    "Incredible roaming",
+    "E enables unique ganks",
+    "R has massive playmaking",
+    "Scales with chimes"
+  ],
+  "weaknesses": [
+    "R can hurt allies",
+    "Leaves ADC alone to roam",
+    "Q stun needs two targets",
+    "Complex to master"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Traveler's Call",
+    "summary": "Chimes spawn across the map; meeps empower auto attacks.",
+    "details": "Chimes spawn across the map - collecting them grants experience, mana, and buffs Bard's meeps. Meeps are spirits that empower his auto attacks with bonus damage and slows."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Cosmic Binding",
+      "summary": "Fire a missile that stuns if it hits two targets or one target and terrain.",
+      "details": "Bard fires a missile that damages and slows the first enemy. If it hits another enemy or terrain behind them, both targets are stunned."
+    },
+    {
+      "slot": "W",
+      "name": "Caretaker's Shrine",
+      "summary": "Place a healing shrine that powers up over time.",
+      "details": "Bard places a shrine that heals and speeds up the first ally to touch it. The heal increases if the shrine charges for a few seconds."
+    },
+    {
+      "slot": "E",
+      "name": "Magical Journey",
+      "summary": "Create a portal through terrain that anyone can use.",
+      "details": "Bard opens a one-way corridor through terrain. Any champion can use the portal - allies travel faster through it than enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Tempered Fate",
+      "summary": "Put everything in an area into stasis (untargetable and invulnerable).",
+      "details": "Bard puts all units in an area into stasis for a few seconds - they can't act but can't be damaged. Affects champions, minions, monsters, and towers. Can save allies or freeze enemies."
+    }
+  ]
+}

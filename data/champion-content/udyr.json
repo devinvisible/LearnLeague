@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Udyr is a stance-swapping bruiser who charges through enemies with bear form. His reworked kit offers more versatility and teamfight impact.",
+    "howToPlay": "Abilities are stances you swap between; awakening them adds power. Q (Wilding Claw) empowers autos with lightning. W (Iron Mantle) shields and heals. E (Blazing Stampede) stuns on first hit per target. R (Wingborne Storm) creates a storm around you. Cycle stances for max DPS.",
+    "powerSpikes": "Udyr spikes early with ganks and at level 6 with R awakening. Trinity Force or tank works. He's strong early-mid running at enemies."
+  },
+  "strengths": [
+    "Strong early ganks",
+    "Bear stun is reliable",
+    "Tanky with W",
+    "Fast clear speed"
+  ],
+  "weaknesses": [
+    "Kited easily",
+    "No gap closer",
+    "Falls off late",
+    "Stance management"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Bridge Between",
+    "summary": "Cycle stances to awaken them for bonus effects.",
+    "details": "Udyr has 4 stances. Swapping builds Awakened stacks. At 2 stacks, the next stance is Awakened with bonus effects."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Wilding Claw",
+      "summary": "Empowers attacks with lightning damage. Awakened: lightning strikes after attacks.",
+      "details": "Udyr empowers his next two attacks with bonus damage. Awakened: Auto attacks call down lightning that bounces to nearby enemies."
+    },
+    {
+      "slot": "W",
+      "name": "Iron Mantle",
+      "summary": "Gain shield and heal on attacks. Awakened: massive shield and heal.",
+      "details": "Udyr gains a shield and his next two attacks heal him. Awakened: Shield and healing are significantly increased."
+    },
+    {
+      "slot": "E",
+      "name": "Blazing Stampede",
+      "summary": "Gain speed and stun the first enemy hit. Awakened: immune to CC briefly.",
+      "details": "Udyr gains movement speed and his first attack on each enemy stuns them. Awakened: Become immune to crowd control briefly."
+    },
+    {
+      "slot": "R",
+      "name": "Wingborne Storm",
+      "summary": "Create a storm that damages enemies around you. Awakened: massive storm.",
+      "details": "Udyr creates a glacial storm around him that slows and damages enemies. Awakened: The storm is much larger and deals more damage."
+    }
+  ]
+}

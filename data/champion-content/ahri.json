@@ -1,0 +1,55 @@
+{
+  "classes": ["Burst"],
+  "rangeType": "Ranged",
+  "damageType": "Magic",
+  "lanes": ["Middle"],
+  "playstyle": {
+    "identity": "Ahri is a mobile burst mage who excels at picking off targets with her charm and dashing in for the kill. Her kit rewards patience and precision, allowing her to weave in and out of fights.",
+    "howToPlay": "Land Charm (E) to set up your combo: follow with Q through the target for both hits, then W. Use your ultimate's three dashes to reposition, chase, or escape. In lane, poke with Q and look for charm opportunities when enemies overstep.",
+    "powerSpikes": "Ahri spikes hard at level 6 when she gains her ultimate's mobility. She's strong with first item completion (typically Luden's) and becomes a serious threat in the mid-game when roaming."
+  },
+  "strengths": [
+    "High mobility with three ultimate dashes",
+    "Strong pick potential with Charm",
+    "Safe laning with sustain from passive",
+    "Good waveclear and roaming ability"
+  ],
+  "weaknesses": [
+    "Charm is telegraphed and can be dodged",
+    "Relies heavily on landing skillshots",
+    "Falls off compared to scaling mages late game",
+    "Vulnerable when ultimate is on cooldown"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Essence Theft",
+    "summary": "Gain healing when hitting enemies with abilities.",
+    "details": "Ahri gains a stack of Essence Theft when her abilities hit enemies (up to 3 per cast). At 9 stacks, her next ability heals her for each enemy hit. This sustain helps her survive poke in lane and stay healthy in extended fights."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Orb of Deception",
+      "summary": "Throw an orb that deals magic damage out and true damage on return.",
+      "details": "Ahri throws her orb in a line, dealing magic damage on the way out and true damage on the way back. The true damage portion ignores magic resistance, making this ability effective against tanky targets. It's your primary waveclear and poke tool."
+    },
+    {
+      "slot": "W",
+      "name": "Fox-Fire",
+      "summary": "Release three flames that automatically target nearby enemies.",
+      "details": "Ahri releases three fox-fires that seek out nearby enemies, prioritizing champions hit by Charm. The flames deal reduced damage to minions. This is your main DPS in close-range fights and helps with last-hitting while trading."
+    },
+    {
+      "slot": "E",
+      "name": "Charm",
+      "summary": "Blow a kiss that charms the first enemy hit, making them walk toward you.",
+      "details": "Ahri blows a kiss that charms the first enemy hit, causing them to walk harmlessly toward her while taking increased damage from her abilities. Landing Charm is crucial for your burst combo and creates pick opportunities."
+    },
+    {
+      "slot": "R",
+      "name": "Spirit Rush",
+      "summary": "Dash up to three times, dealing damage to nearby enemies.",
+      "details": "Ahri dashes and fires essence bolts at nearby enemies. She can recast this up to two more times within a window. The dashes can cross walls and the bolts prioritize champions. This is your main outplay tool for dodging, chasing, or escaping."
+    }
+  ]
+}

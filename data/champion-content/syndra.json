@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Syndra is a burst mage who manipulates dark spheres. Her ultimate launches all spheres at a target, dealing massive single-target burst.",
+    "howToPlay": "Q spawns a sphere. W picks up and throws spheres/minions. E pushes spheres and stuns enemies hit by them. R launches all spheres at one target (more spheres = more damage). Set up spheres with Q, use E-Q combo for stun, then R for execute.",
+    "powerSpikes": "Syndra spikes at level 6 with her burst ultimate. Luden's scales her damage. She's strong in lane and at bursting single targets."
+  },
+  "strengths": [
+    "Massive single-target burst",
+    "Long range stun combo",
+    "Good lane bully",
+    "Pick potential with E"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "R damage depends on spheres",
+    "Hard to hit stun",
+    "Falls off against tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Transcendent",
+    "summary": "Gain Splinters from abilities; at 120 Splinters, upgrade abilities and gain bonus damage.",
+    "details": "Syndra gains Splinters from damaging champions and leveling. At 120, her abilities upgrade. She also gains permanent bonus damage after upgrading."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dark Sphere",
+      "summary": "Create a sphere that damages enemies.",
+      "details": "Syndra conjures a dark sphere at a location, dealing damage to enemies. The sphere remains for several seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Force of Will",
+      "summary": "Pick up a sphere or minion and throw it.",
+      "details": "Syndra grabs a sphere, minion, or monster. Recast to throw it, dealing damage and slowing enemies on impact."
+    },
+    {
+      "slot": "E",
+      "name": "Scatter the Weak",
+      "summary": "Push spheres and enemies; enemies hit by spheres are stunned.",
+      "details": "Syndra pushes enemies and spheres in a cone. Enemies hit by pushed spheres are stunned."
+    },
+    {
+      "slot": "R",
+      "name": "Unleashed Power",
+      "summary": "Launch all spheres at an enemy, dealing massive damage.",
+      "details": "Syndra launches all active spheres plus additional spheres at an enemy champion, dealing massive damage. More spheres = more damage."
+    }
+  ]
+}

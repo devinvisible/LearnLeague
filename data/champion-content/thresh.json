@@ -1,0 +1,55 @@
+{
+  "classes": ["Catcher"],
+  "rangeType": "Ranged",
+  "damageType": "Magic",
+  "lanes": ["Support"],
+  "playstyle": {
+    "identity": "Thresh is the quintessential playmaking support with unmatched utility. His hook-lantern combo can engage, peel, or save allies from certain death, making him the master of controlling fights.",
+    "howToPlay": "Land hooks (Q) to engage or catch enemies out of position. Throw lantern (W) to allies for shields or to pull them to safety. Use Flay (E) to interrupt dashes or set up hooks. The Box (R) zones enemies in teamfights. Master the lantern-hook combo for aggressive plays.",
+    "powerSpikes": "Thresh is strong at level 2 with Q+E for early kills. Level 6 adds significant zone control. He scales with souls collected (passive) and CDR to throw more hooks and lanterns."
+  },
+  "strengths": [
+    "Incredible utility with hook, lantern, and displacement",
+    "Can save allies from almost any situation with lantern",
+    "Strong at all stages of the game",
+    "Flexible playstyle - can engage or peel"
+  ],
+  "weaknesses": [
+    "Hook has a long cooldown early and can be dodged",
+    "Requires good team coordination for lantern saves",
+    "Relatively squishy early game",
+    "Needs to collect souls to scale his defensive stats"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Damnation",
+    "summary": "Collect souls from dead enemies to gain armor and ability power.",
+    "details": "Enemies that die near Thresh drop souls that he can collect. Each soul grants permanent armor and ability power. Souls appear for a few seconds before disappearing. Positioning to collect souls safely while trading is key to scaling."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Death Sentence",
+      "summary": "Hook an enemy and drag yourself to them.",
+      "details": "Thresh throws his hook in a line. The first enemy hit is stunned and dragged toward Thresh. Reactivating Q pulls Thresh to the hooked target. You can hook over walls and follow up with your full combo. Missing hook leaves you vulnerable, so pick your shots."
+    },
+    {
+      "slot": "W",
+      "name": "Dark Passage",
+      "summary": "Throw a lantern that shields allies and lets them dash to you.",
+      "details": "Thresh throws a lantern that shields nearby allies. An ally can click the lantern to dash to Thresh's location. This is your signature save tool - throw it to allies in danger or use it aggressively to bring your jungler into lane from unexpected angles."
+    },
+    {
+      "slot": "E",
+      "name": "Flay",
+      "summary": "Sweep enemies in a direction, damaging and slowing them.",
+      "details": "Thresh sweeps his chain in a line, pushing enemies in the chosen direction and slowing them. Passively, his basic attacks deal bonus magic damage based on how long since his last attack. Use Flay to interrupt dashes, set up hooks, or peel enemies off your carry."
+    },
+    {
+      "slot": "R",
+      "name": "The Box",
+      "summary": "Create a prison of walls that slow and damage enemies who pass through.",
+      "details": "Thresh creates a pentagon of spectral walls around himself. Enemies passing through a wall take magic damage and are heavily slowed. Each wall can only affect one enemy. Use in choke points or to trap enemies after landing a hook."
+    }
+  ]
+}

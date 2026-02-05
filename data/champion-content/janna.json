@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Janna is a peeling enchanter with powerful disengage. Her ultimate heals allies while knocking enemies away, making her excellent at protecting carries.",
+    "howToPlay": "Passive gives speed to allies moving toward you. Q charges a tornado (longer charge = longer knockup). W slows and damages. E shields an ally and gives AD. R heals allies around you while knocking enemies away. Save Q and R for enemy divers.",
+    "powerSpikes": "Janna spikes at level 6 with her disengage ultimate. Enchanter items scale her shields. She's strong at protecting carries at all stages."
+  },
+  "strengths": [
+    "Best disengage support",
+    "Strong shields",
+    "Good peel for carries",
+    "Movement speed passive"
+  ],
+  "weaknesses": [
+    "Low damage",
+    "Squishy",
+    "Q requires charge time",
+    "Weak against poke lanes"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Tailwind",
+    "summary": "Gain movement speed; allies moving toward you also get speed.",
+    "details": "Janna gains bonus movement speed. Nearby allied champions gain movement speed when moving toward her."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Howling Gale",
+      "summary": "Charge a tornado that knocks up; longer charge = longer distance and knockup.",
+      "details": "Janna charges a tornado. Release to send it forward, knocking up enemies. Longer charge increases distance and knockup duration."
+    },
+    {
+      "slot": "W",
+      "name": "Zephyr",
+      "summary": "Passive: gain movement speed. Active: damage and slow an enemy.",
+      "details": "Passive: Janna gains bonus movement speed. Active: Deal magic damage to a target and slow them."
+    },
+    {
+      "slot": "E",
+      "name": "Eye of the Storm",
+      "summary": "Shield an ally and grant them bonus AD.",
+      "details": "Janna shields an ally, granting them bonus attack damage while the shield holds."
+    },
+    {
+      "slot": "R",
+      "name": "Monsoon",
+      "summary": "Knock away enemies and heal allies around you while channeling.",
+      "details": "Janna channels, knocking back enemies and healing allies in an area around her every second. She can move or act to cancel it."
+    }
+  ]
+}

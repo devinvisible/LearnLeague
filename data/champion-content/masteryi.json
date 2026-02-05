@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Master Yi is a reset-based melee carry who becomes untargetable during Q and gains massive attack speed with R. He excels at cleaning up teamfights.",
+    "howToPlay": "Passive: every few autos, strike twice. Q makes you untargetable while bouncing to enemies (reduced CD on auto). W channels to heal and reduce damage. E gives true damage on autos. R gives speed and attack speed, extends on kill. Q to dodge, R for cleanup.",
+    "powerSpikes": "Master Yi spikes with attack speed items and at level 6. Guinsoo's and Kraken make him deadly. He's a late-game hypercarry."
+  },
+  "strengths": [
+    "Q makes untargetable",
+    "R resets on kills",
+    "High DPS with true damage",
+    "Scales hard"
+  ],
+  "weaknesses": [
+    "Squishy melee",
+    "Weak early game",
+    "Shut down by hard CC",
+    "No utility"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Double Strike",
+    "summary": "Every few attacks, strike twice.",
+    "details": "Every few basic attacks, Master Yi strikes twice. The second strike deals reduced damage but applies on-hit effects."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Alpha Strike",
+      "summary": "Become untargetable and bounce between enemies; cooldown reduced by autos.",
+      "details": "Master Yi becomes untargetable, bouncing between enemies and dealing damage. Each auto attack reduces the cooldown."
+    },
+    {
+      "slot": "W",
+      "name": "Meditate",
+      "summary": "Channel to heal and take reduced damage.",
+      "details": "Master Yi channels, healing himself and gaining massive damage reduction. Can be cancelled early."
+    },
+    {
+      "slot": "E",
+      "name": "Wuju Style",
+      "summary": "Passive: bonus AD. Active: deal true damage on autos for several seconds.",
+      "details": "Passive: Gain bonus attack damage. Active: For a few seconds, basic attacks deal bonus true damage."
+    },
+    {
+      "slot": "R",
+      "name": "Highlander",
+      "summary": "Gain massive speed and attack speed; duration extends on takedown.",
+      "details": "Master Yi gains movement speed, attack speed, and immunity to slows. The duration extends with each takedown."
+    }
+  ]
+}

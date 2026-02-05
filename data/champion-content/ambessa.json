@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ambessa is a dashing bruiser who chains ability combos for constant repositioning. She excels at extended fights where she can weave dashes between abilities.",
+    "howToPlay": "Passive lets you dash after abilities. Q slashes and resets. W blocks and counters. E is a combo tool dash. R marks and lets you repeatedly dash to targets. Chain abilities with passive dashes for constant mobility.",
+    "powerSpikes": "Ambessa spikes at level 3 with full combo access and level 6 with her chase ultimate. Trinity Force and bruiser items scale her. She's strong in skirmishes throughout."
+  },
+  "strengths": [
+    "Constant dashing in fights",
+    "Good sustain with passive",
+    "Strong dueling",
+    "Chase potential with R"
+  ],
+  "weaknesses": [
+    "Complex combo execution",
+    "Falls off against tanks",
+    "Needs to chain abilities",
+    "Vulnerable to CC"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Drakehound's Step",
+    "summary": "After abilities, next auto dashes you forward and deals bonus damage.",
+    "details": "Casting abilities empowers Ambessa's next basic attack to dash her toward the target, dealing bonus damage and healing her."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Cunning Sweep",
+      "summary": "Slash in a direction; hitting enemies resets it once.",
+      "details": "Ambessa slashes in a direction, dealing damage. If it hits an enemy, she can recast once. Generates energy for her passive."
+    },
+    {
+      "slot": "W",
+      "name": "Repudiation",
+      "summary": "Enter a defensive stance; block damage then counter-strike.",
+      "details": "Ambessa braces, reducing incoming damage from one direction. After blocking or after the duration, she strikes forward dealing damage."
+    },
+    {
+      "slot": "E",
+      "name": "Lacerate",
+      "summary": "Dash and slash, pulling enemies hit toward you.",
+      "details": "Ambessa dashes and slashes, dealing damage and pulling enemies slightly toward her. Good combo starter or extender."
+    },
+    {
+      "slot": "R",
+      "name": "Public Execution",
+      "summary": "Mark an enemy; gain repeated dashes toward marked targets.",
+      "details": "Ambessa marks an enemy champion. While marked, she can repeatedly dash to them, dealing damage. Marking a new target refreshes the ability."
+    }
+  ]
+}

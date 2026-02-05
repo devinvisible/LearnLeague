@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Vi is a diving bruiser who punches through anything to reach her target. Her ultimate is unstoppable and guarantees reaching the backline.",
+    "howToPlay": "Passive shields on ability hit. Q charges a dash that knocks back (longer charge = more distance). W shreds armor with hits. E empowers autos with AoE. R is unstoppable - dash to target, knocking aside anyone in the way, then knockup. R to reach carries.",
+    "powerSpikes": "Vi spikes at level 6 with her guaranteed engage. Eclipse and bruiser items scale her. She's strong at diving priority targets."
+  },
+  "strengths": [
+    "R is unstoppable",
+    "Good armor shred",
+    "Strong ganks with Q",
+    "Burst and sustained damage"
+  ],
+  "weaknesses": [
+    "Q can be dodged",
+    "R commits you completely",
+    "Falls off without damage",
+    "Can be kited after R"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Blast Shield",
+    "summary": "Gain a shield when hitting with an ability.",
+    "details": "Vi gains a shield when she hits an enemy with an ability. Has a cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Vault Breaker",
+      "summary": "Charge and dash forward, knocking back enemies.",
+      "details": "Vi charges up a dash. On release, she dashes forward, damaging and knocking back all enemies hit."
+    },
+    {
+      "slot": "W",
+      "name": "Denting Blows",
+      "summary": "Every third hit shreds armor and deals percent max health damage.",
+      "details": "Every third attack on the same target deals bonus percent max health damage and reduces their armor."
+    },
+    {
+      "slot": "E",
+      "name": "Relentless Force",
+      "summary": "Empower next auto to deal AoE damage.",
+      "details": "Vi empowers her next auto attack to deal bonus damage in a cone behind the target."
+    },
+    {
+      "slot": "R",
+      "name": "Assault and Battery",
+      "summary": "Dash to a target unstoppably, knocking aside enemies and suppressing on arrival.",
+      "details": "Vi becomes unstoppable and dashes to an enemy champion, knocking aside anyone in her way. On arrival, she knocks up and damages the target."
+    }
+  ]
+}

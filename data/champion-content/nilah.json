@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nilah is a melee ADC who shares bonus XP with her support. She has incredible sustain and can dodge abilities with her mist, scaling into a late-game monster.",
+    "howToPlay": "Passive shares XP and amplifies healing/shielding from allies. Q empowers autos with range and cleave. W creates a mist that dodges autos. E dashes through targets. R pulls enemies in and damages/heals. Play aggressively with W protection.",
+    "powerSpikes": "Nilah spikes faster than other ADCs due to shared XP. Infinity Edge and crit scale her. She's a late-game hypercarry who outlevels opponents."
+  },
+  "strengths": [
+    "Bonus XP advantage",
+    "W dodges all autos",
+    "High sustain in fights",
+    "Strong teamfight ultimate"
+  ],
+  "weaknesses": [
+    "Melee range ADC",
+    "Weak against AP burst",
+    "Needs aggressive support",
+    "W doesn't block abilities"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Joy Unending",
+    "summary": "Share bonus XP with support; amplify healing and shielding received.",
+    "details": "When Nilah last-hits minions, she and her nearest ally gain additional experience. She also amplifies healing and shielding from allies."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Formless Blade",
+      "summary": "Empower autos to cleave and gain range.",
+      "details": "Passive: Nilah's Q and autos heal her, amplified on crit. Active: Nilah whips her blade, gaining bonus range and causing attacks to deal damage in a cone."
+    },
+    {
+      "slot": "W",
+      "name": "Jubilant Veil",
+      "summary": "Create a mist that dodges auto attacks.",
+      "details": "Nilah shrouds herself in mist, gaining movement speed and causing auto attacks against her to miss. Can touch an ally to share the effect."
+    },
+    {
+      "slot": "E",
+      "name": "Slipstream",
+      "summary": "Dash through a target, damaging enemies passed.",
+      "details": "Nilah dashes through a target unit, dealing damage to enemies she passes through. Stores up to 2 charges."
+    },
+    {
+      "slot": "R",
+      "name": "Apotheosis",
+      "summary": "Pull enemies in, deal damage, and heal based on damage dealt.",
+      "details": "Nilah whirls her blade, pulling nearby enemies toward her center and dealing damage. She heals for a portion of the damage dealt."
+    }
+  ]
+}

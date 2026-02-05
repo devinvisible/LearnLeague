@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Xerath is a long-range artillery mage who bombards enemies from extreme distance. His ultimate can snipe enemies across the map.",
+    "howToPlay": "Passive: autos restore mana. Q charges to extend range. W creates a zone that slows and damages. E stuns (longer range = longer stun). R locks in place and fires 3-5 long-range shots. Poke with Q-W, E for peel, R to snipe from afar.",
+    "powerSpikes": "Xerath spikes with mana and ability haste. Luden's scales his poke. He's strong at siege and poking safely."
+  },
+  "strengths": [
+    "Extreme range",
+    "Good poke damage",
+    "R can snipe from far",
+    "Strong siege"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "R locks you in place",
+    "Vulnerable to divers",
+    "Abilities are skillshots"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mana Surge",
+    "summary": "Auto attacks restore mana.",
+    "details": "Xerath's auto attacks periodically restore mana."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Arcanopulse",
+      "summary": "Charge and release a long-range beam.",
+      "details": "Xerath charges up, increasing range. On release, he fires a beam that damages all enemies in a line."
+    },
+    {
+      "slot": "W",
+      "name": "Eye of Destruction",
+      "summary": "Call down a blast that slows and damages, more in center.",
+      "details": "Xerath calls down a blast at a location, dealing damage and slowing. Enemies in the center take more damage and are slowed more."
+    },
+    {
+      "slot": "E",
+      "name": "Shocking Orb",
+      "summary": "Fire an orb that stuns; longer travel = longer stun.",
+      "details": "Xerath fires an orb that stuns the first enemy hit. The stun duration increases based on travel distance."
+    },
+    {
+      "slot": "R",
+      "name": "Rite of the Arcane",
+      "summary": "Root yourself and fire 3-5 long-range shots.",
+      "details": "Xerath roots himself in place and fires a barrage of shots at extreme range, each dealing damage on impact."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Trundle is a stat-stealing troll who gets stronger by weakening enemies. His pillar creates terrain for zone control and his R steals tank stats.",
+    "howToPlay": "Passive heals when enemies die nearby. Q empowers auto and steals AD. W creates a zone where you move faster and attack faster. E creates a pillar that slows and blocks. R steals enemy armor/MR, making tanks squishier and you tankier.",
+    "powerSpikes": "Trundle spikes at level 6 against tanks. Divine Sunderer scales him. He's strong at dueling tanks and disrupting with pillar."
+  },
+  "strengths": [
+    "R shreds tanks",
+    "Strong dueling",
+    "Pillar zone control",
+    "Good sustain"
+  ],
+  "weaknesses": [
+    "Kited by ranged",
+    "R less effective on squishies",
+    "Pillar can be walked around",
+    "Falls off late"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "King's Tribute",
+    "summary": "Heal when enemy units die nearby.",
+    "details": "When any enemy unit dies nearby, Trundle heals for a percentage of their max health."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Chomp",
+      "summary": "Empower next auto to deal bonus damage and steal AD.",
+      "details": "Trundle bites a target, dealing bonus damage and stealing their attack damage for a few seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Frozen Domain",
+      "summary": "Create a zone that increases your attack speed, movement speed, and healing.",
+      "details": "Trundle coats an area in ice, gaining bonus attack speed, movement speed, and increased healing while standing in it."
+    },
+    {
+      "slot": "E",
+      "name": "Pillar of Ice",
+      "summary": "Create a pillar of ice that knocks aside and slows enemies.",
+      "details": "Trundle creates a pillar of ice that acts as terrain, knocking enemies aside and slowing those around it."
+    },
+    {
+      "slot": "R",
+      "name": "Subjugate",
+      "summary": "Steal armor and magic resist from an enemy.",
+      "details": "Trundle drains a portion of an enemy's armor and magic resist, adding it to his own for several seconds."
+    }
+  ]
+}

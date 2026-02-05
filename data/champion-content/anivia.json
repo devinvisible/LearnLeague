@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Anivia is a control mage with incredible zone control and a revive passive. She excels at stalling games and controlling chokepoints with her wall and ultimate.",
+    "howToPlay": "Q stuns on reactivation (pass through then detonate). W creates impassable terrain. E deals double damage to chilled (Q/R) targets. R is a persistent blizzard zone. Wall enemies into your R, then E for burst.",
+    "powerSpikes": "Anivia spikes at level 6 with her zone control ultimate. Tear stacking and Rod of Ages scale her. She's a late-game monster with waveclear and control."
+  },
+  "strengths": [
+    "Revive passive gives second life",
+    "Incredible zone control",
+    "Good waveclear",
+    "Wall creates picks"
+  ],
+  "weaknesses": [
+    "Very immobile",
+    "Mana hungry",
+    "Weak early game",
+    "R can be interrupted"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Rebirth",
+    "summary": "On death, become an egg that revives after a few seconds if not killed.",
+    "details": "When Anivia takes lethal damage, she transforms into an egg for several seconds. If the egg survives, she's reborn with health. Long cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Flash Frost",
+      "summary": "Launch a slow-moving ball that stuns and chills on reactivation.",
+      "details": "Anivia fires a chunk of ice that damages and chills enemies it passes through. Reactivate to detonate, stunning and damaging enemies in the area."
+    },
+    {
+      "slot": "W",
+      "name": "Crystallize",
+      "summary": "Create an impassable ice wall.",
+      "details": "Anivia creates a wall of ice that blocks movement. Can be used to trap enemies, block paths, or interrupt dashes. Doesn't damage."
+    },
+    {
+      "slot": "E",
+      "name": "Frostbite",
+      "summary": "Deal damage to a target; deals double damage if they're chilled.",
+      "details": "Anivia blasts an enemy with frost, dealing magic damage. If the target was recently damaged by Q or R (chilled), the damage is doubled."
+    },
+    {
+      "slot": "R",
+      "name": "Glacial Storm",
+      "summary": "Create a persistent blizzard that chills and damages enemies inside.",
+      "details": "Anivia creates an expanding blizzard zone that deals damage per second and chills enemies. Drains mana while active and can be toggled off. Interrupted by CC."
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "classes": ["Assassin"],
+  "rangeType": "Melee",
+  "damageType": "Magic",
+  "lanes": ["Jungle"],
+  "playstyle": {
+    "identity": "Evelynn is a permanent stealth assassin who picks off isolated targets from the shadows. Her unique camouflage after level 6 makes her a constant threat that forces enemies to play scared.",
+    "howToPlay": "Farm until level 6 - you're weak before permanent stealth. Once you hit 6, your camouflage lets you bypass wards and gank from unexpected angles. Approach targets, land Q, let charm cook with W, then burst with empowered E and R to execute and escape.",
+    "powerSpikes": "Level 6 is Evelynn's biggest spike - she gains permanent stealth. She spikes again with first item (usually Hextech Rocketbelt for gap-closing). Full AP build makes her one-shot squishies instantly."
+  },
+  "strengths": [
+    "Permanent camouflage bypasses wards",
+    "Extreme burst damage to squishies",
+    "Ultimate resets her position and executes",
+    "Forces enemies to play paranoid"
+  ],
+  "weaknesses": [
+    "Very weak before level 6",
+    "Squishy - dies if CC'd",
+    "Control wards reveal her",
+    "Struggles against grouped teams"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Demon Shade",
+    "summary": "Enter camouflage when out of combat; regenerate health when low.",
+    "details": "After level 6, Evelynn enters Demon Shade when out of combat, becoming camouflaged (invisible until close to enemies or revealed by control wards). While in Demon Shade, she also regenerates health rapidly when below a threshold. This sustain helps you stay healthy while hunting."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Hate Spike",
+      "summary": "Fire a spike that marks targets; recast to fire darts at marked enemies.",
+      "details": "Evelynn fires a skill shot that damages and marks the first enemy hit. For the next few seconds, she can recast Q three times to fire darts at the nearest marked target. The initial skillshot does more damage - landing it is crucial for your burst combo."
+    },
+    {
+      "slot": "W",
+      "name": "Allure",
+      "summary": "Curse a target; after charging, your next attack charms them.",
+      "details": "Evelynn curses a target for a few seconds. If she hits them with an ability or attack after the curse has charged (2.5 seconds), she charms them and shreds their magic resist. Against monsters, the charm is instant. Learning to time the charm is essential for ganks."
+    },
+    {
+      "slot": "E",
+      "name": "Whiplash",
+      "summary": "Whip a target, dealing damage based on their max health.",
+      "details": "Evelynn whips her target, dealing magic damage plus a percentage of their max health. When entering Demon Shade, Whiplash is empowered - it becomes a dash that deals increased damage. Use the empowered version for gap-closing and burst."
+    },
+    {
+      "slot": "R",
+      "name": "Last Caress",
+      "summary": "Devastate enemies in an area and blink backwards; deals more to low health targets.",
+      "details": "Evelynn unleashes her demonic energy, dealing massive magic damage in a cone. The damage is doubled against enemies below 30% health, making it a powerful execute. She then blinks backwards, allowing her to escape after assassinating a target."
+    }
+  ]
+}

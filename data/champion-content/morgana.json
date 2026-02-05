@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Morgana is a binding mage/support with the longest CC in the game. Her Black Shield blocks magic damage and CC entirely, protecting allies from being locked down.",
+    "howToPlay": "Q is a 3-second root on a single target. W creates a damage pool (heals against champions). E black shields an ally, making them CC immune. R tethers to nearby enemies, stunning after the duration. Q to catch, E to protect, R for teamfight stuns.",
+    "powerSpikes": "Morgana spikes at level 6 with her teamfight ultimate. Zhonya's lets her R safely. She's strong at picks and protection."
+  },
+  "strengths": [
+    "3-second root is longest CC",
+    "E blocks all CC",
+    "Good at catches",
+    "Flexible support/mid"
+  ],
+  "weaknesses": [
+    "Q can miss",
+    "Immobile",
+    "E only blocks magic damage",
+    "R requires staying close"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Soul Siphon",
+    "summary": "Heal based on damage dealt to champions.",
+    "details": "Morgana heals for a percentage of the damage she deals to champions, large minions, and monsters."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dark Binding",
+      "summary": "Fire a binding that roots for up to 3 seconds.",
+      "details": "Morgana fires a bolt that roots the first enemy hit for a long duration, dealing magic damage."
+    },
+    {
+      "slot": "W",
+      "name": "Tormented Shadow",
+      "summary": "Create a damage pool that heals you against champions.",
+      "details": "Morgana creates a cursed ground that damages enemies inside. She heals based on damage dealt to champions, large minions, and monsters."
+    },
+    {
+      "slot": "E",
+      "name": "Black Shield",
+      "summary": "Shield an ally from magic damage and crowd control.",
+      "details": "Morgana shields an ally, absorbing magic damage and making them immune to crowd control until the shield breaks."
+    },
+    {
+      "slot": "R",
+      "name": "Soul Shackles",
+      "summary": "Tether to nearby enemies; after 3 seconds, stun those still tethered.",
+      "details": "Morgana chains herself to nearby enemies, dealing damage and slowing them. After 3 seconds, enemies still tethered are stunned and take additional damage."
+    }
+  ]
+}

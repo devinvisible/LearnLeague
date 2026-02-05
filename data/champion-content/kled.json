@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kled is an aggressive bruiser who can dismount and remount his lizard Skaarl. He excels at diving and chasing with his long-range charge ultimate.",
+    "howToPlay": "Mounted: 2 health bars (Skaarl's then Kled's). Q throws a bear trap that pulls after sticking. W gives attack speed burst. E dashes through enemies (can recast to dash back). R charges in a direction, all allies behind gain speed. Dismounted: rebuild courage to remount.",
+    "powerSpikes": "Kled spikes at level 6 with his engage ultimate. Eclipse and bruiser items scale him. He's strong at all-ins and dives."
+  },
+  "strengths": [
+    "Two health bars",
+    "Strong all-in",
+    "R engages and speeds team",
+    "Good tower diving"
+  ],
+  "weaknesses": [
+    "Weak when dismounted",
+    "Q pull can be broken",
+    "Falls off late game",
+    "No sustain"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Skaarl, the Cowardly Lizard",
+    "summary": "Mounted on Skaarl with bonus health; dismount when Skaarl flees, remount by gaining courage.",
+    "details": "Kled rides Skaarl, who has his own health bar. When Skaarl's health depletes, Kled dismounts with reduced abilities. Attacking champions or killing units builds courage to remount Skaarl."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bear Trap on a Rope / Pocket Pistol",
+      "summary": "Mounted: throw a bear trap that pulls. Dismounted: fire a pistol.",
+      "details": "Mounted: Throw a bear trap that damages and pulls the first enemy hit after a duration. Dismounted: Fire your pistol, dealing damage and knocking yourself back."
+    },
+    {
+      "slot": "W",
+      "name": "Violent Tendencies",
+      "summary": "Passive: periodically gain attack speed; 4th hit deals max health damage.",
+      "details": "When activated (or passively), Kled gains massive attack speed for 4 attacks. The 4th attack deals bonus damage based on max health."
+    },
+    {
+      "slot": "E",
+      "name": "Jousting",
+      "summary": "Dash through enemies; can recast to dash back through the same target.",
+      "details": "Kled dashes, dealing damage to enemies he passes through. He can recast to dash back through the same target again."
+    },
+    {
+      "slot": "R",
+      "name": "Chaaaaaaaarge!!!",
+      "summary": "Charge in a direction; allies behind gain speed and you gain a shield on impact.",
+      "details": "Kled charges toward a location, gaining movement speed and a shield. Allied champions behind him also gain movement speed. On arrival, he deals damage and pulls the closest enemy."
+    }
+  ]
+}

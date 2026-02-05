@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nautilus is a CC machine support with a hook, root, and knockup. He has the most crowd control of any champion and excels at locking down single targets.",
+    "howToPlay": "Passive roots the first target you auto (per target cooldown). Q hooks to terrain or enemies. W is a shield that adds damage. E slows around you. R sends a shockwave that knocks up everyone in its path, then the target. Q-auto-E-R for full lockdown.",
+    "powerSpikes": "Nautilus spikes at level 2-3 with his all-in CC. Level 6 adds guaranteed lockdown with R. He's strong throughout as a CC bot."
+  },
+  "strengths": [
+    "Most CC in the game",
+    "Point-and-click R knockup",
+    "Tanky with W shield",
+    "Strong all-in engage"
+  ],
+  "weaknesses": [
+    "Immobile once committed",
+    "Weak when behind",
+    "Q can miss",
+    "Falls off late without damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Staggering Blow",
+    "summary": "First auto on each target roots them. Cooldown per target.",
+    "details": "Nautilus's first basic attack against a target roots them briefly and deals bonus damage. Has a cooldown per target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dredge Line",
+      "summary": "Fire a hook; pull yourself to terrain or pull enemies to you.",
+      "details": "Nautilus fires his anchor. If it hits terrain, he pulls himself there. If it hits an enemy, he pulls them together, meeting in the middle."
+    },
+    {
+      "slot": "W",
+      "name": "Titan's Wrath",
+      "summary": "Shield yourself and deal bonus damage while the shield holds.",
+      "details": "Nautilus surrounds himself with a shield. While the shield holds, his auto attacks deal bonus damage over time."
+    },
+    {
+      "slot": "E",
+      "name": "Riptide",
+      "summary": "Create waves around you that slow enemies.",
+      "details": "Nautilus creates waves that ripple outward, dealing damage and slowing enemies hit."
+    },
+    {
+      "slot": "R",
+      "name": "Depth Charge",
+      "summary": "Send a shockwave that knocks up enemies in its path and the target.",
+      "details": "Nautilus sends a shockwave that chases an enemy, knocking up all enemies it passes through. On reaching the target, they're knocked up and stunned."
+    }
+  ]
+}

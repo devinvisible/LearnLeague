@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Hecarim is a charging cavalry jungler who gains AD from movement speed. He excels at ganking and diving with his devastating team-wide fear ultimate.",
+    "howToPlay": "Passive converts movement speed to AD. Q is spammable AoE damage. W heals based on damage dealt around you. E charges, ramming and knocking back enemies. R charges through, fearing enemies. E into lanes for ganks, R for teamfight engages.",
+    "powerSpikes": "Hecarim spikes at level 6 with fear engage and with Trinity Force. He's strong at ganking and teamfights throughout."
+  },
+  "strengths": [
+    "Fast ganks",
+    "R fears entire teams",
+    "Good sustain with W",
+    "Scales with movement speed"
+  ],
+  "weaknesses": [
+    "Falls off late game",
+    "E is predictable",
+    "Squishy early",
+    "Needs to commit"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Warpath",
+    "summary": "Gain attack damage based on bonus movement speed.",
+    "details": "Hecarim gains bonus attack damage equal to a percentage of his bonus movement speed. He also ignores unit collision."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Rampage",
+      "summary": "Swing to deal AoE damage; stacks to reduce cooldown.",
+      "details": "Hecarim swings his glaive, dealing damage to nearby enemies. Each hit builds stacks that reduce the cooldown."
+    },
+    {
+      "slot": "W",
+      "name": "Spirit of Dread",
+      "summary": "Create an aura that heals you based on damage dealt nearby.",
+      "details": "Hecarim creates a damaging aura and heals for a portion of all damage dealt to enemies within it (capped against minions/monsters)."
+    },
+    {
+      "slot": "E",
+      "name": "Devastating Charge",
+      "summary": "Charge forward gaining speed; next attack knocks back and deals more damage at range.",
+      "details": "Hecarim gains movement speed over time. His next attack knocks the target back and deals bonus damage based on distance traveled."
+    },
+    {
+      "slot": "R",
+      "name": "Onslaught of Shadows",
+      "summary": "Charge forward with spectral riders, fearing enemies where you land.",
+      "details": "Hecarim charges forward with spectral riders, dealing damage. Enemies in the area where he lands are feared away from him."
+    }
+  ]
+}

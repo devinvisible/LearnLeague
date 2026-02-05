@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Aurelion Sol is a scaling mage who permanently grows stronger by absorbing Stardust. His abilities expand with stacks, eventually becoming map-wide threats.",
+    "howToPlay": "All abilities generate Stardust stacks that scale your kit. Q explodes and executes. W is your main damage, dropping stars in a line. E flies over terrain. R creates a massive black hole. Farm Stardust stacks to become unstoppable late.",
+    "powerSpikes": "Aurelion Sol spikes at Stardust thresholds (75, 150+). Rod of Ages and mana scale him. He's a late-game hypercarry mage who needs to scale."
+  },
+  "strengths": [
+    "Infinite scaling",
+    "Massive late-game damage",
+    "E roams over terrain",
+    "Good waveclear"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Needs time to scale",
+    "Immobile",
+    "Vulnerable to assassins"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Cosmic Creator",
+    "summary": "Damaging enemies generates Stardust that permanently scales your abilities.",
+    "details": "Aurelion Sol's abilities generate Stardust stacks. Stardust permanently increases the size, damage, and effects of his abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Breath of Light",
+      "summary": "Channel a beam of starfire that deals damage and executes low HP targets.",
+      "details": "Aurelion Sol channels starfire in a direction, dealing damage. Enemies below a health threshold are executed. Generates Stardust on hits."
+    },
+    {
+      "slot": "W",
+      "name": "Astral Flight",
+      "summary": "Fly over terrain; during flight, Q has no cooldown.",
+      "details": "Aurelion Sol flies in a direction, passing through terrain. During flight, Breath of Light has no cooldown. Can be recast to drop early."
+    },
+    {
+      "slot": "E",
+      "name": "Singularity",
+      "summary": "Summon a black hole that pulls enemies and detonates.",
+      "details": "Aurelion Sol creates a singularity that pulls enemies toward its center. After a delay, it detonates dealing damage. Size scales with Stardust."
+    },
+    {
+      "slot": "R",
+      "name": "Falling Star / The Skies Descend",
+      "summary": "Crash a star down; at 75 Stardust, becomes a massive shockwave.",
+      "details": "Aurelion Sol crashes a star dealing damage and stunning. At 75 Stardust, transforms into The Skies Descend, a massive shockwave that knocks up and deals huge damage."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Sett is a boss-style bruiser who absorbs damage and returns it amplified. His Haymaker true damage punch and supplex ultimate make him a teamfight terror.",
+    "howToPlay": "Passive gives health regen and left-right punches (right punch is stronger). Q gives movement speed and empowers autos. W stores damage taken as Grit, unleashing true damage in center. E pulls enemies together and stuns. R suppresses and slams enemy into their team.",
+    "powerSpikes": "Sett spikes at levels 1-3 with trading and at 6 with R engage. Stridebreaker or BORK work. He's strong early-mid in teamfights."
+  },
+  "strengths": [
+    "W can deal massive true damage",
+    "R is great engage/disruption",
+    "Strong early trading",
+    "Tanky with W shield"
+  ],
+  "weaknesses": [
+    "Kited easily",
+    "W needs damage stored",
+    "Falls off late against DPS",
+    "Predictable engage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Pit Grit",
+    "summary": "Regen health based on missing HP; right punch deals bonus damage.",
+    "details": "Sett regenerates health based on his missing health. His auto attacks alternate left and right; right punches deal bonus damage and attack faster."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Knuckle Down",
+      "summary": "Gain movement speed; next two autos deal bonus damage.",
+      "details": "Sett gains movement speed toward enemy champions. His next two auto attacks deal bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Haymaker",
+      "summary": "Store damage taken as Grit; release for a massive punch with true damage in center.",
+      "details": "Sett stores damage taken as Grit. Activate to expend Grit, gaining a shield and dealing damage in a direction. The center deals true damage."
+    },
+    {
+      "slot": "E",
+      "name": "Facebreaker",
+      "summary": "Pull enemies together; stun if pulled from both sides.",
+      "details": "Sett pulls enemies on both sides toward him, dealing damage and slowing. If he pulls enemies from both sides, they're stunned."
+    },
+    {
+      "slot": "R",
+      "name": "The Show Stopper",
+      "summary": "Grab an enemy and slam them, dealing damage based on their health.",
+      "details": "Sett grabs an enemy champion, becoming unstoppable, and slams them into the ground, dealing damage to the target based on their max health and to nearby enemies."
+    }
+  ]
+}

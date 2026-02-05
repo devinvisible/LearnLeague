@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Elise is a spider-form jungler with two sets of abilities. Her human form pokes and sets up, while spider form executes and sustains.",
+    "howToPlay": "Human: Q damage scales with current health. W sends exploding spider. E is a cocoon stun. Spider: Q execute scales with missing health. W summons spiderlings. E rappels up, becoming untargetable. Human E-Q-W, then spider Q-W for burst.",
+    "powerSpikes": "Elise spikes at level 3 with both forms and at level 6 for stronger spider form. Magic pen scales her. She's strongest early-mid game."
+  },
+  "strengths": [
+    "Strong early ganks",
+    "Execute in spider form",
+    "Rappel dodges abilities",
+    "No ultimate to wait for"
+  ],
+  "weaknesses": [
+    "Falls off late game",
+    "Cocoon can miss",
+    "Squishy",
+    "Complex two-form kit"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Spider Queen",
+    "summary": "In spider form, gain spiderlings that attack with you.",
+    "details": "Human abilities ready spiderlings. In spider form, spiderlings attack alongside Elise, dealing damage and applying spell effects."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Neurotoxin / Venomous Bite",
+      "summary": "Human: damage based on current health. Spider: execute based on missing health.",
+      "details": "Human (Neurotoxin): Deal magic damage scaling with target's current health. Spider (Venomous Bite): Lunge and deal magic damage scaling with target's missing health."
+    },
+    {
+      "slot": "W",
+      "name": "Volatile Spiderling / Skittering Frenzy",
+      "summary": "Human: send exploding spider. Spider: gain attack speed and heal on hit.",
+      "details": "Human (Volatile Spiderling): Send a spider that explodes on enemies. Spider (Skittering Frenzy): Spiderlings gain attack speed and heal Elise on hit."
+    },
+    {
+      "slot": "E",
+      "name": "Cocoon / Rappel",
+      "summary": "Human: skillshot stun. Spider: ascend untargetable, can descend on enemies.",
+      "details": "Human (Cocoon): Fire a skillshot that stuns the first enemy and reveals them. Spider (Rappel): Ascend, becoming untargetable. Can descend on enemies or nearby locations."
+    },
+    {
+      "slot": "R",
+      "name": "Spider Form",
+      "summary": "Toggle between human and spider forms.",
+      "details": "Elise transforms into spider form, changing her abilities. Spider form grants bonus movement speed and spiderlings. Transforms back to human form on recast."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Tahm Kench is a protective tank who eats allies to save them or enemies to kill them. His W is a long-range engage tool.",
+    "howToPlay": "Q is a skillshot that slows and stuns if target has 3 stacks. W travels underground and knocks up enemies on arrival. E stores damage taken to shield or heal. R devours ally (protective) or enemy with 3 stacks (offensive). Use W for engage, R to save carries.",
+    "powerSpikes": "Tahm Kench spikes at levels 3-6 with trading and R. Tank items scale his shield. He's strong at protecting allies and trading."
+  },
+  "strengths": [
+    "Can eat allies to save them",
+    "W is strong engage",
+    "Very tanky with E",
+    "Good trading"
+  ],
+  "weaknesses": [
+    "Immobile without W",
+    "R eat can misposition allies",
+    "W is slow and telegraphed",
+    "Falls off late"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "An Acquired Taste",
+    "summary": "Auto attacks and abilities apply stacks for enhanced effects.",
+    "details": "Tahm Kench's attacks and abilities apply stacks. At 3 stacks, his Q stuns and R can devour enemies."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Tongue Lash",
+      "summary": "Lash out and slow; stuns enemies with 3 stacks.",
+      "details": "Tahm Kench lashes his tongue, damaging and slowing the first enemy hit. Enemies with 3 stacks are stunned."
+    },
+    {
+      "slot": "W",
+      "name": "Abyssal Dive",
+      "summary": "Dive underground and emerge at a location, knocking up enemies.",
+      "details": "Tahm Kench dives underground, becoming unstoppable. He emerges at a target location, dealing damage and knocking up enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Thick Skin",
+      "summary": "Store damage taken; activate to heal or wait to gain a shield.",
+      "details": "Passive: Tahm Kench stores damage taken as grey health. Active: Convert grey health to a shield. If he doesn't activate, the grey health heals him over time."
+    },
+    {
+      "slot": "R",
+      "name": "Devour",
+      "summary": "Eat an ally to protect them, or an enemy with 3 stacks to damage them.",
+      "details": "Tahm Kench devours a target. Allied champions are kept safe and can be spit out. Enemy champions with 3 stacks can be devoured, taking damage and being held briefly."
+    }
+  ]
+}

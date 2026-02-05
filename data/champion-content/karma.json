@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Karma is an early-game enchanter who starts with her ultimate. She excels at poking and shielding, with Mantra empowering abilities throughout the game.",
+    "howToPlay": "R (Mantra) is available at level 1 and empowers next ability. Q fires a blast that slows and detonates (R-Q adds explosion). W tethers and roots after duration (R-W heals massively). E shields and speeds (R-E shields all allies). Poke with R-Q or teamfight with R-E.",
+    "powerSpikes": "Karma spikes at levels 1-3 with Mantra poke. Enchanter items scale her. She's strongest early-mid before falling off."
+  },
+  "strengths": [
+    "Has R at level 1",
+    "Good poke and shields",
+    "R-E team-wide shield",
+    "Strong laning phase"
+  ],
+  "weaknesses": [
+    "Falls off late game",
+    "W root requires staying close",
+    "No hard CC without W",
+    "Less powerful R scaling"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Gathering Fire",
+    "summary": "Abilities and autos reduce Mantra's cooldown.",
+    "details": "Karma's abilities and auto attacks against champions reduce Mantra's cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Inner Flame",
+      "summary": "Fire a blast that explodes and slows. Mantra: adds a larger detonation.",
+      "details": "Karma fires a ball of flame that explodes on the first enemy, dealing damage and slowing. Mantra (Soulflare): The explosion is larger and leaves a damaging field."
+    },
+    {
+      "slot": "W",
+      "name": "Focused Resolve",
+      "summary": "Tether to an enemy; if it holds, they're rooted. Mantra: heal massively.",
+      "details": "Karma tethers to an enemy, dealing damage. If the tether holds, the enemy is rooted. Mantra (Renewal): Also heals Karma significantly."
+    },
+    {
+      "slot": "E",
+      "name": "Inspire",
+      "summary": "Shield an ally and grant movement speed. Mantra: shield all nearby allies.",
+      "details": "Karma shields an ally and grants them movement speed. Mantra (Defiance): Also shields all nearby allied champions."
+    },
+    {
+      "slot": "R",
+      "name": "Mantra",
+      "summary": "Empower your next ability with bonus effects.",
+      "details": "Karma empowers her next basic ability, adding bonus effects. Available at level 1, with cooldown reduced by Gathering Fire."
+    }
+  ]
+}

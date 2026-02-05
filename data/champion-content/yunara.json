@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Yunara is a marksman who deals sustained damage from the bot lane. She excels at kiting and dealing consistent damage in extended fights.",
+    "howToPlay": "Focus on farming and scaling. Position safely in teamfights and deal consistent damage while kiting back from threats. Use abilities to enhance your auto attacks and maintain distance from enemies.",
+    "powerSpikes": "Yunara spikes with her core marksman items. Kraken Slayer and crit items scale her damage. She's strongest in the mid to late game when fully itemized."
+  },
+  "strengths": [
+    "Strong sustained damage",
+    "Good kiting ability",
+    "Scales well with items",
+    "Consistent teamfight damage"
+  ],
+  "weaknesses": [
+    "Vulnerable to assassins",
+    "Needs peel from team",
+    "Weak early game",
+    "Position dependent"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Passive",
+    "summary": "Enhances auto attacks or abilities.",
+    "details": "Yunara's passive ability enhances her combat effectiveness."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Q Ability",
+      "summary": "Primary damage ability.",
+      "details": "Yunara's Q provides damage and utility for trading and fighting."
+    },
+    {
+      "slot": "W",
+      "name": "W Ability",
+      "summary": "Secondary utility or damage ability.",
+      "details": "Yunara's W provides additional options in combat."
+    },
+    {
+      "slot": "E",
+      "name": "E Ability",
+      "summary": "Mobility or defensive ability.",
+      "details": "Yunara's E helps with positioning or survival."
+    },
+    {
+      "slot": "R",
+      "name": "R Ability",
+      "summary": "Ultimate ability with high impact.",
+      "details": "Yunara's ultimate provides a powerful effect in teamfights or skirmishes."
+    }
+  ]
+}

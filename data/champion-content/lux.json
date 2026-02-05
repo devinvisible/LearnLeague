@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Lux is a long-range burst mage with a snare and giant laser ultimate. She excels at catching enemies and one-shotting them from afar.",
+    "howToPlay": "Passive marks enemies; auto or R consumes for bonus damage. Q snares up to two enemies. W throws a wand that shields allies on the way out and back. E slows in a zone, reactivate to detonate. R fires a giant laser that procs passive. Q-E-R for burst.",
+    "powerSpikes": "Lux spikes at level 6 with her burst ultimate. Luden's and ability haste reduce R cooldown. She's strong at picks and poke."
+  },
+  "strengths": [
+    "Long range Q snare",
+    "High burst with R",
+    "Good waveclear",
+    "W shields team"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Q can miss",
+    "Squishy",
+    "Falls off against MR"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Illumination",
+    "summary": "Abilities mark enemies; auto attacks or R consume marks for bonus damage.",
+    "details": "Lux's abilities mark enemies with light. Her basic attacks or Final Spark consume the mark for bonus magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Light Binding",
+      "summary": "Fire a binding that snares up to two enemies.",
+      "details": "Lux fires a sphere of light that binds and damages up to two enemies. The second enemy is bound for less time."
+    },
+    {
+      "slot": "W",
+      "name": "Prismatic Barrier",
+      "summary": "Throw a wand that shields allies on the way out and back.",
+      "details": "Lux throws her wand in a line, shielding allies it passes through. On the way back, it shields again."
+    },
+    {
+      "slot": "E",
+      "name": "Lucent Singularity",
+      "summary": "Create a slowing zone; reactivate to detonate for damage.",
+      "details": "Lux creates a zone that slows enemies. She can reactivate to detonate it early, or it detonates automatically after a delay."
+    },
+    {
+      "slot": "R",
+      "name": "Final Spark",
+      "summary": "Fire a giant laser across the map, consuming Illumination marks.",
+      "details": "Lux fires a giant laser in a line, dealing damage and revealing enemies. It triggers Illumination on all enemies hit."
+    }
+  ]
+}

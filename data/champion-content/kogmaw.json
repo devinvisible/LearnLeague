@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kog'Maw is a hyper-scaling ADC with massive range and percent health damage. He's immobile but melts tanks with his W-empowered attacks.",
+    "howToPlay": "Passive lets you move and explode after death. Q shreds armor/MR. W gives huge range and percent max health damage on autos. E slows in a line. R fires artillery that scales with enemy missing health. Position safely, W for DPS, ult to finish.",
+    "powerSpikes": "Kog'Maw spikes with attack speed and at level 9 for max W. Guinsoo's and on-hit melt tanks. He's a late-game hypercarry."
+  },
+  "strengths": [
+    "Percent health melts tanks",
+    "Massive W range",
+    "Good late game DPS",
+    "R artillery poke"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Squishy",
+    "Needs peel",
+    "W has downtime"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Icathian Surprise",
+    "summary": "On death, become a bomb that explodes after 4 seconds.",
+    "details": "Upon death, Kog'Maw gains movement speed and explodes after 4 seconds, dealing true damage to nearby enemies."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Caustic Spittle",
+      "summary": "Fire a skillshot that shreds armor and magic resist.",
+      "details": "Passive: Gain attack speed. Active: Fire a skillshot that damages and shreds the armor and magic resist of the first enemy hit."
+    },
+    {
+      "slot": "W",
+      "name": "Bio-Arcane Barrage",
+      "summary": "Gain massive range and deal percent max health damage on autos.",
+      "details": "Kog'Maw's attacks gain massive bonus range and deal percent max health magic damage for several seconds."
+    },
+    {
+      "slot": "E",
+      "name": "Void Ooze",
+      "summary": "Spit ooze that damages and slows enemies in a line.",
+      "details": "Kog'Maw launches ooze that damages enemies and leaves a trail that slows enemies who stand in it."
+    },
+    {
+      "slot": "R",
+      "name": "Living Artillery",
+      "summary": "Fire artillery that deals more damage to low health targets. Costs more mana with rapid use.",
+      "details": "Kog'Maw fires artillery at a location, dealing magic damage increased by the target's missing health. Repeated use within a short time increases the mana cost."
+    }
+  ]
+}

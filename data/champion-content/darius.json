@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Darius is a lane-dominant juggernaut who stacks bleed for an execute ultimate. He excels at 1v2s and can pentakill if he gets his reset going.",
+    "howToPlay": "Passive bleeds stack to 5, then you get Noxian Might (bonus AD). Q blade edge heals massively. W slows and is an auto reset. E pulls enemies. R is a true damage execute that resets on kill. Get 5 stacks, then R through the whole team.",
+    "powerSpikes": "Darius spikes at level 6 with his execute and with Trinity Force or Stridebreaker. He's strongest in mid-game teamfights where he can reset R."
+  },
+  "strengths": [
+    "Lane bully",
+    "R resets on kills",
+    "Noxian Might is massive",
+    "Good at 1v2"
+  ],
+  "weaknesses": [
+    "Kited easily",
+    "Needs to stack passive",
+    "No gap closer",
+    "Falls off late"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Hemorrhage",
+    "summary": "Abilities bleed enemies; at 5 stacks, gain Noxian Might (massive AD).",
+    "details": "Darius's attacks and abilities apply bleed stacks up to 5. Each stack deals damage over time. At 5 stacks on any champion, Darius gains Noxian Might, granting massive bonus AD."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Decimate",
+      "summary": "Swing axe in a circle; blade edge heals and deals more damage.",
+      "details": "Darius swings his axe in a circle. Enemies hit by the blade (outer edge) take more damage and heal Darius for each champion hit."
+    },
+    {
+      "slot": "W",
+      "name": "Crippling Strike",
+      "summary": "Auto reset that slows and deals bonus damage.",
+      "details": "Darius's next auto attack deals bonus damage and slows the target. Short cooldown, refunds mana on kill."
+    },
+    {
+      "slot": "E",
+      "name": "Apprehend",
+      "summary": "Pull enemies toward you and slow them.",
+      "details": "Darius pulls all enemies in a cone toward him and slows them briefly. Passive: grants armor penetration."
+    },
+    {
+      "slot": "R",
+      "name": "Noxian Guillotine",
+      "summary": "Execute dealing true damage based on bleed stacks; resets on kill.",
+      "details": "Darius leaps to an enemy and dunks them for true damage that increases with bleed stacks. If it kills, the cooldown resets and Darius gains Noxian Might."
+    }
+  ]
+}

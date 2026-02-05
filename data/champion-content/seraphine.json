@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Seraphine is a scaling enchanter/mage who extends her abilities near allies. Her ultimate can charm an entire team if it bounces correctly.",
+    "howToPlay": "Passive: every third ability echoes. Notes: abilities near allies extend. Q deals more to low health. W shields and heals (double if ally already shielded). E slows, or roots if already slowed, or stuns if already rooted. R charms and extends through champions.",
+    "powerSpikes": "Seraphine spikes at level 6 with teamfight ultimate. AP or support items work. She scales well into late-game teamfights."
+  },
+  "strengths": [
+    "Team-wide charm ultimate",
+    "Strong teamfight scaling",
+    "Good poke and waveclear",
+    "Shield and heal"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "E needs setup for hard CC",
+    "R can miss/not extend",
+    "Weak in small skirmishes"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Stage Presence",
+    "summary": "Every third ability echoes; abilities are stronger near allies.",
+    "details": "Every third basic ability casts again. Abilities gain bonus effects when cast near allies based on how many are nearby."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "High Note",
+      "summary": "Deal damage in an area; deals more to low health targets.",
+      "details": "Seraphine projects a note that deals magic damage, increased based on the target's missing health."
+    },
+    {
+      "slot": "W",
+      "name": "Surround Sound",
+      "summary": "Shield and speed nearby allies; heal if already shielded.",
+      "details": "Seraphine surrounds herself and nearby allies with sound, granting shield and movement speed. If she's already shielded, she also heals nearby allies."
+    },
+    {
+      "slot": "E",
+      "name": "Beat Drop",
+      "summary": "Deal damage and slow; roots if already slowed, stuns if rooted.",
+      "details": "Seraphine unleashes a wave that damages and slows. Enemies already slowed are rooted. Enemies already rooted are stunned."
+    },
+    {
+      "slot": "R",
+      "name": "Encore",
+      "summary": "Charm enemies and extend through champions.",
+      "details": "Seraphine fires a captivating force that charms and damages enemies. The wave's range extends each time it hits a champion (ally or enemy)."
+    }
+  ]
+}

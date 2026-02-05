@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Pyke is an assassin support who shares kill gold with allies. His hook, stun, and execute ultimate make him a roaming threat who can snowball his entire team.",
+    "howToPlay": "Passive converts bonus health to AD and heals when unseen. Q taps for stab, holds for hook. W goes invisible and gains speed. E dashes leaving a phantom that stuns. R executes below threshold and can be recast, giving gold to assisting allies too.",
+    "powerSpikes": "Pyke spikes at level 6 with his execute ultimate. Lethality items scale his damage. He's strong roaming mid-game to spread gold across the team."
+  },
+  "strengths": [
+    "Execute shares gold",
+    "Strong roaming",
+    "Hook and stun combo",
+    "Camouflage for picks"
+  ],
+  "weaknesses": [
+    "Can't build health",
+    "Squishy support",
+    "Hook is telegraphed",
+    "Falls off against tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Gift of the Drowned Ones",
+    "summary": "Convert bonus health to AD; heal when unseen after taking damage.",
+    "details": "Pyke cannot gain bonus health; it's converted to AD instead. When he takes damage, he stores it as grey health and heals when out of enemy sight."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bone Skewer",
+      "summary": "Tap for stab; hold to throw a hook that pulls enemies.",
+      "details": "Tap: Pyke stabs forward, damaging and slowing. Hold: He throws his harpoon, pulling the first enemy hit toward him."
+    },
+    {
+      "slot": "W",
+      "name": "Ghostwater Dive",
+      "summary": "Become camouflaged and gain movement speed.",
+      "details": "Pyke enters camouflage and gains movement speed that decays over time. Being near enemies reveals him."
+    },
+    {
+      "slot": "E",
+      "name": "Phantom Undertow",
+      "summary": "Dash and leave a phantom that stuns enemies when it returns.",
+      "details": "Pyke dashes, leaving behind a phantom. The phantom returns to Pyke after a delay, stunning enemies it passes through."
+    },
+    {
+      "slot": "R",
+      "name": "Death from Below",
+      "summary": "Execute enemies below threshold; can recast and shares kill gold.",
+      "details": "Pyke blinks to a location and executes enemies below a health threshold. If it kills, he can recast within seconds. Allies who assisted also get full kill gold."
+    }
+  ]
+}

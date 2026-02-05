@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Wukong is a trickster diver who can clone himself and knock up entire teams with his spinning ultimate. He excels at teamfight disruption and assassinating carries.",
+    "howToPlay": "Passive gains armor/MR near enemies. Q extends staff and reduces armor. W creates a clone and stealths briefly (clone attacks). E dashes to target and clones attack. R spins, knocking up and gaining movement speed. W to juke, E in, R for teamfight knockups.",
+    "powerSpikes": "Wukong spikes at level 6 with double knockup (R can be cast twice). Divine Sunderer or bruiser items work. He's strong at teamfighting and diving."
+  },
+  "strengths": [
+    "R knocks up twice",
+    "W creates mind games",
+    "Good burst combo",
+    "Strong teamfighter"
+  ],
+  "weaknesses": [
+    "W clone is predictable",
+    "Falls off late game",
+    "Needs to commit",
+    "Vulnerable when R down"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Stone Skin",
+    "summary": "Gain armor and health regen near enemies.",
+    "details": "Wukong gains bonus armor and health regeneration for each nearby enemy champion."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Crushing Blow",
+      "summary": "Next attack extends range and reduces armor.",
+      "details": "Wukong's next auto attack gains range, deals bonus damage, and reduces the target's armor."
+    },
+    {
+      "slot": "W",
+      "name": "Warrior Trickster",
+      "summary": "Become invisible and leave a clone that attacks.",
+      "details": "Wukong becomes invisible briefly and creates a clone that attacks nearby enemies. The clone can trigger on-hit effects."
+    },
+    {
+      "slot": "E",
+      "name": "Nimbus Strike",
+      "summary": "Dash to an enemy; clone also dashes to nearby enemies.",
+      "details": "Wukong dashes to a target enemy, dealing damage and gaining attack speed. His clone also dashes to nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Cyclone",
+      "summary": "Spin to knock up enemies; can cast twice.",
+      "details": "Wukong spins his staff, knocking up and damaging nearby enemies while gaining movement speed. He can cast this ability a second time within a short window."
+    }
+  ]
+}

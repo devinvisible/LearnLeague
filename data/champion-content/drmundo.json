@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Dr. Mundo is an unkillable tank who regenerates massive health. He uses health as a resource and becomes nearly impossible to kill with his ultimate.",
+    "howToPlay": "Abilities cost health. Passive rejects CC periodically. Q is a slow cleaver. W creates a damage zone and stores damage to convert to healing. E empowers autos and throws. R heals massively over time. Just run at enemies and outlast them.",
+    "powerSpikes": "Mundo spikes at level 6 with his healing ultimate. Tank items with health scale his passive. He's a late-game unkillable tank."
+  },
+  "strengths": [
+    "Insane regeneration",
+    "Passive blocks one CC",
+    "No mana costs",
+    "Very tanky late game"
+  ],
+  "weaknesses": [
+    "Countered by Grievous Wounds",
+    "Q is his only CC",
+    "Weak early game",
+    "Kited easily"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Goes Where He Pleases",
+    "summary": "Periodically immune to one immobilizing effect; drops a canister to heal.",
+    "details": "Mundo resists the next immobilizing effect and instead loses health and drops a canister. Walking over it heals him and reduces the passive cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Infected Bonesaw",
+      "summary": "Throw a cleaver that damages and slows based on target's current health.",
+      "details": "Mundo throws his cleaver, dealing damage based on the target's current health and slowing them. Refunds health if it hits."
+    },
+    {
+      "slot": "W",
+      "name": "Heart Zapper",
+      "summary": "Deal damage around you and store damage taken to convert to healing.",
+      "details": "Mundo charges an electricity field that damages nearby enemies. While charging, he stores a portion of damage taken. Recast to detonate and heal for the stored damage."
+    },
+    {
+      "slot": "E",
+      "name": "Blunt Force Trauma",
+      "summary": "Empower next auto to smash and deal bonus damage based on missing health.",
+      "details": "Passive: Mundo gains bonus AD based on missing health. Active: Next auto deals bonus damage and if it kills, Mundo swats the target away."
+    },
+    {
+      "slot": "R",
+      "name": "Maximum Dosage",
+      "summary": "Gain massive health regeneration, AD, and size over several seconds.",
+      "details": "Mundo pumps himself with chemicals, gaining bonus AD, movement speed, and regenerating a huge portion of his max health over time."
+    }
+  ]
+}

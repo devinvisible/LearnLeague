@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Xayah is a feather-recalling ADC who can become untargetable during her ultimate. She excels when fighting with Rakan and at rooting enemies who step in her feather lines.",
+    "howToPlay": "Passive: abilities leave feathers. Q throws 2 feathers. W gives attack speed and lets autos pass through (leaves feathers). E recalls all feathers, rooting enemies hit by 3+. R throws feathers and goes untargetable. Set up feathers, E to root, combo with Rakan.",
+    "powerSpikes": "Xayah spikes at level 6 with her safety R. Kraken and crit scale her. She's strong with good feather setup and Rakan."
+  },
+  "strengths": [
+    "R makes untargetable",
+    "E root is powerful CC",
+    "Synergy with Rakan",
+    "Good waveclear"
+  ],
+  "weaknesses": [
+    "Needs feather setup",
+    "Short range",
+    "E is predictable",
+    "Weaker without Rakan"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Clean Cuts",
+    "summary": "Abilities throw feathers that stay on the ground.",
+    "details": "After casting an ability, Xayah's next autos throw feathers that pass through targets and drop on the ground behind them."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Double Daggers",
+      "summary": "Throw two feathers that deal damage in a line.",
+      "details": "Xayah throws two daggers that deal damage to all enemies they pass through, each leaving a feather."
+    },
+    {
+      "slot": "W",
+      "name": "Deadly Plumage",
+      "summary": "Gain attack speed; autos pass through and leave feathers.",
+      "details": "Xayah creates a storm of blades, gaining attack speed. Her autos deal increased damage, pass through targets, and leave feathers. If Rakan is nearby, he also gains the buff."
+    },
+    {
+      "slot": "E",
+      "name": "Bladecaller",
+      "summary": "Recall all feathers; root enemies hit by 3+.",
+      "details": "Xayah recalls all feathers, dealing damage to enemies they pass through. Enemies hit by 3 or more feathers are rooted."
+    },
+    {
+      "slot": "R",
+      "name": "Featherstorm",
+      "summary": "Become untargetable and throw a fan of feathers.",
+      "details": "Xayah leaps into the air, becoming untargetable, then throws a fan of feathers that damage enemies."
+    }
+  ]
+}

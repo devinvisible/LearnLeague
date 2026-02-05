@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Lillia is a skirmishing AP jungler who stacks movement speed and puts enemies to sleep. She excels at kiting around fights with her constant speed.",
+    "howToPlay": "Passive deals burn damage and hitting abilities stacks movement speed. Q swings (edge deals true damage). W slams with a delay. E rolls a seed that blooms on terrain or champions. R puts all Dream-marked enemies to sleep. Keep hitting abilities for speed, R for AoE sleep.",
+    "powerSpikes": "Lillia spikes at level 6 with her sleep ultimate. Liandry's burns with her passive. She's strong at kiting and teamfighting."
+  },
+  "strengths": [
+    "R sleeps multiple enemies",
+    "Fast with passive stacks",
+    "Good clear speed",
+    "Percent health damage"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "Needs to stack speed",
+    "W is slow",
+    "Vulnerable to hard CC"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Dream-Laden Bough",
+    "summary": "Abilities deal burn damage and stack movement speed.",
+    "details": "Lillia's abilities deal additional magic damage over time. Hitting abilities grants stacking movement speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Blooming Blows",
+      "summary": "Swing and deal damage; outer edge deals true damage.",
+      "details": "Lillia swings her censer, dealing magic damage. Enemies hit by the outer edge take bonus true damage."
+    },
+    {
+      "slot": "W",
+      "name": "Watch Out! Eep!",
+      "summary": "Slam an area after a delay; center deals more damage.",
+      "details": "Lillia slams down at a target area after a delay. Enemies in the center take significantly more damage."
+    },
+    {
+      "slot": "E",
+      "name": "Swirlseed",
+      "summary": "Roll a seed that speeds up and blooms on terrain or champions.",
+      "details": "Lillia rolls a seed that speeds up over distance. It blooms on hitting terrain or an enemy champion, dealing damage and slowing."
+    },
+    {
+      "slot": "R",
+      "name": "Lilting Lullaby",
+      "summary": "Put all Dream-marked enemies to sleep; they take bonus damage on wake.",
+      "details": "All enemy champions marked by Lillia's passive are put to sleep after a short delay. They take bonus damage when the sleep is broken."
+    }
+  ]
+}

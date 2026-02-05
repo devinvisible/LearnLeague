@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Amumu is a tank jungler with two bandage tosses and a teamfight-winning ultimate. He's simple to play and excels at engaging on grouped enemies.",
+    "howToPlay": "Q has two charges for engaging or chasing. W toggles AoE tears around you. E deals damage and reduces cooldown when hit. R stuns all enemies around you. Q into a group, R, then W-E for massive AoE damage and CC.",
+    "powerSpikes": "Amumu spikes at level 6 with his AoE stun ultimate. Sunfire and tank items scale his damage and durability. He's strong in teamfights at all stages."
+  },
+  "strengths": [
+    "Game-changing R stun",
+    "Two Q charges for engage",
+    "Tanky and simple",
+    "Good jungle clear"
+  ],
+  "weaknesses": [
+    "Q can miss",
+    "Weak early dueling",
+    "Needs team follow-up",
+    "Predictable engage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Cursed Touch",
+    "summary": "Auto attacks curse enemies to take bonus true damage.",
+    "details": "Amumu's basic attacks curse enemies for a few seconds, causing them to take bonus true damage from incoming magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bandage Toss",
+      "summary": "Throw a bandage that pulls you to the first enemy hit. Two charges.",
+      "details": "Amumu throws out a bandage, pulling himself to the first enemy hit and stunning them. Stores up to two charges."
+    },
+    {
+      "slot": "W",
+      "name": "Despair",
+      "summary": "Toggle AoE tears that deal percent health magic damage around you.",
+      "details": "Amumu cries, dealing magic damage per second to nearby enemies based on their max health. Drains mana while active."
+    },
+    {
+      "slot": "E",
+      "name": "Tantrum",
+      "summary": "Deal AoE damage around you; cooldown reduced when hit.",
+      "details": "Amumu has a tantrum, dealing magic damage to nearby enemies. Passively reduces physical damage taken, and the cooldown is reduced each time Amumu is hit."
+    },
+    {
+      "slot": "R",
+      "name": "Curse of the Sad Mummy",
+      "summary": "Stun all nearby enemies in a large area.",
+      "details": "Amumu entangles all nearby enemies, dealing magic damage and stunning them. One of the best teamfight ultimates in the game."
+    }
+  ]
+}

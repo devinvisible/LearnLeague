@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nocturne is a diving assassin whose ultimate blinds the entire enemy team while he dashes to a target. His global darkness creates fear even before he engages.",
+    "howToPlay": "Q throws shadow and gives movement speed on the trail. W is a spell shield that also gives attack speed on block. E fears after a tether. R darkens the map (no ally vision) and lets you dash to any visible enemy champion.",
+    "powerSpikes": "Nocturne spikes at level 6 with his global engage. Stridebreaker or lethality builds work. He's strong mid-game at diving backlines."
+  },
+  "strengths": [
+    "Global darkness and dive",
+    "Spell shield blocks abilities",
+    "Strong dueling with fear",
+    "Great at picking squishies"
+  ],
+  "weaknesses": [
+    "All-in with no escape",
+    "Falls off late against peel",
+    "W must be timed well",
+    "Predictable engage pattern"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Umbra Blades",
+    "summary": "Periodically, autos cleave and heal Nocturne.",
+    "details": "Every few seconds, Nocturne's next auto attack deals damage to nearby enemies and heals him. Cooldown reduced by auto attacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Duskbringer",
+      "summary": "Throw a shadow blade that leaves a trail granting speed and AD.",
+      "details": "Nocturne throws a shadow blade, damaging enemies and leaving a Dusk Trail. While on the trail, Nocturne gains bonus AD and movement speed."
+    },
+    {
+      "slot": "W",
+      "name": "Shroud of Darkness",
+      "summary": "Passive: gain attack speed. Active: spell shield that gives more attack speed on block.",
+      "details": "Passive: Nocturne gains bonus attack speed. Active: Create a spell shield that blocks the next ability. If it blocks something, gain doubled attack speed."
+    },
+    {
+      "slot": "E",
+      "name": "Unspeakable Horror",
+      "summary": "Tether to an enemy; if it holds, fear them.",
+      "details": "Nocturne creates a tether to an enemy, dealing damage. If the tether isn't broken, the target is feared."
+    },
+    {
+      "slot": "R",
+      "name": "Paranoia",
+      "summary": "Darken the map and gain the ability to dash to any visible enemy champion.",
+      "details": "Nocturne reduces enemy vision radius and removes ally vision. He can then recast to dash to an enemy champion in range."
+    }
+  ]
+}

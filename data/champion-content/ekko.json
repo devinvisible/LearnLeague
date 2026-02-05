@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ekko is a time-manipulating assassin who can rewind to his position a few seconds ago. He excels at diving, bursting, then rewinding to safety.",
+    "howToPlay": "Passive procs on 3rd hit for burst. Q boomerangs and slows. W creates a delayed stun zone (reveals when he enters). E dashes then blinks to target. R rewinds you to your position 4 seconds ago, healing and dealing AoE damage. Go in, burst, R out.",
+    "powerSpikes": "Ekko spikes at level 6 with his escape ultimate. Hextech Rocketbelt adds another gap closer. He's strong in skirmishes and picks."
+  },
+  "strengths": [
+    "R is a get-out-of-jail card",
+    "High burst damage",
+    "Good waveclear",
+    "W zone control"
+  ],
+  "weaknesses": [
+    "W is slow and telegraphed",
+    "Needs 3 hits for passive",
+    "R position is visible to enemies",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Z-Drive Resonance",
+    "summary": "Third hit or ability on a target deals bonus damage and gives you movement speed.",
+    "details": "Every third attack or ability against the same target deals bonus magic damage and grants Ekko movement speed. Has a cooldown per target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Timewinder",
+      "summary": "Throw a device that slows, then returns dealing damage.",
+      "details": "Ekko throws a device that expands, damaging and slowing enemies. It then contracts and returns, dealing damage again."
+    },
+    {
+      "slot": "W",
+      "name": "Parallel Convergence",
+      "summary": "After a delay, create a zone that stuns enemies if you enter.",
+      "details": "Ekko opens a time rift that activates after a delay. If Ekko enters the zone, enemies inside are stunned and he gains a shield. Otherwise, enemies are only slowed."
+    },
+    {
+      "slot": "E",
+      "name": "Phase Dive",
+      "summary": "Dash, then blink to an enemy with your next attack.",
+      "details": "Ekko dashes a short distance. His next attack gains range and causes him to blink to the target, dealing bonus damage."
+    },
+    {
+      "slot": "R",
+      "name": "Chronobreak",
+      "summary": "Rewind to your position 4 seconds ago, healing and dealing AoE damage.",
+      "details": "Ekko becomes untargetable and rewinds to where he was 4 seconds ago (shown by his hologram). On arrival, he heals and deals massive damage to nearby enemies."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Blitzcrank is a hook support who can single-handedly win fights by grabbing a squishy. Landing one hook can instantly delete an enemy carry.",
+    "howToPlay": "Q hooks the first enemy hit and pulls them to you. W gives speed but slows after. E knocks up your next auto attack. R silences and damages around you. Land Q, E knockup, R silence for full combo. One hook wins fights.",
+    "powerSpikes": "Blitzcrank spikes at level 2 with hook-knockup combo. He's strong at all stages - one hook can always win a fight regardless of game time."
+  },
+  "strengths": [
+    "Hook wins fights instantly",
+    "Strong all-in combo",
+    "Silence disrupts channels",
+    "Tanky with passive shield"
+  ],
+  "weaknesses": [
+    "Hook can miss",
+    "W slows you after",
+    "Hook blocked by minions",
+    "Falls behind if missing hooks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mana Barrier",
+    "summary": "When low on health, gain a shield based on mana.",
+    "details": "When Blitzcrank drops to low health, he gains a shield that absorbs damage based on his current mana. Has a long cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Rocket Grab",
+      "summary": "Fire a fist that grabs the first enemy hit and pulls them to you.",
+      "details": "Blitzcrank fires his right hand, grabbing the first enemy hit and pulling them to him, dealing damage and stunning briefly."
+    },
+    {
+      "slot": "W",
+      "name": "Overdrive",
+      "summary": "Gain massive movement speed, but slow yourself when it ends.",
+      "details": "Blitzcrank supercharges, gaining movement and attack speed for a few seconds. When it ends, he's slowed briefly."
+    },
+    {
+      "slot": "E",
+      "name": "Power Fist",
+      "summary": "Next auto attack knocks up the target.",
+      "details": "Blitzcrank charges his fist, causing his next auto attack to deal double damage and knock up the target."
+    },
+    {
+      "slot": "R",
+      "name": "Static Field",
+      "summary": "Passive: autos spark lightning. Active: Silence and damage enemies around you.",
+      "details": "Passive: Auto attacks zap a nearby enemy for magic damage. Active: Blitzcrank detonates, dealing damage and silencing all nearby enemies."
+    }
+  ]
+}

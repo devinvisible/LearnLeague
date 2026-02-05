@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Malzahar is a suppression mage who locks down a single target with his ultimate. He excels at deleting priority targets while his voidlings do extra damage.",
+    "howToPlay": "Passive gives a spell shield periodically. Q silences in a line. W spawns voidlings that attack nearby targets. E spreads a damage-over-time (resets on kill, spreads to nearby). R suppresses a target while dealing percent health damage. E wave, R priority target.",
+    "powerSpikes": "Malzahar spikes at level 6 with his suppression ultimate. Liandry's burn synergizes with his damage over time. He's strong at picks and objective control."
+  },
+  "strengths": [
+    "R suppression is guaranteed",
+    "Passive blocks abilities",
+    "Good waveclear with E",
+    "Voidlings add damage"
+  ],
+  "weaknesses": [
+    "R roots yourself",
+    "R cleansed by QSS",
+    "Weak early game",
+    "Low mobility"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Void Shift",
+    "summary": "Periodically gain a spell shield that blocks crowd control.",
+    "details": "After not taking damage for a while, Malzahar gains a spell shield that blocks the next enemy ability and crowd control."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Call of the Void",
+      "summary": "Open two portals that silence enemies between them.",
+      "details": "Malzahar opens two portals that fire after a delay, damaging and silencing enemies between them."
+    },
+    {
+      "slot": "W",
+      "name": "Void Swarm",
+      "summary": "Spawn voidlings that attack nearby enemies.",
+      "details": "Malzahar spawns a voidling. Voidlings deal more damage to targets affected by Malefic Visions and multiply when they kill units."
+    },
+    {
+      "slot": "E",
+      "name": "Malefic Visions",
+      "summary": "Damage over time that spreads to nearby enemies on kill.",
+      "details": "Malzahar infects an enemy with visions, dealing damage over time. If the target dies, it spreads to a nearby enemy and restores mana."
+    },
+    {
+      "slot": "R",
+      "name": "Nether Grasp",
+      "summary": "Suppress an enemy while dealing percent max health damage.",
+      "details": "Malzahar suppresses an enemy champion, dealing percent max health damage over time. He's also rooted during the channel."
+    }
+  ]
+}

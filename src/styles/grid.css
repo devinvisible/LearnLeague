@@ -1,0 +1,475 @@
+/* Champion Grid Page Styles */
+
+.champion-grid-page {
+  min-height: 100vh;
+  padding: var(--space-lg);
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg) 0;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: var(--accent-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.page-header .subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
+/* Filter Bar */
+.filter-bar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+  margin-bottom: var(--space-lg);
+  padding: var(--space-lg);
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-lg);
+}
+
+.filter-row.compact {
+  gap: var(--space-xl);
+}
+
+.filter-row.search-row {
+  gap: var(--space-md);
+}
+
+.search-input {
+  flex: 1;
+  min-width: 200px;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-primary);
+  font-size: 1rem;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.clear-filters {
+  padding: var(--space-sm) var(--space-md);
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.clear-filters:hover {
+  border-color: #ef4444;
+  color: #ef4444;
+}
+
+/* Filter Groups */
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.filter-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+}
+
+.filter-chip {
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-chip:hover {
+  border-color: var(--border-color-hover);
+  color: var(--text-primary);
+}
+
+.filter-chip.active {
+  background: var(--accent-secondary);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+/* Results Info */
+.results-info {
+  max-width: 1400px;
+  margin: 0 auto var(--space-md);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Champion Grid */
+.champion-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--space-md);
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Champion Card */
+.champion-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--space-md);
+  padding-top: calc(var(--space-md) + 8px);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.champion-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-color-hover);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.champion-card.learned {
+  border-color: var(--accent-secondary);
+}
+
+.champion-card.learned::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--accent-primary);
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+}
+
+/* Learned Indicator */
+.card-learned-indicator {
+  position: absolute;
+  top: var(--space-xs);
+  right: var(--space-xs);
+  z-index: 1;
+}
+
+.learned-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  background: var(--bg-tertiary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  color: var(--accent-primary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.learned-checkbox:hover {
+  border-color: var(--accent-primary);
+}
+
+.learned-checkbox.checked {
+  background: var(--accent-secondary);
+  border-color: var(--accent-primary);
+}
+
+.champion-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: var(--radius-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.champion-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: var(--space-xs);
+  width: 100%;
+}
+
+.champion-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.9rem;
+}
+
+.champion-classes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+}
+
+.class-badge {
+  font-size: 0.65rem;
+  padding: 1px 4px;
+  border-radius: 2px;
+  background: var(--bg-tertiary);
+  color: var(--text-secondary);
+}
+
+/* Class color variants */
+.class-badge.class-mage {
+  background: rgba(59, 130, 246, 0.2);
+  color: var(--class-mage);
+}
+
+.class-badge.class-slayer {
+  background: rgba(168, 85, 247, 0.2);
+  color: var(--class-slayer);
+}
+
+.class-badge.class-fighter {
+  background: rgba(249, 115, 22, 0.2);
+  color: var(--class-fighter);
+}
+
+.class-badge.class-tank {
+  background: rgba(34, 197, 94, 0.2);
+  color: var(--class-tank);
+}
+
+.class-badge.class-controller {
+  background: rgba(20, 184, 166, 0.2);
+  color: var(--class-controller);
+}
+
+.class-badge.class-marksman {
+  background: rgba(234, 179, 8, 0.2);
+  color: var(--class-marksman);
+}
+
+.class-badge.class-specialist {
+  background: rgba(107, 114, 128, 0.2);
+  color: var(--class-specialist);
+}
+
+.champion-lanes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2px;
+  margin-top: 2px;
+}
+
+.lane-badge {
+  font-size: 0.6rem;
+  padding: 1px 3px;
+  border-radius: 2px;
+  background: var(--bg-secondary);
+  color: var(--text-muted);
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: var(--space-2xl);
+  color: var(--text-muted);
+}
+
+.no-results p:first-child {
+  font-size: 1.1rem;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+  .champion-grid-page {
+    padding: var(--space-md);
+  }
+
+  .filter-bar {
+    padding: var(--space-md);
+  }
+
+  .filter-row.compact {
+    flex-direction: column;
+    gap: var(--space-md);
+  }
+
+  .champion-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: var(--space-sm);
+  }
+
+  .champion-card {
+    padding: var(--space-sm);
+    padding-top: calc(var(--space-sm) + 8px);
+  }
+
+  .champion-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .champion-name {
+    font-size: 0.8rem;
+  }
+
+  .class-badge {
+    font-size: 0.6rem;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+  .champion-grid-page {
+    padding: var(--space-sm);
+  }
+
+  .page-header {
+    margin-bottom: var(--space-lg);
+    padding: var(--space-md) 0;
+  }
+
+  .page-header h1 {
+    font-size: 1.75rem;
+  }
+
+  .page-header .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .filter-bar {
+    padding: var(--space-sm);
+    gap: var(--space-sm);
+  }
+
+  .filter-row {
+    gap: var(--space-sm);
+  }
+
+  .filter-row.search-row {
+    flex-direction: column;
+  }
+
+  .search-input {
+    min-width: 100%;
+    font-size: 16px; /* Prevents iOS zoom on focus */
+  }
+
+  .clear-filters {
+    width: 100%;
+  }
+
+  .filter-label {
+    font-size: 0.7rem;
+  }
+
+  .filter-chip {
+    font-size: 0.75rem;
+    padding: 6px var(--space-sm);
+  }
+
+  .champion-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xs);
+  }
+
+  .champion-card {
+    padding: var(--space-xs);
+    padding-top: calc(var(--space-xs) + 6px);
+  }
+
+  .champion-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .champion-name {
+    font-size: 0.7rem;
+  }
+
+  .champion-classes {
+    gap: 1px;
+  }
+
+  .class-badge {
+    font-size: 0.55rem;
+    padding: 1px 2px;
+  }
+
+  .champion-lanes {
+    display: none; /* Hide lanes on mobile to reduce clutter */
+  }
+
+  .card-learned-indicator {
+    top: 2px;
+    right: 2px;
+  }
+
+  .learned-checkbox {
+    width: 16px;
+    height: 16px;
+    font-size: 0.6rem;
+  }
+
+  .results-info {
+    font-size: 0.8rem;
+    padding: 0 var(--space-xs);
+  }
+
+  .no-results {
+    padding: var(--space-xl);
+  }
+
+  .no-results p:first-child {
+    font-size: 1rem;
+  }
+}
+
+/* Focus improvements for filter chips */
+.filter-chip:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}
+
+.learned-checkbox:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}

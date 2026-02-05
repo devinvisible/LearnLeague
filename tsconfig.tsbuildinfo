@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/abilitycard.tsx","./src/components/championcard.tsx","./src/components/externallinks.tsx","./src/components/filterbar.tsx","./src/lib/champion-data.ts","./src/lib/filters.ts","./src/lib/storage.ts","./src/routes/championdetail.tsx","./src/routes/championgrid.tsx"],"version":"5.6.3"}

@@ -1,0 +1,55 @@
+{
+  "classes": ["Burst", "Skirmisher"],
+  "rangeType": "Melee",
+  "damageType": "Magic",
+  "lanes": ["Top", "Middle"],
+  "playstyle": {
+    "identity": "Sylas is an AP bruiser who steals enemy ultimates, making every game different. His kit combines burst, healing, and mobility with the unpredictability of using the enemy team's own ultimates against them.",
+    "howToPlay": "Trade with E (dash) > Q (damage) > auto attacks (passive procs). Your passive makes your autos deal AoE magic damage after abilities - weave them in. W heals more when you're low - use it mid-fight. Steal the most impactful enemy ult and look for game-changing plays.",
+    "powerSpikes": "Sylas spikes at level 6 when he can steal ultimates. He's strong in mid-game skirmishes with 2 items. His scaling depends heavily on enemy team comp - some stolen ults are game-winning."
+  },
+  "strengths": [
+    "Steals enemy ultimates for versatile plays",
+    "High sustain with W healing",
+    "Good mobility with double E dash",
+    "Strong burst and extended fights"
+  ],
+  "weaknesses": [
+    "Effectiveness depends on enemy ultimates",
+    "Struggles into heavy poke/kiting",
+    "Falls off if behind",
+    "Mana hungry in lane"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Petricite Burst",
+    "summary": "After casting an ability, your next auto attack whirls chains in an AoE.",
+    "details": "After using an ability, Sylas' next basic attack whirls his chains around him, dealing bonus magic damage to the target and all nearby enemies. This is a huge part of his damage - always weave auto attacks between abilities for maximum DPS."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Chain Lash",
+      "summary": "Lash out chains that intersect and explode after a delay.",
+      "details": "Sylas lashes his chains out in an X pattern. After a brief delay, the intersection detonates, dealing bonus damage and slowing enemies. Landing the intersection is key to your burst - practice the timing. Good for waveclear and poke."
+    },
+    {
+      "slot": "W",
+      "name": "Kingslayer",
+      "summary": "Dash to an enemy and deal damage; heal yourself, increased when low health.",
+      "details": "Sylas lunges at an enemy, dealing magic damage and healing himself. Both damage and healing are increased based on the target's and Sylas' missing health respectively. This is your sustain in fights - the lower you are, the more you heal."
+    },
+    {
+      "slot": "E",
+      "name": "Abscond / Abduct",
+      "summary": "Dash forward; recast to throw chains that pull you to the first enemy hit.",
+      "details": "Abscond: Sylas dashes in a direction, gaining a small shield. Abduct (recast): Sylas throws his chains, pulling himself to the first enemy hit and knocking them up briefly. This is your engage, escape, and combo starter - two dashes make you very mobile."
+    },
+    {
+      "slot": "R",
+      "name": "Hijack",
+      "summary": "Steal an enemy champion's ultimate and cast it as your own.",
+      "details": "Sylas steals the ultimate of a target enemy champion, replacing Hijack with their ult for a period of time. Stolen ults scale with Sylas' stats (AP) rather than the original champion's. Some ults are incredible on Sylas (Malphite R, Amumu R) while others are weaker. Target priority matters."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Akali is a high-mobility assassin who weaves in and out of fights with her shroud. She excels at diving backlines and escaping with her multiple dashes.",
+    "howToPlay": "Use passive-empowered autos between abilities for maximum damage. W shroud grants invisibility and energy restore. E marks targets for a second dash. R1 engages, R2 executes. Combo: R1 > E > Q > auto > E2 > Q > R2.",
+    "powerSpikes": "Akali spikes at level 6 with her execute ultimate. Hextech Rocketbelt adds another gap closer. She's strong in mid-game skirmishes and picks."
+  },
+  "strengths": [
+    "Extremely mobile with multiple dashes",
+    "Shroud provides safety and outplay",
+    "High burst damage",
+    "Strong tower diving"
+  ],
+  "weaknesses": [
+    "High skill ceiling",
+    "Weak waveclear early",
+    "Falls off against tanks",
+    "Energy gated in extended fights"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Assassin's Mark",
+    "summary": "Abilities create a ring around enemies; crossing it empowers next auto.",
+    "details": "Damaging a champion with an ability creates a ring around them. Crossing the ring empowers Akali's next auto attack to deal bonus magic damage and restore energy."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Five Point Strike",
+      "summary": "Throws kunai in a cone, slowing at max range.",
+      "details": "Akali throws kunai in a cone, dealing magic damage. Enemies at maximum range are briefly slowed. At max rank, heals Akali if she's missing health."
+    },
+    {
+      "slot": "W",
+      "name": "Twilight Shroud",
+      "summary": "Creates a smoke cloud that grants invisibility and restores energy.",
+      "details": "Akali drops a smoke bomb, creating a shroud that expands. While inside, she's invisible and gains movement speed. Restores energy and extends duration when entering. Attacking briefly reveals her."
+    },
+    {
+      "slot": "E",
+      "name": "Shuriken Flip",
+      "summary": "Backflip that throws a shuriken; recast to dash to marked target.",
+      "details": "Akali flips backward, throwing a shuriken that damages and marks the first enemy hit. Recast to dash to the marked target, dealing damage again."
+    },
+    {
+      "slot": "R",
+      "name": "Perfect Execution",
+      "summary": "Two-part ultimate: first dash stuns, second dash executes low health targets.",
+      "details": "First cast: Akali dashes through an enemy champion, dealing damage and briefly stunning. Second cast: Dash in a direction, dealing damage that scales with missing health. Must wait briefly between casts."
+    }
+  ]
+}

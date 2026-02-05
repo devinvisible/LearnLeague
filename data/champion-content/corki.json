@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Corki is a poke ADC whose damage is mostly magic despite building AD. His Package lets him roam with a devastating zone control ability.",
+    "howToPlay": "Passive converts most damage to magic. Q is a bomb. W dashes and burns. E shreds armor in a cone. R fires rockets (Big One every 3rd). Package spawns in base - pick up for mega W dash. Poke with R, all-in with W, Package for roams.",
+    "powerSpikes": "Corki spikes with first Package (8 min) and Trinity Force. Crit and AD scale his magic damage. He's strong at poke and bursting squishies."
+  },
+  "strengths": [
+    "Magic damage from AD build",
+    "Good poke with R",
+    "Package provides roams",
+    "Strong mid-game burst"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Package has long CD",
+    "Falls off late",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Hextech Munitions",
+    "summary": "Auto attacks deal mostly magic damage. Periodically, The Package spawns in base.",
+    "details": "Corki's auto attacks deal 80% magic and 20% physical damage. Periodically, The Package spawns in base - picking it up empowers Valkyrie."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Phosphorus Bomb",
+      "summary": "Throw a bomb that damages and reveals enemies.",
+      "details": "Corki throws a bomb at a target location, dealing magic damage to enemies and revealing them for a few seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Valkyrie",
+      "summary": "Dash and leave a burning trail. Package: massive dash that knocks aside and burns.",
+      "details": "Corki dashes in a direction, leaving a fire trail. With Package: Special Delivery is a longer dash that knocks enemies aside and leaves a massive burning zone."
+    },
+    {
+      "slot": "E",
+      "name": "Gatling Gun",
+      "summary": "Fire a cone of bullets that shred armor and magic resist.",
+      "details": "Corki fires his gatling gun in a cone, dealing damage over time and shredding enemy armor and magic resist with each tick."
+    },
+    {
+      "slot": "R",
+      "name": "Missile Barrage",
+      "summary": "Fire rockets that poke; every 3rd is a Big One with larger damage and AoE.",
+      "details": "Corki fires a missile that damages enemies. He stores missiles over time (up to 7). Every third missile is a Big One, dealing increased damage in a larger area."
+    }
+  ]
+}
