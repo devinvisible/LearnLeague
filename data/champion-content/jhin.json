@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Jhin is an artistic marksman who fires exactly four shots, with the fourth always critting. He builds AD and crit into movement speed, excelling at picks and poke.",
+    "howToPlay": "4 bullets - 4th always crits and grants speed. Passive converts attack speed to AD and crit to movement speed. Q bounces between targets. W roots if target was recently damaged by ally. E places traps. R fires 4 global sniper shots. Reload during W or R animation.",
+    "powerSpikes": "Jhin spikes with Infinity Edge and crit items. He's strong at picks and teamfight poke throughout."
+  },
+  "strengths": [
+    "4th shot executes",
+    "W root catches targets",
+    "R pokes globally",
+    "Movement speed from crits"
+  ],
+  "weaknesses": [
+    "Must reload",
+    "Low DPS without 4th shot",
+    "No mobility without passive",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Whisper",
+    "summary": "Four shots (4th crits); attack speed becomes AD, crits give movement speed.",
+    "details": "Jhin fires 4 shots then reloads. The 4th shot always crits with bonus damage. He can't gain attack speed normally - bonus attack speed becomes bonus AD. Critical strikes grant movement speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dancing Grenade",
+      "summary": "Throw a grenade that bounces between enemies, dealing more damage on kills.",
+      "details": "Jhin throws a canister that bounces to up to 4 targets. Each kill increases the next bounce's damage."
+    },
+    {
+      "slot": "W",
+      "name": "Deadly Flourish",
+      "summary": "Fire a long-range shot that roots enemies recently damaged by allies.",
+      "details": "Jhin fires a shot in a line, dealing damage and revealing. Enemies damaged by Jhin or allies recently are rooted."
+    },
+    {
+      "slot": "E",
+      "name": "Captive Audience",
+      "summary": "Place invisible traps that slow and damage enemies.",
+      "details": "Jhin places an invisible trap that reveals and slows enemies. After a delay, it detonates dealing damage. Enemies killed by Jhin spawn traps."
+    },
+    {
+      "slot": "R",
+      "name": "Curtain Call",
+      "summary": "Fire 4 long-range shots in a cone; 4th deals massive damage.",
+      "details": "Jhin sets up his sniper rifle and fires up to 4 shots globally in a cone. Each shot damages and slows; the 4th shot deals massive damage based on missing health."
+    }
+  ]
+}

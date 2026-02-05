@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Teemo is an annoying yordle who poisons enemies and hides mushrooms across the map. He excels at tilting opponents and map control through shroom placement.",
+    "howToPlay": "Passive makes you invisible when standing still. Q blinds (enemy autos miss). W gives speed. E poisons on autos. R places invisible mushrooms that explode for damage and slow. Shroom high-traffic areas for vision and damage.",
+    "powerSpikes": "Teemo spikes at level 6 with mushrooms. Liandry's makes poison and shrooms burn harder. He's strong at kiting and map control."
+  },
+  "strengths": [
+    "Mushrooms provide vision",
+    "Blind counters auto-attackers",
+    "Good kiting with W",
+    "Annoying to play against"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "Short range",
+    "Mushrooms cleared by sweeper",
+    "Falls off in teamfights"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Guerrilla Warfare",
+    "summary": "Become invisible when standing still; gain attack speed when exiting.",
+    "details": "After a delay of not moving, Teemo becomes invisible. When he breaks stealth, he gains bonus attack speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Blinding Dart",
+      "summary": "Blind an enemy, causing their auto attacks to miss.",
+      "details": "Teemo shoots a dart that deals magic damage and blinds the target, causing their auto attacks to miss."
+    },
+    {
+      "slot": "W",
+      "name": "Move Quick",
+      "summary": "Gain movement speed; activate for more speed.",
+      "details": "Passive: Teemo gains bonus movement speed if he hasn't been damaged recently. Active: Double the bonus briefly."
+    },
+    {
+      "slot": "E",
+      "name": "Toxic Shot",
+      "summary": "Auto attacks poison enemies for damage over time.",
+      "details": "Teemo's auto attacks deal bonus magic damage on-hit and poison enemies, dealing damage over time."
+    },
+    {
+      "slot": "R",
+      "name": "Noxious Trap",
+      "summary": "Place invisible mushrooms that explode, poisoning and slowing.",
+      "details": "Teemo places a poisonous mushroom that becomes invisible. When enemies step on it, it explodes dealing damage over time and slowing."
+    }
+  ]
+}

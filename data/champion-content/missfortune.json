@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Miss Fortune is an AoE ADC whose ultimate channels massive damage in a cone. She excels at teamfighting and poking with her bouncing Q.",
+    "howToPlay": "Passive: first auto on a target deals bonus damage. Q bounces to a second target (crits if first target dies). W gives attack speed and speed out of combat. E creates a slow zone. R channels a barrage of bullets in a cone. Position well, R into grouped enemies.",
+    "powerSpikes": "Miss Fortune spikes at level 6 with her teamfight ultimate. Lethality or crit scale her. She's strong at AoE damage."
+  },
+  "strengths": [
+    "Devastating R in teamfights",
+    "Strong laning with Q poke",
+    "Good waveclear",
+    "Passive for trading"
+  ],
+  "weaknesses": [
+    "R can be interrupted",
+    "Immobile",
+    "R roots her in place",
+    "Falls off if R misses"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Love Tap",
+    "summary": "First auto on each target deals bonus damage.",
+    "details": "Miss Fortune's first basic attack against a target deals bonus damage. Switching targets maximizes her damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Double Up",
+      "summary": "Fire a shot that bounces; second hit crits if first target dies.",
+      "details": "Miss Fortune fires a shot that bounces to an enemy behind the first. If the first target dies, the second hit critically strikes."
+    },
+    {
+      "slot": "W",
+      "name": "Strut",
+      "summary": "Passive: gain movement speed when not hit. Active: gain attack speed.",
+      "details": "Passive: Miss Fortune gains movement speed after not taking damage. Active: Gain attack speed and movement speed."
+    },
+    {
+      "slot": "E",
+      "name": "Make It Rain",
+      "summary": "Rain bullets in an area that slows and damages enemies.",
+      "details": "Miss Fortune fires a barrage of bullets at a location, dealing damage over time and slowing enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Bullet Time",
+      "summary": "Channel a barrage of bullets in a cone, dealing massive damage.",
+      "details": "Miss Fortune channels, firing waves of bullets in a cone. Each wave can critically strike. She's rooted during the channel."
+    }
+  ]
+}

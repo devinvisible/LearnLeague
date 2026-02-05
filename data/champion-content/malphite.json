@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Malphite is a rock-solid tank whose ultimate is an unstoppable engage. He excels at teamfighting against AD-heavy teams with his armor stacking.",
+    "howToPlay": "Passive gives a shield that regenerates out of combat. Q steals movement speed. W empowers autos with AoE. E slows attack speed around you. R is an unstoppable knockup dash. Stack armor, press R on grouped enemies, win.",
+    "powerSpikes": "Malphite spikes at level 6 with his engage ultimate. Armor items counter AD teams. He's strong at teamfight engage at all stages."
+  },
+  "strengths": [
+    "R is unstoppable engage",
+    "Counters AD champions",
+    "Tanky with armor stacking",
+    "Simple and effective"
+  ],
+  "weaknesses": [
+    "Weak against AP",
+    "R has long cooldown",
+    "Useless without R",
+    "Weak laning phase"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Granite Shield",
+    "summary": "Gain a shield that regenerates when out of combat.",
+    "details": "Malphite has a shield equal to a percentage of his max health. The shield regenerates after not taking damage for a while."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Seismic Shard",
+      "summary": "Throw a rock that damages and steals movement speed.",
+      "details": "Malphite hurls a shard at an enemy, dealing damage, slowing them, and stealing their movement speed."
+    },
+    {
+      "slot": "W",
+      "name": "Thunderclap",
+      "summary": "Passive: gain armor. Active: empower autos to deal AoE damage.",
+      "details": "Passive: Malphite gains bonus armor, tripled while his shield is active. Active: His auto attacks deal bonus AoE damage for a few seconds."
+    },
+    {
+      "slot": "E",
+      "name": "Ground Slam",
+      "summary": "Slam the ground to damage and slow enemy attack speed.",
+      "details": "Malphite slams the ground, dealing damage to nearby enemies and reducing their attack speed."
+    },
+    {
+      "slot": "R",
+      "name": "Unstoppable Force",
+      "summary": "Dash to a location, knocking up all enemies. Unstoppable.",
+      "details": "Malphite charges to a target location, dealing damage and knocking up all enemies in the area. This dash cannot be stopped by crowd control."
+    }
+  ]
+}

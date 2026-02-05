@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Renekton is a lane-dominant early-game bruiser who generates fury for empowered abilities. He excels at snowballing lanes and diving with his ultimate.",
+    "howToPlay": "Fury enhances abilities at 50+. Q heals and damages (more healing empowered). W stuns (empowered breaks shields and stuns longer). E dashes twice if you hit an enemy. R gives health, fury generation, and damages around you.",
+    "powerSpikes": "Renekton spikes at levels 3-6 and with first item. Eclipse or Goredrinker work. He's dominant early but falls off hard late."
+  },
+  "strengths": [
+    "Lane bully",
+    "Strong early-mid game",
+    "Good tower diving with R",
+    "Point-and-click stun"
+  ],
+  "weaknesses": [
+    "Falls off hard late",
+    "Needs fury for empowered",
+    "Short range",
+    "Kited easily"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Reign of Anger",
+    "summary": "Generate fury from attacks; at 50+ fury, abilities are empowered.",
+    "details": "Renekton generates fury by attacking and taking damage. At 50+ fury, his next ability is empowered."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Cull the Meek",
+      "summary": "Spin and deal damage; heal based on enemies hit. Empowered: more healing.",
+      "details": "Renekton swings his blade, dealing damage and healing for each enemy hit. Empowered: Deals more damage and heals significantly more."
+    },
+    {
+      "slot": "W",
+      "name": "Ruthless Predator",
+      "summary": "Stun an enemy with your next attack. Empowered: longer stun and breaks shields.",
+      "details": "Renekton's next attack stuns the target and hits multiple times. Empowered: Hits more times, stuns longer, and destroys shields."
+    },
+    {
+      "slot": "E",
+      "name": "Slice and Dice",
+      "summary": "Dash through enemies; if you hit, can dash again.",
+      "details": "Renekton dashes in a direction. If he hits an enemy, he can dash again within a few seconds."
+    },
+    {
+      "slot": "R",
+      "name": "Dominus",
+      "summary": "Gain health, size, and fury; deal damage around you over time.",
+      "details": "Renekton transforms, gaining bonus health, increasing in size, and dealing damage around him. He also generates fury over time."
+    }
+  ]
+}

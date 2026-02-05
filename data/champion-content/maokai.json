@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Maokai is a tanky tree who controls space with saplings and roots entire teams. He excels at zoning with saplings and engaging with his wide ultimate.",
+    "howToPlay": "Passive heals on next auto after several spells near you. Q knocks back and slows. W dashes and roots a target (untargetable during). E throws a sapling that chases in brush. R sends a wide root wave across the map. Zone with E, engage with R-W.",
+    "powerSpikes": "Maokai spikes at level 6 with his team-wide engage. Tank items scale his sustain. He's strong at teamfights and objective control."
+  },
+  "strengths": [
+    "Wide R engages teams",
+    "Good sustain",
+    "Saplings zone areas",
+    "Tanky and disruptive"
+  ],
+  "weaknesses": [
+    "R is slow-moving",
+    "Low damage",
+    "Weak early game",
+    "Saplings need brush"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Sap Magic",
+    "summary": "After several spells near you, next auto heals Maokai.",
+    "details": "When several spells are cast near Maokai, his next basic attack heals him for a percentage of his max health."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bramble Smash",
+      "summary": "Smash the ground to knock back, damage, and slow enemies.",
+      "details": "Maokai smashes the ground, damaging and slowing enemies in a line. Enemies near him are knocked back."
+    },
+    {
+      "slot": "W",
+      "name": "Twisted Advance",
+      "summary": "Dash to a target and root them; untargetable during.",
+      "details": "Maokai becomes untargetable and dashes to an enemy, dealing damage and rooting them on arrival."
+    },
+    {
+      "slot": "E",
+      "name": "Sapling Toss",
+      "summary": "Throw a sapling that chases enemies; deals more damage in brush.",
+      "details": "Maokai throws a sapling to a location. It chases nearby enemies, dealing damage in an area. Saplings placed in brush last longer and deal more damage."
+    },
+    {
+      "slot": "R",
+      "name": "Nature's Grasp",
+      "summary": "Send a wide wave of roots that grows as it travels.",
+      "details": "Maokai sends out a massive wall of thorns that slowly advances, rooting and damaging all enemies hit."
+    }
+  ]
+}

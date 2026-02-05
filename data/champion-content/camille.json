@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Camille is a precision diver who locks down a single target with her ultimate. Her true damage legs and hookshot make her an exceptional duelist and split-pusher.",
+    "howToPlay": "Passive gives shield based on enemy damage type. Q first hit gives speed, second hit deals true damage. W heals from outer half. E hookshots to walls then dashes. R locks enemy in a zone. E-E to engage, Q-Q for true damage, R to isolate.",
+    "powerSpikes": "Camille spikes at level 6 with her isolation ultimate. Trinity Force and Divine Sunderer scale her. She's strong as a split-pusher and diver throughout."
+  },
+  "strengths": [
+    "True damage on Q2",
+    "R isolates targets",
+    "Strong dueling",
+    "Good mobility with E"
+  ],
+  "weaknesses": [
+    "E can miss or be interrupted",
+    "Q2 needs setup time",
+    "Weak in teamfights without R",
+    "Falls off against tanks"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Adaptive Defenses",
+    "summary": "Auto attacks on champions grant a shield based on their primary damage type.",
+    "details": "Basic attacks on enemy champions grant Camille a shield that absorbs damage. The shield type matches the enemy's primary damage type (physical or magic)."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Precision Protocol",
+      "summary": "Two-part auto reset; second hit deals true damage.",
+      "details": "First cast: Camille's next auto deals bonus damage and grants movement speed. Second cast (after short delay): Next auto deals increased damage, converted to true damage."
+    },
+    {
+      "slot": "W",
+      "name": "Tactical Sweep",
+      "summary": "Sweep in a cone; outer half slows and heals.",
+      "details": "Camille sweeps her leg, dealing damage in a cone. Enemies hit by the outer half take bonus damage, are slowed, and heal Camille."
+    },
+    {
+      "slot": "E",
+      "name": "Hookshot",
+      "summary": "Fire a hookshot to terrain, then dash to an enemy stunning them.",
+      "details": "First cast: Camille fires a hookshot, pulling herself to terrain. Second cast: Dash to a target area, knocking up and stunning enemies hit."
+    },
+    {
+      "slot": "R",
+      "name": "The Hextech Ultimatum",
+      "summary": "Leap to a target and lock them in a zone they can't escape.",
+      "details": "Camille leaps to an enemy champion, creating a zone around them. The target cannot leave the zone by any means. Camille gains bonus damage against them. Zone ends if Camille leaves."
+    }
+  ]
+}

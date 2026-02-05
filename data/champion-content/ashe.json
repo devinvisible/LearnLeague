@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ashe is a utility ADC with global engage and constant slows. She excels at kiting, vision control, and initiating fights from across the map.",
+    "howToPlay": "Passive slows enemies with autos. Q stacks then activates for a flurry of arrows. W pokes and slows. E reveals anywhere on map. R is a global stun arrow (longer stun at range). Use W to poke, Q for DPS, R to engage or catch.",
+    "powerSpikes": "Ashe spikes with Kraken Slayer and attack speed. Her utility is strong at all stages. She scales well into late game teamfights."
+  },
+  "strengths": [
+    "Global engage with R",
+    "Constant slows for kiting",
+    "E provides free vision",
+    "Good poke with W"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "No steroid burst",
+    "R can miss",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Frost Shot",
+    "summary": "Auto attacks slow enemies and deal bonus damage to slowed targets.",
+    "details": "Ashe's attacks slow enemies. Attacks against enemies already slowed by Frost Shot deal bonus damage based on crit chance instead of critting."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Ranger's Focus",
+      "summary": "Stack with autos, then activate for rapid-fire attacks.",
+      "details": "Passive: Ashe builds Focus stacks with attacks. Active: Consume stacks to gain attack speed and fire a flurry of arrows with each attack."
+    },
+    {
+      "slot": "W",
+      "name": "Volley",
+      "summary": "Fire a cone of arrows that slow the first enemies hit.",
+      "details": "Ashe fires arrows in a cone, dealing damage and applying Frost Shot slow to the first enemy hit per arrow."
+    },
+    {
+      "slot": "E",
+      "name": "Hawkshot",
+      "summary": "Send a hawk anywhere on the map to reveal an area.",
+      "details": "Ashe sends a hawk spirit to scout anywhere on the map, revealing terrain as it travels and briefly revealing an area at the destination."
+    },
+    {
+      "slot": "R",
+      "name": "Enchanted Crystal Arrow",
+      "summary": "Global stun arrow that stuns longer at greater distance.",
+      "details": "Ashe fires a giant arrow globally. The first enemy champion hit takes damage and is stunned; stun duration increases with distance traveled."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ziggs is a poke and siege mage who excels at destroying towers. His bombs zone enemies and his ultimate can nuke from across the map.",
+    "howToPlay": "Passive empowers autos periodically (faster on abilities). Q bounces bombs. W satchel charges (knock up, destroys low towers). E scatters mines. R throws a mega bomb cross-map. Poke with Q, W to execute towers or escape, R to snipe fights.",
+    "powerSpikes": "Ziggs spikes with ability haste and AP. Luden's scales his poke. He's strong at siege and poking."
+  },
+  "strengths": [
+    "W destroys towers",
+    "Long-range poke",
+    "R hits globally",
+    "Good waveclear"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "W is his only escape",
+    "Abilities are slow",
+    "Weak vs divers"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Short Fuse",
+    "summary": "Periodically empower auto attack for bonus damage.",
+    "details": "Ziggs's next auto attack periodically deals bonus magic damage. Abilities reduce the cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bouncing Bomb",
+      "summary": "Throw a bomb that bounces up to twice.",
+      "details": "Ziggs throws a bouncing bomb that explodes on hitting an enemy or after bouncing twice."
+    },
+    {
+      "slot": "W",
+      "name": "Satchel Charge",
+      "summary": "Place a charge that knocks up enemies; can destroy low-health towers.",
+      "details": "Ziggs places a satchel that he can detonate to knock up enemies. It can also be used to knock himself away or execute low-health towers."
+    },
+    {
+      "slot": "E",
+      "name": "Hexplosive Minefield",
+      "summary": "Scatter mines that slow and damage enemies.",
+      "details": "Ziggs scatters proximity mines that arm after a moment. Enemies who step on them take damage and are slowed."
+    },
+    {
+      "slot": "R",
+      "name": "Mega Inferno Bomb",
+      "summary": "Throw a massive bomb at long range that deals huge damage.",
+      "details": "Ziggs throws a huge bomb that travels across the map and deals massive damage in an area. More damage at the center."
+    }
+  ]
+}

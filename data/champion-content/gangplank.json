@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Gangplank is a barrel-chaining pirate who scales into late game. His barrel combos one-shot squishies and his global ult provides map pressure.",
+    "howToPlay": "Passive burns enemies on hit. Q is a ranged auto that procs on-hit (use on barrels). W cleanses CC and heals. E places barrels that chain and ignore armor when shot. R is global slow/damage zone with upgrades. Chain barrels into enemies, Q the barrel for AoE crit.",
+    "powerSpikes": "Gangplank spikes with Trinity Force and crit items. Late game with 3 items his barrels one-shot. He needs time to scale."
+  },
+  "strengths": [
+    "Massive barrel damage late",
+    "Global ultimate",
+    "W cleanses CC",
+    "High skill ceiling"
+  ],
+  "weaknesses": [
+    "Barrels can be killed by enemies",
+    "Weak early game",
+    "High skill floor",
+    "Falls off if behind"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Trial by Fire",
+    "summary": "Periodically, next auto burns and gives movement speed.",
+    "details": "Every few seconds, Gangplank's next auto attack ignites the target, dealing true damage over time and granting him movement speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Parrrley",
+      "summary": "Ranged auto that applies on-hit; earns extra gold on kill.",
+      "details": "Gangplank fires his pistol, dealing damage and applying on-hit effects. Killing a unit grants bonus gold and Silver Serpents for upgrading R."
+    },
+    {
+      "slot": "W",
+      "name": "Remove Scurvy",
+      "summary": "Cleanse all CC and heal based on missing health.",
+      "details": "Gangplank eats citrus fruit, removing all crowd control and healing himself. Heal amount increases based on missing health."
+    },
+    {
+      "slot": "E",
+      "name": "Powder Keg",
+      "summary": "Place barrels that chain together; shooting them damages and ignores armor.",
+      "details": "Gangplank places a barrel that decays over time. Attacking it when it's at 1 HP detonates it, damaging enemies and chaining to nearby barrels. Barrel damage ignores armor."
+    },
+    {
+      "slot": "R",
+      "name": "Cannon Barrage",
+      "summary": "Global AoE that slows and damages; upgradeable with Silver Serpents.",
+      "details": "Gangplank signals his ship to bombard an area globally, dealing waves of damage and slowing enemies. Can be upgraded with Silver Serpents for additional effects."
+    }
+  ]
+}

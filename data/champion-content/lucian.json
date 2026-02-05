@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Lucian is a mobile ADC who weaves abilities between auto attacks. He excels at short trades and outdueling with his double-shot passive.",
+    "howToPlay": "Passive fires two shots after each ability. Q shoots through minions. W marks enemies for speed when hit. E dashes (cooldown reduced by passive shots). R fires a barrage of bullets. Weave abilities with autos for maximum damage, E to reposition.",
+    "powerSpikes": "Lucian spikes at levels 2-3 with ability combos and at Kraken Slayer. He's strong in lane and mid-game skirmishes."
+  },
+  "strengths": [
+    "Strong laning",
+    "Mobile with E",
+    "Good burst and DPS",
+    "Double-shot passive"
+  ],
+  "weaknesses": [
+    "Short range",
+    "Falls off late game",
+    "Needs to weave abilities",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Lightslinger",
+    "summary": "After using an ability, next auto fires two shots.",
+    "details": "After using an ability, Lucian's next basic attack fires two shots. The second shot deals reduced damage but can crit."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Piercing Light",
+      "summary": "Fire a beam of light through an enemy in a line.",
+      "details": "Lucian shoots a bolt of light through a target enemy, damaging all enemies in a line behind them."
+    },
+    {
+      "slot": "W",
+      "name": "Ardent Blaze",
+      "summary": "Fire a shot that marks enemies; hitting marked enemies grants movement speed.",
+      "details": "Lucian fires a shot that damages and marks enemies. Lucian gains movement speed when he or allies damage marked enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Relentless Pursuit",
+      "summary": "Dash in a direction; cooldown reduced by Lightslinger shots.",
+      "details": "Lucian dashes a short distance. Each Lightslinger shot that hits an enemy reduces the cooldown."
+    },
+    {
+      "slot": "R",
+      "name": "The Culling",
+      "summary": "Fire a barrage of bullets in a direction; can move while firing.",
+      "details": "Lucian fires a barrage of shots in a direction for a few seconds, dealing damage to the first enemy hit. He can move while firing."
+    }
+  ]
+}

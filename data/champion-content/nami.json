@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nami is a versatile enchanter who enhances allies while disrupting enemies. Her bubble and wave provide catch potential alongside her healing and buffs.",
+    "howToPlay": "Passive gives movement speed to allies hit by abilities. Q is a bubble knockup (hard to land). W bounces between allies (heals) and enemies (damages). E buffs an ally's autos with slow and damage. R is a tidal wave that knocks up and slows.",
+    "powerSpikes": "Nami spikes at level 6 with her engage wave. Moonstone or Shurelya's amplify her kit. She's strong throughout with her utility."
+  },
+  "strengths": [
+    "Well-rounded kit",
+    "Healing and damage in one spell",
+    "Long-range R engage",
+    "Movement speed passive"
+  ],
+  "weaknesses": [
+    "Q bubble is hard to land",
+    "Squishy and immobile",
+    "Falls off without a carry",
+    "Mana hungry early"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Surging Tides",
+    "summary": "Allies hit by your abilities gain movement speed.",
+    "details": "Allies touched by Nami's abilities gain bonus movement speed for a short duration."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Aqua Prison",
+      "summary": "Throw a bubble that knocks up and stuns enemies.",
+      "details": "Nami sends a bubble that knocks up all enemies in the area, stunning them for a short duration."
+    },
+    {
+      "slot": "W",
+      "name": "Ebb and Flow",
+      "summary": "Bounce between allies (heals) and enemies (damages).",
+      "details": "Nami sends a stream of water that bounces between allies and enemies, healing allies and damaging enemies up to 3 times."
+    },
+    {
+      "slot": "E",
+      "name": "Tidecaller's Blessing",
+      "summary": "Buff an ally's autos to deal bonus damage and slow.",
+      "details": "Nami empowers an ally's auto attacks with bonus magic damage and a slow for their next few attacks."
+    },
+    {
+      "slot": "R",
+      "name": "Tidal Wave",
+      "summary": "Send a massive wave that knocks up and slows enemies.",
+      "details": "Nami summons a tidal wave that travels in a direction, knocking up enemies and slowing them. Grows wider as it travels."
+    }
+  ]
+}

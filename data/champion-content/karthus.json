@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Karthus is a global damage mage whose ultimate hits all enemy champions. He excels at farming, teamfight DPS, and securing kills from across the map.",
+    "howToPlay": "Passive lets you cast for 7 seconds after death. Q is spammable AoE (double damage to isolated). W creates a slow/MR shred zone. E toggles AoE around you. R channels then damages ALL enemy champions globally. Farm with Q, die in fights, R from death.",
+    "powerSpikes": "Karthus spikes at level 6 with global R. Rabadon's amplifies his ult damage. He's strong at all stages with Q farm and R pressure."
+  },
+  "strengths": [
+    "Global ultimate",
+    "Casts after death",
+    "Good DPS in fights",
+    "Strong farming"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "R can be blocked/healed",
+    "Squishy",
+    "Q requires aim"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Death Defied",
+    "summary": "After dying, become a ghost that can cast abilities for 7 seconds.",
+    "details": "Upon death, Karthus becomes a spirit for 7 seconds, able to cast abilities at no cost. He can't move or be targeted during this time."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Lay Waste",
+      "summary": "Drop a bomb that deals double damage to isolated targets.",
+      "details": "Karthus creates a delayed explosion at a target location. Enemies hit take magic damage, doubled if they're the only target in the area."
+    },
+    {
+      "slot": "W",
+      "name": "Wall of Pain",
+      "summary": "Create a wall that slows enemies and shreds magic resist.",
+      "details": "Karthus creates a spectral wall. Enemies who pass through are slowed and have their magic resist reduced."
+    },
+    {
+      "slot": "E",
+      "name": "Defile",
+      "summary": "Toggle AoE damage around you; passively restore mana on kill.",
+      "details": "Passive: Karthus restores mana on killing units. Active: Toggle to deal damage per second to nearby enemies (drains mana)."
+    },
+    {
+      "slot": "R",
+      "name": "Requiem",
+      "summary": "Channel, then damage ALL enemy champions globally.",
+      "details": "Karthus channels for 3 seconds, then deals magic damage to all enemy champions on the map. Can be cast during Death Defied."
+    }
+  ]
+}

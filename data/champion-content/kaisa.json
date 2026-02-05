@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kai'Sa is an evolving ADC who upgrades abilities by buying stats. She excels at diving into fights with her ultimate and bursting isolated targets.",
+    "howToPlay": "Passive procs plasma on 5 hits for burst. Abilities evolve at stat thresholds (Q at AD, W at AP, E at attack speed). Q fires missiles (more on isolated). W long-range poke. E gives speed and invisibility when evolved. R dashes to any plasma-marked enemy. Evolve Q first.",
+    "powerSpikes": "Kai'Sa spikes at each evolution. Q evolve at Kraken makes her dangerous. She's strong mid-late with all evolutions."
+  },
+  "strengths": [
+    "R dives into fights",
+    "Strong burst on isolated targets",
+    "E invisibility for outplays",
+    "Flexible builds"
+  ],
+  "weaknesses": [
+    "Short range without evolutions",
+    "Q reduced against multiple targets",
+    "R commits you",
+    "Needs items to evolve"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Second Skin",
+    "summary": "Attacks and abilities stack plasma; at 5 stacks, proc for burst damage.",
+    "details": "Kai'Sa's attacks and abilities apply plasma stacks. Ally CC also adds stacks. At 5 stacks, the target takes bonus magic damage. She also evolves abilities at stat thresholds."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Icathian Rain",
+      "summary": "Fire missiles that prioritize nearby enemies; more damage on isolated targets.",
+      "details": "Kai'Sa fires missiles at nearby enemies. Missiles prioritize champions and deal more damage to isolated targets. Evolves to fire more missiles."
+    },
+    {
+      "slot": "W",
+      "name": "Void Seeker",
+      "summary": "Fire a long-range skillshot that marks for plasma and reveals.",
+      "details": "Kai'Sa fires a bolt that damages, reveals, and applies plasma stacks. Evolves to apply more stacks and have lower cooldown on hit."
+    },
+    {
+      "slot": "E",
+      "name": "Supercharge",
+      "summary": "Gain movement speed and attack speed; evolved grants invisibility.",
+      "details": "Kai'Sa charges up, gaining movement speed. After charging, she gains attack speed. Evolves to grant brief invisibility during charge."
+    },
+    {
+      "slot": "R",
+      "name": "Killer Instinct",
+      "summary": "Dash to any enemy with plasma stacks, gaining a shield.",
+      "details": "Kai'Sa dashes to a location near an enemy champion with plasma, gaining a damage-absorbing shield."
+    }
+  ]
+}

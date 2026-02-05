@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zac is a blob tank who bounces into teamfights and revives from his chunks. His engage range is massive and he provides tons of CC.",
+    "howToPlay": "Passive: on death, split into chunks that reform you. Q grabs two things and slams together. W does AoE damage. E charges a massive leap. R bounces, knocking up and moving enemies. E from fog for surprise engage, Q to slam enemies together, R in teamfights.",
+    "powerSpikes": "Zac spikes at level 4-5 with E range and level 6 for R CC. Tank items scale him. He's strong at engage and teamfighting."
+  },
+  "strengths": [
+    "Massive engage range",
+    "Revive passive",
+    "Tons of CC",
+    "Good sustain from blobs"
+  ],
+  "weaknesses": [
+    "E is telegraphed",
+    "Passive chunks can be killed",
+    "Low damage",
+    "Weak early clear"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Cell Division",
+    "summary": "Abilities drop blobs that heal. On death, split into 4 chunks that reform.",
+    "details": "Zac's abilities drop chunks of himself that he can pick up to heal. When he dies, he splits into 4 bloblets. If any survive, he reforms."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Stretching Strikes",
+      "summary": "Grab two targets and slam them together.",
+      "details": "Zac's next auto grabs an enemy. Hitting a second target slams them together, dealing damage and briefly stunning."
+    },
+    {
+      "slot": "W",
+      "name": "Unstable Matter",
+      "summary": "Burst, dealing AoE percent health damage.",
+      "details": "Zac explodes, dealing percent max health damage to nearby enemies. Picking up blobs reduces the cooldown."
+    },
+    {
+      "slot": "E",
+      "name": "Elastic Slingshot",
+      "summary": "Charge to slingshot and knock up enemies on landing.",
+      "details": "Zac charges up, then launches himself to a location, knocking up enemies on landing. Longer charge = more range."
+    },
+    {
+      "slot": "R",
+      "name": "Let's Bounce!",
+      "summary": "Bounce repeatedly, knocking up and moving enemies.",
+      "details": "Zac bounces 4 times, each bounce knocking up enemies and moving them toward where he bounced."
+    }
+  ]
+}

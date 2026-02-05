@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Heimerdinger is a zone control mage who places turrets that fight for him. He excels at sieging and turning ganks by overwhelming enemies with turret damage.",
+    "howToPlay": "Q places turrets (up to 3) that auto-attack and empower with your abilities. W fires rockets. E throws a grenade that stuns. R empowers next ability: R-Q is a mega turret, R-W is massive rockets, R-E is a bouncing stun. Set up turrets, E-W for burst, R-Q for 1v2s.",
+    "powerSpikes": "Heimerdinger spikes at level 6 with empowered abilities. Liandry's and Zhonya's scale him. He's strong at controlling space."
+  },
+  "strengths": [
+    "Zone control with turrets",
+    "Good at turning ganks",
+    "Strong siege",
+    "R-Q mega turret is powerful"
+  ],
+  "weaknesses": [
+    "Turrets are killable",
+    "Weak if zoned from turrets",
+    "Immobile",
+    "E is slow"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Hextech Affinity",
+    "summary": "Gain movement speed near allied turrets and towers.",
+    "details": "Heimerdinger gains bonus movement speed when near allied turrets and towers."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "H-28G Evolution Turret",
+      "summary": "Place a turret that auto-attacks enemies. Up to 3 active.",
+      "details": "Heimerdinger places a turret that attacks enemies. Turrets deal bonus damage when Heimerdinger hits enemies with abilities. He can have up to 3 turrets."
+    },
+    {
+      "slot": "W",
+      "name": "Hextech Micro-Rockets",
+      "summary": "Fire a barrage of rockets that converge on the cursor.",
+      "details": "Heimerdinger fires multiple rockets in a cone that converge toward the cursor. Each rocket deals magic damage."
+    },
+    {
+      "slot": "E",
+      "name": "CH-2 Electron Storm Grenade",
+      "summary": "Throw a grenade that stuns enemies in the center.",
+      "details": "Heimerdinger throws a grenade that bounces to a location, dealing damage and stunning enemies. Enemies in the center are stunned; others are slowed."
+    },
+    {
+      "slot": "R",
+      "name": "UPGRADE!!!",
+      "summary": "Empower next ability: mega turret, massive rockets, or bouncing stun.",
+      "details": "Heimerdinger empowers his next ability. R-Q places a mega turret. R-W fires massive rockets. R-E throws a bouncing stun grenade."
+    }
+  ]
+}

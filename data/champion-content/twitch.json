@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Twitch is a stealth ADC who ambushes from invisibility. His ultimate makes autos pierce through enemies, enabling team-wiping moments.",
+    "howToPlay": "Passive poisons (stacks to 6). Q goes invisible then gives attack speed on reveal. W throws a cask that slows. E detonates poison stacks for damage. R gives range and makes autos pierce through all enemies. Stealth flank, R, mow down the whole team.",
+    "powerSpikes": "Twitch spikes with Runaan's for R piercing bolts. Kraken and crit scale him. He's a late-game teamfight carry."
+  },
+  "strengths": [
+    "Stealth flanks",
+    "R hits entire teams",
+    "Strong late game",
+    "Surprise factor"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "No mobility",
+    "Weak early laning",
+    "Q detected by control wards"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Deadly Venom",
+    "summary": "Auto attacks apply poison stacks.",
+    "details": "Twitch's basic attacks apply stacks of venom that deal true damage over time, stacking up to 6 times."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Ambush",
+      "summary": "Go invisible; gain attack speed when revealed.",
+      "details": "Twitch becomes camouflaged after a delay. When he reveals himself or attacks, he gains bonus attack speed."
+    },
+    {
+      "slot": "W",
+      "name": "Venom Cask",
+      "summary": "Throw a cask that slows and applies poison.",
+      "details": "Twitch throws a cask that slows enemies in an area and applies stacks of Deadly Venom."
+    },
+    {
+      "slot": "E",
+      "name": "Contaminate",
+      "summary": "Detonate poison stacks on nearby enemies for damage.",
+      "details": "Twitch detonates all venom stacks on nearby enemies, dealing physical damage per stack."
+    },
+    {
+      "slot": "R",
+      "name": "Spray and Pray",
+      "summary": "Gain range and AD; autos pierce through all enemies.",
+      "details": "Twitch gains bonus AD and attack range. His attacks become piercing bolts that pass through all enemies in a line."
+    }
+  ]
+}

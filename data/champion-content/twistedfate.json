@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Twisted Fate is a global roaming mage whose ultimate teleports him anywhere on the map. He excels at side-lane ganks and his gold card provides point-and-click CC.",
+    "howToPlay": "Passive gives extra gold on kills. Q throws cards in a line. W cycles cards - Gold stuns, Red slows and damages nearby, Blue restores mana. E gives attack speed and every 4th auto does bonus damage. R reveals all enemies and allows teleport.",
+    "powerSpikes": "Twisted Fate spikes at level 6 with global presence. Rapid Firecannon extends gold card range. He's strong with map plays."
+  },
+  "strengths": [
+    "Global teleport ultimate",
+    "Point-and-click gold card stun",
+    "Good waveclear",
+    "Map pressure"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "R has channel that can be interrupted",
+    "Low damage",
+    "Weak in direct fights"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Loaded Dice",
+    "summary": "Gain extra gold on kills.",
+    "details": "Twisted Fate gains bonus gold each time he kills a unit."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Wild Cards",
+      "summary": "Throw three cards in a line.",
+      "details": "Twisted Fate throws three cards in a spread, dealing damage to enemies they pass through."
+    },
+    {
+      "slot": "W",
+      "name": "Pick a Card",
+      "summary": "Cycle cards; pick Gold to stun, Red to slow AoE, Blue to restore mana.",
+      "details": "Twisted Fate cycles cards above his head. Selecting a card empowers his next auto: Gold stuns, Red slows and damages around target, Blue restores mana."
+    },
+    {
+      "slot": "E",
+      "name": "Stacked Deck",
+      "summary": "Gain attack speed; every 4th attack deals bonus damage.",
+      "details": "Passive: Twisted Fate gains attack speed. Every fourth auto deals bonus magic damage."
+    },
+    {
+      "slot": "R",
+      "name": "Destiny",
+      "summary": "Reveal all enemies; recast to teleport anywhere on the map.",
+      "details": "Twisted Fate reveals all enemy champions. While active, he can recast to teleport to any location on the map."
+    }
+  ]
+}

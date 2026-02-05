@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Fizz is a slippery assassin who can't be targeted during his E. He excels at bursting squishies and dodging key abilities with his playful-trickster pole.",
+    "howToPlay": "Passive ignores unit collision and reduces auto damage taken. Q dashes through target applying on-hit. W empowers autos with bleed. E hops on pole (untargetable), can hop again or slam down. R throws fish that attaches and summons shark. R-Q-W-E for burst.",
+    "powerSpikes": "Fizz spikes at level 6 with his shark ultimate. Hextech Rocketbelt adds engage. He's strong at picks and all-ins mid-game."
+  },
+  "strengths": [
+    "E makes him untargetable",
+    "High burst damage",
+    "Slippery",
+    "Good roaming"
+  ],
+  "weaknesses": [
+    "R can miss",
+    "Melee with no waveclear",
+    "Falls off against MR",
+    "E has high cooldown"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Nimble Fighter",
+    "summary": "Ignore unit collision and take reduced auto attack damage.",
+    "details": "Fizz can walk through units and takes reduced damage from auto attacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Urchin Strike",
+      "summary": "Dash through a target, dealing damage and applying on-hit effects.",
+      "details": "Fizz dashes through a target enemy, dealing magic damage and applying on-hit effects. Always travels a fixed distance."
+    },
+    {
+      "slot": "W",
+      "name": "Seastone Trident",
+      "summary": "Passive: autos bleed. Active: empower next auto for burst damage.",
+      "details": "Passive: Auto attacks deal bonus damage over time. Active: Fizz empowers his next auto attack to deal bonus damage, increased if target is bleeding."
+    },
+    {
+      "slot": "E",
+      "name": "Playful / Trickster",
+      "summary": "Hop on pole becoming untargetable; hop again or slam down for damage.",
+      "details": "Fizz hops on his trident, becoming untargetable. Recast to hop to a location, or wait to slam down dealing AoE damage and slowing."
+    },
+    {
+      "slot": "R",
+      "name": "Chum the Waters",
+      "summary": "Throw a fish that attaches and summons a shark to knock up and damage.",
+      "details": "Fizz throws a fish that attaches to the first champion hit (or drops to the ground). After a delay, a shark erupts, knocking up the target and dealing massive damage. Size increases with distance."
+    }
+  ]
+}

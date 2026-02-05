@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Orianna is a zone control mage who commands a ball for positioning-based damage. Her ultimate can single-handedly win teamfights with a well-placed shockwave.",
+    "howToPlay": "The Ball is central to her kit - all abilities originate from it. Q moves the ball (damages). W speeds allies or slows enemies at ball. E shields an ally and moves ball to them. R pulls everyone near the ball to its center. Attach ball to a diver for surprise R.",
+    "powerSpikes": "Orianna spikes at level 6 with her teamfight R. Luden's or Liandry's scale her damage. She's strong at all stages with consistent damage and utility."
+  },
+  "strengths": [
+    "Game-changing ultimate",
+    "Consistent damage and utility",
+    "Good waveclear and poke",
+    "Shield provides safety"
+  ],
+  "weaknesses": [
+    "Ball positioning is crucial",
+    "Immobile",
+    "R can whiff",
+    "Moderate damage without R"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Clockwork Windup",
+    "summary": "Auto attacks deal bonus magic damage, stacking on the same target.",
+    "details": "Orianna's basic attacks deal bonus magic damage that increases when hitting the same target consecutively."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Command: Attack",
+      "summary": "Move the ball to a location, damaging enemies passed.",
+      "details": "Orianna commands the ball to travel to a target location, dealing damage to enemies it passes through and at the destination."
+    },
+    {
+      "slot": "W",
+      "name": "Command: Dissonance",
+      "summary": "The ball emits a pulse that speeds allies and slows enemies.",
+      "details": "Orianna commands the ball to release an electric pulse, dealing damage, slowing enemies, and speeding allies in the area."
+    },
+    {
+      "slot": "E",
+      "name": "Command: Protect",
+      "summary": "Shield an ally and move the ball to them.",
+      "details": "Passive: The ball grants bonus armor and MR to whoever it's attached to. Active: Shield an ally and attach the ball to them."
+    },
+    {
+      "slot": "R",
+      "name": "Command: Shockwave",
+      "summary": "Pull all enemies near the ball to its center.",
+      "details": "Orianna commands the ball to unleash a shockwave, pulling all nearby enemies toward the ball and dealing damage."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rengar is a bush-hunting assassin who leaps from brush or his ultimate's camouflage. He stacks ferocity for empowered abilities and can one-shot squishies from stealth.",
+    "howToPlay": "Passive lets you leap from brush. Generate ferocity with abilities - at 4 stacks, next ability is empowered. Q is an auto reset. W heals and cleanses CC (empowered). E roots. R gives camouflage and reveals nearest enemy, leap gets crit. Emp Q for damage, Emp W for survival.",
+    "powerSpikes": "Rengar spikes at level 6 with his hunting ultimate. Duskblade or Eclipse work. He's a mid-game assassin who falls off against grouping."
+  },
+  "strengths": [
+    "One-shots from stealth",
+    "Empowered W cleanses CC",
+    "Strong in jungle/brushy areas",
+    "Snowballs extremely hard"
+  ],
+  "weaknesses": [
+    "Needs brush or R to engage",
+    "Falls off without leads",
+    "Squishy",
+    "Weak against peel"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Unseen Predator",
+    "summary": "Leap from brush; abilities generate ferocity for empowered casts.",
+    "details": "In brush, Rengar's next attack leaps to the target. Using abilities generates ferocity; at 4 stacks, his next ability is empowered. Killing unique champions upgrades his item."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Savagery",
+      "summary": "Slash for damage and gain attack speed. Empowered: massive damage.",
+      "details": "Rengar slashes, dealing damage and gaining attack speed. Empowered: Deals significantly more damage."
+    },
+    {
+      "slot": "W",
+      "name": "Battle Roar",
+      "summary": "Roar to deal damage and heal recent damage. Empowered: also cleanse CC.",
+      "details": "Rengar roars, dealing damage and healing for damage taken recently. Empowered: Also cleanses all crowd control."
+    },
+    {
+      "slot": "E",
+      "name": "Bola Strike",
+      "summary": "Throw a bola that slows. Empowered: roots instead.",
+      "details": "Rengar throws a bola that damages and slows the first enemy hit. Empowered: Roots instead of slowing."
+    },
+    {
+      "slot": "R",
+      "name": "Thrill of the Hunt",
+      "summary": "Go camouflaged; reveal nearest enemy and leap for bonus crit damage.",
+      "details": "Rengar gains camouflage and movement speed. The nearest enemy champion is revealed. His next leap from this state deals bonus crit damage."
+    }
+  ]
+}

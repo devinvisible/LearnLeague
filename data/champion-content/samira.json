@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Samira is a combo-style ADC who builds a style grade to unlock her devastating ultimate. She dashes and weaves abilities for maximum flair and damage.",
+    "howToPlay": "Passive grades Style from E to S with different attacks (autos/abilities). Q fires a shot or slashes melee. W spins, destroying projectiles. E dashes through ally/enemy (reset on kill). R requires S rank, unleashes a spin dealing massive damage. Build to S rank, then R.",
+    "powerSpikes": "Samira spikes at level 6 with her ultimate and first item. Infinity Edge and crit scale her. She's a snowbally ADC who takes over fights with S rank."
+  },
+  "strengths": [
+    "Devastating S rank ultimate",
+    "W blocks projectiles",
+    "Dash resets on kills",
+    "High outplay potential"
+  ],
+  "weaknesses": [
+    "Needs to build Style rank",
+    "Short range for ADC",
+    "Falls behind without resets",
+    "R can be interrupted"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Daredevil Impulse",
+    "summary": "Unique attacks build Style grade from E to S; can extend CC with melee attacks.",
+    "details": "Samira builds Style by hitting enemies with different attacks. At S rank, she can use R. She can also extend knock-ups with autos in melee range."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Flair",
+      "summary": "Fire a shot at range or slash in melee.",
+      "details": "At range, Samira fires a shot. In melee, she slashes with her sword. Both deal damage and can critically strike."
+    },
+    {
+      "slot": "W",
+      "name": "Blade Whirl",
+      "summary": "Slash around you, destroying projectiles.",
+      "details": "Samira slashes around herself, dealing damage twice and destroying all incoming projectiles for the duration."
+    },
+    {
+      "slot": "E",
+      "name": "Wild Rush",
+      "summary": "Dash through an enemy or ally; resets on takedown.",
+      "details": "Samira dashes through a target unit, dealing damage if it's an enemy. Takedowns reset the cooldown."
+    },
+    {
+      "slot": "R",
+      "name": "Inferno Trigger",
+      "summary": "At S rank, unleash a barrage of shots around you.",
+      "details": "Requires S style rank. Samira spins and fires shots at all nearby enemies for a few seconds, dealing damage that can crit. She can move while casting."
+    }
+  ]
+}

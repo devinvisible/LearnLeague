@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Galio is an anti-mage tank who can ult to allies globally. He excels at protecting teammates and engaging teamfights with his taunt.",
+    "howToPlay": "Passive empowers autos periodically with AoE magic damage. Q creates a tornado. W charges taunt (longer charge = longer taunt, but damages Galio). E dashes and knocks up. R gives ally shield then crash lands, knocking up. R to save allies or follow up engage.",
+    "powerSpikes": "Galio spikes at level 6 with global follow-up. AP or tank items both work. He's strong against magic damage teams."
+  },
+  "strengths": [
+    "Global ultimate follow-up",
+    "Good anti-mage",
+    "AoE taunt",
+    "Tanky with magic shield"
+  ],
+  "weaknesses": [
+    "W roots himself",
+    "R needs ally setup",
+    "Falls off late game",
+    "Weak against AD comps"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Colossal Smash",
+    "summary": "Periodically, autos deal bonus AoE magic damage.",
+    "details": "Every few seconds, Galio's next auto attack is enhanced to deal bonus magic damage in an area. Cooldown reduced by hitting champions with abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Winds of War",
+      "summary": "Fire two gusts that converge into a tornado dealing percent health damage.",
+      "details": "Galio fires two windblasts that deal damage and converge into a tornado at the target location, dealing percent max health damage over time."
+    },
+    {
+      "slot": "W",
+      "name": "Shield of Durand",
+      "summary": "Charge a taunt; release to taunt and damage nearby enemies.",
+      "details": "Galio channels, reducing damage taken. On release, he taunts nearby enemies (longer charge = longer taunt). Charging too long slows Galio."
+    },
+    {
+      "slot": "E",
+      "name": "Justice Punch",
+      "summary": "Dash forward knocking up the first champion hit.",
+      "details": "Galio dashes forward, stopping on the first champion hit and knocking them up. Can dash over small walls."
+    },
+    {
+      "slot": "R",
+      "name": "Hero's Entrance",
+      "summary": "Grant an ally a shield then fly to them, knocking up enemies on arrival.",
+      "details": "Galio designates an ally anywhere on the map, granting them damage reduction. After a delay, he crashes down, dealing damage and knocking up enemies in the area."
+    }
+  ]
+}

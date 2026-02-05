@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Gwen is an AP skirmisher who becomes untargetable in her mist. She shreds through tanks with her true damage snipping and sustains through fights.",
+    "howToPlay": "Passive heals and deals percent health damage. Q snips, center snips deal more and apply passive. W creates mist (untargetable by enemies outside). E dashes and empowers autos with range/speed. R fires needles 3 times (must auto between). W to survive burst, Q for damage.",
+    "powerSpikes": "Gwen spikes at level 6 with her R burst and with Riftmaker for sustain. She's strong in extended fights and scales well."
+  },
+  "strengths": [
+    "W blocks all ranged abilities",
+    "True damage shreds tanks",
+    "Good sustain",
+    "Strong late game"
+  ],
+  "weaknesses": [
+    "W has cooldown",
+    "Weak to melee all-in early",
+    "Needs to stack passive",
+    "Falls behind if zoned"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Thousand Cuts",
+    "summary": "Autos and Q deal bonus magic damage and heal Gwen based on damage dealt.",
+    "details": "Gwen's attacks deal bonus magic damage based on target's max health. She heals based on the damage dealt by this passive."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Snip Snip!",
+      "summary": "Snip multiple times; center snips deal more and apply true damage.",
+      "details": "Gwen snips at least twice, dealing magic damage. Enemies in the center take true damage and apply her passive. More snips based on stacks from auto attacks."
+    },
+    {
+      "slot": "W",
+      "name": "Hallowed Mist",
+      "summary": "Create a mist zone; enemies outside can't target or hit you.",
+      "details": "Gwen creates a zone of mist. While inside, she's untargetable by enemies outside the mist. The mist follows her once then stays in place."
+    },
+    {
+      "slot": "E",
+      "name": "Skip 'n Slash",
+      "summary": "Dash and gain attack speed, range, and on-hit damage.",
+      "details": "Gwen dashes and empowers her auto attacks with bonus range, attack speed, and magic damage on-hit. First attack on a champion refunds half the cooldown."
+    },
+    {
+      "slot": "R",
+      "name": "Needlework",
+      "summary": "Fire needles up to 3 times; must hit an enemy to unlock next cast.",
+      "details": "Gwen fires a needle, then can recast twice more (each cast fires more needles). Must hit an enemy with autos or abilities to unlock each recast."
+    }
+  ]
+}

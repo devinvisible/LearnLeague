@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Briar is a frenzied diver who loses control to gain power. She has no base health regen and must heal through combat while her abilities make her go berserk.",
+    "howToPlay": "No base health regen - heal only through damage. Q bites to heal. W enters frenzy (auto-attacks nearest enemy). E charges to knockup and stun against walls. R is global - she flies to a target and frenzies them down. W carefully, R to engage from anywhere.",
+    "powerSpikes": "Briar spikes at level 6 with global engage. Blade of the Ruined King sustains her. She's strong at diving and picking throughout."
+  },
+  "strengths": [
+    "Global ultimate engage",
+    "High sustain in fights",
+    "Strong dueling",
+    "Good crowd control"
+  ],
+  "weaknesses": [
+    "No base health regen",
+    "W can lose control",
+    "Vulnerable to CC",
+    "Can be kited if W ends"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Crimson Curse",
+    "summary": "No base regen; heal from abilities based on damage dealt. Abilities apply bleed.",
+    "details": "Briar has no base health regeneration. Instead, she heals based on damage dealt. Her abilities cause enemies to bleed, healing her and dealing damage over time."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Head Rush",
+      "summary": "Dash and bite to stun briefly and heal.",
+      "details": "Briar dashes to an enemy and bites them, dealing damage, stunning them briefly, and healing based on damage dealt. While frenzied, she can't choose targets."
+    },
+    {
+      "slot": "W",
+      "name": "Blood Frenzy / Snack Attack",
+      "summary": "Enter frenzy to auto the nearest enemy; recast to bite.",
+      "details": "Briar enters a frenzy, gaining attack speed and movement speed but losing control (attacks nearest enemy). Recast to empower next attack to bite for healing. Can be cancelled by E."
+    },
+    {
+      "slot": "E",
+      "name": "Chilling Scream",
+      "summary": "Charge a scream that damages, knocks back, and stuns against terrain.",
+      "details": "Briar channels then screams, dealing damage and knocking back enemies. Enemies knocked into walls are stunned. Removes Blood Frenzy."
+    },
+    {
+      "slot": "R",
+      "name": "Certain Death",
+      "summary": "Fly to a target anywhere on the map and enter an enhanced frenzy.",
+      "details": "Briar kicks a hemolith globally, flying to the first champion hit. On arrival, she enters an empowered frenzy focused on that target, gaining bonus stats and fearing nearby enemies."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zed is a shadow-based assassin who marks enemies with his ultimate for delayed burst. He excels at diving carries and escaping with his shadows.",
+    "howToPlay": "Passive: autos deal bonus damage to low HP. Q throws shurikens. W sends shadow (recast to swap). E slashes around self and shadows. R dashes to enemy, marking them - damage dealt after R pops. W-E-Q poke, R to dive, W or R back to escape.",
+    "powerSpikes": "Zed spikes at level 3 with W combo and level 6 for assassination. Lethality scales him. He's strong mid-game."
+  },
+  "strengths": [
+    "High burst damage",
+    "Shadows provide outplay",
+    "R mark is huge burst",
+    "Good escape options"
+  ],
+  "weaknesses": [
+    "R mark can be healed/shielded",
+    "Falls off late",
+    "Countered by Zhonya's",
+    "Energy management"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Contempt for the Weak",
+    "summary": "Auto attacks deal bonus damage to low health enemies.",
+    "details": "Zed's auto attacks deal bonus magic damage to targets below 50% health. Each target has a cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Razor Shuriken",
+      "summary": "Throw a shuriken in a line; shadows also throw.",
+      "details": "Zed and his shadows throw shurikens that damage enemies in a line. Hitting the same target with multiple shurikens deals reduced damage."
+    },
+    {
+      "slot": "W",
+      "name": "Living Shadow",
+      "summary": "Send out a shadow; recast to swap places.",
+      "details": "Zed sends a shadow forward. Recasting swaps places with the shadow. The shadow mimics his Q and E."
+    },
+    {
+      "slot": "E",
+      "name": "Shadow Slash",
+      "summary": "Slash around yourself and shadows, slowing enemies.",
+      "details": "Zed and his shadows slash, damaging and slowing enemies around them."
+    },
+    {
+      "slot": "R",
+      "name": "Death Mark",
+      "summary": "Dash to enemy, marking them. After a delay, the mark pops for stored damage.",
+      "details": "Zed becomes untargetable and dashes to an enemy, marking them. After 3 seconds, the mark pops, dealing damage based on a percentage of all damage dealt while marked."
+    }
+  ]
+}

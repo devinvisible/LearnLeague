@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Viktor is a scaling control mage who upgrades his abilities throughout the game. His laser and gravity field provide excellent zone control.",
+    "howToPlay": "Passive: upgrade abilities by farming (augmented abilities are stronger). Q shields and empowers next auto. W creates a slow field that stuns after delay. E fires a laser that can be bent. R creates a moving storm. Farm augments, control zones with W and R.",
+    "powerSpikes": "Viktor spikes with each augment (Q first usually) and after full upgrades. Luden's scales him. He's a late-game scaling mage."
+  },
+  "strengths": [
+    "Strong scaling with upgrades",
+    "Good zone control",
+    "High burst and DPS",
+    "E has long range"
+  ],
+  "weaknesses": [
+    "Weak early without augments",
+    "Immobile",
+    "W stun has delay",
+    "Needs farm to upgrade"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Glorious Evolution",
+    "summary": "Farm to upgrade abilities with Hex Core.",
+    "details": "Viktor starts with a Hex Core that upgrades. He gains Hex Fragments from killing minions and champions. At thresholds, he can augment his abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Siphon Power",
+      "summary": "Fire a bolt that shields you; next auto deals bonus damage. Augmented: speed boost.",
+      "details": "Viktor fires a device that damages and returns to grant him a shield. His next auto deals bonus damage. Augmented: Also grants movement speed."
+    },
+    {
+      "slot": "W",
+      "name": "Gravity Field",
+      "summary": "Create a zone that slows and stuns after duration. Augmented: slows more.",
+      "details": "Viktor creates a field that slows enemies. After a delay or reaching full stacks, enemies inside are stunned. Augmented: Also pulls enemies toward the center."
+    },
+    {
+      "slot": "E",
+      "name": "Death Ray",
+      "summary": "Fire a laser in a line that can be bent. Augmented: explodes after a delay.",
+      "details": "Viktor fires a laser that he can direct, dealing damage in a line. Augmented: The laser also explodes after a delay."
+    },
+    {
+      "slot": "R",
+      "name": "Chaos Storm",
+      "summary": "Create a storm that follows enemies and deals damage over time. Augmented: moves faster.",
+      "details": "Viktor creates a chaos storm that deals damage and silences on impact, then deals damage over time while following enemies. Augmented: Storm moves faster."
+    }
+  ]
+}

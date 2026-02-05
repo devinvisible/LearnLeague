@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Irelia is a blade dancer who dashes repeatedly through enemies. She excels at weaving through teamfights, resetting Q through marked targets.",
+    "howToPlay": "Passive stacks with abilities for bonus damage. Q dashes to target and resets if it kills or hits marked targets. W reduces damage and deals it on release. E throws blades that stun between them and mark. R throws blades that mark and create a wall. E-R to mark, then Q through everything.",
+    "powerSpikes": "Irelia spikes at level 6 with R marks and with BOTRK. She's strong at all-ins throughout mid-game."
+  },
+  "strengths": [
+    "Q resets in fights",
+    "Good sustain with Q",
+    "Strong all-in",
+    "Outplay potential"
+  ],
+  "weaknesses": [
+    "High skill ceiling",
+    "Falls off late game",
+    "Weak without passive stacks",
+    "CC shuts her down"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Ionian Fervor",
+    "summary": "Stack attack speed with abilities; at max stacks, deal bonus damage.",
+    "details": "Hitting enemies with abilities grants stacks. At max stacks, Irelia gains bonus attack speed and deals bonus magic damage on-hit."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bladesurge",
+      "summary": "Dash to a target; resets on kill or hitting marked targets.",
+      "details": "Irelia dashes to an enemy, dealing damage and healing. If it kills or the target is marked, the cooldown resets."
+    },
+    {
+      "slot": "W",
+      "name": "Defiant Dance",
+      "summary": "Reduce incoming damage while channeling; release to deal damage.",
+      "details": "Irelia channels, reducing physical damage taken. On release, she deals damage in a direction, increased by damage taken during channel."
+    },
+    {
+      "slot": "E",
+      "name": "Flawless Duet",
+      "summary": "Place two blades that connect, stunning and marking enemies between.",
+      "details": "Irelia throws a blade, then throws a second. The blades connect, stunning enemies between them and marking them for Q reset."
+    },
+    {
+      "slot": "R",
+      "name": "Vanguard's Edge",
+      "summary": "Throw blades that mark champions and create a damaging wall.",
+      "details": "Irelia throws a barrage of blades, damaging and marking enemy champions. The blades form a wall that damages and slows enemies who pass through."
+    }
+  ]
+}

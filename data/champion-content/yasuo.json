@@ -1,0 +1,55 @@
+{
+  "classes": ["Skirmisher"],
+  "rangeType": "Melee",
+  "damageType": "Physical",
+  "lanes": ["Middle", "Top", "Bottom"],
+  "playstyle": {
+    "identity": "Yasuo is a high-skill skirmisher who dances through fights with dashes and wind. His double crit passive and wind wall create outplay opportunities that can turn losing fights into pentakills.",
+    "howToPlay": "Stack Q (Steel Tempest) to third cast for the tornado knockup. Dash through minion waves with E to close gaps or dodge skillshots. Wind Wall blocks all projectiles - save it for crucial abilities. Ult off any allied knockup for massive damage and armor pen.",
+    "powerSpikes": "Yasuo spikes hard at level 2 with Q+E trades. He reaches 100% crit with just two items thanks to his passive. His 2-item spike (typically IE + Shieldbow) is one of the strongest in the game."
+  },
+  "strengths": [
+    "Double crit chance lets him spike at 2 items",
+    "Wind Wall blocks all projectiles",
+    "Infinite dashes through minions for mobility",
+    "Can ult off any knockup, including allies"
+  ],
+  "weaknesses": [
+    "Squishy and often dives too deep",
+    "Struggles against point-and-click CC",
+    "Needs minions nearby for full mobility",
+    "High skill floor - easy to int on"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Way of the Wanderer",
+    "summary": "Double critical strike chance and gain a shield when moving.",
+    "details": "Yasuo gains double crit chance from all sources, reaching 100% with just two crit items. Additionally, moving generates Flow - when full, the next enemy damage he takes is blocked by a shield. The shield helps survive burst and makes trades favorable."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Steel Tempest",
+      "summary": "Thrust forward; on third cast, unleash a knockup tornado.",
+      "details": "Yasuo thrusts his sword, dealing damage in a line. Hitting an enemy grants a stack (2 stacks max). At 2 stacks, the next Q fires a tornado that knocks up all enemies hit. Q can crit and its cooldown scales with attack speed. Stack it constantly in lane."
+    },
+    {
+      "slot": "W",
+      "name": "Wind Wall",
+      "summary": "Create a wall that blocks all enemy projectiles.",
+      "details": "Yasuo creates a moving wall that blocks all enemy projectiles for several seconds. This includes auto-attacks, abilities, and even some ultimates. It's your key defensive tool - save it for crucial moments like blocking ADC autos in teamfights or stopping key abilities."
+    },
+    {
+      "slot": "E",
+      "name": "Sweeping Blade",
+      "summary": "Dash through an enemy; each dash increases damage.",
+      "details": "Yasuo dashes through a target enemy, dealing magic damage. Each dash increases the damage of subsequent dashes (stacking up to twice). You can only dash through each target once every few seconds. Use minions to close gaps, dodge skillshots, or escape."
+    },
+    {
+      "slot": "R",
+      "name": "Last Breath",
+      "summary": "Blink to airborne enemies, suspend them, and gain armor penetration.",
+      "details": "Yasuo blinks to any visible airborne enemy champion (from any source), suspending all nearby airborne enemies and dealing damage. For 15 seconds after, his crits ignore bonus armor. You can ult off ally knockups like Malphite R or even jungle camp knockups."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ezreal is a skillshot-based ADC who never needs to auto attack thanks to his Q. His blink keeps him safe while he pokes from range.",
+    "howToPlay": "Q applies on-hit and reduces all cooldowns when it hits. W attaches to enemies/turrets for bonus damage. E is a blink that fires a homing bolt. R is a global skillshot. Poke with Q, E to safety, stack Tear with abilities.",
+    "powerSpikes": "Ezreal spikes with Tear stacked and Trinity Force or Muramana. He's strong at all stages with consistent poke and safety."
+  },
+  "strengths": [
+    "Very safe with E blink",
+    "Q poke is consistent",
+    "Global R for assists",
+    "Doesn't need to auto much"
+  ],
+  "weaknesses": [
+    "All skillshots can miss",
+    "Lower DPS than other ADCs",
+    "Needs to stack Tear",
+    "Falls behind if missing Q"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Rising Spell Force",
+    "summary": "Hitting abilities stacks attack speed.",
+    "details": "Hitting an ability grants Ezreal a stack of attack speed. Stacks up to 5 times."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Mystic Shot",
+      "summary": "Fire a bolt that applies on-hit effects and reduces cooldowns.",
+      "details": "Ezreal fires a bolt dealing physical damage and applying on-hit effects. Hitting a target reduces all ability cooldowns."
+    },
+    {
+      "slot": "W",
+      "name": "Essence Flux",
+      "summary": "Fire an orb that attaches to enemies; hitting it with an ability detonates for damage.",
+      "details": "Ezreal fires an orb that attaches to the first enemy or structure hit. Hitting the marked target with an ability or auto detonates the mark for bonus damage and refunds mana."
+    },
+    {
+      "slot": "E",
+      "name": "Arcane Shift",
+      "summary": "Blink to a location and fire a homing bolt at the nearest enemy.",
+      "details": "Ezreal blinks to a target location and fires a bolt at the nearest enemy, dealing magic damage. Can be used over walls."
+    },
+    {
+      "slot": "R",
+      "name": "Trueshot Barrage",
+      "summary": "Fire a massive global skillshot that damages all enemies in its path.",
+      "details": "Ezreal channels briefly, then fires a wave of energy globally, dealing damage to all enemies in its path. Deals reduced damage to minions."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Tristana is a scaling ADC with resets and increasing range. Her jump resets on kills, allowing her to bounce through teamfights.",
+    "howToPlay": "Passive gives attack range per level. Q gives attack speed steroid. W rocket jumps (reset on kill or E explosion). E is a bomb that stacks damage with autos - explode for burst. R knocks back and damages. W in, E + autos to stack bomb, W out or reset.",
+    "powerSpikes": "Tristana spikes at levels 2-3 for all-in and late with max range. Kraken and crit scale her. She's strong early for kills and late for range."
+  },
+  "strengths": [
+    "W resets on kills",
+    "E bomb burst is high",
+    "Scales with range",
+    "R self-peel"
+  ],
+  "weaknesses": [
+    "W can be interrupted",
+    "Bomb needs stacks",
+    "Weak mid-game",
+    "Needs positioning"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Draw a Bead",
+    "summary": "Gain attack range per level.",
+    "details": "Tristana gains bonus attack range as she levels, eventually having one of the longest ranges in the game."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Rapid Fire",
+      "summary": "Gain massive attack speed for a few seconds.",
+      "details": "Tristana gains bonus attack speed for several seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Rocket Jump",
+      "summary": "Jump to a location; resets on kills and E explosions.",
+      "details": "Tristana rockets to a location, dealing damage and slowing on landing. Kills and fully stacked E explosions reset the cooldown."
+    },
+    {
+      "slot": "E",
+      "name": "Explosive Charge",
+      "summary": "Place a bomb that explodes after 4 stacks from attacks.",
+      "details": "Tristana places a bomb on a target that arms over time or with her attacks. After 4 stacks, it explodes dealing massive damage."
+    },
+    {
+      "slot": "R",
+      "name": "Buster Shot",
+      "summary": "Knock back an enemy with a blast.",
+      "details": "Tristana fires a massive cannonball, dealing damage and knocking back the target. Can add E stacks."
+    }
+  ]
+}

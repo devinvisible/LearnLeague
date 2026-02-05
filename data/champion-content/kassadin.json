@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kassadin is a late-game hypercarry assassin who blinks constantly with his ultimate. He's weak early but becomes nearly unstoppable with items and levels.",
+    "howToPlay": "Passive reduces magic damage and ignores unit collision. Q silences and gives magic shield. W empowers auto with mana restore. E requires 6 spells nearby to cast, then slows. R blinks and damages, stacking damage and mana cost each time. Farm to 16, then blink constantly.",
+    "powerSpikes": "Kassadin spikes at level 6 with blink, level 11 with lower R cooldown, and level 16 when he's a monster. He needs time to scale."
+  },
+  "strengths": [
+    "Constant R blinks late game",
+    "Strong magic damage reduction",
+    "Scales extremely well",
+    "Hard to catch"
+  ],
+  "weaknesses": [
+    "Extremely weak early",
+    "Weak against AD",
+    "Needs levels more than gold",
+    "R stacking drains mana"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Void Stone",
+    "summary": "Take reduced magic damage and ignore unit collision.",
+    "details": "Kassadin takes reduced magic damage and can walk through units."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Null Sphere",
+      "summary": "Fire a bolt that damages, silences, and grants magic damage shield.",
+      "details": "Kassadin fires a bolt dealing magic damage and interrupting channels. He gains a shield that absorbs magic damage."
+    },
+    {
+      "slot": "W",
+      "name": "Nether Blade",
+      "summary": "Passive: autos deal bonus magic damage. Active: empower next auto to deal more and restore mana.",
+      "details": "Passive: Basic attacks deal bonus magic damage. Active: Next attack deals increased damage and restores mana."
+    },
+    {
+      "slot": "E",
+      "name": "Force Pulse",
+      "summary": "After 6 spells are cast nearby, fire a wave that damages and slows.",
+      "details": "Kassadin charges Force Pulse when abilities are used near him. At 6 charges, he can cast it to deal damage and slow enemies in a cone."
+    },
+    {
+      "slot": "R",
+      "name": "Riftwalk",
+      "summary": "Blink to a location dealing damage; stacks cost more mana but deal more damage.",
+      "details": "Kassadin teleports to a location, dealing magic damage. Each consecutive cast within 15 seconds doubles the mana cost and increases damage."
+    }
+  ]
+}

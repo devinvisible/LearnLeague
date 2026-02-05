@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Olaf is an unstoppable berserker who becomes immune to CC during his ultimate. He runs down enemies with axes and lifesteal, getting stronger as he gets lower.",
+    "howToPlay": "Passive gives attack speed based on missing health. Q throws an axe (pick up to reduce cooldown). W gives attack speed and healing. E deals true damage (costs health). R makes you immune to CC and gives movement speed toward enemies.",
+    "powerSpikes": "Olaf spikes early with his dueling power and at 6 with CC immunity. Goredrinker and Death's Dance keep him alive. He falls off late but dominates early-mid."
+  },
+  "strengths": [
+    "CC immune during R",
+    "Strong early dueling",
+    "Lifesteal sustain",
+    "Good at diving carries"
+  ],
+  "weaknesses": [
+    "Falls off hard late game",
+    "Kited without R",
+    "R stats lost on expiry",
+    "No escape"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Berserker Rage",
+    "summary": "Gain attack speed based on missing health.",
+    "details": "Olaf gains bonus attack speed for each percent of health he's missing."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Undertow",
+      "summary": "Throw an axe that slows; pick it up to reduce cooldown.",
+      "details": "Olaf throws an axe that damages and slows enemies. Picking up the axe significantly reduces the cooldown."
+    },
+    {
+      "slot": "W",
+      "name": "Vicious Strikes",
+      "summary": "Gain attack speed and healing amplification.",
+      "details": "Olaf gains bonus attack speed and his attacks heal him. Healing is increased based on missing health."
+    },
+    {
+      "slot": "E",
+      "name": "Reckless Swing",
+      "summary": "Deal true damage to an enemy; costs health.",
+      "details": "Olaf deals true damage to an enemy at the cost of his own health. If it kills, he refunds the health cost."
+    },
+    {
+      "slot": "R",
+      "name": "Ragnarok",
+      "summary": "Become immune to CC and gain movement speed toward enemies.",
+      "details": "Olaf removes all CC and becomes immune to crowd control. He gains bonus AD and movement speed toward enemy champions for the duration."
+    }
+  ]
+}

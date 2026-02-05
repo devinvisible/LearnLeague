@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Vladimir is a resourceless drain mage who scales into a late-game monster. His pool makes him untargetable and he sustains through fights with healing.",
+    "howToPlay": "Passive converts HP to AP and AP to HP. Q drains (empowered Q heals more). W pools, becoming untargetable (costs HP). E charges and releases AoE damage (costs HP). R marks enemies to take more damage and heals Vlad after. Sustain through laning, scale to teamfight monster.",
+    "powerSpikes": "Vladimir spikes with levels and at CDR breakpoints. Hextech Rocketbelt adds engage. He's a late-game hyperscaling mage."
+  },
+  "strengths": [
+    "No mana costs",
+    "W untargetability",
+    "Strong late game scaling",
+    "R amplifies team damage"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "W has long CD",
+    "Countered by Grievous Wounds",
+    "Short range"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Crimson Pact",
+    "summary": "Bonus health gives AP; AP gives bonus health.",
+    "details": "Vladimir gains ability power based on his bonus health and bonus health based on his ability power."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Transfusion",
+      "summary": "Drain an enemy for damage and healing. Empowered Q heals more.",
+      "details": "Vladimir drains health from an enemy. After casting it several times, his next Q is empowered to deal more damage and heal significantly more."
+    },
+    {
+      "slot": "W",
+      "name": "Sanguine Pool",
+      "summary": "Sink into a pool of blood, becoming untargetable and slowing enemies.",
+      "details": "Vladimir sinks into a pool of blood, becoming untargetable. He slows enemies above him and drains their health. Costs health to use."
+    },
+    {
+      "slot": "E",
+      "name": "Tides of Blood",
+      "summary": "Charge and release a burst of blood that damages enemies.",
+      "details": "Vladimir charges up blood, then releases it in a nova around him dealing damage. Costs health and deals more damage when charged longer."
+    },
+    {
+      "slot": "R",
+      "name": "Hemoplague",
+      "summary": "Infect enemies to take more damage; heals Vladimir when it detonates.",
+      "details": "Vladimir infects enemies in an area, causing them to take increased damage. After a delay, the infection detonates, dealing damage and healing Vladimir for each champion hit."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Leona is an all-in tank support with layered crowd control. She excels at engaging and locking down targets with her multiple stuns.",
+    "howToPlay": "Passive marks enemies for allies to proc bonus damage. Q is an auto reset stun. W gives armor/MR and explodes. E dashes to last enemy hit. R stuns in center, slows otherwise. E-Q for basic engage, R-E-Q for full lockdown.",
+    "powerSpikes": "Leona spikes at level 2-3 with her CC combo and level 6 with ranged engage. Tank items make her durable. She's strong at all-ins throughout."
+  },
+  "strengths": [
+    "Multiple stuns",
+    "Good engage range",
+    "Very tanky with W",
+    "Strong laning"
+  ],
+  "weaknesses": [
+    "All-in only, no poke",
+    "Commit-heavy",
+    "R can miss",
+    "Weak when behind"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Sunlight",
+    "summary": "Abilities mark enemies; ally attacks consume marks for bonus damage.",
+    "details": "Leona's abilities mark enemies with Sunlight. Allied champions who attack marked enemies deal bonus magic damage and consume the mark."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Shield of Daybreak",
+      "summary": "Empower next auto to stun the target.",
+      "details": "Leona's next basic attack deals bonus damage and stuns the target."
+    },
+    {
+      "slot": "W",
+      "name": "Eclipse",
+      "summary": "Gain armor and MR; after a delay, explode for damage.",
+      "details": "Leona surrounds herself with a solar shield, gaining bonus armor and magic resist. After a few seconds, it explodes dealing damage and extending the bonus if she hits an enemy."
+    },
+    {
+      "slot": "E",
+      "name": "Zenith Blade",
+      "summary": "Fire a blade; dash to the last enemy champion hit.",
+      "details": "Leona fires a blade through enemies, dealing damage. She dashes to the last enemy champion hit, rooting them."
+    },
+    {
+      "slot": "R",
+      "name": "Solar Flare",
+      "summary": "Call down a sunbeam that stuns in the center, slows otherwise.",
+      "details": "Leona calls down a beam of light at a target location. Enemies in the center are stunned; enemies in the outer area are slowed."
+    }
+  ]
+}

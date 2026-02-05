@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Vayne is a tank-killing ADC with true damage on every third hit. Her tumble and invisibility make her slippery while she melts anyone regardless of armor.",
+    "howToPlay": "Passive gives movement speed toward enemies. Q tumbles and empowers auto. W deals true damage every third hit (percent max health). E pushes enemy back, stunning if they hit terrain. R gives AD and makes Q grant invisibility. Kite with Q tumbles, W shreds tanks.",
+    "powerSpikes": "Vayne spikes with attack speed items. Kraken and Guinsoo's maximize her DPS. She's a late-game hypercarry."
+  },
+  "strengths": [
+    "True damage shreds tanks",
+    "Q invisibility with R",
+    "Strong late game",
+    "E can stun against walls"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "Short range",
+    "Needs good positioning",
+    "Low waveclear"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Night Hunter",
+    "summary": "Gain movement speed when moving toward enemy champions.",
+    "details": "Vayne gains bonus movement speed when moving toward a visible enemy champion."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Tumble",
+      "summary": "Roll and empower next auto to deal bonus damage.",
+      "details": "Vayne tumbles a short distance and empowers her next basic attack to deal bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Silver Bolts",
+      "summary": "Every third attack on the same target deals true damage.",
+      "details": "Vayne's attacks apply silver bolts. On the third attack against the same target, the bolts detonate dealing percent max health true damage."
+    },
+    {
+      "slot": "E",
+      "name": "Condemn",
+      "summary": "Knock back an enemy; stun if they hit terrain.",
+      "details": "Vayne fires a heavy bolt that knocks back an enemy. If they hit terrain, they're stunned and take bonus damage."
+    },
+    {
+      "slot": "R",
+      "name": "Final Hour",
+      "summary": "Gain AD and bonus passive speed; Tumble grants invisibility.",
+      "details": "Vayne gains bonus attack damage and triple the movement speed from Night Hunter. Tumble also grants brief invisibility."
+    }
+  ]
+}

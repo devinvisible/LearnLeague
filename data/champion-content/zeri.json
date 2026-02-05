@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zeri is a mobile ADC whose autos are skillshots. Her ultimate gives her massive speed and chain lightning, making her a nightmare to catch in teamfights.",
+    "howToPlay": "Passive: charged autos steal shield. Q is her main auto-replacement skillshot. W pierces terrain. E dashes over walls. R gives speed and chain lightning on hit, stacking from hits. E over walls, Q as main damage, R to kite and stack in teamfights.",
+    "powerSpikes": "Zeri spikes at level 6 with her speed and at 3 items. Trinity Force or crit scale her. She's strong in extended teamfights."
+  },
+  "strengths": [
+    "Extremely mobile",
+    "E dashes over terrain",
+    "R makes unkillable",
+    "Good kiting"
+  ],
+  "weaknesses": [
+    "Q is a skillshot",
+    "Weak early game",
+    "Needs R stacks",
+    "Hard to master"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Living Battery",
+    "summary": "Auto attacks are skillshots; steal shields from enemies.",
+    "details": "Zeri's basic attacks deal magic damage and steal enemy shields. She gains shield when damaging shields."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Burst Fire",
+      "summary": "Fire a burst of shots in a line (acts as her auto attack).",
+      "details": "Zeri fires a burst of rounds that deal physical damage. This is treated as her basic attack and applies on-hit effects."
+    },
+    {
+      "slot": "W",
+      "name": "Ultrashock Laser",
+      "summary": "Fire a laser that deals more damage through terrain.",
+      "details": "Zeri fires an electric pulse. If it hits terrain, it becomes a long-range laser that slows and deals more damage."
+    },
+    {
+      "slot": "E",
+      "name": "Spark Surge",
+      "summary": "Dash, gaining speed; can dash through terrain.",
+      "details": "Zeri dashes a short distance, gaining attack speed. If she dashes into terrain, she vaults over it."
+    },
+    {
+      "slot": "R",
+      "name": "Lightning Crash",
+      "summary": "Gain massive speed; attacks chain lightning. Stacks on hit.",
+      "details": "Zeri discharges electricity, damaging nearby enemies and gaining massive movement speed and chain lightning on her attacks. Each hit extends the duration and adds stacks."
+    }
+  ]
+}

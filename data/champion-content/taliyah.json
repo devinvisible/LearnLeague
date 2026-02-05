@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Taliyah is a zone control mage who shapes terrain. Her wall can cut off entire sections of the map, and her worked ground mechanic rewards repositioning.",
+    "howToPlay": "Passive gives speed near walls. Q throws rocks (creates worked ground that gives single rock). W knocks up and pushes enemies. E creates a minefield that explodes on dashes. R creates a massive wall across terrain. Use W to knock enemies into E mines.",
+    "powerSpikes": "Taliyah spikes at level 6 with her map-altering ultimate. Luden's scales her burst. She's strong at objective control with R."
+  },
+  "strengths": [
+    "R cuts off map sections",
+    "Good burst damage",
+    "E punishes dashes",
+    "Good roaming"
+  ],
+  "weaknesses": [
+    "Q creates worked ground",
+    "W-E combo is slow",
+    "Immobile",
+    "R can be walked around"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Rock Surfing",
+    "summary": "Gain movement speed near terrain.",
+    "details": "Taliyah gains bonus movement speed when near walls or terrain."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Threaded Volley",
+      "summary": "Throw rocks; creates worked ground (single rock on worked ground).",
+      "details": "Taliyah throws a volley of rocks that deals damage. Creates worked ground. On worked ground, only a single rock is thrown but it deals bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Seismic Shove",
+      "summary": "Create an area that knocks up and pushes enemies.",
+      "details": "Taliyah marks a location, then erupts it upward after a delay, knocking up and pushing enemies in a chosen direction."
+    },
+    {
+      "slot": "E",
+      "name": "Unraveled Earth",
+      "summary": "Create a minefield that explodes when enemies dash through.",
+      "details": "Taliyah scatters boulders on the ground that slow enemies. If enemies dash through the field, the boulders explode for bonus damage."
+    },
+    {
+      "slot": "R",
+      "name": "Weaver's Wall",
+      "summary": "Create a massive wall that cuts across the terrain.",
+      "details": "Taliyah creates a long wall of rock that travels across the map. She can ride the wall initially. The wall blocks movement until destroyed or timed out."
+    }
+  ]
+}

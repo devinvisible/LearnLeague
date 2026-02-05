@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Caitlyn is a long-range ADC who controls fights with traps and poke. She excels at sieging and has one of the longest attack ranges in the game.",
+    "howToPlay": "Passive headshots deal bonus damage (stacks from autos and traps/net). Q pokes through targets. W places traps that root and grant headshot. E net knocks you back and slows enemy. R is a long-range sniper shot. Trap enemies, headshot them, ult to finish.",
+    "powerSpikes": "Caitlyn spikes at levels 1-2 with range advantage and at first item. Infinity Edge and crit scale her. She's strongest early and late, weaker mid."
+  },
+  "strengths": [
+    "Longest base auto range",
+    "Strong lane bully",
+    "Good siege with traps",
+    "Execute with R"
+  ],
+  "weaknesses": [
+    "Weak mid-game",
+    "R can be blocked",
+    "Needs headshots for damage",
+    "Traps require setup"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Headshot",
+    "summary": "Every few autos, or after trap/net, next auto is a headshot dealing bonus damage.",
+    "details": "Caitlyn's next attack deals bonus damage after gaining stacks from autos and abilities. Traps and nets instantly grant headshot on targets they hit."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Piltover Peacemaker",
+      "summary": "Fire a piercing shot that deals damage in a line.",
+      "details": "Caitlyn charges briefly, then fires a shot that damages enemies in a line. Deals reduced damage to targets after the first."
+    },
+    {
+      "slot": "W",
+      "name": "Yordle Snap Trap",
+      "summary": "Place traps that root enemies and grant headshot.",
+      "details": "Caitlyn places a trap that arms after a moment. Enemies who step on it are rooted, revealed, and Caitlyn gains headshot against them. Stores multiple charges."
+    },
+    {
+      "slot": "E",
+      "name": "90 Caliber Net",
+      "summary": "Fire a net that knocks you back and slows enemies hit.",
+      "details": "Caitlyn fires a net, knocking herself back while the projectile slows enemies hit. Grants headshot on enemy hit."
+    },
+    {
+      "slot": "R",
+      "name": "Ace in the Hole",
+      "summary": "Lock onto a champion and fire a long-range sniper shot. Can be blocked.",
+      "details": "Caitlyn takes aim at a target champion, then fires a powerful shot. The bullet can be blocked by other enemy champions stepping in the way."
+    }
+  ]
+}

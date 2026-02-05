@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Neeko is a deceptive burst mage who can disguise as allies. Her clone and camouflage create mind games while her ultimate provides devastating teamfight engage.",
+    "howToPlay": "Passive lets you disguise as an ally champion. Q blooms through minions (3 blooms on champions/large monsters). W sends a clone and makes you briefly invisible. E roots through targets (longer root through more). R jumps and stuns in an area after charging.",
+    "powerSpikes": "Neeko spikes at level 6 with her teamfight ultimate. Hextech Rocketbelt adds engage. She's strong mid-game with surprise R engages."
+  },
+  "strengths": [
+    "Deception with passive and W",
+    "Strong AoE ultimate",
+    "Good root and poke",
+    "Flexible AP build"
+  ],
+  "weaknesses": [
+    "R is telegraphed",
+    "Disguise revealed by damage",
+    "Immobile without W",
+    "Falls off late without resets"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Inherent Glamour",
+    "summary": "Disguise as an allied champion.",
+    "details": "Neeko can take the appearance of any allied champion. Taking damage or using abilities reveals her."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Blooming Burst",
+      "summary": "Throw a bloom that explodes up to 3 times on champions or large monsters.",
+      "details": "Neeko throws a seed that blooms, dealing damage. If it hits a champion or large monster, it blooms again up to twice more."
+    },
+    {
+      "slot": "W",
+      "name": "Shapesplitter",
+      "summary": "Send out a clone and briefly become invisible.",
+      "details": "Passive: Every third auto deals bonus magic damage. Active: Neeko sends a clone in a direction while she briefly becomes invisible and gains movement speed."
+    },
+    {
+      "slot": "E",
+      "name": "Tangle-Barbs",
+      "summary": "Fire roots that grow stronger passing through enemies.",
+      "details": "Neeko fires a tangle of roots. The first enemy hit is rooted; subsequent enemies are rooted for longer."
+    },
+    {
+      "slot": "R",
+      "name": "Pop Blossom",
+      "summary": "Charge up then leap, stunning all nearby enemies.",
+      "details": "Neeko channels, gaining a shield. After channeling, she leaps into the air and crashes down, dealing damage and stunning all nearby enemies."
+    }
+  ]
+}

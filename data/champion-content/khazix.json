@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kha'Zix is an evolving assassin who hunts isolated targets. His abilities upgrade at 6/11/16, and he one-shots anyone caught alone.",
+    "howToPlay": "Passive makes next auto deal bonus damage from stealth/brush. Q is single target (massive bonus on isolated). W fires spikes that heal. E leaps. R goes invisible 2-3 times. Evolve Q for damage, E for resets, or R for invisibility. Hunt isolated targets.",
+    "powerSpikes": "Kha'Zix spikes at each evolution (6, 11, 16). Duskblade and lethality scale him. He's strong at assassinating isolated targets."
+  },
+  "strengths": [
+    "Massive isolated damage",
+    "Evolving kit",
+    "E resets on kills (evolved)",
+    "Good stealth"
+  ],
+  "weaknesses": [
+    "Weak against grouped enemies",
+    "Squishy",
+    "Falls off against tanks",
+    "Needs isolation"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Unseen Threat",
+    "summary": "From stealth or brush, next auto deals bonus damage and slows.",
+    "details": "When Kha'Zix is unseen, his next basic attack against a champion deals bonus magic damage and slows them."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Taste Their Fear",
+      "summary": "Slash an enemy; deals massive bonus damage if they're isolated.",
+      "details": "Kha'Zix slashes a target, dealing physical damage. If the target is isolated (no allies nearby), the damage is massively increased. Evolve: Increases range and refunds cooldown on isolated targets."
+    },
+    {
+      "slot": "W",
+      "name": "Void Spike",
+      "summary": "Fire spikes that slow; heal if they hit champions.",
+      "details": "Kha'Zix fires spikes that damage and slow. If he's hit by the explosion, he heals. Evolve: Fires 3 spikes in a cone and applies passive slow."
+    },
+    {
+      "slot": "E",
+      "name": "Leap",
+      "summary": "Leap to a location. Evolve: longer range and resets on kill.",
+      "details": "Kha'Zix leaps to a location, dealing damage on landing. Evolve: Increased range and the cooldown resets on champion takedown."
+    },
+    {
+      "slot": "R",
+      "name": "Void Assault",
+      "summary": "Go invisible briefly; can cast multiple times. Evolve: 3 casts and longer stealth.",
+      "details": "Kha'Zix becomes invisible and gains movement speed. Can be cast again within a few seconds. Evolve: Can be cast 3 times and duration is increased."
+    }
+  ]
+}

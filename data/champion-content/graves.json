@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Graves is a shotgun jungler who reloads between autos. His pellet-based attacks make him excellent at clearing camps and bursting in close range.",
+    "howToPlay": "Auto attacks fire pellets (more damage close). Must reload after 2 shots (auto attack to reload). Q fires a line that bounces back. W creates a smoke screen that blinds. E dashes and reloads one shell. R knocksback and damages in a cone. Get close, burst, E to kite.",
+    "powerSpikes": "Graves spikes early with his clear speed and at Eclipse. He's a strong early-mid game jungler who can snowball."
+  },
+  "strengths": [
+    "Fast jungle clear",
+    "High burst close range",
+    "Tanky with E stacks",
+    "Good dueling"
+  ],
+  "weaknesses": [
+    "Blocked by minions/monsters",
+    "Needs to reload",
+    "Falls off late game",
+    "Weak at long range"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "New Destiny",
+    "summary": "Autos fire pellet shotgun blasts; must reload after 2 shots.",
+    "details": "Graves' auto attacks fire multiple pellets that deal increased damage at close range. He has 2 shells and must reload after firing them."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "End of the Line",
+      "summary": "Fire a blast that bounces off terrain for delayed explosion.",
+      "details": "Graves fires a powder round that deals damage and bounces off terrain. After a delay or hitting terrain, it detonates dealing additional damage."
+    },
+    {
+      "slot": "W",
+      "name": "Smoke Screen",
+      "summary": "Throw a canister that creates a smoke zone blinding enemies inside.",
+      "details": "Graves throws a canister that creates a smoke cloud, slowing and blinding enemies inside (they can't see outside the smoke)."
+    },
+    {
+      "slot": "E",
+      "name": "Quickdraw",
+      "summary": "Dash and reload one shell; gain armor stacking.",
+      "details": "Graves dashes in a direction, reloading one shell. He gains a stack of True Grit, giving armor. Hitting enemies refreshes and adds stacks."
+    },
+    {
+      "slot": "R",
+      "name": "Collateral Damage",
+      "summary": "Fire an explosive shell that knocks you back and enemies away.",
+      "details": "Graves fires a heavy shell dealing damage in a cone. The initial target is knocked back, and Graves recoils backward. The shell explodes at max range or on hitting a champion."
+    }
+  ]
+}

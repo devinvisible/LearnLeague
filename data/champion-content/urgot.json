@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Urgot is a juggernaut with shotgun knees who executes low-health enemies. He excels at extended trades and can pull enemies into his meat grinder.",
+    "howToPlay": "Passive: shotgun knees fire on autos, rotating around him (each knee has CD). Q slows in an area. W toggles rapid fire at reduced damage. E dashes and flips first enemy hit. R fires a drill that slows - at low HP, recast to execute and fear nearby enemies.",
+    "powerSpikes": "Urgot spikes at level 9 with max W and at 6 with execute. Black Cleaver stacks fast with W. He's strong in extended fights."
+  },
+  "strengths": [
+    "R execute is dramatic",
+    "W shreds with shotgun knees",
+    "Good sustain",
+    "Tanky for a damage dealer"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "E is his only mobility",
+    "R can be dodged",
+    "Kited by ranged"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Echoing Flames",
+    "summary": "Auto attacks near enemies trigger shotgun knees dealing percent health damage.",
+    "details": "Urgot's six legs each have a shotgun that fires when he auto attacks in that direction, dealing percent max health damage. Each knee has a separate cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Corrosive Charge",
+      "summary": "Fire a bomb that slows enemies in an area.",
+      "details": "Urgot fires a canister that explodes at a location, dealing damage and slowing enemies."
+    },
+    {
+      "slot": "W",
+      "name": "Purge",
+      "summary": "Toggle rapid fire at reduced damage; shields when maxed.",
+      "details": "Urgot toggles rapid auto attacks at reduced damage. Attacks automatically target lowest health enemy. At max rank, has no mana cost and shields Urgot."
+    },
+    {
+      "slot": "E",
+      "name": "Disdain",
+      "summary": "Dash and flip the first enemy hit.",
+      "details": "Urgot charges forward, shielding himself. The first enemy hit is stunned and flipped behind him."
+    },
+    {
+      "slot": "R",
+      "name": "Fear Beyond Death",
+      "summary": "Fire a drill; at low HP, recast to execute and fear enemies.",
+      "details": "Urgot fires a drill that impales the first champion hit, slowing them. If the target drops below 25% HP, recast to reel them in and execute them, fearing nearby enemies."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Yone is Yasuo's brother who wields two swords and can leave his body to dive enemies. He has similar Q stacking but with a guaranteed spirit form engage.",
+    "howToPlay": "Passive: every 2nd auto deals magic damage. Q thrusts (stacks to dash like Yasuo). W shields and damages in a cone. E leaves body and gains ramping damage - snap back after. R blinks behind enemies and knocks them up. E-R for massive engage, Q3 for knockup.",
+    "powerSpikes": "Yone spikes at level 3 with combo and level 6 for engage. BOTRK and crit scale him. He's strong mid-late with dives."
+  },
+  "strengths": [
+    "E guarantees escape",
+    "R is massive engage",
+    "Mixed damage",
+    "Strong scaling"
+  ],
+  "weaknesses": [
+    "Weak early game",
+    "E return is predictable",
+    "Squishy",
+    "Needs items to scale"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Way of the Hunter",
+    "summary": "Every second auto deals bonus magic damage; crits deal reduced damage.",
+    "details": "Every second auto attack deals bonus magic damage. Yone also gains double crit chance from items but crits deal reduced damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Mortal Steel",
+      "summary": "Thrust forward; at 2 stacks, dash and knock up.",
+      "details": "Yone thrusts forward, dealing damage. On hit, he gains a stack. At 2 stacks, the next Q dashes through enemies, knocking them up."
+    },
+    {
+      "slot": "W",
+      "name": "Spirit Cleave",
+      "summary": "Slash in a cone, gaining a shield based on enemies hit.",
+      "details": "Yone slashes in a cone dealing magic and physical damage. He gains a shield that scales with the number of champions hit."
+    },
+    {
+      "slot": "E",
+      "name": "Soul Unbound",
+      "summary": "Leave your body to dive; snap back after, dealing stored damage.",
+      "details": "Yone enters spirit form, gaining movement speed and leaving his body behind. After a duration or recast, he snaps back, dealing a percentage of all damage dealt during spirit form."
+    },
+    {
+      "slot": "R",
+      "name": "Fate Sealed",
+      "summary": "Blink behind all enemies in a line and knock them up.",
+      "details": "Yone blinks forward, pulling all enemies in the path behind him and knocking them up."
+    }
+  ]
+}

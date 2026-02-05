@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Viego is the Ruined King who possesses enemies he kills. He becomes the slain champion temporarily, enabling unique outplays with stolen abilities.",
+    "howToPlay": "Passive: killing champions leaves a wraith - possess to become them with their abilities. Q stabs and marks (auto on marked heals). W charges a dash that stuns. E creates camouflage mist. R blinks to execute lowest HP enemy in range. Kill, possess, repeat.",
+    "powerSpikes": "Viego spikes with BOTRK and at level 6. He's strong when he gets resets and can possess multiple enemies."
+  },
+  "strengths": [
+    "Possesses killed enemies",
+    "R is untargetable reset",
+    "Good sustain with Q",
+    "Camouflage with E"
+  ],
+  "weaknesses": [
+    "Weak if can't possess",
+    "Squishy",
+    "Needs team for initial kills",
+    "Complex possession timing"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Sovereign's Domination",
+    "summary": "Killed enemies leave wraiths; possess them to become that champion.",
+    "details": "Enemies killed by Viego or who die nearby leave behind a wraith. Viego can possess wraiths to become that champion temporarily, healing and gaining their basic abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Blade of the Ruined King",
+      "summary": "Stab forward; auto attacks on marked targets heal you.",
+      "details": "Passive: Viego's attacks deal bonus damage and mark enemies. Marked enemy autos heal Viego. Active: Stab forward dealing damage and applying the mark."
+    },
+    {
+      "slot": "W",
+      "name": "Spectral Maw",
+      "summary": "Charge and dash, stunning the first enemy hit.",
+      "details": "Viego charges up a dash. On release, he dashes forward, stunning the first enemy hit. Longer charge = longer stun."
+    },
+    {
+      "slot": "E",
+      "name": "Harrowed Path",
+      "summary": "Create a mist that camouflages and speeds you.",
+      "details": "Viego creates a wall of mist that spreads along terrain. While in the mist, he becomes camouflaged and gains attack speed and movement speed."
+    },
+    {
+      "slot": "R",
+      "name": "Heartbreaker",
+      "summary": "Blink and execute the lowest HP enemy in range.",
+      "details": "Viego becomes untargetable and blinks to a location, attacking the lowest health enemy nearby for percent missing health damage."
+    }
+  ]
+}

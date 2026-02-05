@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Jarvan IV is a versatile engage jungler who traps enemies in his arena. His flag-drag combo makes him a reliable ganker with knockup engage.",
+    "howToPlay": "Passive deals bonus damage on first hit per target. Q is a skillshot that pulls you to your flag and knocks up. W slows around you and shields. E throws a flag giving attack speed. R creates impassable terrain trapping enemies inside. E-Q combo for knockup engage.",
+    "powerSpikes": "Jarvan spikes at level 2 with E-Q combo and level 6 with arena trap. He's strong at ganking and teamfight engage throughout."
+  },
+  "strengths": [
+    "Reliable knockup engage",
+    "R traps enemies",
+    "Good ganks early",
+    "Flexible builds"
+  ],
+  "weaknesses": [
+    "R can trap allies",
+    "E-Q can miss",
+    "Falls off without damage build",
+    "Predictable engage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Martial Cadence",
+    "summary": "First auto on each enemy deals bonus damage based on their current health.",
+    "details": "Jarvan's first basic attack on an enemy deals bonus physical damage based on their current health. Has a cooldown per target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dragon Strike",
+      "summary": "Thrust your lance; if it hits your flag, dash to it and knock up enemies.",
+      "details": "Jarvan extends his lance in a line, dealing damage and reducing armor. If it passes through his flag, he dashes to it, knocking up enemies in his path."
+    },
+    {
+      "slot": "W",
+      "name": "Golden Aegis",
+      "summary": "Shield based on nearby enemies and slow them.",
+      "details": "Jarvan shields himself, with the shield increasing for each nearby enemy champion. Nearby enemies are also slowed."
+    },
+    {
+      "slot": "E",
+      "name": "Demacian Standard",
+      "summary": "Throw a flag that gives attack speed; combo with Q to dash.",
+      "details": "Jarvan throws a flag that deals damage on impact. The flag grants attack speed to nearby allies and acts as a target for Q's dash."
+    },
+    {
+      "slot": "R",
+      "name": "Cataclysm",
+      "summary": "Leap to an enemy and create impassable terrain around you.",
+      "details": "Jarvan leaps to an enemy champion, dealing damage and creating a circle of impassable terrain. Champions can use dashes to escape."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Renata Glasc is a manipulative enchanter whose ultimate makes enemies attack their own allies. She can also revive allies briefly after they would die.",
+    "howToPlay": "Q fires a missile that can be recast to throw the target. W buffs ally attack speed - if they would die, they get a zombie state and revive on takedown. E shields allies and damages enemies. R sends a wave that causes enemies to go berserk, attacking allies.",
+    "powerSpikes": "Renata spikes at level 6 with her chaos ultimate. Enchanter items amplify her W saves. She's strong in teamfights with berserk turning fights."
+  },
+  "strengths": [
+    "Ultimate turns fights",
+    "W can save allies from death",
+    "Good peel and engage",
+    "Strong in teamfights"
+  ],
+  "weaknesses": [
+    "R can be dodged",
+    "W save requires takedown",
+    "Immobile",
+    "Complex to optimize"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Leverage",
+    "summary": "Attacks mark enemies; ally attacks on marked targets deal bonus damage.",
+    "details": "Renata's attacks mark enemies. Allied champions who attack marked enemies deal bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Handshake",
+      "summary": "Fire a missile; recast to throw the first enemy hit.",
+      "details": "Renata fires a missile that roots the first enemy hit. Recast to throw the enemy in a direction, damaging and stunning if they hit terrain or another enemy."
+    },
+    {
+      "slot": "W",
+      "name": "Bailout",
+      "summary": "Buff an ally; if they would die, they become a zombie and revive on takedown.",
+      "details": "Renata buffs an ally with attack speed and movement speed toward enemies. If they take lethal damage, they enter a zombie state and fully revive if they get a takedown before dying."
+    },
+    {
+      "slot": "E",
+      "name": "Loyalty Program",
+      "summary": "Send missiles that shield allies and damage enemies passed.",
+      "details": "Renata sends missiles outward that shield allies and damage enemies. The missiles converge at the target location."
+    },
+    {
+      "slot": "R",
+      "name": "Hostile Takeover",
+      "summary": "Send a wave that makes enemies berserk, attacking their own allies.",
+      "details": "Renata sends a chemical wave. Enemies hit become berserk, gaining attack speed but attacking anything nearby - prioritizing their own allies."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Shyvana is a farming jungler who transforms into a dragon. Her dragon form enhances all abilities and she excels with AP burst or AD bruiser builds.",
+    "howToPlay": "Passive: killing dragons gives bonus stats. Q double auto. W surrounds you with fire. E marks (bonus damage on marked). R transforms to dragon, E becomes massive fireball (AP build oneshots). Farm to 6, transform for fights.",
+    "powerSpikes": "Shyvana spikes at level 6 with dragon form. AP for burst, AD for DPS. She needs to farm and scales into mid-game."
+  },
+  "strengths": [
+    "Fast jungle clear",
+    "Dragon form is powerful",
+    "AP E does huge damage",
+    "Bonus stats from dragons"
+  ],
+  "weaknesses": [
+    "No CC without R",
+    "Needs R to be effective",
+    "Weak ganks pre-6",
+    "Predictable"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fury of the Dragonborn",
+    "summary": "Killing dragons grants bonus stats; gain fury from attacks.",
+    "details": "Shyvana deals bonus damage to dragons and gains bonus armor and magic resist for each dragon her team kills. She also generates fury for Dragon's Descent."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Twin Bite",
+      "summary": "Auto attack twice; applies on-hit effects twice.",
+      "details": "Shyvana's next auto strikes twice, dealing bonus damage. Both hits apply on-hit effects. Dragon Form: Also damages enemies around the target."
+    },
+    {
+      "slot": "W",
+      "name": "Burnout",
+      "summary": "Surround yourself with fire and gain movement speed.",
+      "details": "Shyvana surrounds herself with fire, dealing damage to nearby enemies and gaining movement speed. Basic attacks extend the duration. Dragon Form: Larger area."
+    },
+    {
+      "slot": "E",
+      "name": "Flame Breath",
+      "summary": "Fire a fireball that marks enemies; attacks on marked targets deal bonus damage.",
+      "details": "Shyvana fires a ball of flame that damages and marks enemies. Auto attacks on marked enemies deal bonus damage. Dragon Form: A massive explosion that leaves a burning zone."
+    },
+    {
+      "slot": "R",
+      "name": "Dragon's Descent",
+      "summary": "Transform into a dragon, gaining bonus stats and enhanced abilities.",
+      "details": "Shyvana transforms into a dragon, dashing forward and dealing damage. She gains bonus health and her abilities are enhanced. Requires full fury."
+    }
+  ]
+}

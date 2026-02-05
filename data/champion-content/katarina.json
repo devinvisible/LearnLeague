@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Katarina is a reset assassin who bounces around teamfights collecting kills. Her abilities reset on takedowns, allowing her to pentakill if she gets going.",
+    "howToPlay": "Passive: daggers drop from abilities - pick them up for AoE damage. Q bounces and drops a dagger. W drops a dagger at your feet. E blinks to target (instant on daggers). R channels spinning blades around you. Q-E-W-E for burst, R in teamfights, reset on kills.",
+    "powerSpikes": "Katarina spikes at level 6 with R burst and at level 3 for combos. She's strong when she can chain resets in teamfights."
+  },
+  "strengths": [
+    "Full reset on takedowns",
+    "High AoE damage",
+    "Very mobile",
+    "No mana"
+  ],
+  "weaknesses": [
+    "Weak if focused",
+    "Needs to pick up daggers",
+    "R can be interrupted",
+    "All-in with no escape"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Voracity",
+    "summary": "Takedowns reset cooldowns; picking up daggers deals AoE damage.",
+    "details": "Champion takedowns reduce all cooldowns significantly. Picking up daggers deals magic damage in an area around Katarina."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Bouncing Blade",
+      "summary": "Throw a dagger that bounces between enemies and drops behind the first.",
+      "details": "Katarina throws a dagger that bounces to nearby enemies, then drops on the ground behind the initial target."
+    },
+    {
+      "slot": "W",
+      "name": "Preparation",
+      "summary": "Drop a dagger at your feet and gain movement speed.",
+      "details": "Katarina tosses a dagger in the air above her (landing after a delay) and gains movement speed that decays."
+    },
+    {
+      "slot": "E",
+      "name": "Shunpo",
+      "summary": "Blink to a target; instant cooldown if blinking to a dagger.",
+      "details": "Katarina blinks to a target (ally, enemy, or dagger), dealing damage to enemies. Blinking to a dagger resets the cooldown."
+    },
+    {
+      "slot": "R",
+      "name": "Death Lotus",
+      "summary": "Channel to throw daggers at nearby enemies, applying Grievous Wounds.",
+      "details": "Katarina channels for up to 2.5 seconds, throwing daggers at up to 3 nearby enemies. Applies Grievous Wounds and deals massive damage."
+    }
+  ]
+}

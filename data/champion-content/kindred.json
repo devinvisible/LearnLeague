@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kindred is a scaling marksman jungler who hunts marks for permanent stats. Their ultimate creates a zone where nothing can die.",
+    "howToPlay": "Passive marks jungle camps and champions - kill marks for permanent range and damage. Q dashes and fires arrows. W creates a hunting zone where Q has lower cooldown. E slows and executes on 3rd hit. R prevents ALL deaths in an area (allies and enemies). Farm marks, R to save.",
+    "powerSpikes": "Kindred spikes with marks (4 for first range increase). Attack speed and crit scale them. They're strong with marks stacked."
+  },
+  "strengths": [
+    "Infinite scaling with marks",
+    "R saves the whole team",
+    "Good kiting with Q",
+    "Ranged jungler"
+  ],
+  "weaknesses": [
+    "R saves enemies too",
+    "Needs marks to scale",
+    "Squishy",
+    "Weak without W zone"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mark of the Kindred",
+    "summary": "Hunt marks on camps and champions for permanent attack range and damage.",
+    "details": "Lamb marks enemy champions; Wolf marks jungle camps. Killing marked targets grants permanent bonus attack range and percent health damage on attacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Dance of Arrows",
+      "summary": "Dash and fire arrows at nearby enemies. Lower cooldown in W zone.",
+      "details": "Kindred dashes and fires up to 3 arrows at nearby enemies. While inside Wolf's Frenzy, the cooldown is massively reduced."
+    },
+    {
+      "slot": "W",
+      "name": "Wolf's Frenzy",
+      "summary": "Create a zone where Wolf attacks enemies and Q cooldown is reduced.",
+      "details": "Kindred creates a hunting zone. Wolf attacks enemies inside, and Dance of Arrows cooldown is reduced while in the zone."
+    },
+    {
+      "slot": "E",
+      "name": "Mounting Dread",
+      "summary": "Mark an enemy; after 3 attacks, deal massive damage and slow.",
+      "details": "Kindred marks an enemy, slowing them. After 3 attacks, the mark detonates dealing missing health damage and slowing."
+    },
+    {
+      "slot": "R",
+      "name": "Lamb's Respite",
+      "summary": "Create a zone where NO unit can die. After, heal all units inside.",
+      "details": "Kindred creates a zone where no unit can drop below minimum health. When it ends, all units inside are healed. Affects allies and enemies."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Jayce is a poke/all-in hybrid with two forms. His ranged form pokes with accelerated Q while hammer form bursts and knocks away enemies.",
+    "howToPlay": "Cannon (Ranged): Q shoots a shock blast. W creates a gate (Q through gate = accelerated). E speeds allies. Hammer (Melee): Q hammer slam. W AoE lightning. E knocks away. R swaps forms. Poke with cannon Q-E, then hammer all-in for burst.",
+    "powerSpikes": "Jayce spikes at level 3-6 with both forms and with lethality items. He's strongest mid-game at poking and bursting."
+  },
+  "strengths": [
+    "Strong poke with Q-E",
+    "Good all-in burst",
+    "Flexible ranged/melee",
+    "No ultimate to wait for"
+  ],
+  "weaknesses": [
+    "High skill ceiling",
+    "Falls off late game",
+    "Q can miss",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Hextech Capacitor",
+    "summary": "Swapping forms grants movement speed and ghost.",
+    "details": "Each time Jayce transforms, he gains bonus movement speed and ignores unit collision for a short time."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "To the Skies! / Shock Blast",
+      "summary": "Hammer: leap and slam. Cannon: fire a shock blast.",
+      "details": "Hammer: Jayce leaps to a target, dealing AoE damage and slowing. Cannon: Fire a blast that explodes on first enemy (accelerated through gate)."
+    },
+    {
+      "slot": "W",
+      "name": "Lightning Field / Hyper Charge",
+      "summary": "Hammer: AoE lightning around you. Cannon: fire 3 fast shots.",
+      "details": "Hammer: Deal magic damage around Jayce. Also passively restore mana on hit. Cannon: Fire 3 auto attacks rapidly at reduced damage."
+    },
+    {
+      "slot": "E",
+      "name": "Thundering Blow / Acceleration Gate",
+      "summary": "Hammer: knock enemy away. Cannon: create a speed gate.",
+      "details": "Hammer: Knock an enemy back, dealing percent max health damage. Cannon: Create a gate that accelerates allied champions and Shock Blast."
+    },
+    {
+      "slot": "R",
+      "name": "Mercury Cannon / Mercury Hammer",
+      "summary": "Swap between cannon (ranged) and hammer (melee) forms.",
+      "details": "Jayce transforms, changing his abilities. Hammer gains bonus armor/MR. Cannon first attack shreds resistances."
+    }
+  ]
+}

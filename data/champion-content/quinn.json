@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Quinn is a roaming marksman who transforms into a high-speed bird for map mobility. She bullies melee tops and then roams to impact other lanes.",
+    "howToPlay": "Passive marks enemies - hitting marks deals bonus damage. Q blinds and marks. W reveals area and gives attack speed near marked targets. E vaults off target, slowing and marking them. R transforms to Valor for massive speed (can't attack), recast to exit and deal damage.",
+    "powerSpikes": "Quinn spikes at level 6 with roaming ultimate. Lethality or crit builds work. She's a lane bully who uses R to impact the map."
+  },
+  "strengths": [
+    "Lane bully against melees",
+    "Incredible roam speed",
+    "Blind counters ADCs",
+    "Strong dueling"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "Short range for ADC",
+    "R can't attack",
+    "Falls off in teamfights"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Harrier",
+    "summary": "Valor marks enemies; attacking marks deals bonus damage.",
+    "details": "Periodically, Valor marks a nearby enemy as Vulnerable. Attacking a Vulnerable target deals bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Blinding Assault",
+      "summary": "Fire a projectile that blinds and marks the first enemy hit.",
+      "details": "Quinn fires a projectile that damages and blinds the first enemy hit, causing their auto attacks to miss. The target is also marked."
+    },
+    {
+      "slot": "W",
+      "name": "Heightened Senses",
+      "summary": "Passive: gain attack speed near marked targets. Active: reveal a large area.",
+      "details": "Passive: Attacking a marked target grants Quinn attack speed. Active: Valor reveals a large area around Quinn."
+    },
+    {
+      "slot": "E",
+      "name": "Vault",
+      "summary": "Dash to a target, slow them, mark them, and bounce off.",
+      "details": "Quinn dashes to an enemy, dealing damage, slowing them, and bouncing back while marking them as Vulnerable."
+    },
+    {
+      "slot": "R",
+      "name": "Behind Enemy Lines",
+      "summary": "Transform into Valor for massive speed; can't attack until cancelled.",
+      "details": "Quinn channels briefly then transforms into Valor, gaining massive movement speed but unable to attack. Recast or take action to exit, dealing damage to nearby enemies."
+    }
+  ]
+}

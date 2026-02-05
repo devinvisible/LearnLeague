@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "LeBlanc is a slippery burst mage who can return to her dash origin. She excels at assassinating targets and escaping with her multiple blinks.",
+    "howToPlay": "Passive creates a clone at low health. Q marks target (proc with another ability for bonus damage). W dashes and can return. E tethers and roots after duration. R mimics last ability cast. Q-W to poke, Q-R-W-E for full burst, W back to safety.",
+    "powerSpikes": "LeBlanc spikes at level 6 with mimic burst. Luden's scales her damage. She's strong at picks and burst throughout mid-game."
+  },
+  "strengths": [
+    "High burst damage",
+    "Very slippery",
+    "Good poke and all-in",
+    "Clone creates confusion"
+  ],
+  "weaknesses": [
+    "Falls off late game",
+    "Weak waveclear",
+    "E root requires tether",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mirror Image",
+    "summary": "When low on health, create a clone and briefly become invisible.",
+    "details": "When LeBlanc drops below a health threshold, she becomes invisible and creates a clone that can be controlled."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Sigil of Malice",
+      "summary": "Mark a target; proccing the mark with another ability deals bonus damage.",
+      "details": "LeBlanc fires a sigil at a target, dealing damage and marking them. If she damages them again with an ability, the mark detonates for bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Distortion",
+      "summary": "Dash to a location; can reactivate to return to the origin.",
+      "details": "LeBlanc dashes to a location, dealing damage on arrival. She can reactivate within a few seconds to return to her starting position."
+    },
+    {
+      "slot": "E",
+      "name": "Ethereal Chains",
+      "summary": "Fire a chain that roots if the tether holds.",
+      "details": "LeBlanc fires a chain that damages and slows the first enemy hit. If the tether isn't broken, the target is rooted after a delay."
+    },
+    {
+      "slot": "R",
+      "name": "Mimic",
+      "summary": "Cast an empowered version of your last basic ability.",
+      "details": "LeBlanc casts a more powerful version of her most recently used basic ability. Can also return to Mimic Distortion's location."
+    }
+  ]
+}

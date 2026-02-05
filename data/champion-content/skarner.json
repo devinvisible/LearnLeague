@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Skarner is a pick-focused tank who drags enemies out of position with his ultimate. His reworked kit gives him CC and durability to reach priority targets.",
+    "howToPlay": "Q is a charged slam that stuns (needs charge). W has two parts: first gives shield and speed, second grabs/throws enemies/terrain. E impales in a line. R suppresses and drags a target with you. Flash R to grab carries and drag them to your team.",
+    "powerSpikes": "Skarner spikes at level 6 with his drag ultimate. Tank items make him durable. He's strong when he can isolate targets."
+  },
+  "strengths": [
+    "R drags enemies out",
+    "Good engage with W",
+    "Tanky with shields",
+    "Disrupts backline"
+  ],
+  "weaknesses": [
+    "Kited without R",
+    "Q stun needs charge",
+    "R can be cleansed/QSS'd",
+    "Falls off late game"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Threads of Vibration",
+    "summary": "Abilities apply stacks that deal bonus damage at 3 stacks.",
+    "details": "Skarner's abilities apply Quaking stacks. At 3 stacks, they detonate to deal bonus percent max health damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Shattered Earth / Upheaval",
+      "summary": "Rip out a rock; throw it to stun enemies.",
+      "details": "Skarner rips out a rock, empowering his next attack. Throw the rock to deal damage and stun enemies hit. Can store multiple charges."
+    },
+    {
+      "slot": "W",
+      "name": "Seismic Bastion",
+      "summary": "Gain a shield; recast to slam and damage enemies.",
+      "details": "Skarner surrounds himself with a shield and gains movement speed. Recast to slam the ground, dealing damage to nearby enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Ixtal's Impact",
+      "summary": "Charge forward, ignoring terrain; grab and drag the first champion hit.",
+      "details": "Skarner charges in a direction, ignoring terrain. He grabs the first enemy champion hit, carrying them with him before throwing them."
+    },
+    {
+      "slot": "R",
+      "name": "Impale",
+      "summary": "Suppress a target and drag them with you.",
+      "details": "Skarner impales an enemy champion, suppressing them and dragging them with him for a few seconds. Deals damage when the suppression ends."
+    }
+  ]
+}

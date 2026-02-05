@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Smolder is an infinitely scaling dragon ADC who gains stacks on Q hits. His abilities upgrade at stack thresholds, making him a late-game hypercarry.",
+    "howToPlay": "Q is a targeted ability that stacks on hit. W fires a slow zone. E dashes and flies over terrain briefly. R fires a huge wave globally. Q upgrades: 25 stacks adds explosion, 125 adds burn, 225 adds massive true damage. Farm Q stacks for scaling.",
+    "powerSpikes": "Smolder spikes at Q upgrade thresholds (25, 125, 225). Crit items scale him. He's a late-game hypercarry who needs to stack."
+  },
+  "strengths": [
+    "Infinite Q scaling",
+    "Safe laning with Q poke",
+    "Global R for assists",
+    "True damage at max stacks"
+  ],
+  "weaknesses": [
+    "Weak before stacks",
+    "Needs time to scale",
+    "Immobile",
+    "Falls behind against pressure"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Dragon Practice",
+    "summary": "Q hits permanently stack; stacks upgrade abilities at thresholds.",
+    "details": "Hitting champions with abilities grants Smolder stacks. At certain thresholds (25, 125, 225), his abilities gain bonus effects."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Super Scorcher Breath",
+      "summary": "Fire a bolt at a target; evolves with stacks.",
+      "details": "Smolder breathes fire at a target, dealing damage. At 25 stacks: creates an explosion. At 125: adds a burn. At 225: deals bonus true damage."
+    },
+    {
+      "slot": "W",
+      "name": "Achooo!",
+      "summary": "Sneeze fire that slows; explodes after a delay.",
+      "details": "Smolder sneezes fire at a location, slowing enemies. After a delay, it explodes dealing more damage."
+    },
+    {
+      "slot": "E",
+      "name": "Flap, Flap, Flap",
+      "summary": "Dash forward, briefly flying over terrain.",
+      "details": "Smolder dashes and gains flight, ignoring terrain for a short distance."
+    },
+    {
+      "slot": "R",
+      "name": "MMOOOMMMM!",
+      "summary": "Call mom to fire a massive global wave.",
+      "details": "Smolder calls his mother, who fires a massive wave across the map dealing damage to enemies hit. Slows and reveals enemies."
+    }
+  ]
+}

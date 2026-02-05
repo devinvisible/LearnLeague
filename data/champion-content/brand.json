@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Brand is a combo mage who stacks ablaze for maximum damage. His ultimate bounces between enemies, making him devastating against grouped teams.",
+    "howToPlay": "Abilities apply Ablaze. E spreads to nearby ablaze targets. Q stuns ablaze targets. W does bonus damage to ablaze. R bounces between enemies (prioritizes champions). Combo: E-Q for stun, or W-E for spread, then R into grouped enemies.",
+    "powerSpikes": "Brand spikes at level 6 with his bouncing ultimate. Liandry's burn synergizes with his passive. He's strong in teamfights against grouped enemies."
+  },
+  "strengths": [
+    "High AoE damage",
+    "R devastates grouped enemies",
+    "Passive burn does % health",
+    "Good poke with W"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Q stun needs setup",
+    "R can bounce wrong",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Blaze",
+    "summary": "Abilities set enemies ablaze; 3 stacks detonates for % max health damage.",
+    "details": "Brand's abilities apply Ablaze, dealing damage over time. Hitting an ablaze enemy with 3 stacks causes them to detonate, dealing percent max health damage in an area."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Sear",
+      "summary": "Fire a fireball that stuns ablaze targets.",
+      "details": "Brand launches a fireball that deals damage. If the target is ablaze, they're stunned."
+    },
+    {
+      "slot": "W",
+      "name": "Pillar of Flame",
+      "summary": "After a delay, explode an area; deals bonus damage to ablaze targets.",
+      "details": "Brand creates a pillar of flame that erupts after a delay, dealing magic damage. Ablaze enemies take bonus damage."
+    },
+    {
+      "slot": "E",
+      "name": "Conflagration",
+      "summary": "Set a target ablaze; spreads to nearby ablaze enemies.",
+      "details": "Brand sets a target ablaze, dealing magic damage. If the target is already ablaze, the fire spreads to nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Pyroclasm",
+      "summary": "Bouncing fireball that prioritizes champions and ablaze targets.",
+      "details": "Brand launches a fireball that bounces between enemies up to 5 times, dealing damage each bounce. Prioritizes champions and ablaze targets. Slows ablaze targets."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ornn is a forging tank who upgrades ally items in late game. His brittle mechanic adds massive CC, and his ultimate is a huge team fight engage tool.",
+    "howToPlay": "Passive lets you build items in lane and upgrade ally mythics late. Q creates a pillar. W breathes fire, making enemies brittle (next CC knocks them up). E dashes and knocks up if you hit terrain/pillar. R sends a ram you can recast to redirect for a knockup.",
+    "powerSpikes": "Ornn spikes at level 13+ when he can upgrade items. His trading is strong at level 1-3. He's a late-game scaling tank with incredible teamfight."
+  },
+  "strengths": [
+    "Upgrades team items",
+    "Strong CC with brittle",
+    "Good trading in lane",
+    "Massive teamfight R"
+  ],
+  "weaknesses": [
+    "Low mobility",
+    "R can be dodged",
+    "Needs team for damage",
+    "Falls behind against ranged"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Living Forge",
+    "summary": "Forge items anywhere; upgrade ally items at level 13+.",
+    "details": "Ornn can forge non-consumable items anywhere. At level 13+, he can upgrade one ally's mythic item into an improved version. He gets one more upgrade at later levels."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Volcanic Rupture",
+      "summary": "Create a fissure that erupts into a pillar of rock.",
+      "details": "Ornn slams the ground, creating a fissure that damages and slows. After a delay, a pillar erupts at the end. The pillar is terrain."
+    },
+    {
+      "slot": "W",
+      "name": "Bellows Breath",
+      "summary": "Breathe fire; the final flame makes enemies brittle.",
+      "details": "Ornn becomes unstoppable and breathes fire, dealing damage. The last tick makes enemies brittle - the next CC knocks them up."
+    },
+    {
+      "slot": "E",
+      "name": "Searing Charge",
+      "summary": "Dash; if you hit terrain, create a shockwave that knocks up.",
+      "details": "Ornn charges forward, dealing damage. If he hits terrain (including his pillar), he creates a shockwave that knocks up nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Call of the Forge God",
+      "summary": "Summon a ram; recast to headbutt it, knocking up enemies.",
+      "details": "Ornn summons a ram that travels in a direction, slowing enemies. Recast to headbutt the ram, redirecting it and knocking up all enemies hit."
+    }
+  ]
+}

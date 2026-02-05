@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Lulu is a polymorphing enchanter who makes allies stronger and enemies useless. She excels at buffing hypercarries and shutting down assassins.",
+    "howToPlay": "Passive: Pix follows allies you buff or enemies you debuff. Q fires bolts from you and Pix. W speeds allies or polymorphs enemies. E shields ally (Pix follows them) or damages enemy (Pix follows them). R gives ally health and knocks up enemies around them.",
+    "powerSpikes": "Lulu spikes at level 6 with her save ultimate. Enchanter items scale her shields. She's strong at protecting hypercarries at all stages."
+  },
+  "strengths": [
+    "Polymorph shuts down assassins",
+    "R saves allies",
+    "Strong shields and buffs",
+    "Good harass with E-Q"
+  ],
+  "weaknesses": [
+    "Low damage alone",
+    "Squishy",
+    "Needs ally to buff",
+    "W has short range"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Pix, Faerie Companion",
+    "summary": "Pix fires bolts alongside allied attacks and can follow allies or enemies.",
+    "details": "Pix fires bolts at Lulu's attack target. Pix can be sent to follow allies or enemies with Lulu's spells, firing bolts from that position."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Glitterlance",
+      "summary": "Fire bolts from you and Pix that slow enemies.",
+      "details": "Lulu and Pix each fire a bolt toward a target location. Enemies hit are damaged and slowed."
+    },
+    {
+      "slot": "W",
+      "name": "Whimsy",
+      "summary": "On ally: grant attack speed and movement speed. On enemy: polymorph them.",
+      "details": "On ally: Grant bonus attack speed and movement speed. On enemy: Polymorph them into a harmless critter that can only move."
+    },
+    {
+      "slot": "E",
+      "name": "Help, Pix!",
+      "summary": "On ally: shield them and send Pix to them. On enemy: damage and send Pix to them.",
+      "details": "On ally: Shield an ally and attach Pix to them. On enemy: Damage an enemy and attach Pix to them, revealing them."
+    },
+    {
+      "slot": "R",
+      "name": "Wild Growth",
+      "summary": "Give an ally bonus health and knock up enemies near them.",
+      "details": "Lulu enlarges an ally, giving them bonus health and knocking up enemies around them. The ally also slows nearby enemies."
+    }
+  ]
+}

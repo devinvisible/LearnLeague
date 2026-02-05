@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Yorick is a splitpushing juggernaut who summons ghouls and a Maiden to push lanes. He excels at taking towers and 1v1ing while his army overwhelms enemies.",
+    "howToPlay": "Passive: graves spawn from dead enemies. Q empowers auto and raises ghouls from graves. W creates a ring of terrain (traps enemies). E marks enemies (ghouls jump to marked). R summons Maiden who raises ghouls and pushes with you. Split push with Maiden, trap with W.",
+    "powerSpikes": "Yorick spikes at level 6 with Maiden. Hullbreaker makes him a split monster. He's strong at taking towers."
+  },
+  "strengths": [
+    "Insane split push",
+    "Maiden adds constant pressure",
+    "W traps enemies",
+    "Good sustain with Q"
+  ],
+  "weaknesses": [
+    "Weak without ghouls",
+    "W can be walked out of",
+    "Falls off in teamfights",
+    "Needs graves to summon"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Shepherd of Souls",
+    "summary": "Enemies that die nearby spawn graves; Q raises ghouls from graves.",
+    "details": "Enemies that die near Yorick have a chance to spawn a grave. Yorick can raise ghouls from graves with Q."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Last Rites",
+      "summary": "Empower next auto to deal bonus damage and heal; raise ghouls from graves.",
+      "details": "Yorick empowers his next auto to deal bonus damage and heal him. If there are graves nearby, he raises ghouls from them."
+    },
+    {
+      "slot": "W",
+      "name": "Dark Procession",
+      "summary": "Create a ring of terrain that traps enemies.",
+      "details": "Yorick summons a ring of corpses that acts as terrain. Enemies inside must destroy the wall or have a dash to escape."
+    },
+    {
+      "slot": "E",
+      "name": "Mourning Mist",
+      "summary": "Throw mist that marks enemies; ghouls leap to marked targets.",
+      "details": "Yorick throws a globule of mist that damages and marks the first enemy hit. Ghouls leap to and focus marked targets."
+    },
+    {
+      "slot": "R",
+      "name": "Eulogy of the Isles",
+      "summary": "Summon the Maiden who fights alongside you and spawns ghouls.",
+      "details": "Yorick summons the Maiden of the Mist who fights alongside him. The Maiden raises ghouls and pushes with Yorick until she dies."
+    }
+  ]
+}

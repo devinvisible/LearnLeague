@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Bel'Veth is a scaling jungler who consumes Void Coral to infinitely stack attack speed. She transforms into her true form after eating epic monsters.",
+    "howToPlay": "Q dashes in 4 directions (separate cooldowns). W knocks up and damages. E channels damage reduction and explosions. R consumes Void Coral (from camps/champions) for form and spawns void minions from epic monster coral. Stack attack speed, transform, take over.",
+    "powerSpikes": "Bel'Veth spikes after consuming Rift Herald or Dragon coral. Kraken and attack speed scale her infinitely. She's a late-game monster."
+  },
+  "strengths": [
+    "Infinite attack speed scaling",
+    "Four directional dashes",
+    "True form is powerful",
+    "Spawns void minions"
+  ],
+  "weaknesses": [
+    "Squishy for melee",
+    "Needs coral to transform",
+    "Weak early game",
+    "Q dashes have directional CDs"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Death in Lavender",
+    "summary": "Killing units drops Void Coral that permanently stacks attack speed.",
+    "details": "Takedowns leave Void Coral. Consuming coral permanently increases attack speed. Large monsters and champions grant more stacks. After true form, attack speed becomes uncapped."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Void Surge",
+      "summary": "Dash in one of four directions; each direction has a separate cooldown.",
+      "details": "Bel'Veth dashes in a direction, dealing damage. Each of the four directions (relative to her) has a separate cooldown, reduced by attacking."
+    },
+    {
+      "slot": "W",
+      "name": "Above and Below",
+      "summary": "Knock up and damage enemies in a direction.",
+      "details": "Bel'Veth slams the ground, dealing damage and knocking up enemies in a line. Slow enemies take increased damage."
+    },
+    {
+      "slot": "E",
+      "name": "Royal Maelstrom",
+      "summary": "Channel damage reduction while dealing damage around you; lowest HP enemy takes more.",
+      "details": "Bel'Veth channels, gaining damage reduction and dealing damage around her. The lowest health enemy takes increased damage. Explodes at the end."
+    },
+    {
+      "slot": "R",
+      "name": "Endless Banquet",
+      "summary": "Consume Void Coral to transform; epic monster coral spawns void minions.",
+      "details": "Passive: Champions and epic monsters drop Void Coral. Active: Consume coral to heal and transform into True Form, gaining explosion on autos and health. Epic monster coral spawns void minions."
+    }
+  ]
+}

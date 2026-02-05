@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Yuumi is an untargetable enchanter who attaches to allies. She provides healing and buffs while being impossible to kill as long as her host survives.",
+    "howToPlay": "Passive: autos restore mana and shield ally. Q fires a guided missile (buffed when attached). W attaches to ally (untargetable, gives adaptive force). E heals attached ally and gives speed. R waves that root on 3 hits. Attach to carry, detach to proc passive.",
+    "powerSpikes": "Yuumi spikes with mana and AP. Moonstone enhances healing. She's strong attached to a fed carry."
+  },
+  "strengths": [
+    "Untargetable when attached",
+    "Good healing and buffs",
+    "R provides CC",
+    "Boosts carry damage"
+  ],
+  "weaknesses": [
+    "Depends on host surviving",
+    "Weak when detached",
+    "Easy to kill unattached",
+    "Low agency"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Bop 'n' Block",
+    "summary": "Auto attacks restore mana and shield ally when attached.",
+    "details": "Yuumi's next auto attack restores mana. If she's attached, she also grants her ally a shield."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Prowling Projectile",
+      "summary": "Fire a missile that you can guide; empowered when attached.",
+      "details": "Yuumi fires a missile that she can steer. If attached, the missile deals more damage and slows on hit."
+    },
+    {
+      "slot": "W",
+      "name": "You and Me!",
+      "summary": "Attach to an ally, becoming untargetable and sharing stats.",
+      "details": "Yuumi attaches to an ally, becoming untargetable. She shares her adaptive force with them. She can hop between allies."
+    },
+    {
+      "slot": "E",
+      "name": "Zoomies",
+      "summary": "Heal attached ally and grant movement speed.",
+      "details": "Yuumi heals herself or her attached ally and grants them bonus movement speed and attack speed."
+    },
+    {
+      "slot": "R",
+      "name": "Final Chapter",
+      "summary": "Fire waves that root enemies hit 3 times.",
+      "details": "Yuumi channels waves of magic damage. Enemies hit by three waves are rooted. Can be cast while attached."
+    }
+  ]
+}

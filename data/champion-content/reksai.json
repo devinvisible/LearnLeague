@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rek'Sai is an aggressive early-game jungler who burrows underground. She detects enemies through tremors and excels at ganking and invading.",
+    "howToPlay": "Burrowed: Q launches a skillshot. W unburrows with a knockup. E creates a tunnel. Passive senses enemy movement. Unburrowed: Q bites 3 times. W burrows. E does damage (true damage when fury full). R dashes to marked enemy anywhere on map.",
+    "powerSpikes": "Rek'Sai spikes early with her ganking and invading. Prowler's Claw or Eclipse work. She's strongest early-mid and falls off late."
+  },
+  "strengths": [
+    "Strong early ganks",
+    "Tremor sense reveals enemies",
+    "Good at invading",
+    "R gap close is unavoidable"
+  ],
+  "weaknesses": [
+    "Falls off late game",
+    "Tunnels can be destroyed",
+    "Knockup has delay",
+    "Needs early leads"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fury of the Xer'Sai",
+    "summary": "Gain fury from attacks; burrowing converts fury to healing.",
+    "details": "Rek'Sai generates fury when she attacks. While burrowed, she consumes fury to heal. She also senses nearby enemy movement through the ground."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Queen's Wrath / Prey Seeker",
+      "summary": "Unburrowed: 3 empowered bites. Burrowed: fire a skillshot.",
+      "details": "Unburrowed: Rek'Sai's next 3 attacks deal bonus damage. Burrowed: She fires a bolt that reveals the first enemy hit."
+    },
+    {
+      "slot": "W",
+      "name": "Burrow / Un-burrow",
+      "summary": "Toggle burrow; unburrowing knocks up nearby enemies.",
+      "details": "Toggle between burrowed and unburrowed. Unburrowing knocks up nearby enemies. While burrowed, gain movement speed and tremor sense."
+    },
+    {
+      "slot": "E",
+      "name": "Furious Bite / Tunnel",
+      "summary": "Unburrowed: bite for damage (true damage at max fury). Burrowed: create a tunnel.",
+      "details": "Unburrowed: Bite an enemy for damage that increases with fury. At max fury, deals true damage. Burrowed: Create a tunnel between two locations."
+    },
+    {
+      "slot": "R",
+      "name": "Void Rush",
+      "summary": "Mark enemies you damage; dash to any marked enemy globally.",
+      "details": "Passive: Damaging enemies marks them. Active: Become untargetable and dash to a marked enemy champion anywhere on the map."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "K'Sante is a skill-expressive tank who transforms into a damage dealer with his ultimate. He excels at isolating targets and dueling in All Out form.",
+    "howToPlay": "Q is a short stab (3rd Q knocks up). W charges and dashes, unstoppable and stunning. E dashes to ally or through enemy. R knocks back an enemy and transforms to All Out (less tanky, more damage, lower cooldowns). R a carry into your team or 1v1 them.",
+    "powerSpikes": "K'Sante spikes at level 6 with his dueling ultimate. Tank items work, but R converts them to damage. He's strong at isolating and outplaying."
+  },
+  "strengths": [
+    "R isolates targets",
+    "All Out form has high damage",
+    "W is unstoppable",
+    "Skill-expressive kit"
+  ],
+  "weaknesses": [
+    "High skill ceiling",
+    "Squishier in All Out",
+    "Q3 requires setup",
+    "Falls off without R"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Dauntless Instinct",
+    "summary": "Abilities mark enemies; marked auto attacks deal percent max health damage.",
+    "details": "K'Sante's damaging abilities mark enemies. Auto attacking a marked enemy deals bonus percent max health damage. In All Out form, this damage is increased."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Ntofo Strikes",
+      "summary": "Stab forward; third Q knocks up enemies.",
+      "details": "K'Sante stabs, dealing damage and slowing. The third consecutive Q knocks up enemies. All Out: Increased damage."
+    },
+    {
+      "slot": "W",
+      "name": "Path Maker",
+      "summary": "Charge and dash forward, unstoppable during charge, stunning enemies.",
+      "details": "K'Sante charges, becoming unstoppable and reducing damage taken. Release to dash, dealing damage and stunning enemies hit."
+    },
+    {
+      "slot": "E",
+      "name": "Footwork",
+      "summary": "Dash; can dash to an ally or through an enemy.",
+      "details": "K'Sante dashes to a location. If he dashes to an ally, they both gain a shield. Can dash through enemies during All Out."
+    },
+    {
+      "slot": "R",
+      "name": "All Out",
+      "summary": "Knock an enemy back and transform, sacrificing tankiness for damage.",
+      "details": "K'Sante knocks an enemy back and transforms into All Out form. His tank stats are converted to bonus AD and omnivamp, and abilities deal more damage."
+    }
+  ]
+}

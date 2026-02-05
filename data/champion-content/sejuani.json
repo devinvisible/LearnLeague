@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Sejuani is a CC-heavy tank jungler who synergizes with melee allies. Her passive makes her incredibly durable in extended fights.",
+    "howToPlay": "Passive gives armor/MR after not taking damage. Q dashes and knocks up. W swings twice dealing damage. E stacks frost - melee ally attacks add stacks, at 4 stacks auto to stun. R throws her flail, stunning first champion and creating a slow zone.",
+    "powerSpikes": "Sejuani spikes with a melee-heavy team. Level 6 adds ranged engage. She's strong throughout as a durable engage tank."
+  },
+  "strengths": [
+    "Strong CC chain",
+    "Synergy with melee allies",
+    "Very tanky with passive",
+    "Good engage with Q and R"
+  ],
+  "weaknesses": [
+    "Weak with ranged allies",
+    "Slow clear speed",
+    "E needs ally stacking",
+    "Falls off without follow-up"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fury of the North",
+    "summary": "Gain armor and MR and slow resistance after not taking damage.",
+    "details": "After not taking damage for a while, Sejuani becomes frosted, gaining bonus armor, magic resist, and slow immunity. Lasts until she takes damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Arctic Assault",
+      "summary": "Charge forward and knock up enemies hit.",
+      "details": "Sejuani charges forward, dealing damage and knocking up enemies she collides with. Stops on hitting an enemy champion."
+    },
+    {
+      "slot": "W",
+      "name": "Winter's Wrath",
+      "summary": "Swing twice; the second swing deals more damage and knocks back.",
+      "details": "Sejuani swings her flail twice. The first swing deals damage in an arc; the second swing hits harder and knocks enemies back."
+    },
+    {
+      "slot": "E",
+      "name": "Permafrost",
+      "summary": "Auto attacks and abilities stack frost; at 4 stacks, stun the target.",
+      "details": "Sejuani and melee allies stack frost on enemies with attacks. At 4 stacks, Sejuani can activate to stun the target and deal bonus damage."
+    },
+    {
+      "slot": "R",
+      "name": "Glacial Prison",
+      "summary": "Throw your flail to stun the first champion hit and create a frost storm.",
+      "details": "Sejuani throws her bola, stunning the first enemy champion hit. A storm then spreads outward, slowing enemies and eventually stunning those still inside."
+    }
+  ]
+}

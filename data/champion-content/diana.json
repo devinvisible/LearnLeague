@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Diana is a diving assassin/bruiser who pulls enemies together with her ultimate. She excels at bursting grouped enemies after dashing into the backline.",
+    "howToPlay": "Passive empowers every third auto with cleave. Q arcs and marks enemies. W creates orbs that shield and damage. E dashes to an enemy (reset if marked). R pulls enemies together then damages. E to a mark, W for shield, R for AoE burst.",
+    "powerSpikes": "Diana spikes at level 6 with her teamfight ultimate. Hextech Rocketbelt adds engage. She's strong in mid-game teamfights against grouped enemies."
+  },
+  "strengths": [
+    "R devastates grouped enemies",
+    "Good burst damage",
+    "Shield helps diving",
+    "E resets on marked targets"
+  ],
+  "weaknesses": [
+    "Needs to commit",
+    "Falls off against spread teams",
+    "Squishy without W",
+    "Q is narrow skillshot"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Moonsilver Blade",
+    "summary": "Every third auto attack cleaves nearby enemies.",
+    "details": "Diana gains attack speed. Every third auto attack cleaves nearby enemies for bonus magic damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Crescent Strike",
+      "summary": "Fire an arcing bolt that marks enemies hit.",
+      "details": "Diana fires a bolt of moonlight that arcs, dealing damage to enemies and marking them with Moonlight for a few seconds."
+    },
+    {
+      "slot": "W",
+      "name": "Pale Cascade",
+      "summary": "Create orbiting spheres that shield you and damage enemies.",
+      "details": "Diana creates three orbiting spheres that damage enemies they hit. She also gains a shield. If all three spheres hit, the shield refreshes."
+    },
+    {
+      "slot": "E",
+      "name": "Lunar Rush",
+      "summary": "Dash to an enemy; cooldown resets if they're marked.",
+      "details": "Diana dashes to an enemy, dealing damage. If the target is marked with Moonlight, the mark is consumed and the cooldown resets."
+    },
+    {
+      "slot": "R",
+      "name": "Moonfall",
+      "summary": "Pull nearby enemies together, then detonate for massive damage.",
+      "details": "Diana reveals and pulls all nearby enemies toward her, slowing them. After a delay, she deals massive magic damage to all nearby enemies, increased per target."
+    }
+  ]
+}

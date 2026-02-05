@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Cassiopeia is a DPS mage who can't buy boots but gains movement speed from passive. Her E spam on poisoned targets makes her a machine-gun mage.",
+    "howToPlay": "Can't buy boots - passive gives speed. Q poisons and speeds you if hit. W creates a slow zone that poisons and grounds. E is spammable on poisoned targets (refunds mana, heals). R stuns if enemies face you, slows if not. Q-E spam, R facing enemies.",
+    "powerSpikes": "Cassiopeia spikes with Tear stacking and at level 9 for E spam. Rod of Ages and AP scale her. She's a late-game DPS monster."
+  },
+  "strengths": [
+    "Highest DPS mage",
+    "Doesn't need boots",
+    "R is devastating if landed",
+    "Good kiting with Q speed"
+  ],
+  "weaknesses": [
+    "Can't buy boots",
+    "Mana hungry",
+    "R can whiff if enemies look away",
+    "Immobile without Q hit"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Serpentine Grace",
+    "summary": "Can't buy boots; gains movement speed per level instead.",
+    "details": "Cassiopeia cannot purchase boots. Instead, she gains bonus movement speed per level, reaching the equivalent of tier 2 boots by max level."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Noxious Blast",
+      "summary": "Poison an area; hitting gives you movement speed.",
+      "details": "Cassiopeia blasts a circle with poison after a delay, dealing damage over time. If she hits a champion, she gains movement speed."
+    },
+    {
+      "slot": "W",
+      "name": "Miasma",
+      "summary": "Create a poison zone that grounds and slows enemies.",
+      "details": "Cassiopeia spews poison that creates a zone, poisoning and slowing enemies inside. Enemies in the zone are also grounded (can't dash or flash)."
+    },
+    {
+      "slot": "E",
+      "name": "Twin Fang",
+      "summary": "Spam on poisoned targets for damage and healing; refunds mana.",
+      "details": "Cassiopeia strikes with her fangs, dealing magic damage. If the target is poisoned, Twin Fang deals bonus damage, heals her, and refunds the mana cost."
+    },
+    {
+      "slot": "R",
+      "name": "Petrifying Gaze",
+      "summary": "Enemies facing you are stunned; others are slowed.",
+      "details": "Cassiopeia blasts enemies in a cone. Enemies facing her are stunned; enemies facing away are slowed. Devastating teamfight ability."
+    }
+  ]
+}

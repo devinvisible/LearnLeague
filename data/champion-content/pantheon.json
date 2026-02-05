@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Pantheon is an early-game diver with point-and-click engage and tower diving potential. His shield blocks all damage from one direction, and his ultimate is semi-global.",
+    "howToPlay": "Passive empowers abilities at 5 stacks. Q taps for poke, hold for execute. W point-and-click stun and leap. E blocks all frontal damage (empowered E does damage). R drops you across the map. Snowball early before falling off.",
+    "powerSpikes": "Pantheon spikes at levels 2-3 and at 6 for roams. Eclipse or lethality work. He's strongest early-mid and falls off late."
+  },
+  "strengths": [
+    "Point-and-click stun",
+    "E blocks everything frontal",
+    "Strong early-mid game",
+    "Semi-global ultimate"
+  ],
+  "weaknesses": [
+    "Falls off hard late game",
+    "E roots him in place",
+    "Needs to snowball",
+    "Predictable engage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mortal Will",
+    "summary": "At 5 stacks, next ability is empowered.",
+    "details": "Pantheon gains a stack when attacking or using abilities. At 5 stacks, his next basic ability is empowered."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Comet Spear",
+      "summary": "Tap for quick thrust; hold to throw for execute damage.",
+      "details": "Tap: Pantheon thrusts his spear. Hold: He throws it, dealing increased damage and execute damage to low-health targets. Empowered: Deals more damage."
+    },
+    {
+      "slot": "W",
+      "name": "Shield Vault",
+      "summary": "Point-and-click leap that stuns the target.",
+      "details": "Pantheon leaps to an enemy, dealing damage and stunning them. Empowered: Also follows up with 3 auto attacks."
+    },
+    {
+      "slot": "E",
+      "name": "Aegis Assault",
+      "summary": "Block all damage from one direction; slam at the end.",
+      "details": "Pantheon braces, becoming invulnerable to damage from the front. He slams his shield at the end. Empowered: Extends duration."
+    },
+    {
+      "slot": "R",
+      "name": "Grand Starfall",
+      "summary": "Leap and crash down at a semi-global range.",
+      "details": "Pantheon channels then leaps into the air, landing at a target location after a delay. Enemies in the center take more damage."
+    }
+  ]
+}

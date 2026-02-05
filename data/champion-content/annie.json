@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Annie is a burst mage with a point-and-click stun and a giant bear ultimate. She's simple but deadly, able to flash-R delete entire teams.",
+    "howToPlay": "Passive stacks stun every 4 abilities. Q is point-and-click (refunds mana on kill). W is a cone. E shields and damages. R summons Tibbers who fights for you. Stack to stun, then Flash-R-W-Q for burst.",
+    "powerSpikes": "Annie spikes at level 6 with Tibbers burst. Hextech Rocketbelt adds engage range. She's strong at all stages with reliable point-and-click stun."
+  },
+  "strengths": [
+    "Simple and effective",
+    "Point-and-click stun",
+    "High burst damage",
+    "Tibbers provides zone control"
+  ],
+  "weaknesses": [
+    "Short range",
+    "Immobile",
+    "Stun is telegraphed",
+    "Falls off against MR"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Pyromania",
+    "summary": "Every 4 ability casts, next damaging ability stuns.",
+    "details": "After casting 4 abilities, Annie's next damaging ability will stun enemies hit. A swirling indicator shows when stun is ready."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Disintegrate",
+      "summary": "Point-and-click fireball that refunds mana and cooldown on kill.",
+      "details": "Annie hurls a fireball at an enemy, dealing magic damage. If it kills the target, the mana cost and cooldown are refunded."
+    },
+    {
+      "slot": "W",
+      "name": "Incinerate",
+      "summary": "Cone of fire damage in front of Annie.",
+      "details": "Annie releases a cone of fire, dealing magic damage to all enemies in the area."
+    },
+    {
+      "slot": "E",
+      "name": "Molten Shield",
+      "summary": "Shield yourself or Tibbers; damages enemies who attack.",
+      "details": "Annie grants herself or Tibbers a shield that absorbs damage and grants movement speed. Enemies who attack the shielded target take magic damage."
+    },
+    {
+      "slot": "R",
+      "name": "Summon: Tibbers",
+      "summary": "Summon a giant bear that deals AoE damage on arrival and fights for you.",
+      "details": "Annie summons Tibbers, dealing magic damage to enemies in the area. Tibbers stays and fights, dealing burn damage around him. Annie can direct Tibbers to attack."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Sion is an infinite-scaling HP tank who charges across the map with his ultimate. His passive lets him fight on after death, making him annoying to deal with.",
+    "howToPlay": "Passive: on death, reanimate and attack until dying again. Q charges a knockup. W shields and explodes. E pushes minions/champions and shreds armor. R charges across map, stunning on impact. Stack health with W passive. R for engage or roams.",
+    "powerSpikes": "Sion spikes with health stacks and at 6 with R engage. Sunfire and health items scale his passive. He's a late-game health monster."
+  },
+  "strengths": [
+    "Infinite health scaling",
+    "Long-range R engage",
+    "Fights after death",
+    "Good waveclear"
+  ],
+  "weaknesses": [
+    "Q is slow and dodgeable",
+    "R can miss/be interrupted",
+    "Immobile otherwise",
+    "Weak early"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Glory in Death",
+    "summary": "On death, reanimate as a zombie that attacks until dying again.",
+    "details": "When Sion dies, he reanimates for a few seconds, gaining bonus lifesteal and attack speed but rapidly decaying health. He can move and attack freely."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Decimating Smash",
+      "summary": "Charge and release a knockup; longer charge = more damage and range.",
+      "details": "Sion charges up a heavy blow. Release to damage and knock up enemies. Longer charge increases range, damage, and knockup duration."
+    },
+    {
+      "slot": "W",
+      "name": "Soul Furnace",
+      "summary": "Passive: gain permanent health from kills. Active: shield that explodes.",
+      "details": "Passive: Sion gains permanent bonus health for killing units. Active: Sion shields himself. After a delay or on recast, the shield explodes for damage."
+    },
+    {
+      "slot": "E",
+      "name": "Roar of the Slayer",
+      "summary": "Shout to damage, slow, and reduce armor; pushes minions.",
+      "details": "Sion roars in a direction, damaging the first enemy hit, slowing them, and reducing their armor. If it hits a minion, the minion is pushed and damages enemies behind."
+    },
+    {
+      "slot": "R",
+      "name": "Unstoppable Onslaught",
+      "summary": "Charge in a direction; impact stuns and deals damage.",
+      "details": "Sion charges in a direction, becoming unstoppable and accelerating. Impact deals damage and stuns enemies, with damage and stun duration increasing with distance."
+    }
+  ]
+}

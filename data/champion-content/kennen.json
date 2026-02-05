@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Kennen is a teamfight mage who stuns with his mark system. His ultimate is devastating when he engages on grouped enemies, stunning everyone.",
+    "howToPlay": "Abilities apply marks; at 3 marks, enemies are stunned. Q is a skillshot shuriken. W empowers every 5th auto and can activate to damage marked enemies. E turns you into a lightning ball. R creates a storm that hits and marks nearby enemies repeatedly. E-flash-R into teams.",
+    "powerSpikes": "Kennen spikes at level 6 with teamfight ultimate. Hextech Rocketbelt adds engage. He's strong at AoE stuns in teamfights."
+  },
+  "strengths": [
+    "AoE stun ultimate",
+    "Good poke and harass",
+    "Safe laning with E",
+    "No mana"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "R needs to be in melee",
+    "Falls off without R",
+    "E is his only escape"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Mark of the Storm",
+    "summary": "Abilities apply marks; at 3 marks, enemies are stunned.",
+    "details": "Kennen's abilities apply a Mark of the Storm. At 3 marks, the enemy is stunned and marks are consumed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Thundering Shuriken",
+      "summary": "Throw a shuriken that damages and marks the first enemy hit.",
+      "details": "Kennen throws a shuriken in a line, dealing damage and applying a mark to the first enemy hit."
+    },
+    {
+      "slot": "W",
+      "name": "Electrical Surge",
+      "summary": "Passive: every 5th auto marks. Active: damage and mark all nearby marked enemies.",
+      "details": "Passive: Every 5th auto deals bonus damage and applies a mark. Active: Damage and apply a mark to all nearby enemies already marked."
+    },
+    {
+      "slot": "E",
+      "name": "Lightning Rush",
+      "summary": "Transform into a lightning ball, gaining speed and passing through units.",
+      "details": "Kennen transforms into a ball of lightning, gaining movement speed and passing through units while damaging and marking enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Slicing Maelstrom",
+      "summary": "Create a storm that damages and marks nearby enemies repeatedly.",
+      "details": "Kennen summons a storm around him that repeatedly hits nearby enemies, dealing damage and applying marks. Combined with his mark system, this can stun entire teams."
+    }
+  ]
+}

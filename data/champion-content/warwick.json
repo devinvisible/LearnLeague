@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Warwick is a sustain-heavy jungler who hunts low-health enemies. His blood scent reveals and speeds him toward wounded targets, making him excellent at chasing.",
+    "howToPlay": "Passive heals on autos (more at low HP). Q lunges and heals (hold to follow dashes/flashes). W senses low HP enemies globally, giving speed. E fears enemies around you. R leaps in a line, suppressing first champion hit. Hunt wounded enemies with W speed, R to catch.",
+    "powerSpikes": "Warwick spikes early with dueling and at 6 with engage. Titanic Hydra or tank items work. He's strong early-mid at chasing."
+  },
+  "strengths": [
+    "Massive sustain",
+    "W reveals wounded enemies",
+    "R is long-range engage",
+    "Good dueling"
+  ],
+  "weaknesses": [
+    "Falls off late",
+    "R can be bodyblocked",
+    "Weak against Grievous Wounds",
+    "Team-reliant for damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Eternal Hunger",
+    "summary": "Auto attacks heal; heals more at low health.",
+    "details": "Warwick's basic attacks heal him. The healing increases when Warwick is low on health."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Jaws of the Beast",
+      "summary": "Lunge and bite; hold to follow the enemy's movement.",
+      "details": "Warwick lunges at an enemy, dealing damage and healing himself. Holding the button makes Warwick follow the target if they dash or flash."
+    },
+    {
+      "slot": "W",
+      "name": "Blood Hunt",
+      "summary": "Sense low health enemies globally; gain speed toward them.",
+      "details": "Passive: Warwick senses enemies below 50% health globally, gaining movement speed toward them. Active: The next hunt triggers on any enemy."
+    },
+    {
+      "slot": "E",
+      "name": "Primal Howl",
+      "summary": "Reduce damage taken; recast or wait to fear nearby enemies.",
+      "details": "Warwick howls, gaining damage reduction. After a duration or on recast, he fears all nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Infinite Duress",
+      "summary": "Leap forward and suppress the first champion hit.",
+      "details": "Warwick leaps in a direction, suppressing the first champion hit and dealing damage over time while healing himself."
+    }
+  ]
+}

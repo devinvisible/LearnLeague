@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Akshan is a roaming marksman who revives allies by killing enemies who killed them. His grappling hook provides unique mobility for an ADC.",
+    "howToPlay": "Passive marks enemy 'Scoundrels' who killed your allies - kill them to revive those allies. Q boomerang extends on champion hit. E swings around terrain for resets. W goes invisible near walls. R is a lock-on channel.",
+    "powerSpikes": "Akshan spikes at level 6 with his lock-on ultimate. Kraken and on-hit scale his DPS. He's strong at roaming and resurrecting allies mid-game."
+  },
+  "strengths": [
+    "Can revive dead teammates",
+    "Unique mobility for marksman",
+    "Good roaming",
+    "Camouflage near walls"
+  ],
+  "weaknesses": [
+    "Short auto range",
+    "E can be interrupted",
+    "R blocked by champions",
+    "Complex to maximize"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Dirty Fighting",
+    "summary": "Every three hits deal bonus damage; cancelled autos fire faster second shot.",
+    "details": "Every third hit deals bonus magic damage. If Akali cancels an auto attack, the second shot fires much faster. Killing Scoundrels (enemies who killed allies) revives those allies."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Avengerang",
+      "summary": "Throws a boomerang that extends range on champion hit.",
+      "details": "Akshan throws a boomerang that deals damage going out and back. Range extends each time it hits a champion. Reveals enemies briefly."
+    },
+    {
+      "slot": "W",
+      "name": "Going Rogue",
+      "summary": "Passive marks Scoundrels; active grants camouflage near terrain.",
+      "details": "Passive: Enemy champions who kill Akshan's allies become Scoundrels. Killing a Scoundrel revives allies they killed. Active: Akshan becomes camouflaged near terrain and gains movement speed toward Scoundrels."
+    },
+    {
+      "slot": "E",
+      "name": "Heroic Swing",
+      "summary": "Grappling hook that swings around terrain while firing at enemies.",
+      "details": "Akshan fires a grappling hook that attaches to terrain. He swings around it, firing at the nearest enemy. Can jump off early. Cooldown resets on takedown."
+    },
+    {
+      "slot": "R",
+      "name": "Comeuppance",
+      "summary": "Lock-on channel that fires bullets; blocked by first champion hit.",
+      "details": "Akshan locks onto an enemy champion and channels, then fires bullets that deal damage. Bullets are blocked by the first enemy champion hit, making it best for isolated targets."
+    }
+  ]
+}

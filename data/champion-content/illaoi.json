@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Illaoi is a tentacle juggernaut who pulls spirits from enemies. She excels at teamfighting in her own space where her tentacles can slam repeatedly.",
+    "howToPlay": "Passive spawns tentacles near walls. Q slams tentacles for damage and healing. W leaps and commands nearby tentacles to slam. E pulls out enemy spirit - damage the spirit to damage them. R slams all nearby tentacles and spawns new ones for each champion hit. Fight in your tentacles.",
+    "powerSpikes": "Illaoi spikes at level 6 with her teamfight ultimate. Divine Sunderer and bruiser items scale her. She's strong when enemies fight in her territory."
+  },
+  "strengths": [
+    "R wins teamfights in her area",
+    "E poke is oppressive",
+    "Strong sustain",
+    "Good 1v2 potential"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Weak without tentacles",
+    "E can miss or be dodged",
+    "Falls off if forced to move"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Prophet of an Elder God",
+    "summary": "Periodically spawn tentacles near terrain.",
+    "details": "Illaoi periodically spawns a tentacle on nearby walls. Tentacles swing when commanded by abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Tentacle Smash",
+      "summary": "Slam tentacles in a direction; heal if hitting champions.",
+      "details": "Illaoi slams tentacles in a line, dealing damage. Hitting champions heals her. Nearby tentacles also slam."
+    },
+    {
+      "slot": "W",
+      "name": "Harsh Lesson",
+      "summary": "Leap and empower next auto; commands tentacles to slam target.",
+      "details": "Illaoi leaps to a target, dealing bonus damage. All nearby tentacles also swing at the target."
+    },
+    {
+      "slot": "E",
+      "name": "Test of Spirit",
+      "summary": "Pull out an enemy's spirit; damage to spirit also damages them.",
+      "details": "Illaoi pulls the spirit from an enemy. Damaging the spirit deals a portion as damage to the enemy. If the spirit dies or the enemy walks away, they become a vessel and spawn tentacles."
+    },
+    {
+      "slot": "R",
+      "name": "Leap of Faith",
+      "summary": "Slam and spawn a tentacle for each nearby enemy champion.",
+      "details": "Illaoi slams down, dealing damage and spawning a tentacle for each enemy champion hit. While active, Harsh Lesson has no cooldown."
+    }
+  ]
+}

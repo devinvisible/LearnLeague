@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nidalee is a poke-focused jungler with two forms. Her spears chunk enemies from range, then she transforms to execute in cougar form.",
+    "howToPlay": "Human: Q is a long-range spear (more damage at range). W is a trap that reveals. E heals an ally. Cougar: Q is an execute (bonus on hunted targets). W pounces. E swipes. Hit spear to mark hunted, then all-in with cougar form.",
+    "powerSpikes": "Nidalee spikes early - she's strongest levels 3-6 and snowballs hard. AP items scale her poke. She falls off if she doesn't get early leads."
+  },
+  "strengths": [
+    "Long-range poke with spear",
+    "Fast jungle clear",
+    "Good early game ganks",
+    "High mobility in cougar"
+  ],
+  "weaknesses": [
+    "Falls off hard late game",
+    "Spear can miss",
+    "High skill ceiling",
+    "No real ultimate"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Prowl",
+    "summary": "Move faster in brush; hitting spear or trap marks enemies as Hunted.",
+    "details": "Nidalee gains movement speed in brush. Enemies hit by Javelin Toss or Bushwhack are marked Hunted, giving Nidalee movement speed toward them and enhanced cougar abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Javelin Toss / Takedown",
+      "summary": "Human: long-range spear. Cougar: execute bite.",
+      "details": "Human: Throw a spear that deals more damage at range. Cougar: Bite a target for damage that increases based on their missing health. Enhanced against Hunted."
+    },
+    {
+      "slot": "W",
+      "name": "Bushwhack / Pounce",
+      "summary": "Human: place a trap. Cougar: pounce forward.",
+      "details": "Human: Place an invisible trap that damages and marks enemies. Cougar: Pounce forward, dealing damage on landing. Enhanced pounce toward Hunted targets."
+    },
+    {
+      "slot": "E",
+      "name": "Primal Surge / Swipe",
+      "summary": "Human: heal an ally. Cougar: swipe in front.",
+      "details": "Human: Heal an ally and grant them attack speed. Cougar: Swipe in front dealing AoE damage."
+    },
+    {
+      "slot": "R",
+      "name": "Aspect of the Cougar",
+      "summary": "Transform between human and cougar forms.",
+      "details": "Nidalee transforms between human and cougar form, gaining new abilities in each form. Available at level 1."
+    }
+  ]
+}

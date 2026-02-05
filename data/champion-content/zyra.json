@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Zyra is a zone control mage who spawns plants to attack enemies. Her ultimate creates a massive zone that knocks up after a delay.",
+    "howToPlay": "Passive spawns seeds periodically. Q damages in a rectangle. W plants a seed (more seeds = more plants). E roots in a line. Abilities on seeds spawn plants. R creates a zone that knocks up when it ends. Place seeds, Q/E to spawn plants, R in teamfights.",
+    "powerSpikes": "Zyra spikes at level 6 with her zone control R. Liandry's makes plants burn. She's strong at zone control and teamfighting."
+  },
+  "strengths": [
+    "Strong zone control",
+    "R knockup is huge",
+    "Good poke damage",
+    "Plants deal damage"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Plants are fragile",
+    "R has delay",
+    "Squishy"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Garden of Thorns",
+    "summary": "Spawn seeds near Zyra periodically.",
+    "details": "Seeds periodically spawn near Zyra. They can be turned into plants by her abilities."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Deadly Spines",
+      "summary": "Damage enemies in a rectangle; spawns plants from seeds.",
+      "details": "Zyra grows thorns in an area, dealing damage. Seeds in the area become Thorn Spitters that attack enemies."
+    },
+    {
+      "slot": "W",
+      "name": "Rampant Growth",
+      "summary": "Plant a seed; abilities hitting seeds spawn plants.",
+      "details": "Zyra plants a seed that lasts for a short duration. Abilities hitting seeds spawn plants."
+    },
+    {
+      "slot": "E",
+      "name": "Grasping Roots",
+      "summary": "Send roots that damage and root; spawns plants from seeds.",
+      "details": "Zyra sends roots forward that root enemies. Seeds in the path become Vine Lashers that slow enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Stranglethorns",
+      "summary": "Create a zone of thorns; after a delay, knock up enemies inside.",
+      "details": "Zyra summons a massive thicket that deals damage and enrages plants. After a delay, enemies inside are knocked up."
+    }
+  ]
+}

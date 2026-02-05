@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Xin Zhao is a straightforward duelist who excels at diving single targets. His ultimate creates a safe zone that blocks projectiles from outside.",
+    "howToPlay": "Passive heals every 3rd hit. Q empowers 3 autos, 3rd knocks up. W slashes then thrusts (thrust slows). E dashes to target and slows. R knocks back enemies and creates a zone - outside projectiles are blocked. E-Q-W combo to duel, R to isolate in teamfights.",
+    "powerSpikes": "Xin Zhao spikes early with dueling and at 6 with his isolation R. Eclipse or bruiser items work. He's strong at early ganks and 1v1s."
+  },
+  "strengths": [
+    "Strong early dueling",
+    "R blocks outside projectiles",
+    "Point-and-click engage with E",
+    "Good sustain"
+  ],
+  "weaknesses": [
+    "Falls off late",
+    "R doesn't block melee",
+    "Predictable kit",
+    "Kited if E misses"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Determination",
+    "summary": "Every third attack heals.",
+    "details": "Every third attack heals Xin Zhao."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Three Talon Strike",
+      "summary": "Empower next 3 attacks; third knocks up.",
+      "details": "Xin Zhao empowers his next 3 auto attacks to deal bonus damage. The third attack knocks the target up."
+    },
+    {
+      "slot": "W",
+      "name": "Wind Becomes Lightning",
+      "summary": "Slash, then thrust; thrust slows enemies.",
+      "details": "Xin Zhao slashes in a cone, then thrusts forward. The thrust slows enemies and has higher range."
+    },
+    {
+      "slot": "E",
+      "name": "Audacious Charge",
+      "summary": "Dash to an enemy, slowing them and nearby enemies.",
+      "details": "Xin Zhao dashes to an enemy, dealing damage and slowing them and nearby enemies."
+    },
+    {
+      "slot": "R",
+      "name": "Crescent Guard",
+      "summary": "Knock back enemies and create a zone that blocks outside projectiles.",
+      "details": "Xin Zhao sweeps his spear, knocking back enemies (except the last one hit by abilities). He creates a zone around him that blocks all projectiles from outside."
+    }
+  ]
+}

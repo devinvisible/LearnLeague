@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Shen is a global tank who teleports to allies with his ultimate. He protects his team while being a solid laner with his spirit blade mechanics.",
+    "howToPlay": "Passive gives a shield periodically. Q calls spirit blade through you, empowering autos and slowing. W creates a dodge zone around spirit blade. E taunts in a dash. R shields an ally and teleports you to them. Split push and R to join fights.",
+    "powerSpikes": "Shen spikes at level 6 with global presence. Sunfire and tank items work. He's strong at all stages with his map pressure."
+  },
+  "strengths": [
+    "Global ultimate shield/teleport",
+    "W blocks all autos",
+    "Solid laning",
+    "Taunt is good engage/peel"
+  ],
+  "weaknesses": [
+    "R can be interrupted",
+    "Uses energy (limited combos)",
+    "Loses CS using R",
+    "W requires spirit blade position"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Ki Barrier",
+    "summary": "Periodically gain a shield; abilities reduce cooldown.",
+    "details": "After casting an ability, Shen gains a shield. Affecting other champions with abilities reduces this cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Spirit Blade",
+      "summary": "Call your spirit blade; autos against enemies it passes through deal bonus damage.",
+      "details": "Shen calls his spirit blade to him. Enemies it passes through are slowed, and Shen's next 3 autos deal bonus damage based on their max health."
+    },
+    {
+      "slot": "W",
+      "name": "Spirit's Refuge",
+      "summary": "Create a zone around the spirit blade that blocks all auto attacks.",
+      "details": "Shen creates a protective zone around his spirit blade. Allied champions inside the zone dodge all basic attacks."
+    },
+    {
+      "slot": "E",
+      "name": "Shadow Dash",
+      "summary": "Dash and taunt all enemies hit.",
+      "details": "Shen dashes in a direction, dealing damage and taunting all enemy champions and monsters he passes through."
+    },
+    {
+      "slot": "R",
+      "name": "Stand United",
+      "summary": "Shield an ally anywhere on the map; after channeling, teleport to them.",
+      "details": "Shen channels, granting a shield to a target ally anywhere on the map. After channeling, he teleports to their location."
+    }
+  ]
+}

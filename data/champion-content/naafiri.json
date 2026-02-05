@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Naafiri is a pack-hunting assassin with the simplest kit among assassins. Her dogs assist her attacks and she excels at running down isolated targets.",
+    "howToPlay": "Passive spawns packmates that attack with you. Q is a skillshot that bleeds (recast to dash to bleeding targets). W sends dogs forward to reveal and damage. E dashes through terrain. R makes dogs respawn faster and gives bonus speed.",
+    "powerSpikes": "Naafiri spikes at level 6 with her hunting ultimate. Prowler's Claw or Eclipse work well. She's strong mid-game as a simple, effective assassin."
+  },
+  "strengths": [
+    "Simple assassin kit",
+    "Dogs provide extra damage",
+    "Good roaming with E terrain dash",
+    "Strong at picks"
+  ],
+  "weaknesses": [
+    "Dogs can be killed",
+    "Limited outplay potential",
+    "Falls off late game",
+    "Predictable engage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "We Are More",
+    "summary": "Packmates spawn and attack with you; heal when they spawn.",
+    "details": "Naafiri creates packmates that attack alongside her. They spawn periodically and can be killed. Spawning packmates heals Naafiri."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Darkin Daggers",
+      "summary": "Throw daggers that bleed; recast to dash to bleeding targets.",
+      "details": "Naafiri throws daggers that damage and bleed enemies. Recast to dash to any bleeding champion, dealing bonus damage if they're still bleeding."
+    },
+    {
+      "slot": "W",
+      "name": "Hounds' Pursuit",
+      "summary": "Send packmates forward to reveal enemies and dash to the first champion hit.",
+      "details": "Naafiri sends her packmates in a direction. They reveal and damage the first champion hit, and Naafiri dashes to them."
+    },
+    {
+      "slot": "E",
+      "name": "Eviscerate",
+      "summary": "Dash through terrain, damaging enemies and healing packmates.",
+      "details": "Naafiri dashes in a direction, passing through thin terrain. Damages enemies and restores health to packmates."
+    },
+    {
+      "slot": "R",
+      "name": "The Call of the Pack",
+      "summary": "Gain speed, vision, and faster packmate respawns. First champion hit takes bonus damage.",
+      "details": "Naafiri howls, gaining movement speed and creating new packmates. She gains vision of nearby enemies and bonus damage on her first champion hit."
+    }
+  ]
+}

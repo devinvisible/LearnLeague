@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Ryze is a machine-gun mage who combos abilities for resets. His ultimate teleports his entire team, enabling unique macro plays and flanks.",
+    "howToPlay": "Q is a skillshot that does more damage to targets with E's Flux. E spreads Flux (spreads to nearby on kill). W roots (instant on Flux targets). Combo E-Q for damage, W-E-Q for root combo. R teleports you and allies in a circle after a delay.",
+    "powerSpikes": "Ryze spikes with Tear stacked and ability haste. Rod of Ages into Seraph's scales him. He's a late-game scaling mage with DPS."
+  },
+  "strengths": [
+    "High DPS mage",
+    "Team-wide teleport",
+    "Good waveclear",
+    "Scales well"
+  ],
+  "weaknesses": [
+    "Short range",
+    "R requires coordination",
+    "Needs time to scale",
+    "Complex combos"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Arcane Mastery",
+    "summary": "Gain bonus damage based on bonus mana.",
+    "details": "Ryze gains bonus ability power based on his maximum mana."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Overload",
+      "summary": "Fire a bolt; deals bonus damage to Flux targets and spreads Flux.",
+      "details": "Ryze fires an Overload bolt. If it hits an enemy with Flux, it deals bonus damage, spreads Flux to nearby enemies, and grants Ryze a shield and movement speed."
+    },
+    {
+      "slot": "W",
+      "name": "Rune Prison",
+      "summary": "Root a target; instant cast on Flux targets.",
+      "details": "Ryze roots a target. If the target has Flux, the root is applied instantly."
+    },
+    {
+      "slot": "E",
+      "name": "Spell Flux",
+      "summary": "Apply Flux to an enemy; spreads to nearby enemies on kill.",
+      "details": "Ryze applies Flux to an enemy, dealing damage. If Flux kills the target, it spreads to nearby enemies. Overload consumes and spreads Flux."
+    },
+    {
+      "slot": "R",
+      "name": "Realm Warp",
+      "summary": "Teleport yourself and allies in an area after a delay.",
+      "details": "Ryze opens a portal to a nearby location. After a delay, he and all allies standing in the circle are teleported to the destination."
+    }
+  ]
+}

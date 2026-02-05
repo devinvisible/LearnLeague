@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Fiora is a duelist who hits vitals for percent max health true damage. She's one of the best split-pushers and 1v1ers in the game.",
+    "howToPlay": "Passive reveals vitals on enemies (hit for true damage and speed). Q dashes and prioritizes vitals. W parries everything and stuns if it blocks CC. E slows then crits. R reveals all 4 vitals - proc all 4 for massive healing zone. Dance around enemies hitting vitals.",
+    "powerSpikes": "Fiora spikes at level 6 with her vital ultimate. Ravenous Hydra and Divine Sunderer scale her. She's a late-game 1v1 monster."
+  },
+  "strengths": [
+    "Best 1v1 duelist",
+    "True damage shreds tanks",
+    "W parries everything",
+    "Strong split pusher"
+  ],
+  "weaknesses": [
+    "Weak in teamfights",
+    "W timing is crucial",
+    "Falls behind if losing duels",
+    "Needs vitals to be positioned well"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Duelist's Dance",
+    "summary": "Reveals vitals on enemies; hitting them deals true damage and heals.",
+    "details": "Enemy champions periodically reveal a vital. Striking the vital deals percent max health true damage, heals Fiora, and grants movement speed."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Lunge",
+      "summary": "Dash and stab; prioritizes vitals and refunds cooldown.",
+      "details": "Fiora lunges in a direction and stabs a nearby enemy. Prioritizes vitals and champions. If it hits, the cooldown is partially refunded."
+    },
+    {
+      "slot": "W",
+      "name": "Riposte",
+      "summary": "Parry all damage and CC; stuns if it blocks an immobilizing effect.",
+      "details": "Fiora parries all damage and debuffs for a moment, then stabs dealing damage and slowing. If she parries an immobilizing effect, the enemy is stunned instead."
+    },
+    {
+      "slot": "E",
+      "name": "Bladework",
+      "summary": "Next two autos: first slows, second critically strikes.",
+      "details": "Fiora empowers her next two auto attacks. The first slows the target; the second is guaranteed to critically strike."
+    },
+    {
+      "slot": "R",
+      "name": "Grand Challenge",
+      "summary": "Reveal all 4 vitals; hitting all creates a healing zone.",
+      "details": "Fiora reveals all four vitals on an enemy champion. Hitting all four (or if the target dies) creates a large healing zone for Fiora and allies."
+    }
+  ]
+}

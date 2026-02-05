@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Nunu & Willump is a ganking jungler with a giant snowball engage. He excels at objective control with his consume and creates early pressure with constant ganks.",
+    "howToPlay": "Q bites for massive damage and healing (true damage to monsters - use for smite fights). W charges a snowball that grows and knocks up. E throws snowballs that root after 3 hits. R channels a massive AoE slow and damage.",
+    "powerSpikes": "Nunu spikes early with snowball ganks. Level 6 adds R for teamfights. He's strong early-mid with objective control and ganks."
+  },
+  "strengths": [
+    "Incredible objective control",
+    "Strong early ganks",
+    "Tanky and hard to kill",
+    "Good engage with snowball"
+  ],
+  "weaknesses": [
+    "Snowball can be interrupted",
+    "R requires channel",
+    "Falls off late game",
+    "Team-reliant for damage"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Call of the Freljord",
+    "summary": "Nearby ally gains attack and movement speed; Willump's autos also damage nearby enemies.",
+    "details": "A nearby ally gains bonus attack speed and movement speed. Willump's basic attacks also damage enemies near his target."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Consume",
+      "summary": "Bite a target for damage and healing; deals true damage to monsters.",
+      "details": "Willump bites an enemy, dealing damage and healing Nunu. Against monsters, it deals true damage and has bonus healing."
+    },
+    {
+      "slot": "W",
+      "name": "Biggest Snowball Ever!",
+      "summary": "Roll a growing snowball that knocks up enemies.",
+      "details": "Willump rolls a snowball that grows and speeds up over time. Hitting enemies or terrain causes it to explode, dealing damage and knocking up."
+    },
+    {
+      "slot": "E",
+      "name": "Snowball Barrage",
+      "summary": "Throw snowballs; at 3 hits, root the target.",
+      "details": "Nunu throws snowballs at nearby enemies. After throwing all snowballs, enemies hit 3 times are rooted."
+    },
+    {
+      "slot": "R",
+      "name": "Absolute Zero",
+      "summary": "Channel to slow enemies; deals massive damage at the end.",
+      "details": "Nunu & Willump channel, creating a blizzard that slows enemies. After channeling (or when cancelled), it deals massive damage based on channel time."
+    }
+  ]
+}

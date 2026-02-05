@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rumble is a heat-managing AP bruiser whose ultimate zones entire areas. He excels in teamfights and objective control with his Equalizer.",
+    "howToPlay": "Heat builds with abilities - danger zone (50-100) empowers abilities, overheating silences you but empowers autos. Q flamethrower damages in a cone. W shields and speeds. E fires slowing harpoons. R drops a massive damage zone. Manage heat carefully.",
+    "powerSpikes": "Rumble spikes at level 6 with his teamfight ultimate. Hextech Rocketbelt adds engage. He's strong in mid-game teamfights with good Equalizers."
+  },
+  "strengths": [
+    "Equalizer is game-changing",
+    "Good sustained damage",
+    "Strong in jungle fights",
+    "No mana costs"
+  ],
+  "weaknesses": [
+    "Heat management is tricky",
+    "Overheat silences you",
+    "Short range for a mage",
+    "R requires good placement"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Junkyard Titan",
+    "summary": "Abilities generate heat; danger zone empowers abilities; overheating silences but empowers autos.",
+    "details": "Rumble generates heat when using abilities. In danger zone (50-100 heat), abilities are empowered. At 100, he overheats: silenced but autos deal bonus damage."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Flamespitter",
+      "summary": "Breathe fire in a cone for sustained damage.",
+      "details": "Rumble breathes fire in a cone, dealing damage over a few seconds. Danger Zone: Deals bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Scrap Shield",
+      "summary": "Shield yourself and gain movement speed.",
+      "details": "Rumble creates a shield and gains movement speed. Danger Zone: Shield and speed are increased."
+    },
+    {
+      "slot": "E",
+      "name": "Electro Harpoon",
+      "summary": "Fire a harpoon that slows; stores 2 charges.",
+      "details": "Rumble fires a harpoon that damages and slows. Stores up to 2 charges. Danger Zone: Slow is increased."
+    },
+    {
+      "slot": "R",
+      "name": "The Equalizer",
+      "summary": "Call down a line of rockets that burn and slow.",
+      "details": "Rumble calls down a line of rockets that damages and slows enemies in the zone. The fire persists for several seconds."
+    }
+  ]
+}

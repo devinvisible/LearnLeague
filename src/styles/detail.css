@@ -1,0 +1,543 @@
+/* Champion Detail Page Styles */
+
+.champion-detail-page {
+  min-height: 100vh;
+}
+
+/* Header with background image */
+.champion-header {
+  position: relative;
+  height: 320px;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.header-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(10, 10, 15, 0.3) 0%,
+    rgba(10, 10, 15, 0.7) 50%,
+    rgba(10, 10, 15, 1) 100%
+  );
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.back-link {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  padding: var(--space-xs) var(--space-sm);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: var(--radius-sm);
+  transition: all 0.2s ease;
+}
+
+.back-link:hover {
+  color: var(--text-primary);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.learned-button {
+  padding: var(--space-sm) var(--space-md);
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.learned-button:hover {
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.learned-button.learned {
+  background: var(--accent-secondary);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+
+.champion-title {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-lg);
+}
+
+.champion-icon-large {
+  width: 100px;
+  height: 100px;
+  border-radius: var(--radius-md);
+  border: 3px solid var(--accent-primary);
+  box-shadow: var(--shadow-lg);
+}
+
+.title-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-xs);
+}
+
+.title-text .title {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
+/* Main content */
+.champion-content {
+  padding: var(--space-xl);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.champion-content section {
+  margin-bottom: var(--space-2xl);
+}
+
+.champion-content h2 {
+  color: var(--accent-primary);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Overview section */
+.overview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: var(--space-md);
+}
+
+.overview-item {
+  background: var(--bg-card);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.overview-item .label {
+  display: block;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-xs);
+}
+
+.overview-item .value {
+  display: block;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+/* Playstyle section */
+.playstyle-content {
+  display: grid;
+  gap: var(--space-md);
+}
+
+.playstyle-item {
+  background: var(--bg-card);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.playstyle-item h3 {
+  color: var(--text-primary);
+  font-size: 1rem;
+  margin-bottom: var(--space-sm);
+}
+
+.playstyle-item p {
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Strengths & Weaknesses */
+.strengths-weaknesses {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+}
+
+.sw-column {
+  background: var(--bg-card);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.sw-column h2 {
+  font-size: 1.1rem;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.sw-column.strengths h2 {
+  color: #22c55e;
+}
+
+.sw-column.weaknesses h2 {
+  color: #ef4444;
+}
+
+.sw-column ul {
+  list-style: none;
+  margin-top: var(--space-md);
+}
+
+.sw-column li {
+  padding: var(--space-sm) 0;
+  color: var(--text-secondary);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.sw-column li:last-child {
+  border-bottom: none;
+}
+
+.sw-column.strengths li::before {
+  content: '+';
+  margin-right: var(--space-sm);
+  color: #22c55e;
+  font-weight: bold;
+}
+
+.sw-column.weaknesses li::before {
+  content: '−';
+  margin-right: var(--space-sm);
+  color: #ef4444;
+  font-weight: bold;
+}
+
+/* Abilities section */
+.abilities-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.ability-card {
+  display: flex;
+  gap: var(--space-md);
+  background: var(--bg-card);
+  padding: var(--space-md);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.ability-card:hover {
+  border-color: var(--border-color-hover);
+}
+
+.ability-card.expanded {
+  border-color: var(--accent-secondary);
+}
+
+.ability-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-sm);
+  flex-shrink: 0;
+}
+
+.ability-info {
+  flex: 1;
+}
+
+.ability-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-sm);
+}
+
+.ability-slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: var(--accent-secondary);
+  color: var(--text-primary);
+  font-weight: 700;
+  font-size: 0.85rem;
+  border-radius: var(--radius-sm);
+}
+
+.ability-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.ability-expand-btn {
+  padding: var(--space-xs);
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.7rem;
+  transition: color 0.2s ease;
+}
+
+.ability-expand-btn:hover {
+  color: var(--text-primary);
+}
+
+.ability-summary {
+  color: var(--text-primary);
+  font-weight: 500;
+  margin-bottom: var(--space-sm);
+  line-height: 1.5;
+}
+
+.ability-details {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  padding-top: var(--space-sm);
+  border-top: 1px solid var(--border-color);
+  margin-top: var(--space-sm);
+}
+
+/* External links */
+.external-links-container {
+  margin-top: var(--space-sm);
+}
+
+.links-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.external-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  padding: var(--space-sm) var(--space-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.external-link:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--link-color, var(--accent-primary));
+  color: var(--link-color, var(--text-primary));
+}
+
+.link-arrow {
+  opacity: 0;
+  transform: translateX(-4px);
+  transition: all 0.2s ease;
+}
+
+.external-link:hover .link-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Responsive - Tablet */
+@media (max-width: 768px) {
+  .champion-header {
+    height: 280px;
+  }
+
+  .header-top {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .champion-icon-large {
+    width: 70px;
+    height: 70px;
+  }
+
+  .title-text h1 {
+    font-size: 1.75rem;
+  }
+
+  .champion-content {
+    padding: var(--space-md);
+  }
+
+  .strengths-weaknesses {
+    grid-template-columns: 1fr;
+  }
+
+  .ability-card {
+    flex-direction: column;
+  }
+
+  .ability-icon {
+    width: 48px;
+    height: 48px;
+  }
+
+  .links-grid {
+    flex-direction: column;
+  }
+
+  .external-link {
+    justify-content: space-between;
+  }
+}
+
+/* Responsive - Mobile */
+@media (max-width: 480px) {
+  .champion-header {
+    height: 240px;
+  }
+
+  .header-overlay {
+    padding: var(--space-md);
+  }
+
+  .back-link {
+    font-size: 0.8rem;
+    padding: 6px var(--space-sm);
+  }
+
+  .learned-button {
+    font-size: 0.8rem;
+    padding: 6px var(--space-sm);
+  }
+
+  .champion-title {
+    gap: var(--space-md);
+  }
+
+  .champion-icon-large {
+    width: 60px;
+    height: 60px;
+    border-width: 2px;
+  }
+
+  .title-text h1 {
+    font-size: 1.5rem;
+  }
+
+  .title-text .title {
+    font-size: 0.9rem;
+  }
+
+  .champion-content {
+    padding: var(--space-sm);
+  }
+
+  .champion-content section {
+    margin-bottom: var(--space-xl);
+  }
+
+  .champion-content h2 {
+    font-size: 1.2rem;
+    margin-bottom: var(--space-sm);
+  }
+
+  .overview-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+  }
+
+  .overview-item {
+    padding: var(--space-sm);
+  }
+
+  .overview-item .label {
+    font-size: 0.7rem;
+  }
+
+  .overview-item .value {
+    font-size: 0.9rem;
+  }
+
+  .playstyle-item {
+    padding: var(--space-sm);
+  }
+
+  .playstyle-item h3 {
+    font-size: 0.95rem;
+  }
+
+  .playstyle-item p {
+    font-size: 0.9rem;
+  }
+
+  .sw-column {
+    padding: var(--space-sm);
+  }
+
+  .sw-column h2 {
+    font-size: 1rem;
+  }
+
+  .sw-column li {
+    font-size: 0.9rem;
+    padding: var(--space-xs) 0;
+  }
+
+  .ability-card {
+    padding: var(--space-sm);
+    gap: var(--space-sm);
+  }
+
+  .ability-icon {
+    width: 44px;
+    height: 44px;
+  }
+
+  .ability-slot {
+    width: 24px;
+    height: 24px;
+    font-size: 0.8rem;
+  }
+
+  .ability-name {
+    font-size: 0.95rem;
+  }
+
+  .ability-summary {
+    font-size: 0.9rem;
+  }
+
+  .ability-details {
+    font-size: 0.85rem;
+  }
+
+  .external-link {
+    padding: var(--space-sm);
+    font-size: 0.85rem;
+  }
+}
+
+/* Accessibility - Focus styles */
+.back-link:focus-visible,
+.learned-button:focus-visible,
+.ability-expand-btn:focus-visible,
+.external-link:focus-visible {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+}

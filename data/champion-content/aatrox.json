@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Aatrox is a drain-tank juggernaut who sustains through fights with his massive healing. He excels at teamfighting and diving backlines, becoming nearly unkillable when ahead.",
+    "howToPlay": "Land your Q sweetspots (the edge of each swing) for maximum damage and knockups. Chain Q1 > W > Q2 > Q3 for a full combo. Use E to reposition Q hitboxes. In teamfights, use R to amp your healing and dive priority targets.",
+    "powerSpikes": "Aatrox spikes hard at level 3 with all Q ranks and again at 6 with his ultimate's healing amp. Eclipse or Black Cleaver first item makes him a serious threat. He's strongest in mid-game teamfights."
+  },
+  "strengths": [
+    "Massive sustain in fights with passive and R healing",
+    "Strong teamfight presence with AoE damage and CC",
+    "Good waveclear and lane pressure",
+    "Can dive backlines effectively with ultimate"
+  ],
+  "weaknesses": [
+    "Healing countered hard by Grievous Wounds",
+    "Q sweetspots are telegraphed and dodgeable",
+    "Falls off late game against scaling carries",
+    "Vulnerable when abilities are on cooldown"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Deathbringer Stance",
+    "summary": "Periodically empowers next auto to deal bonus damage and heal Aatrox.",
+    "details": "Every few seconds, Aatrox's next basic attack deals bonus physical damage and heals him. The cooldown is reduced when Aatrox hits enemies with abilities or attacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "The Darkin Blade",
+      "summary": "Three-part sword swing with knockups at the sweetspot edges.",
+      "details": "Aatrox swings his sword up to three times, each dealing damage in an area. The edge of each swing (sweetspot) deals more damage and knocks up enemies. Can be recast twice for the second and third swings."
+    },
+    {
+      "slot": "W",
+      "name": "Infernal Chains",
+      "summary": "Fires a chain that slows and pulls enemies back if they don't escape.",
+      "details": "Aatrox fires a chain that damages and slows the first enemy hit. If they remain in the area, they're pulled back to the center after a delay."
+    },
+    {
+      "slot": "E",
+      "name": "Umbral Dash",
+      "summary": "Short dash that can be used during Q to reposition.",
+      "details": "Aatrox dashes a short distance. Passively grants omnivamp against champions. Can be cast during Q to reposition the sweetspot."
+    },
+    {
+      "slot": "R",
+      "name": "World Ender",
+      "summary": "Transform to increase damage, healing, and movement speed. Resets on takedown.",
+      "details": "Aatrox unleashes his true form, gaining movement speed, increased damage, and massively increased healing. Duration extends on champion takedown. Fears nearby minions on activation."
+    }
+  ]
+}

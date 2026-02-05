@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Senna is an infinite-scaling marksman support who collects souls for range and damage. She can build as a carry or supportively depending on role.",
+    "howToPlay": "Passive: souls drop from minions and champions, giving AD, crit, and range. Q heals allies and damages enemies in a line. W roots after a delay. E creates a mist that camouflages allies. R is global, shields allies and damages enemies.",
+    "powerSpikes": "Senna spikes with soul stacks - 60+ souls gives significant range. Lethality or crit builds work. She scales infinitely but is strongest mid-game."
+  },
+  "strengths": [
+    "Infinite scaling range/AD",
+    "Global shield/damage ultimate",
+    "Heals and damages",
+    "Camouflage for team"
+  ],
+  "weaknesses": [
+    "Low attack speed",
+    "W is slow to land",
+    "Squishy",
+    "Needs souls to scale"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Absolution",
+    "summary": "Collect souls for permanent attack range, AD, and crit chance.",
+    "details": "Enemy champions and large minions/monsters drop Mist when damaged twice. Collecting Mist grants Senna gold, AD, and critical strike chance. At thresholds, she gains bonus range."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Piercing Darkness",
+      "summary": "Fire a beam that heals allies and damages enemies in a line.",
+      "details": "Senna fires a beam in a direction, healing ally champions and damaging enemies. Can target allies, enemies, or wards."
+    },
+    {
+      "slot": "W",
+      "name": "Last Embrace",
+      "summary": "Fire a mist that roots enemies after a delay.",
+      "details": "Senna fires a mist that damages and clings to the first enemy hit. After a delay, it roots the target and nearby enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Curse of the Black Mist",
+      "summary": "Create a mist that camouflages allies inside.",
+      "details": "Senna surrounds herself with mist, gaining movement speed. Allied champions inside become camouflaged and appear as wraiths."
+    },
+    {
+      "slot": "R",
+      "name": "Dawning Shadow",
+      "summary": "Fire a global beam that shields allies and damages enemies.",
+      "details": "Senna fires a broad beam globally, shielding allies in the center and damaging enemies. The center deals more damage."
+    }
+  ]
+}

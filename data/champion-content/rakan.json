@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Rakan is a flashy engage support who dashes in, charms enemies, and dashes out. He synergizes especially well with Xayah and excels at initiating teamfights.",
+    "howToPlay": "Passive gives a shield periodically. Q pokes and heals on return. W dashes and knocks up (short delay). E dashes to allies twice (longer range to Xayah). R gives speed and charms first enemy touched for each target. W-R combo for engage.",
+    "powerSpikes": "Rakan spikes at level 6 with his charm engage. Mobility boots help engage. He's strong at all stages with his engage and peel flexibility."
+  },
+  "strengths": [
+    "Flashy engage with R-W",
+    "Can dash out after engage",
+    "Synergy with Xayah",
+    "Good peel and healing"
+  ],
+  "weaknesses": [
+    "Squishy",
+    "W has a delay",
+    "Falls behind if missing engage",
+    "E needs allies to dash to"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Fey Feathers",
+    "summary": "Gain a damage-absorbing shield periodically.",
+    "details": "Rakan periodically gains a shield. Touching an allied champion reduces the cooldown."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Gleaming Quill",
+      "summary": "Fire a feather; if it hits, heal after it returns or touching an ally.",
+      "details": "Rakan flings a magical feather that deals damage. If it hits an enemy champion, he heals himself and nearby allies when the feather returns or when he touches an ally."
+    },
+    {
+      "slot": "W",
+      "name": "Grand Entrance",
+      "summary": "Dash to a location and knock up enemies after a short delay.",
+      "details": "Rakan dashes to a location. After a brief delay, he knocks up nearby enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Battle Dance",
+      "summary": "Dash to an ally and shield them; can cast twice.",
+      "details": "Rakan dashes to an ally champion, shielding them. Can be cast again within a few seconds. Has longer range toward Xayah."
+    },
+    {
+      "slot": "R",
+      "name": "The Quickness",
+      "summary": "Gain speed and charm the first enemy touched per enemy champion.",
+      "details": "Rakan gains a burst of movement speed and charms and damages the first enemy champion he touches. He can charm each enemy once per cast."
+    }
+  ]
+}

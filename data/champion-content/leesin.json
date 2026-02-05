@@ -1,0 +1,55 @@
+{
+  "classes": ["Diver"],
+  "rangeType": "Melee",
+  "damageType": "Physical",
+  "lanes": ["Jungle"],
+  "playstyle": {
+    "identity": "Lee Sin is the ultimate playmaking jungler with unmatched mobility and outplay potential. His high skill ceiling rewards mechanical mastery with flashy Insec kicks and ward-hop outplays.",
+    "howToPlay": "Clear jungle efficiently using abilities between autos for passive attack speed. Gank with Q, follow up with E slow, then decide to R kick them into your team or save it. Master ward-hopping (W to a ward) for mobility. The Insec combo (Q > ward behind > R kick into team) wins games.",
+    "powerSpikes": "Lee Sin dominates early game - his level 3 ganks are terrifying. He spikes with first item and is strongest in the mid-game. Falls off late, so close out games early or transition to a peeling role."
+  },
+  "strengths": [
+    "Incredible early game ganks and dueling",
+    "Unmatched mobility with ward-hops",
+    "Game-changing ultimate for picks and teamfights",
+    "Strong objective control with Q execute"
+  ],
+  "weaknesses": [
+    "Falls off hard late game",
+    "High skill floor and ceiling - hard to master",
+    "Energy-gated - can run out in extended fights",
+    "Requires wards for full mobility potential"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Flurry",
+    "summary": "After using an ability, your next 2 attacks gain attack speed and restore energy.",
+    "details": "After casting an ability, Lee Sin's next two basic attacks gain 40% attack speed and restore energy. This is crucial for sustain and clear speed - always weave auto attacks between abilities to maximize damage and energy efficiency."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Sonic Wave / Resonating Strike",
+      "summary": "Fire a wave that marks enemies; recast to dash to them and deal execute damage.",
+      "details": "Sonic Wave fires a skillshot that damages and marks the first enemy hit. Recast (Resonating Strike) to dash to the marked target, dealing damage based on their missing health. This is your engage, gap-close, and execute. Can be used on jungle camps for mobility."
+    },
+    {
+      "slot": "W",
+      "name": "Safeguard / Iron Will",
+      "summary": "Dash to an ally or ward; recast to gain lifesteal and spell vamp.",
+      "details": "Safeguard dashes to a target ally, minion, or ward, shielding both you and the target. Iron Will (recast) gives lifesteal and spell vamp. Ward-hopping (placing a ward and instantly W'ing to it) is essential for Lee Sin combos and escapes."
+    },
+    {
+      "slot": "E",
+      "name": "Tempest / Cripple",
+      "summary": "Deal AoE damage and reveal enemies; recast to slow them.",
+      "details": "Tempest deals magic damage to nearby enemies and reveals them for a few seconds. Recast (Cripple) slows all revealed enemies' movement and attack speed. Use for clearing camps, revealing invisible champions, and slowing enemies during ganks."
+    },
+    {
+      "slot": "R",
+      "name": "Dragon's Rage",
+      "summary": "Kick an enemy champion, knocking back all enemies they collide with.",
+      "details": "Lee Sin performs a powerful kick that sends the target flying, dealing massive damage. Enemies the kicked champion collides with are also knocked up and damaged. The famous 'Insec' maneuver involves Q'ing to a target, ward-hopping behind them, and R kicking them into your team."
+    }
+  ]
+}

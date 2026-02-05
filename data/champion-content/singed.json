@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Singed is a proxy-farming disruptor who runs through enemies leaving poison. His unique playstyle involves running around being obnoxious while enemies chase him.",
+    "howToPlay": "Q toggles poison trail behind you. W creates a slow/ground zone. E flings enemies behind you (into W). R gives massive stats. Run into enemies, poison, fling carries, run away. Proxy farm behind enemy tower to draw pressure.",
+    "powerSpikes": "Singed spikes with boots and at 6 with R stats. Rylai's makes poison slow. He's strong when he can run around teamfights."
+  },
+  "strengths": [
+    "Proxy farming draws pressure",
+    "E fling disrupts",
+    "Hard to chase",
+    "Tanky with R"
+  ],
+  "weaknesses": [
+    "Kited by ranged",
+    "Weak laning phase",
+    "Unique playstyle takes learning",
+    "Falls off against coordinated teams"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Noxious Slipstream",
+    "summary": "Gain movement speed when near champions.",
+    "details": "Singed gains a burst of movement speed when he passes nearby champions."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Poison Trail",
+      "summary": "Toggle to leave a trail of poison behind you.",
+      "details": "Singed creates a trail of poison behind him that damages enemies who walk through it."
+    },
+    {
+      "slot": "W",
+      "name": "Mega Adhesive",
+      "summary": "Create a zone that slows and grounds enemies.",
+      "details": "Singed throws a vial that creates a sticky zone, slowing enemies and grounding them (preventing dashes)."
+    },
+    {
+      "slot": "E",
+      "name": "Fling",
+      "summary": "Throw an enemy behind you, damaging them.",
+      "details": "Singed flings an enemy over his shoulder, dealing damage. If they land in Mega Adhesive, they're also rooted."
+    },
+    {
+      "slot": "R",
+      "name": "Insanity Potion",
+      "summary": "Gain massive bonus stats for a duration.",
+      "details": "Singed drinks a potent brew, gaining bonus ability power, armor, magic resist, movement speed, health regeneration, and mana regeneration."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Draven is a cash-in ADC who stacks gold with his passive. Catching spinning axes maximizes his damage and lets him snowball harder than any other ADC.",
+    "howToPlay": "Q makes autos spin - catch the axe landing spot to keep it spinning. W gives speed. E knocks aside and slows. R is global damage. Stack passive gold with Q catches, cash in on kills for massive gold lead. Catch axes, dominate lane.",
+    "powerSpikes": "Draven spikes with his first kill (passive gold) and Infinity Edge. He's strongest when snowballing in early-mid game with gold leads."
+  },
+  "strengths": [
+    "Highest ADC damage early",
+    "Passive snowballs hard",
+    "Good self-peel with E",
+    "Global R execute"
+  ],
+  "weaknesses": [
+    "Axes are predictable",
+    "Loses stacks on death",
+    "Falls behind if losing lane",
+    "High skill to catch axes"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "League of Draven",
+    "summary": "Catching axes and kills stack Adoration; kills cash in for bonus gold.",
+    "details": "Draven gains Adoration stacks when catching axes or killing minions. Killing champions cashes in stacks for massive bonus gold. Dying loses stacks."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Spinning Axe",
+      "summary": "Auto attacks spin, dealing bonus damage. Catch the axe to keep it spinning.",
+      "details": "Draven's next auto attack becomes a Spinning Axe that deals bonus damage. The axe bounces to a landing spot - catching it resets Spinning Axe."
+    },
+    {
+      "slot": "W",
+      "name": "Blood Rush",
+      "summary": "Gain attack speed and movement speed; refreshes on axe catch.",
+      "details": "Draven gains bonus movement and attack speed that decay over time. Catching a Spinning Axe refreshes Blood Rush's cooldown."
+    },
+    {
+      "slot": "E",
+      "name": "Stand Aside",
+      "summary": "Throw axes that knock enemies aside and slow them.",
+      "details": "Draven throws his axes in a line, dealing damage, knocking enemies aside, and slowing them."
+    },
+    {
+      "slot": "R",
+      "name": "Whirling Death",
+      "summary": "Throw global axes that damage enemies and return to you.",
+      "details": "Draven hurls two massive axes globally, dealing damage to enemies hit. Axes return to Draven after hitting an enemy champion or reaching the edge of the map."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Gnar is a transform top laner who builds rage then becomes Mega Gnar. Mini Gnar kites and pokes while Mega Gnar engages with massive CC.",
+    "howToPlay": "Rage builds with combat - at full rage, transform to Mega. Mini: Q boomerang, W procs 3-hit speed, E hop. Mega: Q slow boulder, W stun, E slam, R throws enemies into walls for stun. Manage rage to transform at the right time.",
+    "powerSpikes": "Gnar spikes at level 6 with Mega Gnar's ultimate. Black Cleaver and tank items scale him. He's strong in teamfights when he can transform."
+  },
+  "strengths": [
+    "Mega R is game-changing",
+    "Good poke in Mini form",
+    "Tanky in Mega form",
+    "Flexible playstyle"
+  ],
+  "weaknesses": [
+    "Can't control transform timing",
+    "Weak when Mega is on cooldown",
+    "Mini form is squishy",
+    "Rage management is tricky"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Rage Gene",
+    "summary": "Build rage through combat; at max rage, transform into Mega Gnar.",
+    "details": "Gnar builds rage through combat. At max rage, he transforms into Mega Gnar, gaining new abilities, health, and CC but losing speed and range."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Boomerang Throw / Boulder Toss",
+      "summary": "Mini: boomerang slows and returns. Mega: throw boulder that slows.",
+      "details": "Mini: Throw a boomerang that slows and returns. Catching it reduces cooldown. Mega: Throw a boulder that stops on first unit, dealing AoE damage and slowing."
+    },
+    {
+      "slot": "W",
+      "name": "Hyper / Wallop",
+      "summary": "Mini: 3 hits proc burst and speed. Mega: slam to stun.",
+      "details": "Mini (Hyper): Every third hit on the same target deals bonus damage and grants movement speed. Mega (Wallop): Slam in front, stunning enemies."
+    },
+    {
+      "slot": "E",
+      "name": "Hop / Crunch",
+      "summary": "Mini: bounce off units. Mega: slam down and slow.",
+      "details": "Mini: Gnar hops, bouncing off units for extra distance and attack speed. Mega: Gnar leaps and slams down, dealing damage and slowing."
+    },
+    {
+      "slot": "R",
+      "name": "GNAR!",
+      "summary": "Mega only: throw all nearby enemies; stun if they hit terrain.",
+      "details": "Only in Mega Gnar: Gnar throws all nearby enemies in a direction, dealing damage. Enemies thrown into walls take bonus damage and are stunned."
+    }
+  ]
+}

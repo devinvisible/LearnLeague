@@ -1,0 +1,51 @@
+{
+  "playstyle": {
+    "identity": "Swain is a drain-tank battlemage who transforms into a demon form. He excels in extended fights, healing massive amounts while dealing AoE damage.",
+    "howToPlay": "Passive pulls CC'd enemies and heals. Q fires bolts (more damage closer). W has huge range vision/damage. E sends a claw that returns, rooting. R transforms, draining nearby enemies - recast to deal damage based on health drained. Pull enemies in, R, drain to full.",
+    "powerSpikes": "Swain spikes at level 6 with his transform. Liandry's and health/AP scale him. He's strong in extended teamfights where he can drain."
+  },
+  "strengths": [
+    "Massive drain healing",
+    "W has global-ish range",
+    "Strong teamfight presence",
+    "Good CC with E-passive"
+  ],
+  "weaknesses": [
+    "Immobile",
+    "Short range for a mage",
+    "Countered by Grievous Wounds",
+    "Needs to stay in fights"
+  ],
+  "passive": {
+    "slot": "P",
+    "name": "Ravenous Flock",
+    "summary": "Pull CC'd enemies toward you and heal; collect soul fragments for bonus health.",
+    "details": "Swain can pull immobilized enemies toward him, dealing damage. Enemies near him drop soul fragments that heal him and grant permanent bonus health."
+  },
+  "abilities": [
+    {
+      "slot": "Q",
+      "name": "Death's Hand",
+      "summary": "Fire bolts that deal more damage at close range.",
+      "details": "Swain fires bolts that deal damage. Hitting multiple bolts on the same enemy deals bonus damage."
+    },
+    {
+      "slot": "W",
+      "name": "Vision of Empire",
+      "summary": "Reveal and damage a distant area; slows and reveals enemies.",
+      "details": "Swain reveals an area at a huge range after a delay, dealing damage to and slowing enemies inside. Also reveals them."
+    },
+    {
+      "slot": "E",
+      "name": "Nevermove",
+      "summary": "Fire a claw that roots enemies on its return.",
+      "details": "Swain fires a demonic wave that passes through enemies, then returns to him. Enemies hit on the return are rooted."
+    },
+    {
+      "slot": "R",
+      "name": "Demonic Ascension",
+      "summary": "Transform, draining nearby enemies. Recast to deal AoE damage.",
+      "details": "Swain transforms into a demon, draining health from nearby enemies over time. Recast to end early and deal damage in an area based on health drained."
+    }
+  ]
+}
