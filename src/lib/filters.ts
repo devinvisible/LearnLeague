@@ -58,12 +58,12 @@ export function filterChampions(
       }
     }
 
-    // Class filter (AND: champion must have at least one of the selected classes)
+    // Class filter (AND: champion must have all selected classes)
     if (filters.classes.length > 0) {
-      const hasMatchingClass = filters.classes.some((cls) =>
+      const hasAllClasses = filters.classes.every((cls) =>
         champion.classes.includes(cls)
       )
-      if (!hasMatchingClass) {
+      if (!hasAllClasses) {
         return false
       }
     }
@@ -82,12 +82,12 @@ export function filterChampions(
       }
     }
 
-    // Lane filter (champion must have at least one of the selected lanes)
+    // Lane filter (AND: champion must have all selected lanes)
     if (filters.lanes.length > 0) {
-      const hasMatchingLane = filters.lanes.some((lane) =>
+      const hasAllLanes = filters.lanes.every((lane) =>
         champion.lanes.includes(lane)
       )
-      if (!hasMatchingLane) {
+      if (!hasAllLanes) {
         return false
       }
     }
