@@ -129,6 +129,73 @@
   color: var(--text-primary);
 }
 
+/* Class filter-chip: default uses --border-color; hover shows class color */
+.filter-chip.class-mage:hover {
+  border-color: var(--class-mage);
+  color: var(--class-mage);
+}
+.filter-chip.class-slayer:hover {
+  border-color: var(--class-slayer);
+  color: var(--class-slayer);
+}
+.filter-chip.class-fighter:hover {
+  border-color: var(--class-fighter);
+  color: var(--class-fighter);
+}
+.filter-chip.class-tank:hover {
+  border-color: var(--class-tank);
+  color: var(--class-tank);
+}
+.filter-chip.class-controller:hover {
+  border-color: var(--class-controller);
+  color: var(--class-controller);
+}
+.filter-chip.class-marksman:hover {
+  border-color: var(--class-marksman);
+  color: var(--class-marksman);
+}
+.filter-chip.class-specialist:hover {
+  border-color: var(--class-specialist);
+  color: var(--class-specialist);
+}
+
+/* Class filter-chip active: same as champion class badges */
+.filter-chip.active.class-mage {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: var(--class-mage);
+  color: var(--class-mage);
+}
+.filter-chip.active.class-slayer {
+  background: rgba(168, 85, 247, 0.2);
+  border-color: var(--class-slayer);
+  color: var(--class-slayer);
+}
+.filter-chip.active.class-fighter {
+  background: rgba(249, 115, 22, 0.2);
+  border-color: var(--class-fighter);
+  color: var(--class-fighter);
+}
+.filter-chip.active.class-tank {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: var(--class-tank);
+  color: var(--class-tank);
+}
+.filter-chip.active.class-controller {
+  background: rgba(20, 184, 166, 0.2);
+  border-color: var(--class-controller);
+  color: var(--class-controller);
+}
+.filter-chip.active.class-marksman {
+  background: rgba(234, 179, 8, 0.2);
+  border-color: var(--class-marksman);
+  color: var(--class-marksman);
+}
+.filter-chip.active.class-specialist {
+  background: rgba(107, 114, 128, 0.2);
+  border-color: var(--class-specialist);
+  color: var(--class-specialist);
+}
+
 /* Results Info */
 .results-info {
   max-width: 1400px;

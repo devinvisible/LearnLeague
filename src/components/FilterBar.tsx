@@ -1,4 +1,5 @@
 import { FilterState, CLASS_OPTIONS, RANGE_OPTIONS, DAMAGE_OPTIONS, LANE_OPTIONS } from '../lib/filters'
+import { getClassColor } from '../lib/class-colors'
 
 interface FilterBarProps {
   filters: FilterState
@@ -10,26 +11,30 @@ interface FilterChipGroupProps {
   options: string[]
   selected: string[]
   onToggle: (value: string) => void
-  colorClass?: string
+  /** Optional: per-option color class (e.g. for Class chips). */
+  getOptionColorClass?: (option: string) => string
 }
 
-function FilterChipGroup({ label, options, selected, onToggle, colorClass }: FilterChipGroupProps) {
+function FilterChipGroup({ label, options, selected, onToggle, getOptionColorClass }: FilterChipGroupProps) {
   const groupId = `filter-${label.toLowerCase().replace(/\s+/g, '-')}`
   return (
     <div className="filter-group" role="group" aria-labelledby={`${groupId}-label`}>
       <span id={`${groupId}-label`} className="filter-label">{label}</span>
       <div className="filter-chips" role="listbox" aria-multiselectable="true">
-        {options.map((option) => (
-          <button
-            key={option}
-            role="option"
-            aria-selected={selected.includes(option)}
-            className={`filter-chip ${selected.includes(option) ? 'active' : ''} ${colorClass || ''}`}
-            onClick={() => onToggle(option)}
-          >
-            {option}
-          </button>
-        ))}
+        {options.map((option) => {
+          const colorClass = getOptionColorClass?.(option) ?? ''
+          return (
+            <button
+              key={option}
+              role="option"
+              aria-selected={selected.includes(option)}
+              className={`filter-chip ${selected.includes(option) ? 'active' : ''} ${colorClass}`.trim()}
+              onClick={() => onToggle(option)}
+            >
+              {option}
+            </button>
+          )
+        })}
       </div>
     </div>
   )
@@ -89,6 +94,7 @@ export default function FilterBar({ filters, onFilterChange }: FilterBarProps) {
           options={CLASS_OPTIONS}
           selected={filters.classes}
           onToggle={(v) => toggleFilter('classes', v)}
+          getOptionColorClass={getClassColor}
         />
       </div>
 

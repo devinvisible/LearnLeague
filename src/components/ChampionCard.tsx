@@ -1,29 +1,11 @@
 import { Link } from 'react-router-dom'
 import { Champion, assetUrl } from '../lib/champion-data'
+import { getClassColor } from '../lib/class-colors'
 import { isChampionLearned, setChampionLearned } from '../lib/storage'
 import { useState } from 'react'
 
 interface ChampionCardProps {
   champion: Champion
-}
-
-// Get color class for champion class
-function getClassColor(className: string): string {
-  // Mage subclasses
-  if (['Burst', 'Battlemage', 'Artillery'].includes(className)) return 'class-mage'
-  // Slayer subclasses
-  if (['Assassin', 'Skirmisher'].includes(className)) return 'class-slayer'
-  // Fighter subclasses
-  if (['Juggernaut', 'Diver'].includes(className)) return 'class-fighter'
-  // Tank subclasses
-  if (['Vanguard', 'Warden'].includes(className)) return 'class-tank'
-  // Controller subclasses
-  if (['Enchanter', 'Catcher'].includes(className)) return 'class-controller'
-  // Marksman
-  if (className === 'Marksman') return 'class-marksman'
-  // Specialist
-  if (className === 'Specialist') return 'class-specialist'
-  return ''
 }
 
 export default function ChampionCard({ champion }: ChampionCardProps) {
