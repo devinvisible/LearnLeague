@@ -39,6 +39,10 @@ jobs:
       - name: Build
         run: npm run build
 
+      # GitHub Pages serves 404.html for unknown paths. Use the same app so React Router can handle deep links.
+      - name: Add SPA fallback (404.html)
+        run: cp dist/index.html dist/404.html
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
