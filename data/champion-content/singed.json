@@ -1,4 +1,5 @@
 {
+  "rangeType": "Melee",
   "playstyle": {
     "identity": "Singed is a proxy-farming disruptor who runs through enemies leaving poison. His unique playstyle involves running around being obnoxious while enemies chase him.",
     "howToPlay": "Q toggles poison trail behind you. W creates a slow/ground zone. E flings enemies behind you (into W). R gives massive stats. Run into enemies, poison, fling carries, run away. Proxy farm behind enemy tower to draw pressure.",

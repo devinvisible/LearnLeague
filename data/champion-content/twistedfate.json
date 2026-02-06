@@ -1,4 +1,5 @@
 {
+  "lanes": ["Middle", "Bottom"],
   "playstyle": {
     "identity": "Twisted Fate is a global roaming mage whose ultimate teleports him anywhere on the map. He excels at side-lane ganks and his gold card provides point-and-click CC.",
     "howToPlay": "Passive gives extra gold on kills. Q throws cards in a line. W cycles cards - Gold stuns, Red slows and damages nearby, Blue restores mana. E gives attack speed and every 4th auto does bonus damage. R reveals all enemies and allows teleport.",

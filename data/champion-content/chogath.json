@@ -1,4 +1,5 @@
 {
+  "rangeType": "Melee",
   "playstyle": {
     "identity": "Cho'Gath is a scaling tank who grows infinitely with his ultimate stacks. His CC and true damage execute make him a teamfight terror who can eat objectives.",
     "howToPlay": "Q knocks up after delay. W silences in a cone. E makes autos deal AoE damage. R eats a target for true damage and permanently increases your size/health if it kills. Stack R on minions/monsters early, then eat champions and objectives.",
