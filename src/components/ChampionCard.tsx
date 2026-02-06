@@ -1,47 +1,57 @@
 import { Link } from 'react-router-dom'
 import { Champion, assetUrl } from '../lib/champion-data'
 import { getClassColor } from '../lib/class-colors'
-import { isChampionLearned, setChampionLearned } from '../lib/storage'
+import { getChampionLearningState, cycleChampionLearningState, type ChampionLearningState } from '../lib/storage'
 import { useState } from 'react'
 
 interface ChampionCardProps {
   champion: Champion
 }
 
-export default function ChampionCard({ champion }: ChampionCardProps) {
-  const [learned, setLearned] = useState(() => isChampionLearned(champion.id))
+function EyeIcon({ className }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  )
+}
 
-  const handleLearnedToggle = (e: React.MouseEvent | React.KeyboardEvent) => {
+export default function ChampionCard({ champion }: ChampionCardProps) {
+  const [learningState, setLearningState] = useState<ChampionLearningState>(() => getChampionLearningState(champion.id))
+
+  const handleStateToggle = (e: React.MouseEvent | React.KeyboardEvent) => {
     e.preventDefault()
     e.stopPropagation()
-    const newState = !learned
-    setLearned(newState)
-    setChampionLearned(champion.id, newState)
+    const next = cycleChampionLearningState(champion.id)
+    setLearningState(next)
   }
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === 'Enter' || e.key === ' ') {
-      handleLearnedToggle(e)
+      handleStateToggle(e)
     }
   }
+
+  const stateLabel = learningState === 'learned' ? 'learned' : learningState === 'intrigue' ? 'intrigue' : 'unlearned'
 
   return (
     <Link 
       to={`/champions/${champion.id}`}
-      className={`champion-card ${learned ? 'learned' : ''}`}
-      aria-label={`${champion.name} - ${champion.classes.join(', ')}${learned ? ' (learned)' : ''}`}
+      className={`champion-card ${learningState !== 'unlearned' ? learningState : ''}`}
+      aria-label={`${champion.name} - ${champion.classes.join(', ')}${learningState !== 'unlearned' ? ` (${stateLabel})` : ''}`}
     >
       <div 
-        className="card-learned-indicator" 
-        onClick={handleLearnedToggle}
+        className={`card-learned-indicator learned-indicator-${learningState}`}
+        onClick={handleStateToggle}
         onKeyDown={handleKeyDown}
-        role="checkbox"
-        aria-checked={learned}
-        aria-label={`Mark ${champion.name} as ${learned ? 'not learned' : 'learned'}`}
+        role="button"
+        aria-label={`Mark ${champion.name} as ${stateLabel}. Click to cycle state.`}
         tabIndex={0}
       >
-        <span className={`learned-checkbox ${learned ? 'checked' : ''}`} aria-hidden="true">
-          {learned ? '✓' : ''}
+        <span className={`learned-checkbox ${learningState}`} aria-hidden="true">
+          {learningState === 'learned' && '✓'}
+          {learningState === 'intrigue' && <EyeIcon />}
         </span>
       </div>
       

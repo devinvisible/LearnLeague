@@ -1,4 +1,4 @@
-import { FilterState, CLASS_OPTIONS, RANGE_OPTIONS, DAMAGE_OPTIONS, LANE_OPTIONS } from '../lib/filters'
+import { FilterState, CLASS_OPTIONS, RANGE_OPTIONS, DAMAGE_OPTIONS, LANE_OPTIONS, LEARNED_STATE_OPTIONS, type LearnedFilterValue } from '../lib/filters'
 import { getClassColor } from '../lib/class-colors'
 
 interface FilterBarProps {
@@ -52,6 +52,7 @@ export default function FilterBar({ filters, onFilterChange }: FilterBarProps) {
   const clearAllFilters = () => {
     onFilterChange({
       search: '',
+      learnedState: '',
       classes: [],
       rangeType: [],
       damageType: [],
@@ -59,8 +60,14 @@ export default function FilterBar({ filters, onFilterChange }: FilterBarProps) {
     })
   }
 
+  const setLearnedFilter = (value: LearnedFilterValue) => {
+    const next = filters.learnedState === value ? '' : value
+    onFilterChange({ ...filters, learnedState: next })
+  }
+
   const hasActiveFilters = 
     filters.search !== '' ||
+    filters.learnedState !== '' ||
     filters.classes.length > 0 ||
     filters.rangeType.length > 0 ||
     filters.damageType.length > 0 ||
@@ -119,6 +126,23 @@ export default function FilterBar({ filters, onFilterChange }: FilterBarProps) {
           selected={filters.lanes}
           onToggle={(v) => toggleFilter('lanes', v)}
         />
+        
+        <div className="filter-group" role="group" aria-labelledby="filter-learned-label">
+          <span id="filter-learned-label" className="filter-label">Learned</span>
+          <div className="filter-chips filter-chips-single" role="listbox" aria-label="Champion learning state filter">
+            {LEARNED_STATE_OPTIONS.map((option) => (
+              <button
+                key={option}
+                role="option"
+                aria-selected={filters.learnedState === option}
+                className={`filter-chip learned-chip learned-chip-${option.toLowerCase()} ${filters.learnedState === option ? 'active' : ''}`.trim()}
+                onClick={() => setLearnedFilter(option)}
+              >
+                {option}
+              </button>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   )

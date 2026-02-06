@@ -129,6 +129,34 @@
   color: var(--text-primary);
 }
 
+/* Learned filter chips (single-select): one of Unlearned, Intrigue, Learned */
+.filter-chips-single .filter-chip.active {
+  color: var(--text-primary);
+}
+.learned-chip.learned-chip-unlearned.active {
+  background: var(--bg-tertiary);
+  border-color: var(--text-muted);
+  color: var(--text-secondary);
+}
+.learned-chip.learned-chip-intrigue:hover {
+  border-color: var(--class-mage);
+  color: var(--class-mage);
+}
+.learned-chip.learned-chip-intrigue.active {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: var(--class-mage);
+  color: var(--class-mage);
+}
+.learned-chip.learned-chip-learned:hover {
+  border-color: var(--class-tank);
+  color: var(--class-tank);
+}
+.learned-chip.learned-chip-learned.active {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: var(--class-tank);
+  color: var(--class-tank);
+}
+
 /* Class filter-chip: default uses --border-color; hover shows class color */
 .filter-chip.class-mage:hover {
   border-color: var(--class-mage);
@@ -235,19 +263,12 @@
   box-shadow: var(--shadow-md);
 }
 
-.champion-card.learned {
-  border-color: var(--accent-secondary);
+.champion-card.intrigue {
+  border-color: var(--class-mage);
 }
 
-.champion-card.learned::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: var(--accent-primary);
-  border-radius: var(--radius-md) var(--radius-md) 0 0;
+.champion-card.learned {
+  border-color: var(--class-tank);
 }
 
 /* Learned Indicator */
@@ -268,18 +289,38 @@
   border: 1px solid var(--border-color);
   border-radius: var(--radius-sm);
   font-size: 0.7rem;
-  color: var(--accent-primary);
+  color: var(--text-muted);
   cursor: pointer;
   transition: all 0.2s ease;
 }
 
-.learned-checkbox:hover {
-  border-color: var(--accent-primary);
+.learned-checkbox svg {
+  width: 12px;
+  height: 12px;
 }
 
-.learned-checkbox.checked {
-  background: var(--accent-secondary);
-  border-color: var(--accent-primary);
+.learned-checkbox:hover {
+  border-color: var(--text-secondary);
+}
+
+.learned-checkbox.intrigue {
+  background: rgba(59, 130, 246, 0.2);
+  border-color: var(--class-mage);
+  color: var(--class-mage);
+}
+
+.learned-checkbox.intrigue:hover {
+  border-color: var(--class-mage);
+}
+
+.learned-checkbox.learned {
+  background: rgba(34, 197, 94, 0.2);
+  border-color: var(--class-tank);
+  color: var(--class-tank);
+}
+
+.learned-checkbox.learned:hover {
+  border-color: var(--class-tank);
 }
 
 .champion-icon {

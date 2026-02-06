@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { Champion, loadChampions, assetUrl } from '../lib/champion-data'
-import { isChampionLearned, setChampionLearned } from '../lib/storage'
+import { getChampionLearningState, cycleChampionLearningState, type ChampionLearningState } from '../lib/storage'
 import AbilityCard from '../components/AbilityCard'
 import ExternalLinks from '../components/ExternalLinks'
 import '../styles/detail.css'
@@ -11,7 +11,7 @@ export default function ChampionDetail() {
   const [champion, setChampion] = useState<Champion | null>(null)
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
-  const [learned, setLearned] = useState(false)
+  const [learningState, setLearningState] = useState<ChampionLearningState>('unlearned')
 
   useEffect(() => {
     loadChampions()
@@ -19,7 +19,7 @@ export default function ChampionDetail() {
         const found = champions.find((c) => c.id === championId)
         if (found) {
           setChampion(found)
-          setLearned(isChampionLearned(found.id))
+          setLearningState(getChampionLearningState(found.id))
         } else {
           setError(`Champion "${championId}" not found`)
         }
@@ -28,11 +28,10 @@ export default function ChampionDetail() {
       .finally(() => setLoading(false))
   }, [championId])
 
-  const handleLearnedToggle = () => {
+  const handleStateCycle = () => {
     if (!champion) return
-    const newState = !learned
-    setLearned(newState)
-    setChampionLearned(champion.id, newState)
+    const next = cycleChampionLearningState(champion.id)
+    setLearningState(next)
   }
 
   if (loading) {
@@ -65,19 +64,20 @@ export default function ChampionDetail() {
           <div className="header-top">
             <Link to="/" className="back-link" aria-label="Back to champion list">← Back to Champions</Link>
             <button 
-              className={`learned-button ${learned ? 'learned' : ''}`}
-              onClick={handleLearnedToggle}
-              aria-pressed={learned}
-              aria-label={learned ? `${champion.name} marked as learned` : `Mark ${champion.name} as learned`}
+              className={`learned-button state-${learningState}`}
+              onClick={handleStateCycle}
+              aria-label={`Champion state: ${learningState}. Click to cycle.`}
             >
-              {learned ? '✓ Learned' : 'Mark as Learned'}
+              {learningState === 'unlearned' && 'Mark as Intrigue'}
+              {learningState === 'intrigue' && '👁 Intrigue'}
+              {learningState === 'learned' && '✓ Learned'}
             </button>
           </div>
           <div className="champion-title">
             <img 
               src={assetUrl(champion.images.icon)} 
               alt={champion.name}
-              className="champion-icon-large"
+              className={`champion-icon-large state-${learningState}`}
             />
             <div className="title-text">
               <h1>{champion.name}</h1>

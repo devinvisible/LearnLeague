@@ -1,7 +1,11 @@
 import { Champion } from './champion-data'
+import type { ChampionLearningState } from './storage'
+
+export type LearnedFilterValue = '' | 'Unlearned' | 'Intrigue' | 'Learned'
 
 export interface FilterState {
   search: string
+  learnedState: LearnedFilterValue
   classes: string[]
   rangeType: string[]
   damageType: string[]
@@ -10,11 +14,14 @@ export interface FilterState {
 
 export const INITIAL_FILTERS: FilterState = {
   search: '',
+  learnedState: '',
   classes: [],
   rangeType: [],
   damageType: [],
   lanes: [],
 }
+
+export const LEARNED_STATE_OPTIONS: LearnedFilterValue[] = ['Unlearned', 'Intrigue', 'Learned']
 
 export const CLASS_OPTIONS = [
   // Controller subclasses
@@ -45,11 +52,25 @@ export const DAMAGE_OPTIONS = ['Physical', 'Magic', 'Mixed']
 
 export const LANE_OPTIONS = ['Top', 'Jungle', 'Middle', 'Bottom', 'Support']
 
+function learnedFilterToState(value: LearnedFilterValue): ChampionLearningState | null {
+  if (value === '') return null
+  return value.toLowerCase() as ChampionLearningState
+}
+
 export function filterChampions(
   champions: Champion[],
-  filters: FilterState
+  filters: FilterState,
+  getChampionLearningState?: (championId: string) => ChampionLearningState
 ): Champion[] {
   return champions.filter((champion) => {
+    // Learned state filter (single-select)
+    if (filters.learnedState && getChampionLearningState) {
+      const state = learnedFilterToState(filters.learnedState)
+      if (state !== null && getChampionLearningState(champion.id) !== state) {
+        return false
+      }
+    }
+
     // Search filter (name)
     if (filters.search) {
       const searchLower = filters.search.toLowerCase()

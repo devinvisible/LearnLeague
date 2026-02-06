@@ -1,6 +1,7 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
 import { Champion, loadChampions } from '../lib/champion-data'
 import { FilterState, INITIAL_FILTERS, filterChampions } from '../lib/filters'
+import { getChampionLearningState } from '../lib/storage'
 import FilterBar from '../components/FilterBar'
 import ChampionCard from '../components/ChampionCard'
 import '../styles/grid.css'
@@ -18,9 +19,10 @@ export default function ChampionGrid() {
       .finally(() => setLoading(false))
   }, [])
 
+  const getLearningState = useCallback(getChampionLearningState, [])
   const filteredChampions = useMemo(() => {
-    return filterChampions(champions, filters)
-  }, [champions, filters])
+    return filterChampions(champions, filters, getLearningState)
+  }, [champions, filters, getLearningState])
 
   if (loading) {
     return (
